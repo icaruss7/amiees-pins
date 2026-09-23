@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Amiees Celestial Jewelry</title>
+    <link>https://amiees.com</link>
+    <description>Nature inspired jewelry from Amiees.</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Sep 2026 01:43:00 +0000</lastBuildDate>
+    <ttl>60</ttl>
+    <item>
+      <title>Celestial Jewelry Under $40</title>
+      <link>https://amiees.com/products/celestial-set</link>
+      <description>Celestial Set: Star Earrings &amp; Sun and Moon Ring, $39.99. Celestial Jewelry from Amiees: sun and moon, moon and star jewelry, celestial earrings. Free shipping over $35.</description>
+      <guid isPermaLink="false">amiees-pin-celestial-set--statement</guid>
+      <pubDate>Wed, 23 Sep 2026 01:37:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/celestial-set--statement.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/celestial-set--statement.jpg" medium="image"/>
+    </item>
+  </channel>
+</rss>

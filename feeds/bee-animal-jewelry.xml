@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Amiees Bee &amp; Animal Jewelry</title>
+    <link>https://amiees.com</link>
+    <description>Nature inspired jewelry from Amiees.</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Sep 2026 01:43:00 +0000</lastBuildDate>
+    <ttl>60</ttl>
+    <item>
+      <title>Dangling Cat Earrings | Nature Jewelry</title>
+      <link>https://amiees.com/products/dangling-cat-earrings</link>
+      <description>Dangling Cat Earrings, $19.99. Nature Jewelry from Amiees: cute cat earrings, gold cat earrings, whimsical earrings. Free shipping over $35.</description>
+      <guid isPermaLink="false">amiees-pin-dangling-cat-earrings--card</guid>
+      <pubDate>Wed, 23 Sep 2026 01:37:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/dangling-cat-earrings--card.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/dangling-cat-earrings--card.jpg" medium="image"/>
+    </item>
+  </channel>
+</rss>

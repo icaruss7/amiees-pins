@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Amiees Botanical Jewelry</title>
+    <link>https://amiees.com</link>
+    <description>Nature inspired jewelry from Amiees.</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Sep 2026 01:43:00 +0000</lastBuildDate>
+    <ttl>60</ttl>
+    <item>
+      <title>Jewelry Gift Set | Botanical Jewelry</title>
+      <link>https://amiees.com/products/crystal-blossom-jewelry-set</link>
+      <description>Crystal Blossom Jewelry Set, $39.99. Botanical Jewelry from Amiees: matching jewelry set, jewelry gift set, botanical jewelry. Free shipping over $35.</description>
+      <guid isPermaLink="false">amiees-pin-crystal-blossom-jewelry-set--caption</guid>
+      <pubDate>Wed, 23 Sep 2026 01:37:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/crystal-blossom-jewelry-set--caption.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/crystal-blossom-jewelry-set--caption.jpg" medium="image"/>
+    </item>
+  </channel>
+</rss>
