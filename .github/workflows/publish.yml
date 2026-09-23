@@ -1,0 +1,37 @@
+name: Release pins into the feeds
+
+on:
+  schedule:
+    - cron: "7 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["pins.csv", "make_feeds.py"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feeds
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build the feeds
+        run: python3 make_feeds.py
+
+      - name: Commit any change
+        run: |
+          git config user.name  "amiees-feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain feeds)" ]; then
+            git add feeds
+            git commit -m "Release pins due as of $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git push
+          else
+            echo "Nothing due. Feeds unchanged."
+          fi
