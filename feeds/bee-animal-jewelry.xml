@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2026 11:36:52 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 17:03:13 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Dangling Cat Earrings | Nature Jewelry</title>
@@ -15,6 +15,15 @@
       <pubDate>Wed, 23 Sep 2026 01:37:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/dangling-cat-earrings--card.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/dangling-cat-earrings--card.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Bee Huggie Earrings | Under $30</title>
+      <link>https://amiees.com/products/golden-bee-huggie-earrings</link>
+      <description>Golden Bee Huggie Earrings, $29.99. Nature Jewelry from Amiees: bee huggie earrings, honey bee earrings, gold bee earrings. Free shipping over $35.</description>
+      <guid isPermaLink="false">amiees-pin-golden-bee-huggie-earrings--field</guid>
+      <pubDate>Thu, 24 Sep 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/golden-bee-huggie-earrings--field.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/golden-bee-huggie-earrings--field.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
