@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Sep 2026 11:42:54 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 17:03:56 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Celestial Jewelry Under $40</title>
@@ -24,6 +24,15 @@
       <pubDate>Thu, 24 Sep 2026 21:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/sun-moon-layered-necklace--caption.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/sun-moon-layered-necklace--caption.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Moon And Star Jewelry | Celestial Jewelry</title>
+      <link>https://amiees.com/products/celestial-set</link>
+      <description>Celestial Set: Star Earrings &amp; Sun and Moon Ring, $39.99. Celestial Jewelry from Amiees: sun and moon, moon and star jewelry, celestial earrings. Free shipping over $35.</description>
+      <guid isPermaLink="false">amiees-pin-celestial-set--caption</guid>
+      <pubDate>Fri, 25 Sep 2026 17:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/celestial-set--caption.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/celestial-set--caption.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
