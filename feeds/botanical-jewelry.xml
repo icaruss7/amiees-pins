@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Sep 2026 17:03:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 21:29:14 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Jewelry Gift Set | Botanical Jewelry</title>
@@ -33,6 +33,15 @@
       <pubDate>Fri, 25 Sep 2026 01:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/tropical-monstera-leaf-huggie-earrings--card.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/tropical-monstera-leaf-huggie-earrings--card.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Crystal Blossom Jewelry Set | Botanical Jewelry</title>
+      <link>https://amiees.com/products/crystal-blossom-jewelry-set</link>
+      <description>Crystal Blossom Jewelry Set, $39.99. Botanical Jewelry from Amiees: matching jewelry set, jewelry gift set, botanical jewelry. Free shipping over $35.</description>
+      <guid isPermaLink="false">amiees-pin-crystal-blossom-jewelry-set--card</guid>
+      <pubDate>Fri, 25 Sep 2026 21:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/crystal-blossom-jewelry-set--card.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/crystal-blossom-jewelry-set--card.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
