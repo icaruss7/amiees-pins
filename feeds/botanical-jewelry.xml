@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Sep 2026 16:17:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 21:02:35 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Jewelry Gift Set | Botanical Jewelry</title>
@@ -42,6 +42,15 @@
       <pubDate>Fri, 25 Sep 2026 21:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/crystal-blossom-jewelry-set--card.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/crystal-blossom-jewelry-set--card.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Gold Flower Pendant Necklace | Botanical Jewelry</title>
+      <link>https://amiees.com/products/radiant-bloom-flower-necklace</link>
+      <description>Radiant Bloom Flower Necklace, $24.99. Botanical Jewelry from Amiees: flower necklace, gold flower pendant necklace, daisy pendant necklace. Free shipping over $35.</description>
+      <guid isPermaLink="false">amiees-pin-radiant-bloom-flower-necklace--caption</guid>
+      <pubDate>Sat, 26 Sep 2026 17:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/radiant-bloom-flower-necklace--caption.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/radiant-bloom-flower-necklace--caption.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
