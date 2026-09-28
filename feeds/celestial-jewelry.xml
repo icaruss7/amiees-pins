@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Sep 2026 13:43:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 23:12:03 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Celestial Jewelry Under $40</title>
@@ -51,6 +51,15 @@
       <pubDate>Sun, 27 Sep 2026 17:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/celestial-set--card.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/celestial-set--card.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Layered Sun And Moon Necklace | Under $25</title>
+      <link>https://amiees.com/products/sun-moon-layered-necklace</link>
+      <description>Sun &amp; Moon Layered Necklace, $24.99. Celestial Jewelry from Amiees: layered sun and moon necklace, sun moon necklace, layered necklace. Free shipping over $35.</description>
+      <guid isPermaLink="false">amiees-pin-sun-moon-layered-necklace--field</guid>
+      <pubDate>Mon, 28 Sep 2026 21:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/sun-moon-layered-necklace--field.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/sun-moon-layered-necklace--field.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
