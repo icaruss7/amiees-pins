@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Sep 2026 23:12:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 05:35:25 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Jewelry Gift Set | Botanical Jewelry</title>
@@ -78,6 +78,15 @@
       <pubDate>Mon, 28 Sep 2026 17:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/radiant-bloom-flower-necklace--card.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/radiant-bloom-flower-necklace--card.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Leaf Earrings Under $25</title>
+      <link>https://amiees.com/products/tropical-monstera-leaf-huggie-earrings</link>
+      <description>Tropical Monstera Leaf Huggie Earrings, $24.99. Botanical Jewelry from Amiees: monstera leaf earrings, gold leaf earrings, monstera earrings. Free shipping over $35.</description>
+      <guid isPermaLink="false">amiees-pin-tropical-monstera-leaf-huggie-earrings--statement</guid>
+      <pubDate>Tue, 29 Sep 2026 01:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/tropical-monstera-leaf-huggie-earrings--statement.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/tropical-monstera-leaf-huggie-earrings--statement.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
