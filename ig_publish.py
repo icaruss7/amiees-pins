@@ -55,15 +55,55 @@ def call(method, path, **params):
         raise RuntimeError(f"{method} {path} failed ({e.code}): {body}") from None
 
 
+def username_of(ig_id):
+    try:
+        return call("GET", ig_id, fields="username").get("username", "")
+    except RuntimeError:
+        return ""
+
+
 def find_ig_user():
+    """Find the Instagram account this token may publish to, explaining what it sees if it fails."""
     if IG_USER_ID:
-        return IG_USER_ID, "(from IG_USER_ID)"
-    pages = call("GET", "me/accounts", fields="name,instagram_business_account{id,username}")
-    for p in pages.get("data", []):
-        acct = p.get("instagram_business_account")
-        if acct:
-            return acct["id"], acct.get("username", "")
-    raise RuntimeError("The token can see no Facebook Page with a linked Instagram business account.")
+        return IG_USER_ID, username_of(IG_USER_ID) or "(from IG_USER_ID)"
+
+    notes = []
+    # 1. The token's own grants. A system user token lists the exact Instagram
+    #    account ids it was given under granular_scopes.
+    scopes = []
+    try:
+        info = call("GET", "debug_token", input_token=TOKEN).get("data", {})
+        scopes = info.get("scopes", [])
+        notes.append("Permissions on the token: " + (", ".join(scopes) or "none"))
+        for g in info.get("granular_scopes", []):
+            if g.get("scope") in ("instagram_content_publish", "instagram_basic"):
+                for ig_id in g.get("target_ids", []):
+                    name = username_of(ig_id)
+                    if name:
+                        return ig_id, name
+    except RuntimeError as e:
+        notes.append(f"Could not read the token's details: {e}")
+
+    # 2. Facebook Pages the token can see, and the Instagram account linked to each.
+    try:
+        pages = call("GET", "me/accounts", fields="name,instagram_business_account{id,username}").get("data", [])
+        for p in pages:
+            acct = p.get("instagram_business_account")
+            if acct:
+                return acct["id"], acct.get("username", "")
+        if pages:
+            notes.append("Pages visible: " + ", ".join(p.get("name", "?") for p in pages)
+                         + ". None of them has an Instagram account linked.")
+        else:
+            notes.append("No Facebook Pages are visible to this token.")
+    except RuntimeError as e:
+        notes.append(f"Could not list Pages: {e}")
+
+    missing = [s for s in ("instagram_basic", "instagram_content_publish", "pages_show_list",
+                           "pages_read_engagement", "business_management") if scopes and s not in scopes]
+    if missing:
+        notes.append("Missing permissions: " + ", ".join(missing))
+    raise RuntimeError("Could not find an Instagram account to post to.\n  " + "\n  ".join(notes))
 
 
 def wait_ready(container_id, label):
@@ -122,7 +162,11 @@ def main():
 
     if DRY_RUN:
         if TOKEN:
-            ig_user, username = find_ig_user()
+            try:
+                ig_user, username = find_ig_user()
+            except RuntimeError as e:
+                print(e)
+                return 1
             print(f"Token works. Connected to @{username} ({ig_user}).")
         else:
             print("No IG_TOKEN set, so the connection was not tested.")
