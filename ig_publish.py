@@ -119,12 +119,17 @@ def main():
         todo = []
     waiting = sum(1 for r in rows if r["status"] == "queued" and r["post_id"] not in state)
     print(f"{len(todo)} post(s) due now, {waiting} not yet posted in total.")
-    if not todo:
-        return 0
 
     if DRY_RUN:
+        if TOKEN:
+            ig_user, username = find_ig_user()
+            print(f"Token works. Connected to @{username} ({ig_user}).")
+        else:
+            print("No IG_TOKEN set, so the connection was not tested.")
         for r in todo:
             print(f"[dry run] would post {r['post_id']} with {len(r['images'].split('|'))} images")
+        return 0
+    if not todo:
         return 0
     if not TOKEN:
         print("IG_TOKEN is not set yet, so nothing was posted. Add it under Settings, Secrets and variables, Actions.")
