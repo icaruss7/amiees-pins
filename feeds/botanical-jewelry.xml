@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Oct 2026 14:25:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 23:59:22 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Jewelry Gift Set | Botanical Jewelry</title>
@@ -123,6 +123,15 @@
       <pubDate>Mon, 05 Oct 2026 13:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/crystal-blossom-pendant-necklace-pink-editorial.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/crystal-blossom-pendant-necklace-pink-editorial.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Pink Flower Stud Earrings | Crystal Blossom Stud Earrings</title>
+      <link>https://amiees.com/products/crystal-blossom-stud-earrings?utm_source=pinterest&amp;utm_medium=organic&amp;utm_campaign=scene_pins</link>
+      <description>Crystal Blossom Stud Earrings, pink. Blossom studs with a crystal center, small enough to wear every day. Part of the botanical jewelry collection from Amiees, under $20. Floral earrings, cherry blossom earrings and dainty flower studs for everyday wear or gifting. Free shipping over $35.</description>
+      <guid isPermaLink="false">amiees-scene-crystal-blossom-stud-earrings-pink-editorial</guid>
+      <pubDate>Mon, 05 Oct 2026 23:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/crystal-blossom-stud-earrings-pink-editorial.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/crystal-blossom-stud-earrings-pink-editorial.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
