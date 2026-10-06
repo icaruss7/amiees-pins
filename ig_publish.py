@@ -39,6 +39,15 @@ MIN_GAP_HOURS = float(os.environ.get("MIN_GAP_HOURS", "20"))   # never two posts
 MAX_ATTEMPTS = 3
 
 
+class MetaAPIError(RuntimeError):
+    """Keep Meta's error codes available without changing existing error messages."""
+
+    def __init__(self, message, code=None, subcode=None):
+        super().__init__(message)
+        self.code = code
+        self.subcode = subcode
+
+
 def call(method, path, **params):
     params["access_token"] = TOKEN
     data = urllib.parse.urlencode(params).encode()
@@ -52,7 +61,15 @@ def call(method, path, **params):
             return json.loads(resp.read())
     except urllib.error.HTTPError as e:
         body = e.read().decode(errors="replace")
-        raise RuntimeError(f"{method} {path} failed ({e.code}): {body}") from None
+        code = subcode = None
+        try:
+            error = json.loads(body)["error"]
+            code = error.get("code")
+            subcode = error.get("error_subcode")
+        except (ValueError, KeyError, TypeError, AttributeError):
+            pass
+        raise MetaAPIError(f"{method} {path} failed ({e.code}): {body}",
+                           code, subcode) from None
 
 
 def username_of(ig_id):
@@ -124,8 +141,18 @@ def publish(ig_user, row):
     else:
         children = []
         for url in images[:10]:
-            cid = call("POST", f"{ig_user}/media", image_url=url, is_carousel_item="true")["id"]
+            try:
+                cid = call("POST", f"{ig_user}/media", image_url=url, is_carousel_item="true")["id"]
+            except MetaAPIError as e:
+                if e.code != 9004 or e.subcode != 2207052:
+                    raise
+                print(f"WARNING {row['post_id']}: skipping carousel image {url} "
+                      f"(Meta 9004 / 2207052: media download failed)")
+                continue
             children.append(cid)
+        if len(children) < 2:
+            raise RuntimeError(f"{row['post_id']}: carousel requires at least two "
+                               f"successfully-created children; got {len(children)}")
         for cid in children:
             wait_ready(cid, row["post_id"])
         parent = call("POST", f"{ig_user}/media", media_type="CAROUSEL",
