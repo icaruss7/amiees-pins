@@ -1,23 +1,26 @@
 #!/usr/bin/env python3
 """
-Publish due rows from ig_queue.csv to Instagram as carousels.
+Publish reviewed images, carousels, and Reels from ig_queue.csv.
 
 Runs from the GitHub Action every few hours. A row goes out once its
 release_at (UTC) has passed and it is not already recorded in ig_state.json.
 At most MAX_PER_RUN posts go out per run and never two within MIN_GAP_HOURS,
 so a backlog trickles out a day at a time instead of flooding the feed.
 
-Needs one repository secret, IG_TOKEN: a never-expiring Meta system user token
+Needs repository secret IG_TOKEN: an authorized Meta system user token
 with instagram_basic, instagram_content_publish, pages_show_list and
 pages_read_engagement. Without it the script prints a note and exits cleanly,
 so nothing breaks before setup is finished.
 
 Set DRY_RUN=1 to print what would be posted without calling Meta.
+Reels also require video_url, video_sha256 and IG_VIDEO_PREFIX. GitHub publishing
+requires IG_DURABLE_GIT=1 so state reaches the remote before publication.
 Standard library only.
 """
 
 import csv
 import hashlib
+import ipaddress
 import json
 import os
 import re
@@ -145,8 +148,17 @@ def eligible(row, state, now):
 
 def https_url(url):
     parsed = urllib.parse.urlsplit(url)
-    if parsed.scheme != "https" or not parsed.hostname or parsed.username or parsed.password:
+    if parsed.scheme != "https" or not parsed.hostname or parsed.username or parsed.password or parsed.fragment:
         raise ValueError("Media must have a public HTTPS URL without embedded credentials")
+    host = parsed.hostname.lower()
+    if host == 'localhost' or host.endswith(('.localhost', '.local')) or '.' not in host:
+        raise ValueError('Local media addresses are not allowed')
+    try:
+        address = ipaddress.ip_address(host)
+    except ValueError:
+        address = None
+    if address is not None and not address.is_global:
+        raise ValueError('Private media addresses are not allowed')
     return url
 
 
@@ -187,6 +199,12 @@ class NoRedirect(urllib.request.HTTPRedirectHandler):
 def verify_video(row):
     # An immutable, content-addressed media URL is still required in production.
     # This check detects a changed asset at preparation time; it cannot lock a CDN.
+    prefix = urllib.parse.urlsplit(os.environ.get('IG_VIDEO_PREFIX', ''))
+    candidate = urllib.parse.urlsplit(https_url(row['video_url']))
+    if (prefix.scheme != 'https' or not prefix.hostname or prefix.query or prefix.fragment
+            or prefix.username or prefix.netloc != candidate.netloc
+            or not candidate.path.startswith(prefix.path.rstrip('/') + '/')):
+        raise ValueError('Video URL must be within the configured IG_VIDEO_PREFIX')
     digest = hashlib.sha256()
     size = 0
     opener = urllib.request.build_opener(NoRedirect)
