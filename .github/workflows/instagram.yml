@@ -8,7 +8,7 @@ on:
       dry_run:
         description: "Only print what would be posted"
         type: boolean
-        default: false
+        default: true
 
 permissions:
   contents: write
@@ -19,15 +19,27 @@ concurrency:
 
 jobs:
   post:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 0
+
+      - name: Configure durable checkpoints
+        run: |
+          git config user.name "amiees-feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Test publisher
+        run: python3 -m unittest -v test_ig_publish
 
       - name: Publish anything due
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_EXPECTED_USERNAME: amiees.com_
+          IG_DURABLE_GIT: '1'
           DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
         run: python3 ig_publish.py
 
@@ -44,3 +56,4 @@ jobs:
           else
             echo "Nothing new posted."
           fi
+
