@@ -1,5 +1,6 @@
 import importlib.util
 import json
+import subprocess
 import tempfile
 import unittest
 from datetime import datetime, timezone
@@ -129,7 +130,7 @@ class PublisherTests(unittest.TestCase):
         self.assertEqual(parents[0]['children'], 'container-1,container-1')
 
     def test_rejects_invalid_media(self):
-        for url in ('http://cdn.example.com/a.jpg', 'https://user:pass@cdn.example.com/a.jpg', ''):
+        for url in ('http://cdn.example.com/a.jpg', 'https://user:pass@cdn.example.com/a.jpg', '', 'https://127.0.0.1/a.jpg', 'https://localhost/a.jpg'):
             self.row['images'] = url
             with self.assertRaises(ValueError):
                 p.validate_row(self.row)
@@ -168,6 +169,45 @@ class PublisherTests(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError, 'persist publication state') as error:
                 p.checkpoint({})
             self.assertNotIn('secret', str(error.exception))
+
+    def test_video_requires_explicit_host_prefix(self):
+        self.row.update(video_url='https://media.example.com/videos/a.mp4', video_sha256='a' * 64)
+        for prefix in ('', 'https://media.example.com.evil/videos', 'https://media.example.com/video'):
+            with patch.dict(p.os.environ, {'IG_VIDEO_PREFIX': prefix}), patch.object(p.urllib.request, 'build_opener') as opener:
+                with self.assertRaises(ValueError):
+                    p.verify_video(self.row)
+                opener.assert_not_called()
+
+    def test_real_git_checkpoint_reaches_remote_before_publication(self):
+        with tempfile.TemporaryDirectory() as directory:
+            remote, work = Path(directory) / 'remote.git', Path(directory) / 'work'
+            work.mkdir()
+            def git(*args, cwd=work):
+                result = subprocess.run(['git', *args], cwd=cwd, capture_output=True, check=True)
+                return result.stdout.decode()
+            git('init', '--bare', str(remote))
+            git('init')
+            git('checkout', '-b', 'main')
+            git('config', 'user.name', 'Amiees local test')
+            git('config', 'user.email', 'test@example.invalid')
+            git('remote', 'add', 'origin', str(remote))
+            (work / 'ig_state.json').write_text('{}')
+            git('add', 'ig_state.json')
+            git('commit', '-m', 'Initialize isolated test')
+            git('push', 'origin', 'HEAD:main')
+            def api(method, path, **params):
+                if path.endswith('/media_publish'):
+                    saved = json.loads(git('--git-dir', str(remote), 'show', 'main:ig_state.json'))
+                    self.assertEqual(saved['test-1']['phase'], 'publishing')
+                    return {'id': 'public-1'}
+                if params.get('fields') == 'permalink':
+                    return {'permalink': 'https://www.instagram.com/p/test/'}
+                return {'id': 'container-1', 'status_code': 'FINISHED'}
+            with patch.object(p, 'HERE', str(work)), patch.object(p, 'STATE', str(work / 'ig_state.json')), patch.object(p, 'DURABLE_GIT', True), patch.object(p, 'call', side_effect=api):
+                p.publish('account-1', self.row, self.state)
+                p.checkpoint(self.state)  # An unchanged checkpoint must also succeed.
+            saved = json.loads(git('--git-dir', str(remote), 'show', 'main:ig_state.json'))
+            self.assertEqual(saved['test-1']['phase'], 'published')
 
 
 if __name__ == '__main__':
