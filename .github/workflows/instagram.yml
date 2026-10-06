@@ -39,6 +39,7 @@ jobs:
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_EXPECTED_USERNAME: amiees.com_
+          IG_VIDEO_PREFIX: ${{ vars.IG_VIDEO_PREFIX }}
           IG_DURABLE_GIT: '1'
           DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
         run: python3 ig_publish.py
