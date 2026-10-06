@@ -177,7 +177,7 @@ def main():
         rel = datetime.strptime(r["release_at"], "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
         s = state.get(r["post_id"], {})
         return (r["status"] == "queued" and rel <= now and not s.get("media_id")
-                and s.get("attempts", 0) < MAX_ATTEMPTS)
+                and not s.get("posted_at") and s.get("attempts", 0) < MAX_ATTEMPTS)
 
     todo = [r for r in rows if due(r)][:MAX_PER_RUN]
     posted_times = [datetime.fromisoformat(s["posted_at"]) for s in state.values() if s.get("posted_at")]

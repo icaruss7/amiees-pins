@@ -7,6 +7,8 @@
  },
  "ig-soleil-sun-pendant-necklace-1": {
   "attempts": 1,
-  "last_error": "POST 17841454700426833/media failed (400): {\"error\":{\"message\":\"Only photo or video can be accepted as media type.\",\"type\":\"OAuthException\",\"code\":9004,\"error_subcode\":2207052,\"is_transient\":false,\"error_user_title\":\"Media download has failed. The media URI doesn't meet our requirements.\",\"error_user_msg\":\"The media could not be fetched from this URI: https:\\/\\/cdn.shopify.com\\/s\\/files\\/1\\/0677\\/3201\\/3371\\/files\\/soleil-sun-pendant-necklace-gold-tone-multicolor-sand.jpg?width=1000&height=1250&"
+  "permalink": "https://www.instagram.com/p/DeIqaUoDP5D/",
+  "posted_at": "2026-10-06T02:01:19+00:00",
+  "recovery_note": "Publication confirmed in workflow 37380540566 attempt 3 logs; state push failed and media_id was not logged."
  }
 }
