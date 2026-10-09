@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Oct 2026 05:58:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 13:06:34 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Jewelry Gift Set | Botanical Jewelry</title>
@@ -150,6 +150,15 @@
       <pubDate>Tue, 06 Oct 2026 23:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/tropical-monstera-leaf-huggie-earrings-blue-green-editorial.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/tropical-monstera-leaf-huggie-earrings-blue-green-editorial.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Daisy Ring | Daisy Petal Ring</title>
+      <link>https://amiees.com/products/daisy-petal-ring?utm_source=pinterest&amp;utm_medium=organic&amp;utm_campaign=scene_pins&amp;utm_content=amiees-scene-daisy-petal-ring-gold-white-editorial</link>
+      <description>Daisy Petal Ring. White enamel daisy petals wrapped around an open band. Part of the botanical jewelry collection from Amiees, under $25. White flower ring, statement flower ring and cute daisy ring for everyday wear or gifting. Free shipping on eligible orders of $35 USD or more after discounts.</description>
+      <guid isPermaLink="false">amiees-scene-daisy-petal-ring-gold-white-editorial</guid>
+      <pubDate>Fri, 09 Oct 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/daisy-petal-ring-gold-white-editorial.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/daisy-petal-ring-gold-white-editorial.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
