@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Oct 2026 22:33:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 05:40:37 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Jewelry Gift Set | Botanical Jewelry</title>
@@ -159,6 +159,15 @@
       <pubDate>Fri, 09 Oct 2026 13:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/daisy-petal-ring-gold-white-editorial.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/daisy-petal-ring-gold-white-editorial.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Silver Daisy Ring | Daisy Ring</title>
+      <link>https://amiees.com/products/daisy-ring?utm_source=pinterest&amp;utm_medium=organic&amp;utm_campaign=scene_pins&amp;utm_content=amiees-scene-daisy-ring-silver-editorial</link>
+      <description>Daisy Ring, silver tone. An open daisy ring with a little leaf, adjustable to fit. Part of the botanical jewelry collection from Amiees, under $25. Flower ring, silver daisy ring and adjustable flower ring for everyday wear or gifting. Free shipping on eligible orders of $35 USD or more after discounts.</description>
+      <guid isPermaLink="false">amiees-scene-daisy-ring-silver-editorial</guid>
+      <pubDate>Fri, 09 Oct 2026 23:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/daisy-ring-silver-editorial.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/daisy-ring-silver-editorial.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
