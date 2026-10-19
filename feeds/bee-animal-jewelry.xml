@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2026 12:57:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 22:16:45 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Dangling Cat Earrings | Nature Jewelry</title>
@@ -312,6 +312,15 @@
       <pubDate>Sun, 18 Oct 2026 18:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/kitty-stretch-ring-silver-dish.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/kitty-stretch-ring-silver-dish.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Tuxedo Panda Earrings | Panda Earrings</title>
+      <link>https://amiees.com/products/panda-earrings?utm_source=pinterest&amp;utm_medium=organic&amp;utm_campaign=scene_pins&amp;utm_content=amiees-scene-panda-earrings-black-white-dish</link>
+      <description>Panda Earrings, tuxedo cat. Round enamel pandas on gold tone hooks. Part of the bee &amp; animal jewelry collection from Amiees, under $20. Cute animal earrings, panda gifts and black and white earrings for everyday wear or gifting. Free shipping on eligible orders of $35 USD or more after discounts.</description>
+      <guid isPermaLink="false">amiees-scene-panda-earrings-black-white-dish</guid>
+      <pubDate>Mon, 19 Oct 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/panda-earrings-black-white-dish.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/panda-earrings-black-white-dish.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
