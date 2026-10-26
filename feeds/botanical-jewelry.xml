@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Oct 2026 12:48:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 22:35:43 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Jewelry Gift Set | Botanical Jewelry</title>
@@ -294,6 +294,24 @@
       <pubDate>Sun, 25 Oct 2026 23:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/crystal-blossom-jewelry-set-purple-editorial.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/crystal-blossom-jewelry-set-purple-editorial.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Dainty Silver Necklace | Pink Crystal Blossom Pendant Necklace</title>
+      <link>https://amiees.com/products/crystal-blossom-pendant-necklace?utm_source=pinterest&amp;utm_medium=organic&amp;utm_campaign=scene_pins&amp;utm_content=amiees-scene-crystal-blossom-pendant-necklace-pink-text</link>
+      <description>Crystal Blossom Pendant Necklace, pink. A five petal blossom pendant with a single crystal at its heart. Part of the botanical jewelry collection from Amiees, under $25. Cherry blossom necklace, dainty silver necklace and floral pendant necklace for everyday wear or gifting. Free shipping on eligible orders of $35 USD or more after discounts.</description>
+      <guid isPermaLink="false">amiees-scene-crystal-blossom-pendant-necklace-pink-text</guid>
+      <pubDate>Mon, 26 Oct 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/crystal-blossom-pendant-necklace-pink-text.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/crystal-blossom-pendant-necklace-pink-text.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Daisy Ring | Nature Inspired Jewelry</title>
+      <link>https://amiees.com/products/daisy-ring?utm_source=pinterest&amp;utm_medium=organic&amp;utm_campaign=nature_series&amp;utm_content=amiees-nature-01-daisy-ring</link>
+      <description>The word daisy comes from the Old English for "day's eye." The flower closes at night and opens again with the morning light. The Daisy Ring sets a single bloom and a small leaf on one open band, so it adjusts to your finger. Shop the Daisy Ring at amiees.com.</description>
+      <guid isPermaLink="false">amiees-nature-01-daisy-ring</guid>
+      <pubDate>Mon, 26 Oct 2026 16:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/nature-daisy-ring.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/nature-daisy-ring.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
