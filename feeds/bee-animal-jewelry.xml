@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Oct 2026 12:00:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 17:55:03 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Dangling Cat Earrings | Nature Jewelry</title>
@@ -375,6 +375,15 @@
       <pubDate>Mon, 26 Oct 2026 18:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/dangling-cat-earrings-gray-dish.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/dangling-cat-earrings-gray-dish.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Fancy Bee Earrings | Nature Inspired Jewelry</title>
+      <link>https://amiees.com/products/fancy-bee-earrings?utm_source=pinterest&amp;utm_medium=organic&amp;utm_campaign=nature_series&amp;utm_content=amiees-nature-02-fancy-bee-earrings</link>
+      <description>On a single trip out of the hive, a honeybee can visit between 50 and 100 flowers. Fancy Bee Earrings: striped enamel bodies, cream wings and a small pearl on top. Shop the Fancy Bee Earrings at amiees.com.</description>
+      <guid isPermaLink="false">amiees-nature-02-fancy-bee-earrings</guid>
+      <pubDate>Tue, 27 Oct 2026 16:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/nature-fancy-bee-earrings.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/nature-fancy-bee-earrings.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
