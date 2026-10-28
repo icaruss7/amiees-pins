@@ -4,230 +4,218 @@
   "followers": 31
  },
  "benchmarks": {
-  "avg_interaction_rate": null,
-  "avg_save_rate": null,
-  "avg_share_rate": null,
-  "median_reach_or_views": null
+  "avg_interaction_rate": 0.4695655714285714,
+  "avg_save_rate": 0.0,
+  "avg_share_rate": 0.0,
+  "median_reach_or_views": 6.0
  },
  "data_notes": {
-  "collected_at": "2026-10-28T19:09:27+00:00",
-  "insights_permission_notes": [
-   "GET 17910599241502450/insights failed (400): (#10) Application does not have permission for this action",
-   "GET 17914746786501300/insights failed (400): (#10) Application does not have permission for this action",
-   "GET 17927983545184089/insights failed (400): (#10) Application does not have permission for this action",
-   "GET 17991037415862762/insights failed (400): (#10) Application does not have permission for this action",
-   "GET 18077615648746016/insights failed (400): (#10) Application does not have permission for this action",
-   "GET 18094257821429016/insights failed (400): (#10) Application does not have permission for this action",
-   "GET 18111764324613719/insights failed (400): (#10) Application does not have permission for this action",
-   "GET 18115283074835845/insights failed (400): (#10) Application does not have permission for this action",
-   "GET 18116399759000753/insights failed (400): (#10) Application does not have permission for this action",
-   "GET 18126876170298821/insights failed (400): (#10) Application does not have permission for this action",
-   "GET 18355636594169379/insights failed (400): (#10) Application does not have permission for this action",
-   "GET 18485258080128763/insights failed (400): (#10) Application does not have permission for this action",
-   "GET 18493824418102180/insights failed (400): (#10) Application does not have permission for this action",
-   "GET 18635688835062373/insights failed (400): (#10) Application does not have permission for this action"
-  ],
+  "collected_at": "2026-10-28T19:15:58+00:00",
+  "insights_permission_notes": [],
   "posts_collected": 14,
   "posts_skipped": 0
  },
- "generated_at": "2026-10-28T19:09:37+00:00",
+ "generated_at": "2026-10-28T19:16:40+00:00",
  "groups": {
   "format": {
    "FEED": {
-    "avg_interaction_rate": null,
-    "avg_reach": null,
-    "avg_save_rate": null,
-    "avg_share_rate": null,
-    "avg_views": null,
+    "avg_interaction_rate": 0.4695655714285714,
+    "avg_reach": 5.928571428571429,
+    "avg_save_rate": 0.0,
+    "avg_share_rate": 0.0,
+    "avg_views": 14.928571428571429,
     "n": 14
    }
   },
   "posting_hour_utc": {
    "00:00 UTC": {
-    "avg_interaction_rate": null,
-    "avg_reach": null,
-    "avg_save_rate": null,
-    "avg_share_rate": null,
-    "avg_views": null,
+    "avg_interaction_rate": 0.375,
+    "avg_reach": 3.0,
+    "avg_save_rate": 0.0,
+    "avg_share_rate": 0.0,
+    "avg_views": 4.5,
     "n": 2
    },
    "02:00 UTC": {
-    "avg_interaction_rate": null,
-    "avg_reach": null,
-    "avg_save_rate": null,
-    "avg_share_rate": null,
-    "avg_views": null,
+    "avg_interaction_rate": 0.375,
+    "avg_reach": 8.0,
+    "avg_save_rate": 0.0,
+    "avg_share_rate": 0.0,
+    "avg_views": 19.0,
     "n": 1
    },
    "17:00 UTC": {
-    "avg_interaction_rate": null,
-    "avg_reach": null,
-    "avg_save_rate": null,
-    "avg_share_rate": null,
-    "avg_views": null,
+    "avg_interaction_rate": 0.38888866666666666,
+    "avg_reach": 5.333333333333333,
+    "avg_save_rate": 0.0,
+    "avg_share_rate": 0.0,
+    "avg_views": 12.666666666666666,
     "n": 3
    },
    "18:00 UTC": {
-    "avg_interaction_rate": null,
-    "avg_reach": null,
-    "avg_save_rate": null,
-    "avg_share_rate": null,
-    "avg_views": null,
+    "avg_interaction_rate": 0.6,
+    "avg_reach": 5.0,
+    "avg_save_rate": 0.0,
+    "avg_share_rate": 0.0,
+    "avg_views": 10.0,
     "n": 1
    },
    "19:00 UTC": {
-    "avg_interaction_rate": null,
-    "avg_reach": null,
-    "avg_save_rate": null,
-    "avg_share_rate": null,
-    "avg_views": null,
+    "avg_interaction_rate": 0.6,
+    "avg_reach": 5.0,
+    "avg_save_rate": 0.0,
+    "avg_share_rate": 0.0,
+    "avg_views": 15.0,
     "n": 1
    },
    "20:00 UTC": {
-    "avg_interaction_rate": null,
-    "avg_reach": null,
-    "avg_save_rate": null,
-    "avg_share_rate": null,
-    "avg_views": null,
+    "avg_interaction_rate": 0.5793653333333334,
+    "avg_reach": 6.333333333333333,
+    "avg_save_rate": 0.0,
+    "avg_share_rate": 0.0,
+    "avg_views": 18.666666666666668,
     "n": 3
    },
    "21:00 UTC": {
-    "avg_interaction_rate": null,
-    "avg_reach": null,
-    "avg_save_rate": null,
-    "avg_share_rate": null,
-    "avg_views": null,
+    "avg_interaction_rate": 0.44805199999999995,
+    "avg_reach": 8.0,
+    "avg_save_rate": 0.0,
+    "avg_share_rate": 0.0,
+    "avg_views": 20.666666666666668,
     "n": 3
    }
   },
   "series": {
    "nature": {
-    "avg_interaction_rate": null,
-    "avg_reach": null,
-    "avg_save_rate": null,
-    "avg_share_rate": null,
-    "avg_views": null,
+    "avg_interaction_rate": 0.375,
+    "avg_reach": 3.0,
+    "avg_save_rate": 0.0,
+    "avg_share_rate": 0.0,
+    "avg_views": 4.5,
     "n": 2
    },
    "product": {
-    "avg_interaction_rate": null,
-    "avg_reach": null,
-    "avg_save_rate": null,
-    "avg_share_rate": null,
-    "avg_views": null,
+    "avg_interaction_rate": 0.4853265,
+    "avg_reach": 6.416666666666667,
+    "avg_save_rate": 0.0,
+    "avg_share_rate": 0.0,
+    "avg_views": 16.666666666666668,
     "n": 12
    }
   },
   "weekday": {
    "Friday": {
-    "avg_interaction_rate": null,
-    "avg_reach": null,
-    "avg_save_rate": null,
-    "avg_share_rate": null,
-    "avg_views": null,
+    "avg_interaction_rate": 0.5015873333333333,
+    "avg_reach": 6.0,
+    "avg_save_rate": 0.0,
+    "avg_share_rate": 0.0,
+    "avg_views": 14.666666666666666,
     "n": 3
    },
    "Monday": {
-    "avg_interaction_rate": null,
-    "avg_reach": null,
-    "avg_save_rate": null,
-    "avg_share_rate": null,
-    "avg_views": null,
+    "avg_interaction_rate": 0.5,
+    "avg_reach": 6.0,
+    "avg_save_rate": 0.0,
+    "avg_share_rate": 0.0,
+    "avg_views": 13.5,
     "n": 2
    },
    "Sunday": {
-    "avg_interaction_rate": null,
-    "avg_reach": null,
-    "avg_save_rate": null,
-    "avg_share_rate": null,
-    "avg_views": null,
+    "avg_interaction_rate": 0.6333335,
+    "avg_reach": 5.5,
+    "avg_save_rate": 0.0,
+    "avg_share_rate": 0.0,
+    "avg_views": 16.5,
     "n": 2
    },
    "Thursday": {
-    "avg_interaction_rate": null,
-    "avg_reach": null,
-    "avg_save_rate": null,
-    "avg_share_rate": null,
-    "avg_views": null,
+    "avg_interaction_rate": 0.272727,
+    "avg_reach": 11.0,
+    "avg_save_rate": 0.0,
+    "avg_share_rate": 0.0,
+    "avg_views": 28.0,
     "n": 1
    },
    "Tuesday": {
-    "avg_interaction_rate": null,
-    "avg_reach": null,
-    "avg_save_rate": null,
-    "avg_share_rate": null,
-    "avg_views": null,
+    "avg_interaction_rate": 0.3125,
+    "avg_reach": 6.0,
+    "avg_save_rate": 0.0,
+    "avg_share_rate": 0.0,
+    "avg_views": 12.0,
     "n": 2
    },
    "Wednesday": {
-    "avg_interaction_rate": null,
-    "avg_reach": null,
-    "avg_save_rate": null,
-    "avg_share_rate": null,
-    "avg_views": null,
+    "avg_interaction_rate": 0.47619049999999996,
+    "avg_reach": 4.75,
+    "avg_save_rate": 0.0,
+    "avg_share_rate": 0.0,
+    "avg_views": 13.25,
     "n": 4
    }
   }
  },
  "recommendations": [
-  "Create follow-up variants around the strongest current winners: aiko-cat-heart-earrings, bee-honeycomb-mismatched-earrings, butterfly-choker-necklace."
+  "Create follow-up variants around the strongest current winners: crystal-blossom-jewelry-set, bee-honeycomb-mismatched-earrings, cat-lover-set.",
+  "FEED is the strongest format with enough samples by interaction rate (46.96%); give it a larger share of the next test batch.",
+  "Friday currently has the strongest share rate among weekdays with at least two posts (0.00%). Treat this as provisional until the sample grows.",
+  "Share rate is below 0.5%; test stronger send-worthy hooks such as 'send this to the friend who would wear #2' or identity/gift framing."
  ],
  "sample_size": 14,
  "top_posts": [
   {
-   "interaction_rate": null,
-   "permalink": "https://www.instagram.com/p/DeSJ15yDVXH/",
-   "post_id": "ig-aiko-cat-heart-earrings-1",
-   "product": "aiko-cat-heart-earrings",
-   "reach": null,
-   "save_rate": null,
-   "score": 0.0,
-   "share_rate": null,
-   "views": null
+   "interaction_rate": 0.666667,
+   "permalink": "https://www.instagram.com/p/DepmLzNIOJ3/",
+   "post_id": "ig-crystal-blossom-jewelry-set-1",
+   "product": "crystal-blossom-jewelry-set",
+   "reach": 6.0,
+   "save_rate": 0.0,
+   "score": 0.216667,
+   "share_rate": 0.0,
+   "views": 18.0
   },
   {
-   "interaction_rate": null,
+   "interaction_rate": 0.571429,
    "permalink": "https://www.instagram.com/p/DeNP0JmDK_6/",
    "post_id": "ig-bee-honeycomb-mismatched-earrings-1",
    "product": "bee-honeycomb-mismatched-earrings",
-   "reach": null,
-   "save_rate": null,
-   "score": 0.0,
-   "share_rate": null,
-   "views": null
+   "reach": 7.0,
+   "save_rate": 0.0,
+   "score": 0.201191,
+   "share_rate": 0.0,
+   "views": 23.0
   },
   {
-   "interaction_rate": null,
-   "permalink": "https://www.instagram.com/p/Dee7KVel1ei/",
-   "post_id": "ig-butterfly-choker-necklace-1",
-   "product": "butterfly-choker-necklace",
-   "reach": null,
-   "save_rate": null,
-   "score": 0.0,
-   "share_rate": null,
-   "views": null
-  },
-  {
-   "interaction_rate": null,
+   "interaction_rate": 0.571429,
    "permalink": "https://www.instagram.com/p/DekgzxWmqAU/",
    "post_id": "ig-cat-lover-set-1",
    "product": "cat-lover-set",
-   "reach": null,
-   "save_rate": null,
-   "score": 0.0,
-   "share_rate": null,
-   "views": null
+   "reach": 7.0,
+   "save_rate": 0.0,
+   "score": 0.201191,
+   "share_rate": 0.0,
+   "views": 22.0
   },
   {
-   "interaction_rate": null,
-   "permalink": "https://www.instagram.com/p/DesI9X2gaQs/",
-   "post_id": "ig-celestial-gold-huggie-earrings-moon-star-duo-1",
-   "product": "celestial-gold-huggie-earrings-moon-star-duo",
-   "reach": null,
-   "save_rate": null,
-   "score": 0.0,
-   "share_rate": null,
-   "views": null
+   "interaction_rate": 0.6,
+   "permalink": "https://www.instagram.com/p/DeSJ15yDVXH/",
+   "post_id": "ig-aiko-cat-heart-earrings-1",
+   "product": "aiko-cat-heart-earrings",
+   "reach": 5.0,
+   "save_rate": 0.0,
+   "score": 0.191667,
+   "share_rate": 0.0,
+   "views": 10.0
+  },
+  {
+   "interaction_rate": 0.6,
+   "permalink": "https://www.instagram.com/p/DeXbnoRjnSi/",
+   "post_id": "ig-tropical-monstera-leaf-huggie-earrings-1",
+   "product": "tropical-monstera-leaf-huggie-earrings",
+   "reach": 5.0,
+   "save_rate": 0.0,
+   "score": 0.191667,
+   "share_rate": 0.0,
+   "views": 15.0
   }
  ]
 }
