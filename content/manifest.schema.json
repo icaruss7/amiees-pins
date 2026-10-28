@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/icaruss7/amiees-pins/content/manifest.schema.json",
+  "title": "Amiees finished-content package intent, v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "experiment_id", "product", "platform", "format", "content_angle", "hook", "hypothesis", "objective", "primary_success_metric", "hook_placement", "source_assets", "final_assets", "caption_file", "pinterest"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "experiment_id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "maxLength": 100},
+    "product": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "maxLength": 100},
+    "platform": {"enum": ["instagram", "pinterest"]},
+    "format": {"enum": ["IMAGE", "CAROUSEL", "REELS", "VIDEO"]},
+    "content_angle": {"type": "string", "minLength": 1},
+    "hook": {"type": "string", "minLength": 1},
+    "hypothesis": {"type": "string", "minLength": 1},
+    "objective": {"type": "string", "minLength": 1},
+    "primary_success_metric": {
+      "type": "object", "required": ["name"],
+      "properties": {"name": {"type": "string", "minLength": 1}, "definition": {"type": "string"}}
+    },
+    "hook_placement": {"enum": ["caption_opening", "overlay"]},
+    "source_assets": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "final_assets": {
+      "type": "array", "minItems": 1, "maxItems": 10,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["path", "role", "alt"],
+        "properties": {"path": {"type": "string", "minLength": 1}, "role": {"enum": ["image", "video", "cover"]}, "alt": {"type": "string", "minLength": 1}}
+      }
+    },
+    "caption_file": {"type": "string", "minLength": 1},
+    "planner_reference": {"type": ["object", "null"]},
+    "scheduled_at": {"type": ["string", "null"], "format": "date-time"},
+    "pinterest": {
+      "type": "object", "additionalProperties": false,
+      "required": ["board", "title", "description", "destination_url", "keywords"],
+      "properties": {"board": {"type": "string"}, "title": {"type": "string", "maxLength": 100}, "description": {"type": "string", "maxLength": 500}, "destination_url": {"type": "string"}, "keywords": {"type": "array", "items": {"type": "string"}}}
+    }
+  },
+  "allOf": [
+    {"if": {"properties": {"platform": {"const": "instagram"}}}, "then": {"properties": {"format": {"enum": ["IMAGE", "CAROUSEL", "REELS"]}}}},
+    {"if": {"properties": {"platform": {"const": "pinterest"}}}, "then": {"properties": {"format": {"enum": ["IMAGE", "VIDEO"]}, "pinterest": {"properties": {"board": {"enum": ["Bee & Animal Jewelry", "Botanical Jewelry", "Celestial Jewelry"]}, "title": {"minLength": 1}, "description": {"minLength": 1}, "destination_url": {"minLength": 1}}}}}},
+    {"if": {"properties": {"format": {"const": "IMAGE"}}}, "then": {"properties": {"final_assets": {"minItems": 1, "maxItems": 1, "items": {"properties": {"role": {"const": "image"}}}}}}},
+    {"if": {"properties": {"format": {"const": "CAROUSEL"}}}, "then": {"properties": {"final_assets": {"minItems": 2, "maxItems": 10, "items": {"properties": {"role": {"const": "image"}}}}}}},
+    {"if": {"properties": {"format": {"enum": ["REELS", "VIDEO"]}}}, "then": {"properties": {"final_assets": {"minItems": 2, "maxItems": 2, "allOf": [{"contains": {"properties": {"role": {"const": "video"}}}, "minContains": 1, "maxContains": 1}, {"contains": {"properties": {"role": {"const": "cover"}}}, "minContains": 1, "maxContains": 1}]}}}}
+  ]
+}

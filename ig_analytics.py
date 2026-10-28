@@ -135,6 +135,24 @@ def load_queue():
         return {row["post_id"]: row for row in csv.DictReader(fh)}
 
 
+def experiment_metadata(post_id, product, registry):
+    """Optional sidecar join; legacy post records and metric collection stay unchanged."""
+    items = registry.get("items", {}) if isinstance(registry, dict) else {}
+    if not isinstance(items, dict):
+        return {}
+    matches = [item for item in items.values() if isinstance(item, dict)
+               and item.get("platform") == "instagram" and item.get("product") == product
+               and item.get("queue_id") == post_id == "ig-exp-" + str(item.get("experiment_id", ""))
+               and item.get("publishing_status") in ("scheduled", "published", "measured")
+               and item.get("approval") and item.get("schedule_approval")]
+    if len(matches) != 1:
+        return {}
+    item = matches[0]
+    fields = ("experiment_id", "pipeline_item_id", "content_angle", "hook", "hypothesis", "objective",
+              "primary_success_metric", "planner_reference", "content_sha256")
+    return {field: item[field] for field in fields if field in item}
+
+
 def load_json(path, default):
     if not os.path.exists(path):
         return default
@@ -298,6 +316,11 @@ def main():
 
     state = load_json(STATE, {})
     queue = load_queue()
+    try:
+        experiments = load_json(os.path.join(HERE, "content", "experiments.json"), {})
+    except (OSError, ValueError):
+        print("WARNING: content lineage unavailable; collecting ordinary analytics without it.")
+        experiments = {}
     analytics = load_json(
         OUT,
         {
@@ -387,6 +410,7 @@ def main():
             post.get("history", []),
             {"collected_at": now, "metrics": metrics},
         )
+        post.update(experiment_metadata(post_id, row.get("product", ""), experiments))
         collected += 1
 
     analytics["updated_at"] = now

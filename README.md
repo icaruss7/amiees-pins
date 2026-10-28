@@ -5,6 +5,10 @@ The recommendation-only Instagram weekly planner is documented in
 [ig_content_plan.md](ig_content_plan.md) and [ig_content_plan.json](ig_content_plan.json).
 It reads analytics and upcoming Nature Series posts without changing either queue.
 
+The finished-folder ingestion and experiment lifecycle are documented in
+[CONTENT-PIPELINE.md](CONTENT-PIPELINE.md). They wrap the existing creative and
+Shopify Files workflow, with separate creative and scheduling approvals.
+
 Three RSS 2.0 feeds that Pinterest reads and publishes from automatically.
 
 ```
