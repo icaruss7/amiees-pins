@@ -1,0 +1,92 @@
+name: Instagram Weekly Content Planner
+
+on:
+  schedule:
+    - cron: "17 23 * * 0" # Sunday 23:17 UTC; next local day starts the review week
+  workflow_dispatch:
+    inputs:
+      start_date:
+        description: "First editorial review date (YYYY-MM-DD); blank means tomorrow in New York"
+        required: false
+        type: string
+  push:
+    branches: [main]
+    paths:
+      - ig_content_planner.py
+      - test_ig_content_planner.py
+      - .github/workflows/instagram-content-planner.yml
+  pull_request:
+    paths:
+      - ig_content_planner.py
+      - test_ig_content_planner.py
+      - .github/workflows/instagram-content-planner.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: instagram-content-planner-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Test planning safety and small-sample rules
+        run: python -m unittest -v test_ig_content_planner
+
+  plan:
+    needs: verify
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Generate recommendations and save only the two plan files
+        shell: bash
+        env:
+          PLAN_START_DATE: ${{ inputs.start_date }}
+        run: |
+          set -euo pipefail
+          git config user.name "amiees-planner-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          args=()
+          if [[ -n "${PLAN_START_DATE:-}" ]]; then
+            args+=(--start-date "$PLAN_START_DATE")
+          fi
+          for attempt in 1 2 3; do
+            # This disposable runner owns only generated plan outputs.
+            # On a competing writer, regenerate from its latest committed inputs.
+            git fetch origin main
+            git reset --hard origin/main
+            python -m unittest -q test_ig_content_planner
+            python ig_content_planner.py "${args[@]}"
+            git diff --exit-code -- ig_queue.csv pins.csv ig_state.json ig_analytics.json ig_learning.json
+            git add -- ig_content_plan.json ig_content_plan.md
+            if git diff --cached --quiet; then
+              cat ig_content_plan.md >> "$GITHUB_STEP_SUMMARY"
+              echo "Plan is already current."
+              exit 0
+            fi
+            git commit -m "Refresh weekly Instagram content test recommendations"
+            if git push origin HEAD:main; then
+              cat ig_content_plan.md >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+            echo "Another job updated main; rebuilding the plan (attempt $attempt)."
+          done
+          echo "Could not save the plan after three attempts. No queues were modified."
+          exit 1

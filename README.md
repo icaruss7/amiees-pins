@@ -1,5 +1,10 @@
 # Amiees pin feeds
 
+The recommendation-only Instagram weekly planner is documented in
+[CONTENT-PLANNER.md](CONTENT-PLANNER.md). Its current outputs are
+[ig_content_plan.md](ig_content_plan.md) and [ig_content_plan.json](ig_content_plan.json).
+It reads analytics and upcoming Nature Series posts without changing either queue.
+
 Three RSS 2.0 feeds that Pinterest reads and publishes from automatically.
 
 ```
