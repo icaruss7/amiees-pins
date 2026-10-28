@@ -1,0 +1,625 @@
+{
+ "account_history": [
+  {
+   "collected_at": "2026-10-28T18:56:27+00:00",
+   "followers_count": 31,
+   "follows_count": 4,
+   "id": "17841454700426833",
+   "media_count": 84,
+   "username": "amiees.com_"
+  }
+ ],
+ "last_run": {
+  "collected_at": "2026-10-28T18:56:27+00:00",
+  "insights_permission_notes": [
+   "GET 17910599241502450/insights failed (400): (#10) Application does not have permission for this action",
+   "GET 17914746786501300/insights failed (400): (#10) Application does not have permission for this action",
+   "GET 17927983545184089/insights failed (400): (#10) Application does not have permission for this action",
+   "GET 17991037415862762/insights failed (400): (#10) Application does not have permission for this action",
+   "GET 18077615648746016/insights failed (400): (#10) Application does not have permission for this action",
+   "GET 18094257821429016/insights failed (400): (#10) Application does not have permission for this action",
+   "GET 18111764324613719/insights failed (400): (#10) Application does not have permission for this action",
+   "GET 18115283074835845/insights failed (400): (#10) Application does not have permission for this action",
+   "GET 18116399759000753/insights failed (400): (#10) Application does not have permission for this action",
+   "GET 18126876170298821/insights failed (400): (#10) Application does not have permission for this action",
+   "GET 18355636594169379/insights failed (400): (#10) Application does not have permission for this action",
+   "GET 18485258080128763/insights failed (400): (#10) Application does not have permission for this action",
+   "GET 18493824418102180/insights failed (400): (#10) Application does not have permission for this action",
+   "GET 18635688835062373/insights failed (400): (#10) Application does not have permission for this action"
+  ],
+  "posts_collected": 14,
+  "posts_skipped": 0
+ },
+ "posts": {
+  "ig-aiko-cat-heart-earrings-1": {
+   "caption": "A little cat sitting inside an open heart.\n\nAiko Cat Heart Earrings, in black and white. Under $20.\nShop it through the link in our bio. Free shipping over $35.\n\nKeep nature close.\n\n#amiees #catearrings #catheartearrings #blackcatearrings #catjewelry #catlovergifts #catmom",
+   "history": [
+    {
+     "collected_at": "2026-10-28T18:56:27+00:00",
+     "metrics": {
+      "comments": 0,
+      "likes": 3,
+      "shares": 0
+     }
+    }
+   ],
+   "latest": {
+    "comments": 0,
+    "likes": 3,
+    "shares": 0
+   },
+   "media_id": "18485258080128763",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "permalink": "https://www.instagram.com/p/DeSJ15yDVXH/",
+   "post_id": "ig-aiko-cat-heart-earrings-1",
+   "posted_at": "2026-10-09T18:28:19+00:00",
+   "product": "aiko-cat-heart-earrings",
+   "series": "product",
+   "unsupported_metrics": {
+    "comments": "permission unavailable",
+    "follows": "permission unavailable",
+    "ig_reels_avg_watch_time": "permission unavailable",
+    "ig_reels_video_view_total_time": "permission unavailable",
+    "likes": "permission unavailable",
+    "profile_activity": "permission unavailable",
+    "profile_visits": "permission unavailable",
+    "reach": "permission unavailable",
+    "reels_skip_rate": "permission unavailable",
+    "reposts": "permission unavailable",
+    "saved": "permission unavailable",
+    "shares": "permission unavailable",
+    "total_interactions": "permission unavailable",
+    "views": "permission unavailable"
+   }
+  },
+  "ig-bee-honeycomb-mismatched-earrings-1": {
+   "caption": "A bee on one ear and its honeycomb on the other.\n\nBee and Honeycomb Earrings. Under $20.\nShop it through the link in our bio. Free shipping over $35.\n\nKeep nature close.\n\n#amiees #beeearrings #honeycombearrings #mismatchedearrings #naturejewelry #animaljewelry #whimsicaljewelry",
+   "history": [
+    {
+     "collected_at": "2026-10-28T18:56:27+00:00",
+     "metrics": {
+      "comments": 1,
+      "likes": 3,
+      "shares": 0
+     }
+    }
+   ],
+   "latest": {
+    "comments": 1,
+    "likes": 3,
+    "shares": 0
+   },
+   "media_id": "18126876170298821",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "permalink": "https://www.instagram.com/p/DeNP0JmDK_6/",
+   "post_id": "ig-bee-honeycomb-mismatched-earrings-1",
+   "posted_at": "2026-10-07T20:44:31+00:00",
+   "product": "bee-honeycomb-mismatched-earrings",
+   "series": "product",
+   "unsupported_metrics": {
+    "comments": "permission unavailable",
+    "follows": "permission unavailable",
+    "ig_reels_avg_watch_time": "permission unavailable",
+    "ig_reels_video_view_total_time": "permission unavailable",
+    "likes": "permission unavailable",
+    "profile_activity": "permission unavailable",
+    "profile_visits": "permission unavailable",
+    "reach": "permission unavailable",
+    "reels_skip_rate": "permission unavailable",
+    "reposts": "permission unavailable",
+    "saved": "permission unavailable",
+    "shares": "permission unavailable",
+    "total_interactions": "permission unavailable",
+    "views": "permission unavailable"
+   }
+  },
+  "ig-butterfly-choker-necklace-1": {
+   "caption": "Silver butterflies on a looped chain with a star drop.\n\nButterfly Choker Necklace, silver tone. Under $20.\nShop it through the link in our bio. Free shipping over $35.\n\nKeep nature close.\n\n#amiees #butterflynecklace #butterflychoker #layeredchainchoker #naturejewelry #animaljewelry #whimsicaljewelry",
+   "history": [
+    {
+     "collected_at": "2026-10-28T18:56:27+00:00",
+     "metrics": {
+      "comments": 0,
+      "likes": 2,
+      "shares": 0
+     }
+    }
+   ],
+   "latest": {
+    "comments": 0,
+    "likes": 2,
+    "shares": 0
+   },
+   "media_id": "17991037415862762",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "permalink": "https://www.instagram.com/p/Dee7KVel1ei/",
+   "post_id": "ig-butterfly-choker-necklace-1",
+   "posted_at": "2026-10-14T17:30:28+00:00",
+   "product": "butterfly-choker-necklace",
+   "series": "product",
+   "unsupported_metrics": {
+    "comments": "permission unavailable",
+    "follows": "permission unavailable",
+    "ig_reels_avg_watch_time": "permission unavailable",
+    "ig_reels_video_view_total_time": "permission unavailable",
+    "likes": "permission unavailable",
+    "profile_activity": "permission unavailable",
+    "profile_visits": "permission unavailable",
+    "reach": "permission unavailable",
+    "reels_skip_rate": "permission unavailable",
+    "reposts": "permission unavailable",
+    "saved": "permission unavailable",
+    "shares": "permission unavailable",
+    "total_interactions": "permission unavailable",
+    "views": "permission unavailable"
+   }
+  },
+  "ig-cat-lover-set-1": {
+   "caption": "Cat and fish earrings with a sleek kitty ring, ready to give.\n\nCat Lover Set, silver tone. Under $40.\nShop it through the link in our bio. Free shipping over $35.\n\nKeep nature close.\n\n#amiees #catlovergifts #giftsforcatlovers #catjewelryset #catjewelry #catmom",
+   "history": [
+    {
+     "collected_at": "2026-10-28T18:56:27+00:00",
+     "metrics": {
+      "comments": 1,
+      "likes": 3,
+      "shares": 0
+     }
+    }
+   ],
+   "latest": {
+    "comments": 1,
+    "likes": 3,
+    "shares": 0
+   },
+   "media_id": "17910599241502450",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "permalink": "https://www.instagram.com/p/DekgzxWmqAU/",
+   "post_id": "ig-cat-lover-set-1",
+   "posted_at": "2026-10-16T21:35:37+00:00",
+   "product": "cat-lover-set",
+   "series": "product",
+   "unsupported_metrics": {
+    "comments": "permission unavailable",
+    "follows": "permission unavailable",
+    "ig_reels_avg_watch_time": "permission unavailable",
+    "ig_reels_video_view_total_time": "permission unavailable",
+    "likes": "permission unavailable",
+    "profile_activity": "permission unavailable",
+    "profile_visits": "permission unavailable",
+    "reach": "permission unavailable",
+    "reels_skip_rate": "permission unavailable",
+    "reposts": "permission unavailable",
+    "saved": "permission unavailable",
+    "shares": "permission unavailable",
+    "total_interactions": "permission unavailable",
+    "views": "permission unavailable"
+   }
+  },
+  "ig-celestial-gold-huggie-earrings-moon-star-duo-1": {
+   "caption": "A crescent moon and a star, each hanging from a gold tone huggie.\n\nMoon & Star Huggie Earrings, gold tone. Under $30.\nShop it through the link in our bio. Free shipping over $35.\n\nKeep nature close.\n\n#amiees #moonandstarearrings #goldhuggieearrings #nightskyjewelry #celestialjewelry #moonandstars #naturejewelry",
+   "history": [
+    {
+     "collected_at": "2026-10-28T18:56:27+00:00",
+     "metrics": {
+      "comments": 0,
+      "likes": 3,
+      "shares": 0
+     }
+    }
+   ],
+   "latest": {
+    "comments": 0,
+    "likes": 3,
+    "shares": 0
+   },
+   "media_id": "18116399759000753",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "permalink": "https://www.instagram.com/p/DesI9X2gaQs/",
+   "post_id": "ig-celestial-gold-huggie-earrings-moon-star-duo-1",
+   "posted_at": "2026-10-19T20:41:01+00:00",
+   "product": "celestial-gold-huggie-earrings-moon-star-duo",
+   "series": "product",
+   "unsupported_metrics": {
+    "comments": "permission unavailable",
+    "follows": "permission unavailable",
+    "ig_reels_avg_watch_time": "permission unavailable",
+    "ig_reels_video_view_total_time": "permission unavailable",
+    "likes": "permission unavailable",
+    "profile_activity": "permission unavailable",
+    "profile_visits": "permission unavailable",
+    "reach": "permission unavailable",
+    "reels_skip_rate": "permission unavailable",
+    "reposts": "permission unavailable",
+    "saved": "permission unavailable",
+    "shares": "permission unavailable",
+    "total_interactions": "permission unavailable",
+    "views": "permission unavailable"
+   }
+  },
+  "ig-crystal-blossom-jewelry-set-1": {
+   "caption": "The blossom necklace and matching studs together, ready to give.\n\nCrystal Blossom Jewelry Set, in pink and purple. Under $40.\nShop it through the link in our bio. Free shipping over $35.\n\nKeep nature close.\n\n#amiees #jewelrygiftset #matchingjewelryset #flowerjewelryset #botanicaljewelry #flowerjewelry #naturejewelry",
+   "history": [
+    {
+     "collected_at": "2026-10-28T18:56:27+00:00",
+     "metrics": {
+      "comments": 1,
+      "likes": 3,
+      "shares": 0
+     }
+    }
+   ],
+   "latest": {
+    "comments": 1,
+    "likes": 3,
+    "shares": 0
+   },
+   "media_id": "18635688835062373",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "permalink": "https://www.instagram.com/p/DepmLzNIOJ3/",
+   "post_id": "ig-crystal-blossom-jewelry-set-1",
+   "posted_at": "2026-10-18T20:58:26+00:00",
+   "product": "crystal-blossom-jewelry-set",
+   "series": "product",
+   "unsupported_metrics": {
+    "comments": "permission unavailable",
+    "follows": "permission unavailable",
+    "ig_reels_avg_watch_time": "permission unavailable",
+    "ig_reels_video_view_total_time": "permission unavailable",
+    "likes": "permission unavailable",
+    "profile_activity": "permission unavailable",
+    "profile_visits": "permission unavailable",
+    "reach": "permission unavailable",
+    "reels_skip_rate": "permission unavailable",
+    "reposts": "permission unavailable",
+    "saved": "permission unavailable",
+    "shares": "permission unavailable",
+    "total_interactions": "permission unavailable",
+    "views": "permission unavailable"
+   }
+  },
+  "ig-crystal-blossom-pendant-necklace-1": {
+   "caption": "A five petal blossom pendant with a single crystal at its heart.\n\nCrystal Blossom Pendant Necklace, in pink and purple. Under $25.\nShop it through the link in our bio. Free shipping over $35.\n\nKeep nature close.\n\n#amiees #flowernecklace #cherryblossomnecklace #daintysilvernecklace #botanicaljewelry #flowerjewelry #naturejewelry",
+   "history": [
+    {
+     "collected_at": "2026-10-28T18:56:27+00:00",
+     "metrics": {
+      "comments": 0,
+      "likes": 2,
+      "shares": 0
+     }
+    }
+   ],
+   "latest": {
+    "comments": 0,
+    "likes": 2,
+    "shares": 0
+   },
+   "media_id": "18355636594169379",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "permalink": "https://www.instagram.com/p/Dew9PBjFwKM/",
+   "post_id": "ig-crystal-blossom-pendant-necklace-1",
+   "posted_at": "2026-10-21T17:34:39+00:00",
+   "product": "crystal-blossom-pendant-necklace",
+   "series": "product",
+   "unsupported_metrics": {
+    "comments": "permission unavailable",
+    "follows": "permission unavailable",
+    "ig_reels_avg_watch_time": "permission unavailable",
+    "ig_reels_video_view_total_time": "permission unavailable",
+    "likes": "permission unavailable",
+    "profile_activity": "permission unavailable",
+    "profile_visits": "permission unavailable",
+    "reach": "permission unavailable",
+    "reels_skip_rate": "permission unavailable",
+    "reposts": "permission unavailable",
+    "saved": "permission unavailable",
+    "shares": "permission unavailable",
+    "total_interactions": "permission unavailable",
+    "views": "permission unavailable"
+   }
+  },
+  "ig-dolphin-dreams-ring-1": {
+   "caption": "Two dolphins circling an open band.\n\nDolphin Dreams Ring, silver tone. Under $25.\nShop it through the link in our bio. Free shipping over $35.\n\nKeep nature close.\n\n#amiees #dolphinring #oceanring #silverdolphinring #naturejewelry #animaljewelry #whimsicaljewelry",
+   "history": [
+    {
+     "collected_at": "2026-10-28T18:56:27+00:00",
+     "metrics": {
+      "comments": 0,
+      "likes": 2,
+      "shares": 0
+     }
+    }
+   ],
+   "latest": {
+    "comments": 0,
+    "likes": 2,
+    "shares": 0
+   },
+   "media_id": "18115283074835845",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "permalink": "https://www.instagram.com/p/De2FbI6mFCT/",
+   "post_id": "ig-dolphin-dreams-ring-1",
+   "posted_at": "2026-10-23T17:22:34+00:00",
+   "product": "dolphin-dreams-ring",
+   "series": "product",
+   "unsupported_metrics": {
+    "comments": "permission unavailable",
+    "follows": "permission unavailable",
+    "ig_reels_avg_watch_time": "permission unavailable",
+    "ig_reels_video_view_total_time": "permission unavailable",
+    "likes": "permission unavailable",
+    "profile_activity": "permission unavailable",
+    "profile_visits": "permission unavailable",
+    "reach": "permission unavailable",
+    "reels_skip_rate": "permission unavailable",
+    "reposts": "permission unavailable",
+    "saved": "permission unavailable",
+    "shares": "permission unavailable",
+    "total_interactions": "permission unavailable",
+    "views": "permission unavailable"
+   }
+  },
+  "ig-nature-01-daisy-ring": {
+   "caption": "The word daisy comes from the Old English for \"day's eye.\" The flower closes at night and opens again with the morning light.\n\nThe Daisy Ring sets a single bloom and a small leaf on one open band, so it adjusts to your finger.\n\nKeep nature close. Shop the Daisy Ring through the link in bio.\n\n#amiees #naturejewelry #daisy #wildflowers #flowerring",
+   "history": [
+    {
+     "collected_at": "2026-10-28T18:56:27+00:00",
+     "metrics": {
+      "comments": 0,
+      "likes": 1,
+      "shares": 0
+     }
+    }
+   ],
+   "latest": {
+    "comments": 0,
+    "likes": 1,
+    "shares": 0
+   },
+   "media_id": "18077615648746016",
+   "media_product_type": "FEED",
+   "media_type": "IMAGE",
+   "permalink": "https://www.instagram.com/p/De-mE4BnTDP/",
+   "post_id": "ig-nature-01-daisy-ring",
+   "posted_at": "2026-10-27T00:42:06+00:00",
+   "product": "daisy-ring",
+   "series": "nature",
+   "unsupported_metrics": {
+    "comments": "permission unavailable",
+    "follows": "permission unavailable",
+    "ig_reels_avg_watch_time": "permission unavailable",
+    "ig_reels_video_view_total_time": "permission unavailable",
+    "likes": "permission unavailable",
+    "profile_activity": "permission unavailable",
+    "profile_visits": "permission unavailable",
+    "reach": "permission unavailable",
+    "reels_skip_rate": "permission unavailable",
+    "reposts": "permission unavailable",
+    "saved": "permission unavailable",
+    "shares": "permission unavailable",
+    "total_interactions": "permission unavailable",
+    "views": "permission unavailable"
+   }
+  },
+  "ig-nature-02-fancy-bee-earrings": {
+   "caption": "On a single trip out of the hive, a honeybee can visit between 50 and 100 flowers.\n\nFancy Bee Earrings: striped enamel bodies, cream wings and a small pearl on top.\n\nKeep nature close. Shop the Fancy Bee Earrings through the link in bio.\n\n#amiees #naturejewelry #honeybee #lavenderfields #beejewelry",
+   "history": [
+    {
+     "collected_at": "2026-10-28T18:56:27+00:00",
+     "metrics": {
+      "comments": 0,
+      "likes": 1,
+      "shares": 0
+     }
+    }
+   ],
+   "latest": {
+    "comments": 0,
+    "likes": 1,
+    "shares": 0
+   },
+   "media_id": "17914746786501300",
+   "media_product_type": "FEED",
+   "media_type": "IMAGE",
+   "permalink": "https://www.instagram.com/p/DfBKtgPDwCA/",
+   "post_id": "ig-nature-02-fancy-bee-earrings",
+   "posted_at": "2026-10-28T00:40:42+00:00",
+   "product": "fancy-bee-earrings",
+   "series": "nature",
+   "unsupported_metrics": {
+    "comments": "permission unavailable",
+    "follows": "permission unavailable",
+    "ig_reels_avg_watch_time": "permission unavailable",
+    "ig_reels_video_view_total_time": "permission unavailable",
+    "likes": "permission unavailable",
+    "profile_activity": "permission unavailable",
+    "profile_visits": "permission unavailable",
+    "reach": "permission unavailable",
+    "reels_skip_rate": "permission unavailable",
+    "reposts": "permission unavailable",
+    "saved": "permission unavailable",
+    "shares": "permission unavailable",
+    "total_interactions": "permission unavailable",
+    "views": "permission unavailable"
+   }
+  },
+  "ig-radiant-bloom-flower-necklace-1": {
+   "caption": "A sparkling daisy pendant on a dainty chain, made for everyday wear.\n\nRadiant Bloom Flower Necklace, in gold tone and silver tone. Under $25.\nShop it through the link in our bio. Free shipping over $35.\n\nKeep nature close.\n\n#amiees #daisynecklace #flowernecklace #daintydaisynecklace #botanicaljewelry #flowerjewelry #naturejewelry",
+   "history": [
+    {
+     "collected_at": "2026-10-28T18:56:27+00:00",
+     "metrics": {
+      "comments": 0,
+      "likes": 3,
+      "shares": 0
+     }
+    }
+   ],
+   "latest": {
+    "comments": 0,
+    "likes": 3,
+    "shares": 0
+   },
+   "media_id": "18094257821429016",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "permalink": "https://www.instagram.com/p/Dd924BZDGrK/",
+   "post_id": "ig-radiant-bloom-flower-necklace-1",
+   "posted_at": "2026-10-01T21:17:54+00:00",
+   "product": "radiant-bloom-flower-necklace",
+   "series": "product",
+   "unsupported_metrics": {
+    "comments": "permission unavailable",
+    "follows": "permission unavailable",
+    "ig_reels_avg_watch_time": "permission unavailable",
+    "ig_reels_video_view_total_time": "permission unavailable",
+    "likes": "permission unavailable",
+    "profile_activity": "permission unavailable",
+    "profile_visits": "permission unavailable",
+    "reach": "permission unavailable",
+    "reels_skip_rate": "permission unavailable",
+    "reposts": "permission unavailable",
+    "saved": "permission unavailable",
+    "shares": "permission unavailable",
+    "total_interactions": "permission unavailable",
+    "views": "permission unavailable"
+   }
+  },
+  "ig-soleil-sun-pendant-necklace-1": {
+   "caption": "A little sun pendant on a gold tone chain with colorful beads.\n\nSoleil Sun Pendant Necklace. Under $20.\nShop it through the link in our bio. Free shipping over $35.\n\nKeep nature close.\n\n#amiees #sunnecklace #sunpendantnecklace #celestialnecklace #celestialjewelry #moonandstars #naturejewelry",
+   "history": [
+    {
+     "collected_at": "2026-10-28T18:56:27+00:00",
+     "metrics": {
+      "comments": 0,
+      "likes": 3,
+      "shares": 0
+     }
+    }
+   ],
+   "latest": {
+    "comments": 0,
+    "likes": 3,
+    "shares": 0
+   },
+   "media_id": "18111764324613719",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "permalink": "https://www.instagram.com/p/DeIqaUoDP5D/",
+   "post_id": "ig-soleil-sun-pendant-necklace-1",
+   "posted_at": "2026-10-06T02:01:19+00:00",
+   "product": "soleil-sun-pendant-necklace",
+   "series": "product",
+   "unsupported_metrics": {
+    "comments": "permission unavailable",
+    "follows": "permission unavailable",
+    "ig_reels_avg_watch_time": "permission unavailable",
+    "ig_reels_video_view_total_time": "permission unavailable",
+    "likes": "permission unavailable",
+    "profile_activity": "permission unavailable",
+    "profile_visits": "permission unavailable",
+    "reach": "permission unavailable",
+    "reels_skip_rate": "permission unavailable",
+    "reposts": "permission unavailable",
+    "saved": "permission unavailable",
+    "shares": "permission unavailable",
+    "total_interactions": "permission unavailable",
+    "views": "permission unavailable"
+   }
+  },
+  "ig-sun-moon-layered-necklace-1": {
+   "caption": "A crescent moon and an open sun on two layered chains, worn as one piece.\n\nSun & Moon Layered Necklace, in gold tone and silver tone. Under $25.\nShop it through the link in our bio. Free shipping over $35.\n\nKeep nature close.\n\n#amiees #sunandmoonnecklace #celestialnecklace #daintylayerednecklace #celestialjewelry #moonandstars #naturejewelry",
+   "history": [
+    {
+     "collected_at": "2026-10-28T18:56:27+00:00",
+     "metrics": {
+      "comments": 0,
+      "likes": 3,
+      "shares": 0
+     }
+    }
+   ],
+   "latest": {
+    "comments": 0,
+    "likes": 3,
+    "shares": 0
+   },
+   "media_id": "17927983545184089",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "permalink": "https://www.instagram.com/p/DeaMJHVFLK4/",
+   "post_id": "ig-sun-moon-layered-necklace-1",
+   "posted_at": "2026-10-12T21:22:25+00:00",
+   "product": "sun-moon-layered-necklace",
+   "series": "product",
+   "unsupported_metrics": {
+    "comments": "permission unavailable",
+    "follows": "permission unavailable",
+    "ig_reels_avg_watch_time": "permission unavailable",
+    "ig_reels_video_view_total_time": "permission unavailable",
+    "likes": "permission unavailable",
+    "profile_activity": "permission unavailable",
+    "profile_visits": "permission unavailable",
+    "reach": "permission unavailable",
+    "reels_skip_rate": "permission unavailable",
+    "reposts": "permission unavailable",
+    "saved": "permission unavailable",
+    "shares": "permission unavailable",
+    "total_interactions": "permission unavailable",
+    "views": "permission unavailable"
+   }
+  },
+  "ig-tropical-monstera-leaf-huggie-earrings-1": {
+   "caption": "Enamel monstera leaves on gold tone huggies, a small gift for plant lovers.\n\nTropical Monstera Leaf Huggie Earrings, in monochrome, blue, rainbow, and purple. Under $25.\nShop it through the link in our bio. Free shipping over $35.\n\nKeep nature close.\n\n#amiees #leafearrings #monsteraleafearrings #goldleafearrings #botanicaljewelry #flowerjewelry #naturejewelry",
+   "history": [
+    {
+     "collected_at": "2026-10-28T18:56:27+00:00",
+     "metrics": {
+      "comments": 0,
+      "likes": 3,
+      "shares": 0
+     }
+    }
+   ],
+   "latest": {
+    "comments": 0,
+    "likes": 3,
+    "shares": 0
+   },
+   "media_id": "18493824418102180",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "permalink": "https://www.instagram.com/p/DeXbnoRjnSi/",
+   "post_id": "ig-tropical-monstera-leaf-huggie-earrings-1",
+   "posted_at": "2026-10-11T19:39:41+00:00",
+   "product": "tropical-monstera-leaf-huggie-earrings",
+   "series": "product",
+   "unsupported_metrics": {
+    "comments": "permission unavailable",
+    "follows": "permission unavailable",
+    "ig_reels_avg_watch_time": "permission unavailable",
+    "ig_reels_video_view_total_time": "permission unavailable",
+    "likes": "permission unavailable",
+    "profile_activity": "permission unavailable",
+    "profile_visits": "permission unavailable",
+    "reach": "permission unavailable",
+    "reels_skip_rate": "permission unavailable",
+    "reposts": "permission unavailable",
+    "saved": "permission unavailable",
+    "shares": "permission unavailable",
+    "total_interactions": "permission unavailable",
+    "views": "permission unavailable"
+   }
+  }
+ },
+ "schema_version": 1,
+ "updated_at": "2026-10-28T18:56:27+00:00"
+}
