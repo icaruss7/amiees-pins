@@ -361,6 +361,10 @@ def main():
             permission_notes,
         )
         metrics = enrich_metrics(metrics, metadata)
+        # If a count was recovered from the ordinary media metadata endpoint,
+        # it is usable even though the Insights endpoint itself rejected it.
+        for recovered in list(metrics):
+            unsupported.pop(recovered, None)
 
         row = queue.get(post_id, {})
         post = analytics.setdefault("posts", {}).setdefault(post_id, {})
