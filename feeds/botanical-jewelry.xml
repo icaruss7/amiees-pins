@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Oct 2026 12:41:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 22:29:37 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Jewelry Gift Set | Botanical Jewelry</title>
@@ -330,6 +330,15 @@
       <pubDate>Tue, 27 Oct 2026 13:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/tropical-monstera-leaf-huggie-earrings-black-white-image-only.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/tropical-monstera-leaf-huggie-earrings-black-white-image-only.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Purple Iris Huggie Earrings | Nature Inspired Jewelry</title>
+      <link>https://amiees.com/products/purple-iris-hoop-earrings?utm_source=pinterest&amp;utm_medium=organic&amp;utm_campaign=nature_series&amp;utm_content=amiees-nature-03-purple-iris-hoop-earrings</link>
+      <description>The iris is named after the Greek goddess of the rainbow, because the flower comes in almost every color. Purple Iris Huggie Earrings: enamel petals and leaves on a hoop that wraps the lobe. Shop the Purple Iris Huggie Earrings at amiees.com.</description>
+      <guid isPermaLink="false">amiees-nature-03-purple-iris-hoop-earrings</guid>
+      <pubDate>Wed, 28 Oct 2026 16:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/nature-purple-iris-hoop-earrings.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/nature-purple-iris-hoop-earrings.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
