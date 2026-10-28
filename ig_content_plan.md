@@ -171,7 +171,7 @@ Recommendations only. These dates are editorial review days, not new posting slo
 
 ## Input fingerprints
 
-- `ig_analytics.json`: `8a4249078c551250247ddfd3bddd50ecc2b3c8e3bf457de6194a26473b80a6ff`
-- `ig_learning.json`: `d3b0e2714096d34557af2955b020465636be2c6b9de5ccd7cc29526ecfd6fc02`
+- `ig_analytics.json`: `6d356db69d04c6d82890d8f7c688d2a588928ea7b1b5f24b3c1cccd4cbae2dff`
+- `ig_learning.json`: `9b4ef89805b44b1d5948bcb455bfcd0df2f18a53c12e19582ae6d7ca82272858`
 - `ig_queue.csv`: `88d640724d599b4bc2e9172fa724149356ca45a550f44fd8e047996a9292a324`
-- `ig_state.json`: `1b224498b3be8c35f141c7658d97f83fa86b0e01c2f9ec82fa1f6aed14d8a787`
+- `ig_state.json`: `596cd0dfea5d1c5802caa53a8dcc2ad3686695252ea0983159a8e74321f7c9c4`
