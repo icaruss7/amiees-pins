@@ -1,0 +1,37 @@
+name: Check Buffer TikTok connection
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [buffer_connection.py, test_buffer_connection.py, '.github/workflows/buffer-connection.yml']
+  pull_request:
+    paths: [buffer_connection.py, test_buffer_connection.py, '.github/workflows/buffer-connection.yml']
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m unittest -v test_buffer_connection
+
+  connection:
+    needs: verify
+    if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Read Buffer connection status only
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python buffer_connection.py --channel-id 673d4900da2e3cb64c96536a --handle amiees.com
