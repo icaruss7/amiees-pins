@@ -1,0 +1,87 @@
+name: Content Pipeline Validation and Lineage
+
+on:
+  schedule:
+    - cron: "47 15 * * *" # after the existing daily Instagram Analytics job
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - content_pipeline.py
+      - content_assets.py
+      - ig_pipeline_media.py
+      - test_content_pipeline.py
+      - requirements-content-pipeline.txt
+      - ig_analytics.py
+      - content/manifest.schema.json
+      - content/experiments.json
+      - .github/workflows/content-pipeline.yml
+  pull_request:
+    paths:
+      - content_pipeline.py
+      - content_assets.py
+      - ig_pipeline_media.py
+      - test_content_pipeline.py
+      - requirements-content-pipeline.txt
+      - ig_analytics.py
+      - content/**
+      - .github/workflows/content-pipeline.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: content-pipeline-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install -r requirements-content-pipeline.txt
+      - name: Test ingestion, approval boundaries and planner compatibility
+        run: python -m unittest -v test_content_pipeline test_ig_content_planner test_ig_publish
+
+  reconcile:
+    needs: verify
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Reconcile existing publication and analytics evidence only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "amiees-pipeline-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python content_pipeline.py sync
+            git diff --exit-code -- ig_queue.csv pins.csv ig_state.json ig_analytics.json ig_learning.json ig_content_plan.json
+            git add -- content/experiments.json
+            if git diff --cached --quiet; then
+              echo "No new lineage evidence. No queues changed."
+              exit 0
+            fi
+            git commit -m "Reconcile content experiments with publication and analytics evidence"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Another writer advanced main; refreshing lineage (attempt $attempt)."
+          done
+          exit 1

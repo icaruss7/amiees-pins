@@ -1,0 +1,40 @@
+name: Instagram Analytics
+
+on:
+  schedule:
+    - cron: "23 14 * * *"     # daily, separate from publishing jobs
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-analytics
+  cancel-in-progress: false
+
+jobs:
+  analytics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Collect Instagram analytics
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python3 ig_analytics.py
+
+      - name: Build learning report
+        run: python3 ig_learning.py
+
+      - name: Save analytics history and learning
+        run: |
+          git config user.name  "amiees-analytics-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain ig_analytics.json ig_learning.json ig_weekly_report.md)" ]; then
+            git add ig_analytics.json ig_learning.json ig_weekly_report.md
+            git commit -m "Instagram analytics as of $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git pull --rebase
+            git push
+          else
+            echo "No analytics changes."
+          fi

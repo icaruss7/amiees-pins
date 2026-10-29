@@ -1,3 +1,7 @@
 __pycache__/
 *.pyc
 .DS_Store
+content/finished/*
+!content/finished/README.md
+content/.pipeline.lock
+content/*.tmp

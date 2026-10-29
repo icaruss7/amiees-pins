@@ -1,4 +1,6 @@
 import importlib.util
+import hashlib
+import io
 import json
 import subprocess
 import tempfile
@@ -149,13 +151,13 @@ class PublisherTests(unittest.TestCase):
         self.assertFalse(any(e[0].endswith('/media_publish') for e in self.events))
 
     def test_atomic_state_is_readable(self):
-        with tempfile.TemporaryDirectory() as directory, patch.object(p, 'STATE', str(Path(directory) / 'state.json')), patch.object(p, 'DURABLE_GIT', False):
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parent) as directory, patch.object(p, 'STATE', str(Path(directory) / 'state.json')), patch.object(p, 'DURABLE_GIT', False):
             p.checkpoint({'test-1': {'phase': 'publishing'}})
             self.assertEqual(json.loads(Path(p.STATE).read_text())['test-1']['phase'], 'publishing')
             self.assertFalse(Path(p.STATE + '.tmp').exists())
 
     def test_dry_run_has_no_network_or_state_writes_even_with_token(self):
-        with tempfile.TemporaryDirectory() as directory:
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parent) as directory:
             queue = Path(directory) / 'queue.csv'
             queue.write_text('post_id,release_at,caption,images,status\ntest-1,2026-01-01 00:00:00,Cat,https://cdn.example.com/cat.jpg,queued\n')
             with patch.object(p, 'QUEUE', str(queue)), patch.object(p, 'STATE', str(Path(directory) / 'missing.json')), patch.object(p, 'DRY_RUN', True), patch.object(p, 'TOKEN', 'test-secret'), patch.object(p, 'call') as api, patch.object(p, 'checkpoint') as save:
@@ -164,7 +166,7 @@ class PublisherTests(unittest.TestCase):
                 save.assert_not_called()
 
     def test_git_failure_never_exposes_output(self):
-        with tempfile.TemporaryDirectory() as directory, patch.object(p, 'STATE', str(Path(directory) / 'state.json')), patch.object(p, 'DURABLE_GIT', True), patch.object(p.subprocess, 'run') as run:
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parent) as directory, patch.object(p, 'STATE', str(Path(directory) / 'state.json')), patch.object(p, 'DURABLE_GIT', True), patch.object(p.subprocess, 'run') as run:
             run.return_value.returncode = 128
             with self.assertRaisesRegex(RuntimeError, 'persist publication state') as error:
                 p.checkpoint({})
@@ -178,8 +180,49 @@ class PublisherTests(unittest.TestCase):
                     p.verify_video(self.row)
                 opener.assert_not_called()
 
+    def test_hosted_video_checksum_is_checked_without_redirects(self):
+        body = b'actual hosted video bytes'
+        row = dict(video_url='https://cdn.shopify.com/videos/c/o/v/reviewed.mp4',
+                   video_sha256=hashlib.sha256(body).hexdigest())
+        with patch.dict(p.os.environ, {'IG_VIDEO_PREFIX': 'https://cdn.shopify.com/videos/c/o/v/'}), \
+                patch.object(p.urllib.request, 'build_opener') as opener:
+            opener.return_value.open.return_value = io.BytesIO(body)
+            p.verify_video(row)
+            self.assertEqual(opener.call_args.args, (p.NoRedirect,))
+            opener.return_value.open.return_value = io.BytesIO(b'replaced video')
+            with self.assertRaisesRegex(ValueError, 'does not match'):
+                p.verify_video(row)
+            opener.return_value.open.return_value = io.BytesIO(b'')
+            with self.assertRaises(ValueError):
+                p.verify_video(row)
+
+    def test_wrong_account_and_unresolved_state_block_new_sends(self):
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parent) as directory:
+            queue, state = Path(directory) / 'queue.csv', Path(directory) / 'state.json'
+            queue.write_text('post_id,release_at,caption,images,status\ntest-1,2026-01-01 00:00:00,Cat,https://cdn.example.com/cat.jpg,queued\n')
+            state.write_text('{}')
+            with patch.object(p, 'QUEUE', str(queue)), patch.object(p, 'STATE', str(state)), \
+                    patch.object(p, 'DRY_RUN', False), patch.object(p, 'TOKEN', 'fixture'), \
+                    patch.object(p, 'DURABLE_GIT', True), patch.object(p, 'find_ig_user', return_value=('wrong', 'other')), \
+                    patch.object(p, 'publish') as send:
+                with self.assertRaisesRegex(RuntimeError, 'username'):
+                    p.main()
+                send.assert_not_called()
+                state.write_text(json.dumps({'old': {'phase': 'publishing'}}))
+                self.assertEqual(p.main(), 1)
+                send.assert_not_called()
+
+    def test_cover_change_cannot_reuse_prepared_reel(self):
+        self.row.update(media_type='REELS', images='', video_url='https://cdn.example.com/a.mp4',
+                        video_sha256='a' * 64, cover_url='https://cdn.example.com/a.jpg')
+        self.state['test-1'] = {'container_id': 'prepared', 'fingerprint': p.fingerprint(self.row), 'phase': 'ready'}
+        self.row['cover_url'] = 'https://cdn.example.com/b.jpg'
+        with self.assertRaisesRegex(RuntimeError, 'changed'):
+            self.run_publish()
+        self.assertEqual(self.events, [])
+
     def test_real_git_checkpoint_reaches_remote_before_publication(self):
-        with tempfile.TemporaryDirectory() as directory:
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parent) as directory:
             remote, work = Path(directory) / 'remote.git', Path(directory) / 'work'
             work.mkdir()
             def git(*args, cwd=work):
@@ -209,7 +252,25 @@ class PublisherTests(unittest.TestCase):
             saved = json.loads(git('--git-dir', str(remote), 'show', 'main:ig_state.json'))
             self.assertEqual(saved['test-1']['phase'], 'published')
 
+            # A competing writer advances main. A stale runner must stop before publishing.
+            other = Path(directory) / 'other'
+            git('clone', str(remote), str(other))
+            git('checkout', 'main', cwd=other)
+            git('config', 'user.name', 'Concurrent fixture', cwd=other)
+            git('config', 'user.email', 'fixture@example.invalid', cwd=other)
+            (other / 'note.txt').write_text('unrelated remote change')
+            git('add', 'note.txt', cwd=other)
+            git('commit', '-m', 'Advance fixture remote', cwd=other)
+            git('push', 'origin', 'main', cwd=other)
+            new_row = {**self.row, 'post_id': 'test-2'}
+            def no_publication(method, path, **params):
+                self.assertFalse(path.endswith('/media_publish'))
+                return {'id': 'container-2', 'status_code': 'FINISHED'}
+            with patch.object(p, 'HERE', str(work)), patch.object(p, 'STATE', str(work / 'ig_state.json')), \
+                    patch.object(p, 'DURABLE_GIT', True), patch.object(p, 'call', side_effect=no_publication):
+                with self.assertRaisesRegex(RuntimeError, 'persist publication state'):
+                    p.publish('account-1', new_row, self.state)
+
 
 if __name__ == '__main__':
     unittest.main()
-

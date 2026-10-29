@@ -32,9 +32,12 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 
+from ig_pipeline_media import resolve_row
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 QUEUE = os.path.join(HERE, "ig_queue.csv")
 STATE = os.path.join(HERE, "ig_state.json")
+REGISTRY = os.path.join(HERE, "content", "experiments.json")
 
 API = "https://graph.facebook.com/" + os.environ.get("GRAPH_VERSION", "v26.0")
 TOKEN = os.environ.get("IG_TOKEN", "").strip()
@@ -171,6 +174,8 @@ def validate_row(row):
     images = [https_url(u.strip()) for u in row.get("images", "").split("|") if u.strip()]
     if kind == "REELS":
         https_url(row.get("video_url", ""))
+        if row.get("cover_url"):
+            https_url(row["cover_url"])
         if images:
             raise ValueError("A Reel row must not also contain carousel images")
         if not re.fullmatch(r"[a-f0-9]{64}", row.get("video_sha256", "")):
@@ -186,7 +191,7 @@ def validate_row(row):
 
 
 def fingerprint(row):
-    keys = ("post_id", "caption", "images", "media_type", "video_url", "video_sha256")
+    keys = ("post_id", "caption", "images", "media_type", "video_url", "video_sha256", "cover_url")
     return hashlib.sha256(json.dumps({k: row.get(k, "") for k in keys},
                                    sort_keys=True).encode()).hexdigest()
 
@@ -268,9 +273,10 @@ def publish(ig_user, row, state):
     if not entry.get("container_id"):
         if kind == "REELS":
             verify_video(row)
+            options = {"cover_url": row["cover_url"]} if row.get("cover_url") else {}
             parent = call("POST", f"{ig_user}/media", media_type="REELS",
                           video_url=row["video_url"], caption=row["caption"],
-                          share_to_feed="true")["id"]
+                          share_to_feed="true", **options)["id"]
         elif len(images) == 1:
             parent = call("POST", f"{ig_user}/media", image_url=images[0], caption=row["caption"])["id"]
         else:
@@ -312,6 +318,11 @@ def main():
     now = datetime.now(timezone.utc)
     with open(QUEUE, encoding="utf-8-sig", newline="") as fh:
         rows = list(csv.DictReader(fh))
+    registry = {}
+    if os.path.exists(REGISTRY):
+        with open(REGISTRY, encoding="utf-8-sig") as fh:
+            registry = json.load(fh)
+    rows = [resolve_row(row, registry) if row.get("status") == "queued" else row for row in rows]
     if os.path.exists(STATE):
         with open(STATE, encoding="utf-8") as fh:
             state = json.load(fh)
@@ -368,4 +379,3 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
-
