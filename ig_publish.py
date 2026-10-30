@@ -32,7 +32,7 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 
-from ig_pipeline_media import resolve_row
+from ig_pipeline_media import resolve_row, audio_configuration
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 QUEUE = os.path.join(HERE, "ig_queue.csv")
@@ -180,6 +180,8 @@ def validate_row(row):
             raise ValueError("A Reel row must not also contain carousel images")
         if not re.fullmatch(r"[a-f0-9]{64}", row.get("video_sha256", "")):
             raise ValueError("A Reel needs the SHA-256 of the reviewed video")
+        if row.get("audio_configuration") is not None:
+            audio_configuration(row["audio_configuration"])
     elif kind == "IMAGE":
         if not 1 <= len(images) <= 10:
             raise ValueError("An image post needs 1 to 10 images")
@@ -187,13 +189,33 @@ def validate_row(row):
             raise ValueError("An image row must not contain a video URL")
     else:
         raise ValueError("media_type must be IMAGE or REELS")
+    if kind != "REELS" and (row.get("audio_configuration") or row.get("schedule_mode")):
+        raise ValueError("Native audio and additional Reel slots require a Reel")
+    if "is_ai_generated" in row and type(row["is_ai_generated"]) is not bool:
+        raise ValueError("is_ai_generated must be a boolean")
+    if row.get("schedule_mode") not in (None, "additional_reel"):
+        raise ValueError("Unknown scheduling mode")
     return kind, images
 
 
 def fingerprint(row):
     keys = ("post_id", "caption", "images", "media_type", "video_url", "video_sha256", "cover_url")
-    return hashlib.sha256(json.dumps({k: row.get(k, "") for k in keys},
+    value = {k: row.get(k, "") for k in keys}
+    value.update({k: row[k] for k in ("audio_configuration", "is_ai_generated", "schedule_mode") if k in row})
+    return hashlib.sha256(json.dumps(value,
                                    sort_keys=True).encode()).hexdigest()
+
+
+def spacing_ready(row, state, rows, now):
+    """Keep normal posts 20 hours apart; approved extra Reels allow an 8-hour gap."""
+    extra_ids = {r["post_id"] for r in rows if r.get("schedule_mode") == "additional_reel"}
+    for identity, entry in state.items():
+        if not entry.get("posted_at"):
+            continue
+        hours = 8 if row["post_id"] in extra_ids or identity in extra_ids else MIN_GAP_HOURS
+        if (now - datetime.fromisoformat(entry["posted_at"])).total_seconds() < hours * 3600:
+            return False
+    return True
 
 
 class NoRedirect(urllib.request.HTTPRedirectHandler):
@@ -274,6 +296,10 @@ def publish(ig_user, row, state):
         if kind == "REELS":
             verify_video(row)
             options = {"cover_url": row["cover_url"]} if row.get("cover_url") else {}
+            if row.get("audio_configuration"):
+                options["audio_configuration"] = json.dumps(audio_configuration(row["audio_configuration"]))
+            if row.get("is_ai_generated") is True:
+                options["is_ai_generated"] = "true"
             parent = call("POST", f"{ig_user}/media", media_type="REELS",
                           video_url=row["video_url"], caption=row["caption"],
                           share_to_feed="true", **options)["id"]
@@ -341,9 +367,8 @@ def main():
     if unresolved:
         print("Publication needs reconciliation: " + ", ".join(unresolved))
         return 1
-    posted_times = [datetime.fromisoformat(s["posted_at"]) for s in state.values() if s.get("posted_at")]
-    if todo and posted_times and (now - max(posted_times)).total_seconds() < MIN_GAP_HOURS * 3600:
-        print(f"Last post went out under {MIN_GAP_HOURS:g} hours ago, so the next one waits.")
+    if todo and not spacing_ready(todo[0], state, rows, now):
+        print("The next post waits for its approved spacing window.")
         todo = []
     print(f"{len(todo)} post(s) due now.")
     if DRY_RUN:

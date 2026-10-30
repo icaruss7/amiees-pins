@@ -1,4 +1,413 @@
 {
-  "schema_version": 1,
-  "items": {}
+  "items": {
+    "reel-20261029-blue-butterfly-hoop-earrings--instagram": {
+      "analytics_linkage": null,
+      "approval": null,
+      "caption": "Spot the blue butterflies.\n\nA little color. A little nature. Keep both close.\nShop the Blue Butterfly Huggie Earrings through the link in our bio.\n\n#NatureInspiredJewelry #Amiees",
+      "caption_file": "caption.txt",
+      "content_angle": "nature_detail_reveal",
+      "content_sha256": "81278734b783df0a1b006f01a1e21b83bf6db173f968444d550f731dba7b6b7a",
+      "experiment_id": "reel-20261029-blue-butterfly-hoop-earrings",
+      "final_assets": [
+        {
+          "alt": "Blue Butterfly Huggie Earrings in a short nature-inspired jewelry detail Reel.",
+          "audio_codecs": [],
+          "bytes": 15203353,
+          "codec": "h264",
+          "duration_seconds": 8.3,
+          "height": 1920,
+          "media_type": "MP4",
+          "path": "final/video.mp4",
+          "role": "video",
+          "sha256": "c3238bbad7073f1f6774cea99e2c7de0e0c13a92d6f2c5086e7adc405b61be5e",
+          "width": 1080
+        },
+        {
+          "alt": "Blue Butterfly Huggie Earrings in a short nature-inspired jewelry detail Reel.",
+          "bytes": 268663,
+          "height": 1920,
+          "media_type": "JPEG",
+          "path": "final/cover.jpg",
+          "role": "cover",
+          "sha256": "e7720a5d5352a09545d3f4060e367387bd9d184ad4dfc8f42abd4e1b0a732485",
+          "width": 1080
+        }
+      ],
+      "format": "REELS",
+      "history": [
+        {
+          "action": "content_ingested",
+          "approvals_invalidated": false,
+          "at": "2026-10-30T00:45:03.020185+00:00",
+          "status": "needs_content"
+        },
+        {
+          "action": "content_ingested",
+          "approvals_invalidated": true,
+          "at": "2026-10-30T00:45:04.506359+00:00",
+          "status": "ready_for_review"
+        }
+      ],
+      "hook": "Spot the blue butterflies.",
+      "hook_placement": "overlay",
+      "hypothesis": "A short nature detail reveal paired with commercially eligible native trending audio may increase qualified profile visits. This is exploratory, not a controlled comparison or evidence of a winner.",
+      "is_ai_generated": true,
+      "objective": "Product discovery and consideration",
+      "permalink": null,
+      "pinterest": {
+        "board": "",
+        "description": "",
+        "destination_url": "",
+        "keywords": [],
+        "title": ""
+      },
+      "pipeline_item_id": "reel-20261029-blue-butterfly-hoop-earrings--instagram",
+      "planner_reference": null,
+      "platform": "instagram",
+      "primary_success_metric": {
+        "definition": "Attributed profile visits where available; missing metrics remain unknown. Interpret low reach conservatively.",
+        "name": "profile_visits"
+      },
+      "product": "blue-butterfly-hoop-earrings",
+      "published_post_id": null,
+      "publishing_status": "ready_for_review",
+      "queue_draft": null,
+      "queue_id": "ig-exp-reel-20261029-blue-butterfly-hoop-earrings",
+      "requested_scheduled_at": null,
+      "revisions": [
+        {
+          "analytics_linkage": null,
+          "approval": null,
+          "caption": "",
+          "caption_file": "caption.txt",
+          "content_angle": "",
+          "content_sha256": null,
+          "experiment_id": "reel-20261029-blue-butterfly-hoop-earrings",
+          "final_assets": [],
+          "format": "REELS",
+          "hook": "",
+          "hook_placement": "caption_opening",
+          "hypothesis": "",
+          "objective": "",
+          "permalink": null,
+          "pinterest": {
+            "board": "",
+            "description": "",
+            "destination_url": "",
+            "keywords": [],
+            "title": ""
+          },
+          "pipeline_item_id": "reel-20261029-blue-butterfly-hoop-earrings--instagram",
+          "planner_reference": null,
+          "platform": "instagram",
+          "primary_success_metric": {
+            "definition": "Accounts reached",
+            "name": "reach"
+          },
+          "product": "blue-butterfly-hoop-earrings",
+          "published_post_id": null,
+          "publishing_status": "needs_content",
+          "queue_draft": null,
+          "queue_id": "ig-exp-reel-20261029-blue-butterfly-hoop-earrings",
+          "requested_scheduled_at": null,
+          "schedule_approval": null,
+          "scheduled_at": null,
+          "schema_version": 1,
+          "shopify_cdn_urls": [],
+          "shopify_files": [],
+          "source_assets": [],
+          "validation_errors": [
+            "Fill in content_angle"
+          ]
+        }
+      ],
+      "schedule_approval": null,
+      "schedule_mode": "additional_reel",
+      "scheduled_at": null,
+      "schema_version": 1,
+      "shopify_cdn_urls": [],
+      "shopify_files": [],
+      "source_assets": [
+        {
+          "bytes": 15203353,
+          "path": "source/blue-butterfly-hoop-earrings-reel-v2.mp4",
+          "sha256": "c3238bbad7073f1f6774cea99e2c7de0e0c13a92d6f2c5086e7adc405b61be5e"
+        }
+      ],
+      "validation_errors": []
+    },
+    "reel-20261029-dolphin-dreams-ring--instagram": {
+      "analytics_linkage": null,
+      "approval": null,
+      "caption": "Spot the dolphin.\n\nA little piece of the ocean to keep close.\nShop the Dolphin Dreams Ring through the link in our bio.\n\n#NatureInspiredJewelry #Amiees",
+      "caption_file": "caption.txt",
+      "content_angle": "nature_detail_reveal",
+      "content_sha256": "57d384e2624d9abfd63e29d8b017f330d2d81d5f8c204dff8dce88af90895a76",
+      "experiment_id": "reel-20261029-dolphin-dreams-ring",
+      "final_assets": [
+        {
+          "alt": "Dolphin Dreams Ring in a short nature-inspired jewelry detail Reel.",
+          "audio_codecs": [],
+          "bytes": 12472567,
+          "codec": "h264",
+          "duration_seconds": 7.5,
+          "height": 1920,
+          "media_type": "MP4",
+          "path": "final/video.mp4",
+          "role": "video",
+          "sha256": "75832357732ec5af6a78c97c217bf930f0debc9f5566678e962e93780693b570",
+          "width": 1080
+        },
+        {
+          "alt": "Dolphin Dreams Ring in a short nature-inspired jewelry detail Reel.",
+          "bytes": 303736,
+          "height": 1920,
+          "media_type": "JPEG",
+          "path": "final/cover.jpg",
+          "role": "cover",
+          "sha256": "a539cc3953d6d0e422b22bb9862861a549d9d331c311a3e997c38c89a8d20e83",
+          "width": 1080
+        }
+      ],
+      "format": "REELS",
+      "history": [
+        {
+          "action": "content_ingested",
+          "approvals_invalidated": false,
+          "at": "2026-10-30T00:45:01.745182+00:00",
+          "status": "needs_content"
+        },
+        {
+          "action": "content_ingested",
+          "approvals_invalidated": true,
+          "at": "2026-10-30T00:45:03.005087+00:00",
+          "status": "ready_for_review"
+        }
+      ],
+      "hook": "Spot the dolphin.",
+      "hook_placement": "overlay",
+      "hypothesis": "A short nature detail reveal paired with commercially eligible native trending audio may increase qualified profile visits. This is exploratory, not a controlled comparison or evidence of a winner.",
+      "is_ai_generated": true,
+      "objective": "Product discovery and consideration",
+      "permalink": null,
+      "pinterest": {
+        "board": "",
+        "description": "",
+        "destination_url": "",
+        "keywords": [],
+        "title": ""
+      },
+      "pipeline_item_id": "reel-20261029-dolphin-dreams-ring--instagram",
+      "planner_reference": null,
+      "platform": "instagram",
+      "primary_success_metric": {
+        "definition": "Attributed profile visits where available; missing metrics remain unknown. Interpret low reach conservatively.",
+        "name": "profile_visits"
+      },
+      "product": "dolphin-dreams-ring",
+      "published_post_id": null,
+      "publishing_status": "ready_for_review",
+      "queue_draft": null,
+      "queue_id": "ig-exp-reel-20261029-dolphin-dreams-ring",
+      "requested_scheduled_at": null,
+      "revisions": [
+        {
+          "analytics_linkage": null,
+          "approval": null,
+          "caption": "",
+          "caption_file": "caption.txt",
+          "content_angle": "",
+          "content_sha256": null,
+          "experiment_id": "reel-20261029-dolphin-dreams-ring",
+          "final_assets": [],
+          "format": "REELS",
+          "hook": "",
+          "hook_placement": "caption_opening",
+          "hypothesis": "",
+          "objective": "",
+          "permalink": null,
+          "pinterest": {
+            "board": "",
+            "description": "",
+            "destination_url": "",
+            "keywords": [],
+            "title": ""
+          },
+          "pipeline_item_id": "reel-20261029-dolphin-dreams-ring--instagram",
+          "planner_reference": null,
+          "platform": "instagram",
+          "primary_success_metric": {
+            "definition": "Accounts reached",
+            "name": "reach"
+          },
+          "product": "dolphin-dreams-ring",
+          "published_post_id": null,
+          "publishing_status": "needs_content",
+          "queue_draft": null,
+          "queue_id": "ig-exp-reel-20261029-dolphin-dreams-ring",
+          "requested_scheduled_at": null,
+          "schedule_approval": null,
+          "scheduled_at": null,
+          "schema_version": 1,
+          "shopify_cdn_urls": [],
+          "shopify_files": [],
+          "source_assets": [],
+          "validation_errors": [
+            "Fill in content_angle"
+          ]
+        }
+      ],
+      "schedule_approval": null,
+      "schedule_mode": "additional_reel",
+      "scheduled_at": null,
+      "schema_version": 1,
+      "shopify_cdn_urls": [],
+      "shopify_files": [],
+      "source_assets": [
+        {
+          "bytes": 12472567,
+          "path": "source/dolphin-dreams-ring-reel-v3.mp4",
+          "sha256": "75832357732ec5af6a78c97c217bf930f0debc9f5566678e962e93780693b570"
+        }
+      ],
+      "validation_errors": []
+    },
+    "reel-20261029-sterling-silver-elephant-ring--instagram": {
+      "analytics_linkage": null,
+      "approval": null,
+      "caption": "Spot the herd.\n\nA little reminder to keep nature close.\nShop the Elephant Ring through the link in our bio.\n\n#NatureInspiredJewelry #Amiees",
+      "caption_file": "caption.txt",
+      "content_angle": "nature_detail_reveal",
+      "content_sha256": "87a231d7aaed8568d351a01650c43cd596c57983a0d88cc81774bb47bc549d86",
+      "experiment_id": "reel-20261029-sterling-silver-elephant-ring",
+      "final_assets": [
+        {
+          "alt": "Elephant Ring in a short nature-inspired jewelry detail Reel.",
+          "audio_codecs": [],
+          "bytes": 13037374,
+          "codec": "h264",
+          "duration_seconds": 7.5,
+          "height": 1920,
+          "media_type": "MP4",
+          "path": "final/video.mp4",
+          "role": "video",
+          "sha256": "b35f8f2192e2f0fca6cae94efcb5399bf48557198098f1cb7a97a10050b1a6d0",
+          "width": 1080
+        },
+        {
+          "alt": "Elephant Ring in a short nature-inspired jewelry detail Reel.",
+          "bytes": 320424,
+          "height": 1920,
+          "media_type": "JPEG",
+          "path": "final/cover.jpg",
+          "role": "cover",
+          "sha256": "bd3a72e95ad39906035ad3be0f572a91cb4c9ef3b4c4ab4f69f1ac38941a117f",
+          "width": 1080
+        }
+      ],
+      "format": "REELS",
+      "history": [
+        {
+          "action": "content_ingested",
+          "approvals_invalidated": false,
+          "at": "2026-10-30T00:45:00.437845+00:00",
+          "status": "needs_content"
+        },
+        {
+          "action": "content_ingested",
+          "approvals_invalidated": true,
+          "at": "2026-10-30T00:45:01.728162+00:00",
+          "status": "ready_for_review"
+        }
+      ],
+      "hook": "Spot the herd.",
+      "hook_placement": "overlay",
+      "hypothesis": "A short nature detail reveal paired with commercially eligible native trending audio may increase qualified profile visits. This is exploratory, not a controlled comparison or evidence of a winner.",
+      "is_ai_generated": true,
+      "objective": "Product discovery and consideration",
+      "permalink": null,
+      "pinterest": {
+        "board": "",
+        "description": "",
+        "destination_url": "",
+        "keywords": [],
+        "title": ""
+      },
+      "pipeline_item_id": "reel-20261029-sterling-silver-elephant-ring--instagram",
+      "planner_reference": null,
+      "platform": "instagram",
+      "primary_success_metric": {
+        "definition": "Attributed profile visits where available; missing metrics remain unknown. Interpret low reach conservatively.",
+        "name": "profile_visits"
+      },
+      "product": "sterling-silver-elephant-ring",
+      "published_post_id": null,
+      "publishing_status": "ready_for_review",
+      "queue_draft": null,
+      "queue_id": "ig-exp-reel-20261029-sterling-silver-elephant-ring",
+      "requested_scheduled_at": null,
+      "revisions": [
+        {
+          "analytics_linkage": null,
+          "approval": null,
+          "caption": "",
+          "caption_file": "caption.txt",
+          "content_angle": "",
+          "content_sha256": null,
+          "experiment_id": "reel-20261029-sterling-silver-elephant-ring",
+          "final_assets": [],
+          "format": "REELS",
+          "hook": "",
+          "hook_placement": "caption_opening",
+          "hypothesis": "",
+          "objective": "",
+          "permalink": null,
+          "pinterest": {
+            "board": "",
+            "description": "",
+            "destination_url": "",
+            "keywords": [],
+            "title": ""
+          },
+          "pipeline_item_id": "reel-20261029-sterling-silver-elephant-ring--instagram",
+          "planner_reference": null,
+          "platform": "instagram",
+          "primary_success_metric": {
+            "definition": "Accounts reached",
+            "name": "reach"
+          },
+          "product": "sterling-silver-elephant-ring",
+          "published_post_id": null,
+          "publishing_status": "needs_content",
+          "queue_draft": null,
+          "queue_id": "ig-exp-reel-20261029-sterling-silver-elephant-ring",
+          "requested_scheduled_at": null,
+          "schedule_approval": null,
+          "scheduled_at": null,
+          "schema_version": 1,
+          "shopify_cdn_urls": [],
+          "shopify_files": [],
+          "source_assets": [],
+          "validation_errors": [
+            "Fill in content_angle"
+          ]
+        }
+      ],
+      "schedule_approval": null,
+      "schedule_mode": "additional_reel",
+      "scheduled_at": null,
+      "schema_version": 1,
+      "shopify_cdn_urls": [],
+      "shopify_files": [],
+      "source_assets": [
+        {
+          "bytes": 13037374,
+          "path": "source/elephant-ring-reel-v7.mp4",
+          "sha256": "b35f8f2192e2f0fca6cae94efcb5399bf48557198098f1cb7a97a10050b1a6d0"
+        }
+      ],
+      "validation_errors": []
+    }
+  },
+  "schema_version": 1
 }

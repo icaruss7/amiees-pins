@@ -80,7 +80,8 @@ registry workflow for Amiees packages.
 
 The existing `IG_TOKEN` secret is reused. No new paid API or token is required.
 The publishing workflow keeps cron `37 */3 * * *`, one post per run and the
-20-hour minimum gap. Its manual run defaults to dry run. Scheduled runs continue
+20-hour minimum gap between normal posts. Explicitly approved additional Reels
+use the spacing described below. Its manual run defaults to dry run. Scheduled runs continue
 normal publishing; deployment alone adds no new queue items.
 
 The workflow sets `IG_EXPECTED_USERNAME=amiees.com_`, `IG_DURABLE_GIT=1` and
@@ -131,3 +132,55 @@ It makes no Meta calls, downloads or state writes.
 
 An actual Shopify upload and first public Reel remain a separate approved test.
 Passing unit tests does not establish live video acceptance or publication.
+
+## Native Instagram music and extra Reel slots
+
+The read-only `Instagram Audio Catalog` workflow uses the existing secret to
+retrieve the current trending catalog through Meta's
+[Audio API](https://developers.facebook.com/documentation/instagram-platform/content-publishing/audio-api).
+It never publishes. Its artifact retains track IDs and metadata without temporary
+download links. A trending catalog entry is a selection signal, not evidence of
+future reach or proof of a commercial music license.
+
+An Instagram REELS manifest may include:
+
+```json
+{
+  "is_ai_generated": true,
+  "schedule_mode": "additional_reel",
+  "instagram_audio": {
+    "configuration": {"audio_id": "123", "audio_volume": 70, "video_volume": 1},
+    "title": "Verified track title",
+    "artist": "Verified artist",
+    "catalog_collected_at": "2026-10-30T00:00:00Z",
+    "rights_review": {
+      "commercial_use_verified": true,
+      "by": "Actual reviewer",
+      "at": "2026-10-30T00:00:00Z",
+      "source_url": "https://www.facebook.com/sound/collection/"
+    }
+  }
+}
+```
+
+This example ID is a placeholder. Review the actual track and its permitted use
+before approval. Do not set the commercial review flag from an absent API field.
+Record the exact matching Sound Collection entry or other documented permission.
+The publisher sends `audio_configuration` on container creation, attaching native
+Instagram audio instead of baking a downloaded song into the MP4. Meta does not
+support API audio previews, so verify the sound on the first published Reel.
+Changing the track or volumes invalidates the prepared container fingerprint and
+the separately approved media draft. AI disclosure uses Meta's
+[documented `is_ai_generated` parameter](https://developers.facebook.com/documentation/instagram-platform/content-publishing).
+
+`additional_reel` is opt-in for approved Instagram Reels only. It allows eight
+hours between that Reel and neighboring publications; ordinary Nature Series
+posts remain subject to twenty hours between each other. Neither the ingestion
+step nor runtime guard moves existing queue rows. The normal scheduler still
+runs every three hours and may delay a post to preserve spacing. A routine
+overdue row may coexist with an extra slot at least twelve hours in the future;
+an uncertain publication or recorded error still blocks that addition.
+
+Instagram music clearance applies only to the permitted Meta destinations.
+Pinterest videos require separately cleared music and the native video publishing
+route. They must never be inserted into the image-only RSS queue.

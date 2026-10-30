@@ -2,9 +2,9 @@ name: Test Instagram publisher
 on:
   push:
     branches: [main]
-    paths: [ig_publish.py, ig_pipeline_media.py, test_ig_publish.py, '.github/workflows/instagram.yml', '.github/workflows/test-instagram.yml']
+    paths: [ig_publish.py, ig_pipeline_media.py, test_ig_publish.py, test_ig_native_audio.py, '.github/workflows/instagram.yml', '.github/workflows/test-instagram.yml']
   pull_request:
-    paths: [ig_publish.py, ig_pipeline_media.py, content_pipeline.py, test_ig_publish.py, '.github/workflows/instagram.yml', '.github/workflows/test-instagram.yml']
+    paths: [ig_publish.py, ig_pipeline_media.py, content_pipeline.py, test_ig_publish.py, test_ig_native_audio.py, '.github/workflows/instagram.yml', '.github/workflows/test-instagram.yml']
   workflow_dispatch:
 permissions:
   contents: read
@@ -17,5 +17,5 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
-      - run: python -m unittest -v test_ig_publish
+      - run: python -m unittest -v test_ig_publish test_ig_native_audio
       - run: DRY_RUN=1 python ig_publish.py

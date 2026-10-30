@@ -368,8 +368,12 @@ class ContentPipelineTests(unittest.TestCase):
                 self.pipeline.prepare_queue(package, SLOT)
         self.assertEqual(len(cp.read_queue(self.root / "ig_queue.csv")[2]), 2)
 
-    def reel(self):
+    def reel(self, manifest_fields=None):
         package = self.package(format="REELS")
+        if manifest_fields:
+            manifest = cp.load_json(package / "manifest.json")
+            manifest.update(manifest_fields)
+            cp.write_json(package / "manifest.json", manifest)
         info = {"media_type": "MP4", "codec": "h264", "width": 1080, "height": 1920,
                 "duration_seconds": 7.5, "audio_codecs": []}
         with patch.object(assets, "inspect_video", return_value=info), patch.object(cp, "inspect_video", return_value=info):
@@ -381,6 +385,36 @@ class ContentPipelineTests(unittest.TestCase):
             self.pipeline.approve_schedule(package, "Fixture reviewer")
             self.pipeline.apply_queue(package, confirm=True)
         return package, draft
+
+    def test_native_audio_is_bound_to_separate_schedule_approval(self):
+        audio = {"configuration": {"audio_id": "123", "audio_volume": 70, "video_volume": 1},
+                 "title": "Fixture", "artist": "Fixture artist", "catalog_collected_at": NOW.isoformat(),
+                 "rights_review": {"commercial_use_verified": True, "by": "Fixture reviewer",
+                                   "at": NOW.isoformat(), "source_url": "https://www.facebook.com/sound/collection/"}}
+        _, draft = self.reel({"instagram_audio": audio, "is_ai_generated": True, "schedule_mode": "additional_reel"})
+        registry = cp.load_json(self.root / "content/experiments.json")
+        resolved = media.resolve_row(draft["row"], registry)
+        self.assertEqual(resolved["audio_configuration"], audio["configuration"])
+        self.assertTrue(resolved["is_ai_generated"])
+        record = next(iter(registry["items"].values()))
+        record["instagram_audio"]["configuration"]["audio_id"] = "456"
+        with self.assertRaisesRegex(ValueError, "approved queue draft"):
+            media.resolve_row(draft["row"], registry)
+
+    def test_extra_slot_never_moves_nature_and_blocks_uncertain_overdue_posts(self):
+        before = (self.root / "ig_queue.csv").read_bytes()
+        rows = cp.read_queue(self.root / "ig_queue.csv")[2]
+        slot = cp.iso("2027-01-01T09:00:00Z")
+        with self.assertRaises(cp.PipelineError):
+            self.pipeline.check_time("instagram", rows, slot, "extra")
+        self.pipeline.check_time("instagram", rows, slot, "extra", additional=True)
+        self.assertEqual((self.root / "ig_queue.csv").read_bytes(), before)
+        overdue = [{"post_id": "overdue", "status": "queued", "release_at": "2026-10-28 18:00:00"}]
+        future = cp.iso("2026-10-29T09:00:00Z")
+        self.pipeline.check_time("instagram", overdue, future, "extra", additional=True)
+        self.write("ig_state.json", {"overdue": {"phase": "publishing"}})
+        with self.assertRaisesRegex(cp.PipelineError, "overdue"):
+            self.pipeline.check_time("instagram", overdue, future, "extra", additional=True)
 
     def test_reel_pipeline_to_publisher_and_analytics_with_old_queue_schema(self):
         before = (self.root / "ig_queue.csv").read_bytes()

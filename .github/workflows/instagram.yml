@@ -34,7 +34,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Test publisher
-        run: python3 -m unittest -v test_ig_publish
+        run: python3 -m unittest -v test_ig_publish test_ig_native_audio
 
       - name: Publish anything due
         env:

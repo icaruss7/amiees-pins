@@ -30,6 +30,34 @@
       }
     },
     "caption_file": {"type": "string", "minLength": 1},
+    "is_ai_generated": {"type": "boolean"},
+    "schedule_mode": {"enum": ["additional_reel"]},
+    "instagram_audio": {
+      "type": "object", "additionalProperties": false,
+      "required": ["configuration", "title", "artist", "catalog_collected_at", "rights_review"],
+      "properties": {
+        "configuration": {"type": "object", "additionalProperties": false,
+          "required": ["audio_id", "audio_volume", "video_volume"],
+          "properties": {
+            "audio_id": {"type": "string", "pattern": "^[0-9]+$"},
+            "audio_volume": {"type": "integer", "minimum": 1, "maximum": 100},
+            "video_volume": {"type": "integer", "minimum": 1, "maximum": 100}
+          }
+        },
+        "title": {"type": "string", "minLength": 1},
+        "artist": {"type": "string", "minLength": 1},
+        "catalog_collected_at": {"type": "string", "format": "date-time"},
+        "rights_review": {"type": "object", "additionalProperties": false,
+          "required": ["commercial_use_verified", "by", "at", "source_url"],
+          "properties": {
+            "commercial_use_verified": {"const": true},
+            "by": {"type": "string", "minLength": 1},
+            "at": {"type": "string", "format": "date-time"},
+            "source_url": {"type": "string", "format": "uri"}
+          }
+        }
+      }
+    },
     "planner_reference": {"type": ["object", "null"]},
     "scheduled_at": {"type": ["string", "null"], "format": "date-time"},
     "pinterest": {

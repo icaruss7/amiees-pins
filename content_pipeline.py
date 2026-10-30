@@ -23,7 +23,7 @@ from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from content_assets import PipelineError, digest_file, inside, shopify_url, validate_final, inspect_video
-from ig_pipeline_media import reel_media
+from ig_pipeline_media import reel_media, native_audio
 
 HERE = Path(__file__).resolve().parent
 STATES = ("needs_content", "ready_for_review", "approved", "uploaded", "scheduled", "published", "measured")
@@ -159,6 +159,16 @@ def validate_manifest(value, complete=True):
         iso(value["scheduled_at"])
     if value.get("planner_reference") is not None and not isinstance(value["planner_reference"], dict):
         raise PipelineError("planner_reference must be an object or null")
+    if "is_ai_generated" in value and type(value["is_ai_generated"]) is not bool:
+        raise PipelineError("is_ai_generated must be a boolean")
+    if value.get("schedule_mode") not in (None, "additional_reel"):
+        raise PipelineError("Unknown scheduling mode")
+    if value.get("schedule_mode") and (value["platform"] != "instagram" or value["format"] != "REELS"):
+        raise PipelineError("Additional Reel slots require an Instagram Reel")
+    try:
+        native_audio(value)
+    except ValueError as exc:
+        raise PipelineError(str(exc)) from exc
     if "\u2014" in json.dumps(value, ensure_ascii=False):
         raise PipelineError("Remove em dashes from the content manifest")
     return value
@@ -406,11 +416,14 @@ class Pipeline:
     def queue_path(self, platform):
         return self.repo / ("ig_queue.csv" if platform == "instagram" else "pins.csv")
 
-    def check_time(self, platform, rows, when, identity):
+    def check_time(self, platform, rows, when, identity, additional=False):
         if when < self.now() + timedelta(hours=1):
             raise PipelineError("Choose a slot at least one hour in the future; this command cannot queue an immediate post")
         state_path = self.repo / "ig_state.json"
         state = load_json(state_path) if state_path.exists() else {}
+        registry = load_json(self.registry_path) if self.registry_path.exists() else {}
+        extra_ids = {r.get("queue_id") for r in registry.get("items", {}).values()
+                     if r.get("schedule_mode") == "additional_reel"}
         for row in rows:
             key = row.get("post_id") or row.get("guid")
             if key == identity or row.get("status") != "queued":
@@ -418,9 +431,14 @@ class Pipeline:
             if platform == "instagram" and any(state.get(key, {}).get(k) for k in ("media_id", "permalink", "posted_at")):
                 continue
             scheduled = queue_time(row["release_at"])
+            extra_pair = platform == "instagram" and (additional or key in extra_ids)
             if platform == "instagram" and scheduled < self.now():
-                raise PipelineError("Resolve overdue unpublished Instagram rows before adding another post")
-            gap = timedelta(hours=20) if platform == "instagram" else timedelta(0)
+                # Extra future tests may coexist with a routine due row, never an uncertain publication.
+                if (not additional or when < self.now() + timedelta(hours=12)
+                        or state.get(key, {}).get("phase") in ("publishing", "needs_review")
+                        or state.get(key, {}).get("last_error")):
+                    raise PipelineError("Resolve overdue unpublished Instagram rows before adding another post")
+            gap = timedelta(hours=8 if extra_pair else 20) if platform == "instagram" else timedelta(0)
             if abs(when - scheduled) < gap or when == scheduled:
                 raise PipelineError("Requested slot conflicts with an existing queue entry. Do not move the Nature Series")
 
@@ -439,7 +457,7 @@ class Pipeline:
                 raise PipelineError(str(exc)) from exc
             path = self.queue_path(record["platform"])
             raw, headers, rows = read_queue(path)
-            self.check_time(record["platform"], rows, when, record["queue_id"])
+            self.check_time(record["platform"], rows, when, record["queue_id"], record.get("schedule_mode") == "additional_reel")
             release = when.strftime("%Y-%m-%d %H:%M:%S")
             if record["platform"] == "instagram":
                 row = dict(post_id=record["queue_id"], release_at=release, product=record["product"],
@@ -479,7 +497,7 @@ class Pipeline:
             if hashlib.sha256(raw).hexdigest() != draft["queue_base_sha256"]:
                 raise PipelineError("Queue changed since the draft was prepared; prepare it again")
             self.check_time(record["platform"], rows,
-                            iso(draft["scheduled_at"]), record["queue_id"])
+                            iso(draft["scheduled_at"]), record["queue_id"], record.get("schedule_mode") == "additional_reel")
             record["schedule_approval"] = {"by": by, "at": self.now().isoformat(), "draft_sha256": fingerprint(draft)}
             self.event(record, "queue_entry_approved", by=by, draft_sha256=fingerprint(draft))
         return record
@@ -505,7 +523,7 @@ class Pipeline:
             else:
                 if hashlib.sha256(raw).hexdigest() != draft["queue_base_sha256"]:
                     raise PipelineError("Queue changed since review. Prepare and approve a fresh draft")
-                self.check_time(record["platform"], rows, iso(draft["scheduled_at"]), record["queue_id"])
+                self.check_time(record["platform"], rows, iso(draft["scheduled_at"]), record["queue_id"], record.get("schedule_mode") == "additional_reel")
                 newline = "\r\n" if b"\r\n" in raw else "\n"
                 stream = io.StringIO(newline="")
                 writer = csv.DictWriter(stream, fieldnames=headers, lineterminator=newline)
