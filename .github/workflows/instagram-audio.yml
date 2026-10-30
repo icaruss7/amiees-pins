@@ -1,0 +1,28 @@
+name: Inspect Instagram trending audio
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [ig_audio.py, test_ig_audio.py, '.github/workflows/instagram-audio.yml']
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m unittest -v test_ig_audio
+      - name: Read native trending music only
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_EXPECTED_USERNAME: amiees.com_
+        run: python3 ig_audio.py --output output/instagram-trending-audio.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: instagram-trending-audio
+          path: output/instagram-trending-audio.json
+          retention-days: 7
