@@ -52,6 +52,7 @@
     "attempts": 1,
     "container_id": "18051189335823348",
     "fingerprint": "9e29a201f0277bad6a2ad25dc5dda324691f75060a7141cf9b382fac07e54b5c",
+    "last_error": "RuntimeError: publication did not complete; inspect the run",
     "phase": "ready"
   },
   "ig-nature-01-daisy-ring": {
