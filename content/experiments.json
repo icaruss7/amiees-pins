@@ -182,6 +182,7 @@
         "upload_receipt_sha256": "d30b5f02a175d76cbc468a28c6db166b899121766cc3fe9d6201bc1c5566fc24"
       },
       "queue_id": "ig-exp-reel-20261029-blue-butterfly-hoop-earrings",
+      "queue_observation": "exact_approved_row_present",
       "requested_scheduled_at": null,
       "revisions": [
         {
@@ -547,6 +548,7 @@
         "upload_receipt_sha256": "8f899a37932ddf510ccee2a675acd09029633741c3b4d9665859d4dcf5bdedb5"
       },
       "queue_id": "ig-exp-reel-20261029-dolphin-dreams-ring",
+      "queue_observation": "exact_approved_row_present",
       "requested_scheduled_at": null,
       "revisions": [
         {
@@ -912,6 +914,7 @@
         "upload_receipt_sha256": "26155044080e42326aacbc9d3fd952a8d22f9bea81c54fdfc5e3dfc7c88826e5"
       },
       "queue_id": "ig-exp-reel-20261029-sterling-silver-elephant-ring",
+      "queue_observation": "exact_approved_row_present",
       "requested_scheduled_at": null,
       "revisions": [
         {
