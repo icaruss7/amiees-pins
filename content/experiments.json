@@ -2,11 +2,15 @@
   "items": {
     "reel-20261029-blue-butterfly-hoop-earrings--instagram": {
       "analytics_linkage": null,
-      "approval": null,
+      "approval": {
+        "at": "2026-10-30T01:19:42.844066+00:00",
+        "by": "Codex under Gabe authorization",
+        "content_sha256": "423576e3c0b8a80475a9fa4e0e15febbc4b0988dc863067d72feabbdf37f4aa4"
+      },
       "caption": "Spot the blue butterflies.\n\nA little color. A little nature. Keep both close.\nShop the Blue Butterfly Huggie Earrings through the link in our bio.\n\n#NatureInspiredJewelry #Amiees",
       "caption_file": "caption.txt",
       "content_angle": "nature_detail_reveal",
-      "content_sha256": "81278734b783df0a1b006f01a1e21b83bf6db173f968444d550f731dba7b6b7a",
+      "content_sha256": "423576e3c0b8a80475a9fa4e0e15febbc4b0988dc863067d72feabbdf37f4aa4",
       "experiment_id": "reel-20261029-blue-butterfly-hoop-earrings",
       "final_assets": [
         {
@@ -46,11 +50,84 @@
           "approvals_invalidated": true,
           "at": "2026-10-30T00:45:04.506359+00:00",
           "status": "ready_for_review"
+        },
+        {
+          "action": "content_ingested",
+          "approvals_invalidated": true,
+          "at": "2026-10-30T01:19:42.752375+00:00",
+          "status": "ready_for_review"
+        },
+        {
+          "action": "creative_approved",
+          "at": "2026-10-30T01:19:42.844076+00:00",
+          "by": "Codex under Gabe authorization",
+          "content_sha256": "423576e3c0b8a80475a9fa4e0e15febbc4b0988dc863067d72feabbdf37f4aa4"
+        },
+        {
+          "action": "shopify_upload_recorded",
+          "at": "2026-10-30T01:19:43.025599+00:00",
+          "verified_by": "Codex"
+        },
+        {
+          "action": "hosted_video_reviewed",
+          "at": "2026-10-30T01:19:43.180643+00:00",
+          "by": "Codex: matching source hash, hosted contact sheet and video metadata reviewed",
+          "sha256": "c3238bbad7073f1f6774cea99e2c7de0e0c13a92d6f2c5086e7adc405b61be5e"
+        },
+        {
+          "action": "queue_draft_prepared",
+          "at": "2026-10-30T01:19:43.277687+00:00",
+          "scheduled_at": "2026-11-01T15:00:00+00:00"
+        },
+        {
+          "action": "queue_entry_approved",
+          "at": "2026-10-30T01:19:43.377125+00:00",
+          "by": "Codex under Gabe authorization for extra Reel slots",
+          "draft_sha256": "f4b5763ccbdea061dcf118e04deb6afe5a614dac37510d165b1ef9c137da1676"
+        },
+        {
+          "action": "local_queue_row_added",
+          "at": "2026-10-30T01:19:43.488613+00:00",
+          "by": "Codex under Gabe authorization for extra Reel slots"
         }
       ],
       "hook": "Spot the blue butterflies.",
       "hook_placement": "overlay",
+      "hosted_video_review": {
+        "at": "2026-10-30T01:19:43.180576+00:00",
+        "by": "Codex: matching source hash, hosted contact sheet and video metadata reviewed",
+        "bytes": 15203353,
+        "cdn_url": "https://cdn.shopify.com/videos/c/o/v/d945c0c2ee744b0e82f2f42884cf36bd.mp4",
+        "content_sha256": "423576e3c0b8a80475a9fa4e0e15febbc4b0988dc863067d72feabbdf37f4aa4",
+        "metadata": {
+          "audio_codecs": [],
+          "codec": "h264",
+          "duration_seconds": 8.3,
+          "height": 1920,
+          "media_type": "MP4",
+          "width": 1080
+        },
+        "reviewed_file": "_pipeline/hosted-video.mp4",
+        "sha256": "c3238bbad7073f1f6774cea99e2c7de0e0c13a92d6f2c5086e7adc405b61be5e",
+        "upload_receipt_sha256": "d30b5f02a175d76cbc468a28c6db166b899121766cc3fe9d6201bc1c5566fc24"
+      },
       "hypothesis": "A short nature detail reveal paired with commercially eligible native trending audio may increase qualified profile visits. This is exploratory, not a controlled comparison or evidence of a winner.",
+      "instagram_audio": {
+        "artist": "half.cool",
+        "catalog_collected_at": "2026-10-30T00:31:47Z",
+        "configuration": {
+          "audio_id": "1127106596130760",
+          "audio_volume": 70,
+          "video_volume": 1
+        },
+        "rights_review": {
+          "at": "2026-10-30T01:19:40.943831+00:00",
+          "by": "Codex",
+          "commercial_use_verified": true,
+          "source_url": "https://www.facebook.com/sound/collection/terms"
+        },
+        "title": "Move Ur Body (Instrumental)"
+      },
       "is_ai_generated": true,
       "objective": "Product discovery and consideration",
       "permalink": null,
@@ -70,8 +147,40 @@
       },
       "product": "blue-butterfly-hoop-earrings",
       "published_post_id": null,
-      "publishing_status": "ready_for_review",
-      "queue_draft": null,
+      "publishing_status": "scheduled",
+      "queue_confirmation": "Local queue row only. Commit and push registry plus queue for GitHub scheduling.",
+      "queue_draft": {
+        "auto_apply": false,
+        "content_sha256": "423576e3c0b8a80475a9fa4e0e15febbc4b0988dc863067d72feabbdf37f4aa4",
+        "experiment_id": "reel-20261029-blue-butterfly-hoop-earrings",
+        "media": {
+          "audio_configuration": {
+            "audio_id": "1127106596130760",
+            "audio_volume": 70,
+            "video_volume": 1
+          },
+          "cover_url": "https://cdn.shopify.com/s/files/1/0677/3201/3371/files/blue-butterfly-hoop-earrings-reel-v2.jpg?v=1793320402",
+          "is_ai_generated": true,
+          "media_type": "REELS",
+          "schedule_mode": "additional_reel",
+          "video_sha256": "c3238bbad7073f1f6774cea99e2c7de0e0c13a92d6f2c5086e7adc405b61be5e",
+          "video_url": "https://cdn.shopify.com/videos/c/o/v/d945c0c2ee744b0e82f2f42884cf36bd.mp4"
+        },
+        "pipeline_item_id": "reel-20261029-blue-butterfly-hoop-earrings--instagram",
+        "queue_base_sha256": "9bcac322d5f08476d42c2685cc5bbca4abeed189c8506d2733aaba8d46788ad3",
+        "queue_file": "ig_queue.csv",
+        "row": {
+          "caption": "Spot the blue butterflies.\n\nA little color. A little nature. Keep both close.\nShop the Blue Butterfly Huggie Earrings through the link in our bio.\n\n#NatureInspiredJewelry #Amiees",
+          "images": "",
+          "post_id": "ig-exp-reel-20261029-blue-butterfly-hoop-earrings",
+          "product": "blue-butterfly-hoop-earrings",
+          "release_at": "2026-11-01 15:00:00",
+          "status": "queued"
+        },
+        "scheduled_at": "2026-11-01T15:00:00+00:00",
+        "schema_version": 1,
+        "upload_receipt_sha256": "d30b5f02a175d76cbc468a28c6db166b899121766cc3fe9d6201bc1c5566fc24"
+      },
       "queue_id": "ig-exp-reel-20261029-blue-butterfly-hoop-earrings",
       "requested_scheduled_at": null,
       "revisions": [
@@ -119,14 +228,111 @@
           "validation_errors": [
             "Fill in content_angle"
           ]
+        },
+        {
+          "analytics_linkage": null,
+          "approval": null,
+          "caption": "Spot the blue butterflies.\n\nA little color. A little nature. Keep both close.\nShop the Blue Butterfly Huggie Earrings through the link in our bio.\n\n#NatureInspiredJewelry #Amiees",
+          "caption_file": "caption.txt",
+          "content_angle": "nature_detail_reveal",
+          "content_sha256": "81278734b783df0a1b006f01a1e21b83bf6db173f968444d550f731dba7b6b7a",
+          "experiment_id": "reel-20261029-blue-butterfly-hoop-earrings",
+          "final_assets": [
+            {
+              "alt": "Blue Butterfly Huggie Earrings in a short nature-inspired jewelry detail Reel.",
+              "audio_codecs": [],
+              "bytes": 15203353,
+              "codec": "h264",
+              "duration_seconds": 8.3,
+              "height": 1920,
+              "media_type": "MP4",
+              "path": "final/video.mp4",
+              "role": "video",
+              "sha256": "c3238bbad7073f1f6774cea99e2c7de0e0c13a92d6f2c5086e7adc405b61be5e",
+              "width": 1080
+            },
+            {
+              "alt": "Blue Butterfly Huggie Earrings in a short nature-inspired jewelry detail Reel.",
+              "bytes": 268663,
+              "height": 1920,
+              "media_type": "JPEG",
+              "path": "final/cover.jpg",
+              "role": "cover",
+              "sha256": "e7720a5d5352a09545d3f4060e367387bd9d184ad4dfc8f42abd4e1b0a732485",
+              "width": 1080
+            }
+          ],
+          "format": "REELS",
+          "hook": "Spot the blue butterflies.",
+          "hook_placement": "overlay",
+          "hypothesis": "A short nature detail reveal paired with commercially eligible native trending audio may increase qualified profile visits. This is exploratory, not a controlled comparison or evidence of a winner.",
+          "is_ai_generated": true,
+          "objective": "Product discovery and consideration",
+          "permalink": null,
+          "pinterest": {
+            "board": "",
+            "description": "",
+            "destination_url": "",
+            "keywords": [],
+            "title": ""
+          },
+          "pipeline_item_id": "reel-20261029-blue-butterfly-hoop-earrings--instagram",
+          "planner_reference": null,
+          "platform": "instagram",
+          "primary_success_metric": {
+            "definition": "Attributed profile visits where available; missing metrics remain unknown. Interpret low reach conservatively.",
+            "name": "profile_visits"
+          },
+          "product": "blue-butterfly-hoop-earrings",
+          "published_post_id": null,
+          "publishing_status": "ready_for_review",
+          "queue_draft": null,
+          "queue_id": "ig-exp-reel-20261029-blue-butterfly-hoop-earrings",
+          "requested_scheduled_at": null,
+          "schedule_approval": null,
+          "schedule_mode": "additional_reel",
+          "scheduled_at": null,
+          "schema_version": 1,
+          "shopify_cdn_urls": [],
+          "shopify_files": [],
+          "source_assets": [
+            {
+              "bytes": 15203353,
+              "path": "source/blue-butterfly-hoop-earrings-reel-v2.mp4",
+              "sha256": "c3238bbad7073f1f6774cea99e2c7de0e0c13a92d6f2c5086e7adc405b61be5e"
+            }
+          ],
+          "validation_errors": []
         }
       ],
-      "schedule_approval": null,
+      "schedule_approval": {
+        "at": "2026-10-30T01:19:43.377081+00:00",
+        "by": "Codex under Gabe authorization for extra Reel slots",
+        "draft_sha256": "f4b5763ccbdea061dcf118e04deb6afe5a614dac37510d165b1ef9c137da1676"
+      },
       "schedule_mode": "additional_reel",
-      "scheduled_at": null,
+      "scheduled_at": "2026-11-01T15:00:00+00:00",
       "schema_version": 1,
-      "shopify_cdn_urls": [],
-      "shopify_files": [],
+      "shopify_cdn_urls": [
+        "https://cdn.shopify.com/videos/c/o/v/d945c0c2ee744b0e82f2f42884cf36bd.mp4",
+        "https://cdn.shopify.com/s/files/1/0677/3201/3371/files/blue-butterfly-hoop-earrings-reel-v2.jpg?v=1793320402"
+      ],
+      "shopify_files": [
+        {
+          "cdn_url": "https://cdn.shopify.com/videos/c/o/v/d945c0c2ee744b0e82f2f42884cf36bd.mp4",
+          "file_id": "gid://shopify/Video/49377447641403",
+          "file_status": "READY",
+          "path": "final/video.mp4",
+          "sha256": "c3238bbad7073f1f6774cea99e2c7de0e0c13a92d6f2c5086e7adc405b61be5e"
+        },
+        {
+          "cdn_url": "https://cdn.shopify.com/s/files/1/0677/3201/3371/files/blue-butterfly-hoop-earrings-reel-v2.jpg?v=1793320402",
+          "file_id": "gid://shopify/MediaImage/49377447182651",
+          "file_status": "READY",
+          "path": "final/cover.jpg",
+          "sha256": "e7720a5d5352a09545d3f4060e367387bd9d184ad4dfc8f42abd4e1b0a732485"
+        }
+      ],
       "source_assets": [
         {
           "bytes": 15203353,
@@ -134,15 +340,42 @@
           "sha256": "c3238bbad7073f1f6774cea99e2c7de0e0c13a92d6f2c5086e7adc405b61be5e"
         }
       ],
+      "upload_receipt": {
+        "content_sha256": "423576e3c0b8a80475a9fa4e0e15febbc4b0988dc863067d72feabbdf37f4aa4",
+        "experiment_id": "reel-20261029-blue-butterfly-hoop-earrings",
+        "files": [
+          {
+            "cdn_url": "https://cdn.shopify.com/videos/c/o/v/d945c0c2ee744b0e82f2f42884cf36bd.mp4",
+            "file_id": "gid://shopify/Video/49377447641403",
+            "file_status": "READY",
+            "path": "final/video.mp4",
+            "sha256": "c3238bbad7073f1f6774cea99e2c7de0e0c13a92d6f2c5086e7adc405b61be5e"
+          },
+          {
+            "cdn_url": "https://cdn.shopify.com/s/files/1/0677/3201/3371/files/blue-butterfly-hoop-earrings-reel-v2.jpg?v=1793320402",
+            "file_id": "gid://shopify/MediaImage/49377447182651",
+            "file_status": "READY",
+            "path": "final/cover.jpg",
+            "sha256": "e7720a5d5352a09545d3f4060e367387bd9d184ad4dfc8f42abd4e1b0a732485"
+          }
+        ],
+        "platform": "instagram",
+        "verified_at": "2026-10-30T01:19:40.943831+00:00",
+        "verified_by": "Codex"
+      },
       "validation_errors": []
     },
     "reel-20261029-dolphin-dreams-ring--instagram": {
       "analytics_linkage": null,
-      "approval": null,
+      "approval": {
+        "at": "2026-10-30T01:19:42.022776+00:00",
+        "by": "Codex under Gabe authorization",
+        "content_sha256": "f92481fd3385b221424b15595a2737d6a5a4a49c6532b5c7a6ec7949d9adbcb3"
+      },
       "caption": "Spot the dolphin.\n\nA little piece of the ocean to keep close.\nShop the Dolphin Dreams Ring through the link in our bio.\n\n#NatureInspiredJewelry #Amiees",
       "caption_file": "caption.txt",
       "content_angle": "nature_detail_reveal",
-      "content_sha256": "57d384e2624d9abfd63e29d8b017f330d2d81d5f8c204dff8dce88af90895a76",
+      "content_sha256": "f92481fd3385b221424b15595a2737d6a5a4a49c6532b5c7a6ec7949d9adbcb3",
       "experiment_id": "reel-20261029-dolphin-dreams-ring",
       "final_assets": [
         {
@@ -182,11 +415,84 @@
           "approvals_invalidated": true,
           "at": "2026-10-30T00:45:03.005087+00:00",
           "status": "ready_for_review"
+        },
+        {
+          "action": "content_ingested",
+          "approvals_invalidated": true,
+          "at": "2026-10-30T01:19:41.935043+00:00",
+          "status": "ready_for_review"
+        },
+        {
+          "action": "creative_approved",
+          "at": "2026-10-30T01:19:42.022790+00:00",
+          "by": "Codex under Gabe authorization",
+          "content_sha256": "f92481fd3385b221424b15595a2737d6a5a4a49c6532b5c7a6ec7949d9adbcb3"
+        },
+        {
+          "action": "shopify_upload_recorded",
+          "at": "2026-10-30T01:19:42.193450+00:00",
+          "verified_by": "Codex"
+        },
+        {
+          "action": "hosted_video_reviewed",
+          "at": "2026-10-30T01:19:42.351213+00:00",
+          "by": "Codex: matching source hash, hosted contact sheet and video metadata reviewed",
+          "sha256": "75832357732ec5af6a78c97c217bf930f0debc9f5566678e962e93780693b570"
+        },
+        {
+          "action": "queue_draft_prepared",
+          "at": "2026-10-30T01:19:42.445995+00:00",
+          "scheduled_at": "2026-10-31T15:00:00+00:00"
+        },
+        {
+          "action": "queue_entry_approved",
+          "at": "2026-10-30T01:19:42.543787+00:00",
+          "by": "Codex under Gabe authorization for extra Reel slots",
+          "draft_sha256": "2f8248be172e4d615d42b2c868ca87bae099ff23fae79853f1ad3fcd594a5871"
+        },
+        {
+          "action": "local_queue_row_added",
+          "at": "2026-10-30T01:19:42.648703+00:00",
+          "by": "Codex under Gabe authorization for extra Reel slots"
         }
       ],
       "hook": "Spot the dolphin.",
       "hook_placement": "overlay",
+      "hosted_video_review": {
+        "at": "2026-10-30T01:19:42.351168+00:00",
+        "by": "Codex: matching source hash, hosted contact sheet and video metadata reviewed",
+        "bytes": 12472567,
+        "cdn_url": "https://cdn.shopify.com/videos/c/o/v/87de7c65aad7415c9d67e4210344741a.mp4",
+        "content_sha256": "f92481fd3385b221424b15595a2737d6a5a4a49c6532b5c7a6ec7949d9adbcb3",
+        "metadata": {
+          "audio_codecs": [],
+          "codec": "h264",
+          "duration_seconds": 7.5,
+          "height": 1920,
+          "media_type": "MP4",
+          "width": 1080
+        },
+        "reviewed_file": "_pipeline/hosted-video.mp4",
+        "sha256": "75832357732ec5af6a78c97c217bf930f0debc9f5566678e962e93780693b570",
+        "upload_receipt_sha256": "8f899a37932ddf510ccee2a675acd09029633741c3b4d9665859d4dcf5bdedb5"
+      },
       "hypothesis": "A short nature detail reveal paired with commercially eligible native trending audio may increase qualified profile visits. This is exploratory, not a controlled comparison or evidence of a winner.",
+      "instagram_audio": {
+        "artist": "half.cool",
+        "catalog_collected_at": "2026-10-30T00:31:47Z",
+        "configuration": {
+          "audio_id": "1127106596130760",
+          "audio_volume": 70,
+          "video_volume": 1
+        },
+        "rights_review": {
+          "at": "2026-10-30T01:19:40.943831+00:00",
+          "by": "Codex",
+          "commercial_use_verified": true,
+          "source_url": "https://www.facebook.com/sound/collection/terms"
+        },
+        "title": "Move Ur Body (Instrumental)"
+      },
       "is_ai_generated": true,
       "objective": "Product discovery and consideration",
       "permalink": null,
@@ -206,8 +512,40 @@
       },
       "product": "dolphin-dreams-ring",
       "published_post_id": null,
-      "publishing_status": "ready_for_review",
-      "queue_draft": null,
+      "publishing_status": "scheduled",
+      "queue_confirmation": "Local queue row only. Commit and push registry plus queue for GitHub scheduling.",
+      "queue_draft": {
+        "auto_apply": false,
+        "content_sha256": "f92481fd3385b221424b15595a2737d6a5a4a49c6532b5c7a6ec7949d9adbcb3",
+        "experiment_id": "reel-20261029-dolphin-dreams-ring",
+        "media": {
+          "audio_configuration": {
+            "audio_id": "1127106596130760",
+            "audio_volume": 70,
+            "video_volume": 1
+          },
+          "cover_url": "https://cdn.shopify.com/s/files/1/0677/3201/3371/files/dolphin-dreams-ring-reel-v3.jpg?v=1793320402",
+          "is_ai_generated": true,
+          "media_type": "REELS",
+          "schedule_mode": "additional_reel",
+          "video_sha256": "75832357732ec5af6a78c97c217bf930f0debc9f5566678e962e93780693b570",
+          "video_url": "https://cdn.shopify.com/videos/c/o/v/87de7c65aad7415c9d67e4210344741a.mp4"
+        },
+        "pipeline_item_id": "reel-20261029-dolphin-dreams-ring--instagram",
+        "queue_base_sha256": "1b62d8dd17bcb1e851bf210b99b112a14ecac9f9bd38a55ef8c49fc6786f06aa",
+        "queue_file": "ig_queue.csv",
+        "row": {
+          "caption": "Spot the dolphin.\n\nA little piece of the ocean to keep close.\nShop the Dolphin Dreams Ring through the link in our bio.\n\n#NatureInspiredJewelry #Amiees",
+          "images": "",
+          "post_id": "ig-exp-reel-20261029-dolphin-dreams-ring",
+          "product": "dolphin-dreams-ring",
+          "release_at": "2026-10-31 15:00:00",
+          "status": "queued"
+        },
+        "scheduled_at": "2026-10-31T15:00:00+00:00",
+        "schema_version": 1,
+        "upload_receipt_sha256": "8f899a37932ddf510ccee2a675acd09029633741c3b4d9665859d4dcf5bdedb5"
+      },
       "queue_id": "ig-exp-reel-20261029-dolphin-dreams-ring",
       "requested_scheduled_at": null,
       "revisions": [
@@ -255,14 +593,111 @@
           "validation_errors": [
             "Fill in content_angle"
           ]
+        },
+        {
+          "analytics_linkage": null,
+          "approval": null,
+          "caption": "Spot the dolphin.\n\nA little piece of the ocean to keep close.\nShop the Dolphin Dreams Ring through the link in our bio.\n\n#NatureInspiredJewelry #Amiees",
+          "caption_file": "caption.txt",
+          "content_angle": "nature_detail_reveal",
+          "content_sha256": "57d384e2624d9abfd63e29d8b017f330d2d81d5f8c204dff8dce88af90895a76",
+          "experiment_id": "reel-20261029-dolphin-dreams-ring",
+          "final_assets": [
+            {
+              "alt": "Dolphin Dreams Ring in a short nature-inspired jewelry detail Reel.",
+              "audio_codecs": [],
+              "bytes": 12472567,
+              "codec": "h264",
+              "duration_seconds": 7.5,
+              "height": 1920,
+              "media_type": "MP4",
+              "path": "final/video.mp4",
+              "role": "video",
+              "sha256": "75832357732ec5af6a78c97c217bf930f0debc9f5566678e962e93780693b570",
+              "width": 1080
+            },
+            {
+              "alt": "Dolphin Dreams Ring in a short nature-inspired jewelry detail Reel.",
+              "bytes": 303736,
+              "height": 1920,
+              "media_type": "JPEG",
+              "path": "final/cover.jpg",
+              "role": "cover",
+              "sha256": "a539cc3953d6d0e422b22bb9862861a549d9d331c311a3e997c38c89a8d20e83",
+              "width": 1080
+            }
+          ],
+          "format": "REELS",
+          "hook": "Spot the dolphin.",
+          "hook_placement": "overlay",
+          "hypothesis": "A short nature detail reveal paired with commercially eligible native trending audio may increase qualified profile visits. This is exploratory, not a controlled comparison or evidence of a winner.",
+          "is_ai_generated": true,
+          "objective": "Product discovery and consideration",
+          "permalink": null,
+          "pinterest": {
+            "board": "",
+            "description": "",
+            "destination_url": "",
+            "keywords": [],
+            "title": ""
+          },
+          "pipeline_item_id": "reel-20261029-dolphin-dreams-ring--instagram",
+          "planner_reference": null,
+          "platform": "instagram",
+          "primary_success_metric": {
+            "definition": "Attributed profile visits where available; missing metrics remain unknown. Interpret low reach conservatively.",
+            "name": "profile_visits"
+          },
+          "product": "dolphin-dreams-ring",
+          "published_post_id": null,
+          "publishing_status": "ready_for_review",
+          "queue_draft": null,
+          "queue_id": "ig-exp-reel-20261029-dolphin-dreams-ring",
+          "requested_scheduled_at": null,
+          "schedule_approval": null,
+          "schedule_mode": "additional_reel",
+          "scheduled_at": null,
+          "schema_version": 1,
+          "shopify_cdn_urls": [],
+          "shopify_files": [],
+          "source_assets": [
+            {
+              "bytes": 12472567,
+              "path": "source/dolphin-dreams-ring-reel-v3.mp4",
+              "sha256": "75832357732ec5af6a78c97c217bf930f0debc9f5566678e962e93780693b570"
+            }
+          ],
+          "validation_errors": []
         }
       ],
-      "schedule_approval": null,
+      "schedule_approval": {
+        "at": "2026-10-30T01:19:42.543741+00:00",
+        "by": "Codex under Gabe authorization for extra Reel slots",
+        "draft_sha256": "2f8248be172e4d615d42b2c868ca87bae099ff23fae79853f1ad3fcd594a5871"
+      },
       "schedule_mode": "additional_reel",
-      "scheduled_at": null,
+      "scheduled_at": "2026-10-31T15:00:00+00:00",
       "schema_version": 1,
-      "shopify_cdn_urls": [],
-      "shopify_files": [],
+      "shopify_cdn_urls": [
+        "https://cdn.shopify.com/videos/c/o/v/87de7c65aad7415c9d67e4210344741a.mp4",
+        "https://cdn.shopify.com/s/files/1/0677/3201/3371/files/dolphin-dreams-ring-reel-v3.jpg?v=1793320402"
+      ],
+      "shopify_files": [
+        {
+          "cdn_url": "https://cdn.shopify.com/videos/c/o/v/87de7c65aad7415c9d67e4210344741a.mp4",
+          "file_id": "gid://shopify/Video/49377447575867",
+          "file_status": "READY",
+          "path": "final/video.mp4",
+          "sha256": "75832357732ec5af6a78c97c217bf930f0debc9f5566678e962e93780693b570"
+        },
+        {
+          "cdn_url": "https://cdn.shopify.com/s/files/1/0677/3201/3371/files/dolphin-dreams-ring-reel-v3.jpg?v=1793320402",
+          "file_id": "gid://shopify/MediaImage/49377447215419",
+          "file_status": "READY",
+          "path": "final/cover.jpg",
+          "sha256": "a539cc3953d6d0e422b22bb9862861a549d9d331c311a3e997c38c89a8d20e83"
+        }
+      ],
       "source_assets": [
         {
           "bytes": 12472567,
@@ -270,15 +705,42 @@
           "sha256": "75832357732ec5af6a78c97c217bf930f0debc9f5566678e962e93780693b570"
         }
       ],
+      "upload_receipt": {
+        "content_sha256": "f92481fd3385b221424b15595a2737d6a5a4a49c6532b5c7a6ec7949d9adbcb3",
+        "experiment_id": "reel-20261029-dolphin-dreams-ring",
+        "files": [
+          {
+            "cdn_url": "https://cdn.shopify.com/videos/c/o/v/87de7c65aad7415c9d67e4210344741a.mp4",
+            "file_id": "gid://shopify/Video/49377447575867",
+            "file_status": "READY",
+            "path": "final/video.mp4",
+            "sha256": "75832357732ec5af6a78c97c217bf930f0debc9f5566678e962e93780693b570"
+          },
+          {
+            "cdn_url": "https://cdn.shopify.com/s/files/1/0677/3201/3371/files/dolphin-dreams-ring-reel-v3.jpg?v=1793320402",
+            "file_id": "gid://shopify/MediaImage/49377447215419",
+            "file_status": "READY",
+            "path": "final/cover.jpg",
+            "sha256": "a539cc3953d6d0e422b22bb9862861a549d9d331c311a3e997c38c89a8d20e83"
+          }
+        ],
+        "platform": "instagram",
+        "verified_at": "2026-10-30T01:19:40.943831+00:00",
+        "verified_by": "Codex"
+      },
       "validation_errors": []
     },
     "reel-20261029-sterling-silver-elephant-ring--instagram": {
       "analytics_linkage": null,
-      "approval": null,
+      "approval": {
+        "at": "2026-10-30T01:19:41.186617+00:00",
+        "by": "Codex under Gabe authorization",
+        "content_sha256": "6cbb09c77de38ea9caae5bb94e15494d1a931458ebc605d25435755d5c98eafb"
+      },
       "caption": "Spot the herd.\n\nA little reminder to keep nature close.\nShop the Elephant Ring through the link in our bio.\n\n#NatureInspiredJewelry #Amiees",
       "caption_file": "caption.txt",
       "content_angle": "nature_detail_reveal",
-      "content_sha256": "87a231d7aaed8568d351a01650c43cd596c57983a0d88cc81774bb47bc549d86",
+      "content_sha256": "6cbb09c77de38ea9caae5bb94e15494d1a931458ebc605d25435755d5c98eafb",
       "experiment_id": "reel-20261029-sterling-silver-elephant-ring",
       "final_assets": [
         {
@@ -318,11 +780,84 @@
           "approvals_invalidated": true,
           "at": "2026-10-30T00:45:01.728162+00:00",
           "status": "ready_for_review"
+        },
+        {
+          "action": "content_ingested",
+          "approvals_invalidated": true,
+          "at": "2026-10-30T01:19:41.097264+00:00",
+          "status": "ready_for_review"
+        },
+        {
+          "action": "creative_approved",
+          "at": "2026-10-30T01:19:41.186630+00:00",
+          "by": "Codex under Gabe authorization",
+          "content_sha256": "6cbb09c77de38ea9caae5bb94e15494d1a931458ebc605d25435755d5c98eafb"
+        },
+        {
+          "action": "shopify_upload_recorded",
+          "at": "2026-10-30T01:19:41.360977+00:00",
+          "verified_by": "Codex"
+        },
+        {
+          "action": "hosted_video_reviewed",
+          "at": "2026-10-30T01:19:41.517680+00:00",
+          "by": "Codex: matching source hash, hosted contact sheet and video metadata reviewed",
+          "sha256": "b35f8f2192e2f0fca6cae94efcb5399bf48557198098f1cb7a97a10050b1a6d0"
+        },
+        {
+          "action": "queue_draft_prepared",
+          "at": "2026-10-30T01:19:41.617879+00:00",
+          "scheduled_at": "2026-10-30T15:00:00+00:00"
+        },
+        {
+          "action": "queue_entry_approved",
+          "at": "2026-10-30T01:19:41.716131+00:00",
+          "by": "Codex under Gabe authorization for extra Reel slots",
+          "draft_sha256": "8c19addfadc9b09e3af26be6acd49a82d06bbd0ca9828676c5b971dc66caac90"
+        },
+        {
+          "action": "local_queue_row_added",
+          "at": "2026-10-30T01:19:41.831898+00:00",
+          "by": "Codex under Gabe authorization for extra Reel slots"
         }
       ],
       "hook": "Spot the herd.",
       "hook_placement": "overlay",
+      "hosted_video_review": {
+        "at": "2026-10-30T01:19:41.517629+00:00",
+        "by": "Codex: matching source hash, hosted contact sheet and video metadata reviewed",
+        "bytes": 13037374,
+        "cdn_url": "https://cdn.shopify.com/videos/c/o/v/d4699338cbfa423391c5b467828dd2bf.mp4",
+        "content_sha256": "6cbb09c77de38ea9caae5bb94e15494d1a931458ebc605d25435755d5c98eafb",
+        "metadata": {
+          "audio_codecs": [],
+          "codec": "h264",
+          "duration_seconds": 7.5,
+          "height": 1920,
+          "media_type": "MP4",
+          "width": 1080
+        },
+        "reviewed_file": "_pipeline/hosted-video.mp4",
+        "sha256": "b35f8f2192e2f0fca6cae94efcb5399bf48557198098f1cb7a97a10050b1a6d0",
+        "upload_receipt_sha256": "26155044080e42326aacbc9d3fd952a8d22f9bea81c54fdfc5e3dfc7c88826e5"
+      },
       "hypothesis": "A short nature detail reveal paired with commercially eligible native trending audio may increase qualified profile visits. This is exploratory, not a controlled comparison or evidence of a winner.",
+      "instagram_audio": {
+        "artist": "half.cool",
+        "catalog_collected_at": "2026-10-30T00:31:47Z",
+        "configuration": {
+          "audio_id": "1127106596130760",
+          "audio_volume": 70,
+          "video_volume": 1
+        },
+        "rights_review": {
+          "at": "2026-10-30T01:19:40.943831+00:00",
+          "by": "Codex",
+          "commercial_use_verified": true,
+          "source_url": "https://www.facebook.com/sound/collection/terms"
+        },
+        "title": "Move Ur Body (Instrumental)"
+      },
       "is_ai_generated": true,
       "objective": "Product discovery and consideration",
       "permalink": null,
@@ -342,8 +877,40 @@
       },
       "product": "sterling-silver-elephant-ring",
       "published_post_id": null,
-      "publishing_status": "ready_for_review",
-      "queue_draft": null,
+      "publishing_status": "scheduled",
+      "queue_confirmation": "Local queue row only. Commit and push registry plus queue for GitHub scheduling.",
+      "queue_draft": {
+        "auto_apply": false,
+        "content_sha256": "6cbb09c77de38ea9caae5bb94e15494d1a931458ebc605d25435755d5c98eafb",
+        "experiment_id": "reel-20261029-sterling-silver-elephant-ring",
+        "media": {
+          "audio_configuration": {
+            "audio_id": "1127106596130760",
+            "audio_volume": 70,
+            "video_volume": 1
+          },
+          "cover_url": "https://cdn.shopify.com/s/files/1/0677/3201/3371/files/elephant-ring-reel-v7.jpg?v=1793320402",
+          "is_ai_generated": true,
+          "media_type": "REELS",
+          "schedule_mode": "additional_reel",
+          "video_sha256": "b35f8f2192e2f0fca6cae94efcb5399bf48557198098f1cb7a97a10050b1a6d0",
+          "video_url": "https://cdn.shopify.com/videos/c/o/v/d4699338cbfa423391c5b467828dd2bf.mp4"
+        },
+        "pipeline_item_id": "reel-20261029-sterling-silver-elephant-ring--instagram",
+        "queue_base_sha256": "88d640724d599b4bc2e9172fa724149356ca45a550f44fd8e047996a9292a324",
+        "queue_file": "ig_queue.csv",
+        "row": {
+          "caption": "Spot the herd.\n\nA little reminder to keep nature close.\nShop the Elephant Ring through the link in our bio.\n\n#NatureInspiredJewelry #Amiees",
+          "images": "",
+          "post_id": "ig-exp-reel-20261029-sterling-silver-elephant-ring",
+          "product": "sterling-silver-elephant-ring",
+          "release_at": "2026-10-30 15:00:00",
+          "status": "queued"
+        },
+        "scheduled_at": "2026-10-30T15:00:00+00:00",
+        "schema_version": 1,
+        "upload_receipt_sha256": "26155044080e42326aacbc9d3fd952a8d22f9bea81c54fdfc5e3dfc7c88826e5"
+      },
       "queue_id": "ig-exp-reel-20261029-sterling-silver-elephant-ring",
       "requested_scheduled_at": null,
       "revisions": [
@@ -391,14 +958,111 @@
           "validation_errors": [
             "Fill in content_angle"
           ]
+        },
+        {
+          "analytics_linkage": null,
+          "approval": null,
+          "caption": "Spot the herd.\n\nA little reminder to keep nature close.\nShop the Elephant Ring through the link in our bio.\n\n#NatureInspiredJewelry #Amiees",
+          "caption_file": "caption.txt",
+          "content_angle": "nature_detail_reveal",
+          "content_sha256": "87a231d7aaed8568d351a01650c43cd596c57983a0d88cc81774bb47bc549d86",
+          "experiment_id": "reel-20261029-sterling-silver-elephant-ring",
+          "final_assets": [
+            {
+              "alt": "Elephant Ring in a short nature-inspired jewelry detail Reel.",
+              "audio_codecs": [],
+              "bytes": 13037374,
+              "codec": "h264",
+              "duration_seconds": 7.5,
+              "height": 1920,
+              "media_type": "MP4",
+              "path": "final/video.mp4",
+              "role": "video",
+              "sha256": "b35f8f2192e2f0fca6cae94efcb5399bf48557198098f1cb7a97a10050b1a6d0",
+              "width": 1080
+            },
+            {
+              "alt": "Elephant Ring in a short nature-inspired jewelry detail Reel.",
+              "bytes": 320424,
+              "height": 1920,
+              "media_type": "JPEG",
+              "path": "final/cover.jpg",
+              "role": "cover",
+              "sha256": "bd3a72e95ad39906035ad3be0f572a91cb4c9ef3b4c4ab4f69f1ac38941a117f",
+              "width": 1080
+            }
+          ],
+          "format": "REELS",
+          "hook": "Spot the herd.",
+          "hook_placement": "overlay",
+          "hypothesis": "A short nature detail reveal paired with commercially eligible native trending audio may increase qualified profile visits. This is exploratory, not a controlled comparison or evidence of a winner.",
+          "is_ai_generated": true,
+          "objective": "Product discovery and consideration",
+          "permalink": null,
+          "pinterest": {
+            "board": "",
+            "description": "",
+            "destination_url": "",
+            "keywords": [],
+            "title": ""
+          },
+          "pipeline_item_id": "reel-20261029-sterling-silver-elephant-ring--instagram",
+          "planner_reference": null,
+          "platform": "instagram",
+          "primary_success_metric": {
+            "definition": "Attributed profile visits where available; missing metrics remain unknown. Interpret low reach conservatively.",
+            "name": "profile_visits"
+          },
+          "product": "sterling-silver-elephant-ring",
+          "published_post_id": null,
+          "publishing_status": "ready_for_review",
+          "queue_draft": null,
+          "queue_id": "ig-exp-reel-20261029-sterling-silver-elephant-ring",
+          "requested_scheduled_at": null,
+          "schedule_approval": null,
+          "schedule_mode": "additional_reel",
+          "scheduled_at": null,
+          "schema_version": 1,
+          "shopify_cdn_urls": [],
+          "shopify_files": [],
+          "source_assets": [
+            {
+              "bytes": 13037374,
+              "path": "source/elephant-ring-reel-v7.mp4",
+              "sha256": "b35f8f2192e2f0fca6cae94efcb5399bf48557198098f1cb7a97a10050b1a6d0"
+            }
+          ],
+          "validation_errors": []
         }
       ],
-      "schedule_approval": null,
+      "schedule_approval": {
+        "at": "2026-10-30T01:19:41.716077+00:00",
+        "by": "Codex under Gabe authorization for extra Reel slots",
+        "draft_sha256": "8c19addfadc9b09e3af26be6acd49a82d06bbd0ca9828676c5b971dc66caac90"
+      },
       "schedule_mode": "additional_reel",
-      "scheduled_at": null,
+      "scheduled_at": "2026-10-30T15:00:00+00:00",
       "schema_version": 1,
-      "shopify_cdn_urls": [],
-      "shopify_files": [],
+      "shopify_cdn_urls": [
+        "https://cdn.shopify.com/videos/c/o/v/d4699338cbfa423391c5b467828dd2bf.mp4",
+        "https://cdn.shopify.com/s/files/1/0677/3201/3371/files/elephant-ring-reel-v7.jpg?v=1793320402"
+      ],
+      "shopify_files": [
+        {
+          "cdn_url": "https://cdn.shopify.com/videos/c/o/v/d4699338cbfa423391c5b467828dd2bf.mp4",
+          "file_id": "gid://shopify/Video/49377447608635",
+          "file_status": "READY",
+          "path": "final/video.mp4",
+          "sha256": "b35f8f2192e2f0fca6cae94efcb5399bf48557198098f1cb7a97a10050b1a6d0"
+        },
+        {
+          "cdn_url": "https://cdn.shopify.com/s/files/1/0677/3201/3371/files/elephant-ring-reel-v7.jpg?v=1793320402",
+          "file_id": "gid://shopify/MediaImage/49377447149883",
+          "file_status": "READY",
+          "path": "final/cover.jpg",
+          "sha256": "bd3a72e95ad39906035ad3be0f572a91cb4c9ef3b4c4ab4f69f1ac38941a117f"
+        }
+      ],
       "source_assets": [
         {
           "bytes": 13037374,
@@ -406,6 +1070,29 @@
           "sha256": "b35f8f2192e2f0fca6cae94efcb5399bf48557198098f1cb7a97a10050b1a6d0"
         }
       ],
+      "upload_receipt": {
+        "content_sha256": "6cbb09c77de38ea9caae5bb94e15494d1a931458ebc605d25435755d5c98eafb",
+        "experiment_id": "reel-20261029-sterling-silver-elephant-ring",
+        "files": [
+          {
+            "cdn_url": "https://cdn.shopify.com/videos/c/o/v/d4699338cbfa423391c5b467828dd2bf.mp4",
+            "file_id": "gid://shopify/Video/49377447608635",
+            "file_status": "READY",
+            "path": "final/video.mp4",
+            "sha256": "b35f8f2192e2f0fca6cae94efcb5399bf48557198098f1cb7a97a10050b1a6d0"
+          },
+          {
+            "cdn_url": "https://cdn.shopify.com/s/files/1/0677/3201/3371/files/elephant-ring-reel-v7.jpg?v=1793320402",
+            "file_id": "gid://shopify/MediaImage/49377447149883",
+            "file_status": "READY",
+            "path": "final/cover.jpg",
+            "sha256": "bd3a72e95ad39906035ad3be0f572a91cb4c9ef3b4c4ab4f69f1ac38941a117f"
+          }
+        ],
+        "platform": "instagram",
+        "verified_at": "2026-10-30T01:19:40.943831+00:00",
+        "verified_by": "Codex"
+      },
       "validation_errors": []
     }
   },
