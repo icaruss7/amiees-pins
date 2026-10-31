@@ -1,16 +1,16 @@
 # Amiees Instagram Weekly Learning Report
 
-_Generated 2026-10-30T19:27:36+00:00_
+_Generated 2026-10-31T18:37:12+00:00_
 
 ## Snapshot
 
-- Published posts tracked: **16**
+- Published posts tracked: **17**
 - Followers: **31**
 - Follower change since tracking began: **+0**
 - Median reach/views per tracked post: **6**
 - Average share rate: **0.00%**
 - Average save rate: **0.00%**
-- Average interaction rate: **40.05%**
+- Average interaction rate: **37.51%**
 
 ## Strongest posts
 
@@ -23,23 +23,24 @@ _Generated 2026-10-30T19:27:36+00:00_
 ## Current patterns
 
 ### Series
-- **nature** (n=4): avg reach 3, share rate 0.00%, save rate 0.00%, interaction rate 14.58%
-- **product** (n=12): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 48.53%
+- **nature** (n=5): avg reach 4, share rate 0.00%, save rate 0.00%, interaction rate 14.00%
+- **product** (n=12): avg reach 7, share rate 0.00%, save rate 0.00%, interaction rate 47.30%
 
 ### Format
-- **FEED** (n=16): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 40.05%
+- **FEED** (n=17): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 37.51%
 
 ### Weekday
-- **Friday** (n=4): avg reach 5, share rate 0.00%, save rate 0.00%, interaction rate 37.62%
+- **Friday** (n=4): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 36.43%
 - **Monday** (n=2): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 50.00%
+- **Saturday** (n=1): avg reach 4, share rate 0.00%, save rate 0.00%, interaction rate 25.00%
 - **Sunday** (n=2): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 63.33%
-- **Thursday** (n=2): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 13.64%
-- **Tuesday** (n=2): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 31.25%
-- **Wednesday** (n=4): avg reach 5, share rate 0.00%, save rate 0.00%, interaction rate 43.45%
+- **Thursday** (n=2): avg reach 7, share rate 0.00%, save rate 0.00%, interaction rate 13.64%
+- **Tuesday** (n=2): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 28.75%
+- **Wednesday** (n=4): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 38.87%
 
 ## Recommended next tests
 
 - Create follow-up variants around the strongest current winners: crystal-blossom-jewelry-set, bee-honeycomb-mismatched-earrings, cat-lover-set.
-- FEED is the strongest format with enough samples by interaction rate (40.05%); give it a larger share of the next test batch.
+- FEED is the strongest format with enough samples by interaction rate (37.51%); give it a larger share of the next test batch.
 - Friday currently has the strongest share rate among weekdays with at least two posts (0.00%). Treat this as provisional until the sample grows.
 - Share rate is below 0.5%; test stronger send-worthy hooks such as 'send this to the friend who would wear #2' or identity/gift framing.
