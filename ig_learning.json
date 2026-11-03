@@ -4,36 +4,36 @@
   "followers": 31
  },
  "benchmarks": {
-  "avg_interaction_rate": 0.34755642105263157,
+  "avg_interaction_rate": 0.4429197894736842,
   "avg_save_rate": 0.0,
   "avg_share_rate": 0.0,
   "median_reach_or_views": 6.0
  },
  "data_notes": {
-  "collected_at": "2026-11-02T22:48:19+00:00",
+  "collected_at": "2026-11-03T20:31:04+00:00",
   "insights_permission_notes": [],
   "posts_collected": 19,
   "posts_skipped": 0
  },
- "generated_at": "2026-11-02T22:49:03+00:00",
+ "generated_at": "2026-11-03T20:32:14+00:00",
  "groups": {
   "format": {
    "FEED": {
-    "avg_interaction_rate": 0.34755642105263157,
-    "avg_reach": 5.578947368421052,
+    "avg_interaction_rate": 0.4429197894736842,
+    "avg_reach": 6.157894736842105,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 13.105263157894736,
+    "avg_views": 14.157894736842104,
     "n": 19
    }
   },
   "posting_hour_utc": {
    "00:00 UTC": {
-    "avg_interaction_rate": 0.225,
-    "avg_reach": 4.5,
+    "avg_interaction_rate": 0.375,
+    "avg_reach": 5.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 7.0,
+    "avg_views": 7.5,
     "n": 2
    },
    "02:00 UTC": {
@@ -46,34 +46,34 @@
    },
    "06:00 UTC": {
     "avg_interaction_rate": 0.0,
-    "avg_reach": 3.0,
-    "avg_save_rate": 0.0,
-    "avg_share_rate": 0.0,
-    "avg_views": 3.0,
-    "n": 1
-   },
-   "10:00 UTC": {
-    "avg_interaction_rate": 0.0,
     "avg_reach": 4.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 6.0,
+    "avg_views": 5.0,
     "n": 1
    },
-   "12:00 UTC": {
-    "avg_interaction_rate": 0.166667,
+   "10:00 UTC": {
+    "avg_interaction_rate": 0.333333,
     "avg_reach": 6.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 7.0,
+    "avg_views": 11.0,
+    "n": 1
+   },
+   "12:00 UTC": {
+    "avg_interaction_rate": 0.428571,
+    "avg_reach": 7.0,
+    "avg_save_rate": 0.0,
+    "avg_share_rate": 0.0,
+    "avg_views": 12.0,
     "n": 1
    },
    "16:00 UTC": {
-    "avg_interaction_rate": 0.333333,
-    "avg_reach": 3.0,
+    "avg_interaction_rate": 0.75,
+    "avg_reach": 4.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 13.0,
+    "avg_views": 15.0,
     "n": 1
    },
    "17:00 UTC": {
@@ -93,11 +93,11 @@
     "n": 1
    },
    "19:00 UTC": {
-    "avg_interaction_rate": 0.3,
-    "avg_reach": 3.0,
+    "avg_interaction_rate": 0.55,
+    "avg_reach": 5.5,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 8.0,
+    "avg_views": 10.5,
     "n": 2
    },
    "20:00 UTC": {
@@ -119,11 +119,11 @@
   },
   "series": {
    "nature": {
-    "avg_interaction_rate": 0.1357142857142857,
-    "avg_reach": 3.7142857142857144,
+    "avg_interaction_rate": 0.3945577142857143,
+    "avg_reach": 5.285714285714286,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 6.285714285714286,
+    "avg_views": 9.142857142857142,
     "n": 7
    },
    "product": {
@@ -137,51 +137,51 @@
   },
   "weekday": {
    "Friday": {
-    "avg_interaction_rate": 0.36428574999999996,
-    "avg_reach": 5.75,
+    "avg_interaction_rate": 0.447619,
+    "avg_reach": 6.25,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 13.0,
+    "avg_views": 14.25,
     "n": 4
    },
    "Monday": {
-    "avg_interaction_rate": 0.3333333333333333,
-    "avg_reach": 4.333333333333333,
-    "avg_save_rate": 0.0,
-    "avg_share_rate": 0.0,
-    "avg_views": 9.333333333333334,
-    "n": 3
-   },
-   "Saturday": {
-    "avg_interaction_rate": 0.166667,
+    "avg_interaction_rate": 0.5,
     "avg_reach": 6.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 7.0,
+    "avg_views": 11.0,
+    "n": 3
+   },
+   "Saturday": {
+    "avg_interaction_rate": 0.428571,
+    "avg_reach": 7.0,
+    "avg_save_rate": 0.0,
+    "avg_share_rate": 0.0,
+    "avg_views": 12.0,
     "n": 1
    },
    "Sunday": {
-    "avg_interaction_rate": 0.5333333333333333,
-    "avg_reach": 4.666666666666667,
+    "avg_interaction_rate": 0.6722223333333334,
+    "avg_reach": 5.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 15.333333333333334,
+    "avg_views": 16.0,
     "n": 3
    },
    "Thursday": {
     "avg_interaction_rate": 0.125,
-    "avg_reach": 7.5,
+    "avg_reach": 8.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 16.0,
+    "avg_views": 17.0,
     "n": 2
    },
    "Tuesday": {
-    "avg_interaction_rate": 0.2875,
-    "avg_reach": 6.5,
+    "avg_interaction_rate": 0.4375,
+    "avg_reach": 7.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 13.0,
+    "avg_views": 13.5,
     "n": 2
    },
    "Wednesday": {
@@ -195,13 +195,24 @@
   }
  },
  "recommendations": [
-  "Create follow-up variants around the strongest current winners: crystal-blossom-jewelry-set, bee-honeycomb-mismatched-earrings, cat-lover-set.",
-  "FEED is the strongest format with enough samples by interaction rate (34.76%); give it a larger share of the next test batch.",
+  "Create follow-up variants around the strongest current winners: bee-honeycomb-mismatched-earrings, crystal-blossom-jewelry-set, bee-honeycomb-mismatched-earrings.",
+  "FEED is the strongest format with enough samples by interaction rate (44.29%); give it a larger share of the next test batch.",
   "Friday currently has the strongest share rate among weekdays with at least two posts (0.00%). Treat this as provisional until the sample grows.",
   "Share rate is below 0.5%; test stronger send-worthy hooks such as 'send this to the friend who would wear #2' or identity/gift framing."
  ],
  "sample_size": 19,
  "top_posts": [
+  {
+   "interaction_rate": 0.75,
+   "permalink": "https://www.instagram.com/p/DfNI4hFF4mu/",
+   "post_id": "ig-nature-06-bee-honeycomb-mismatched-earrings",
+   "product": "bee-honeycomb-mismatched-earrings",
+   "reach": 4.0,
+   "save_rate": 0.0,
+   "score": 0.220833,
+   "share_rate": 0.0,
+   "views": 15.0
+  },
   {
    "interaction_rate": 0.666667,
    "permalink": "https://www.instagram.com/p/DepmLzNIOJ3/",
@@ -245,17 +256,6 @@
    "score": 0.191667,
    "share_rate": 0.0,
    "views": 10.0
-  },
-  {
-   "interaction_rate": 0.6,
-   "permalink": "https://www.instagram.com/p/DeXbnoRjnSi/",
-   "post_id": "ig-tropical-monstera-leaf-huggie-earrings-1",
-   "product": "tropical-monstera-leaf-huggie-earrings",
-   "reach": 5.0,
-   "save_rate": 0.0,
-   "score": 0.191667,
-   "share_rate": 0.0,
-   "views": 15.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 # Amiees Instagram Weekly Learning Report
 
-_Generated 2026-11-02T22:49:03+00:00_
+_Generated 2026-11-03T20:32:14+00:00_
 
 ## Snapshot
 
@@ -10,37 +10,37 @@ _Generated 2026-11-02T22:49:03+00:00_
 - Median reach/views per tracked post: **6**
 - Average share rate: **0.00%**
 - Average save rate: **0.00%**
-- Average interaction rate: **34.76%**
+- Average interaction rate: **44.29%**
 
 ## Strongest posts
 
-1. **crystal-blossom-jewelry-set** — reach 6, shares/reach 0.00%, saves/reach 0.00%, interactions/reach 66.67%
-2. **bee-honeycomb-mismatched-earrings** — reach 7, shares/reach 0.00%, saves/reach 0.00%, interactions/reach 57.14%
-3. **cat-lover-set** — reach 7, shares/reach 0.00%, saves/reach 0.00%, interactions/reach 57.14%
-4. **aiko-cat-heart-earrings** — reach 5, shares/reach 0.00%, saves/reach 0.00%, interactions/reach 60.00%
-5. **tropical-monstera-leaf-huggie-earrings** — reach 5, shares/reach 0.00%, saves/reach 0.00%, interactions/reach 60.00%
+1. **bee-honeycomb-mismatched-earrings** — reach 4, shares/reach 0.00%, saves/reach 0.00%, interactions/reach 75.00%
+2. **crystal-blossom-jewelry-set** — reach 6, shares/reach 0.00%, saves/reach 0.00%, interactions/reach 66.67%
+3. **bee-honeycomb-mismatched-earrings** — reach 7, shares/reach 0.00%, saves/reach 0.00%, interactions/reach 57.14%
+4. **cat-lover-set** — reach 7, shares/reach 0.00%, saves/reach 0.00%, interactions/reach 57.14%
+5. **aiko-cat-heart-earrings** — reach 5, shares/reach 0.00%, saves/reach 0.00%, interactions/reach 60.00%
 
 ## Current patterns
 
 ### Series
-- **nature** (n=7): avg reach 4, share rate 0.00%, save rate 0.00%, interaction rate 13.57%
+- **nature** (n=7): avg reach 5, share rate 0.00%, save rate 0.00%, interaction rate 39.46%
 - **product** (n=12): avg reach 7, share rate 0.00%, save rate 0.00%, interaction rate 47.11%
 
 ### Format
-- **FEED** (n=19): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 34.76%
+- **FEED** (n=19): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 44.29%
 
 ### Weekday
-- **Friday** (n=4): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 36.43%
-- **Monday** (n=3): avg reach 4, share rate 0.00%, save rate 0.00%, interaction rate 33.33%
-- **Saturday** (n=1): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 16.67%
-- **Sunday** (n=3): avg reach 5, share rate 0.00%, save rate 0.00%, interaction rate 53.33%
+- **Friday** (n=4): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 44.76%
+- **Monday** (n=3): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 50.00%
+- **Saturday** (n=1): avg reach 7, share rate 0.00%, save rate 0.00%, interaction rate 42.86%
+- **Sunday** (n=3): avg reach 5, share rate 0.00%, save rate 0.00%, interaction rate 67.22%
 - **Thursday** (n=2): avg reach 8, share rate 0.00%, save rate 0.00%, interaction rate 12.50%
-- **Tuesday** (n=2): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 28.75%
+- **Tuesday** (n=2): avg reach 7, share rate 0.00%, save rate 0.00%, interaction rate 43.75%
 - **Wednesday** (n=4): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 38.87%
 
 ## Recommended next tests
 
-- Create follow-up variants around the strongest current winners: crystal-blossom-jewelry-set, bee-honeycomb-mismatched-earrings, cat-lover-set.
-- FEED is the strongest format with enough samples by interaction rate (34.76%); give it a larger share of the next test batch.
+- Create follow-up variants around the strongest current winners: bee-honeycomb-mismatched-earrings, crystal-blossom-jewelry-set, bee-honeycomb-mismatched-earrings.
+- FEED is the strongest format with enough samples by interaction rate (44.29%); give it a larger share of the next test batch.
 - Friday currently has the strongest share rate among weekdays with at least two posts (0.00%). Treat this as provisional until the sample grows.
 - Share rate is below 0.5%; test stronger send-worthy hooks such as 'send this to the friend who would wear #2' or identity/gift framing.
