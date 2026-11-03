@@ -122,6 +122,10 @@
     "posted_at": "2026-11-02T19:41:44+00:00",
     "publish_started_at": "2026-11-02T19:41:39.694804+00:00"
   },
+  "ig-nature-08-sunflower-pendant-necklace": {
+    "attempts": 1,
+    "last_error": "MetaAPIError: publication did not complete; inspect the run"
+  },
   "ig-radiant-bloom-flower-necklace-1": {
     "attempts": 1,
     "media_id": "18094257821429016",
