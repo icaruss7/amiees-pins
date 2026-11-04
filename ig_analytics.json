@@ -55,12 +55,20 @@
    "id": "17841454700426833",
    "media_count": 89,
    "username": "amiees.com_"
+  },
+  {
+   "collected_at": "2026-11-04T20:50:37+00:00",
+   "followers_count": 31,
+   "follows_count": 4,
+   "id": "17841454700426833",
+   "media_count": 90,
+   "username": "amiees.com_"
   }
  ],
  "last_run": {
-  "collected_at": "2026-11-03T20:31:04+00:00",
+  "collected_at": "2026-11-04T20:50:37+00:00",
   "insights_permission_notes": [],
-  "posts_collected": 19,
+  "posts_collected": 20,
   "posts_skipped": 0
  },
  "posts": {
@@ -207,6 +215,29 @@
     },
     {
      "collected_at": "2026-11-03T20:31:04+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.6,
+      "like_rate": 0.6,
+      "likes": 3,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.2,
+      "profile_visits": 1,
+      "reach": 5,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 10
+     }
+    },
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -426,6 +457,29 @@
       "total_interactions": 4,
       "views": 23
      }
+    },
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.142857,
+      "comments": 1,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.571429,
+      "like_rate": 0.428571,
+      "likes": 3,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.285714,
+      "profile_visits": 2,
+      "reach": 7,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 4,
+      "views": 23
+     }
     }
    ],
    "latest": {
@@ -605,6 +659,29 @@
     },
     {
      "collected_at": "2026-11-03T20:31:04+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.333333,
+      "like_rate": 0.333333,
+      "likes": 2,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 6,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 2,
+      "views": 17
+     }
+    },
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -824,6 +901,29 @@
       "total_interactions": 4,
       "views": 22
      }
+    },
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.142857,
+      "comments": 1,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.571429,
+      "like_rate": 0.428571,
+      "likes": 3,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 7,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 4,
+      "views": 22
+     }
     }
    ],
    "latest": {
@@ -1003,6 +1103,29 @@
     },
     {
      "collected_at": "2026-11-03T20:31:04+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.5,
+      "like_rate": 0.5,
+      "likes": 3,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.166667,
+      "profile_visits": 1,
+      "reach": 6,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 15
+     }
+    },
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -1222,6 +1345,29 @@
       "total_interactions": 4,
       "views": 18
      }
+    },
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.166667,
+      "comments": 1,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.666667,
+      "like_rate": 0.5,
+      "likes": 3,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 6,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 4,
+      "views": 18
+     }
     }
    ],
    "latest": {
@@ -1401,6 +1547,29 @@
     },
     {
      "collected_at": "2026-11-03T20:31:04+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.4,
+      "like_rate": 0.4,
+      "likes": 2,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 5,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 2,
+      "views": 11
+     }
+    },
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -1620,6 +1789,29 @@
       "total_interactions": 2,
       "views": 14
      }
+    },
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.285714,
+      "like_rate": 0.285714,
+      "likes": 2,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 7,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 2,
+      "views": 14
+     }
     }
    ],
    "latest": {
@@ -1799,6 +1991,29 @@
     },
     {
      "collected_at": "2026-11-03T20:31:04+00:00",
+     "metrics": {
+      "comment_rate": 0.166667,
+      "comments": 1,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.5,
+      "like_rate": 0.333333,
+      "likes": 2,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 6,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 8
+     }
+    },
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
      "metrics": {
       "comment_rate": 0.166667,
       "comments": 1,
@@ -2018,6 +2233,29 @@
       "total_interactions": 1,
       "views": 7
      }
+    },
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.25,
+      "like_rate": 0.25,
+      "likes": 1,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.25,
+      "profile_visits": 1,
+      "reach": 4,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 1,
+      "views": 7
+     }
     }
    ],
    "latest": {
@@ -2194,6 +2432,29 @@
       "total_interactions": 0,
       "views": 5
      }
+    },
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.0,
+      "like_rate": 0.0,
+      "likes": 0,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 4,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 5
+     }
     }
    ],
    "latest": {
@@ -2347,6 +2608,29 @@
       "total_interactions": 2,
       "views": 11
      }
+    },
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.333333,
+      "like_rate": 0.333333,
+      "likes": 2,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 6,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 2,
+      "views": 11
+     }
     }
    ],
    "latest": {
@@ -2477,6 +2761,29 @@
       "total_interactions": 3,
       "views": 12
      }
+    },
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.142857,
+      "comments": 1,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.428571,
+      "like_rate": 0.285714,
+      "likes": 2,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 7,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 12
+     }
     }
    ],
    "latest": {
@@ -2584,6 +2891,29 @@
       "total_interactions": 3,
       "views": 15
      }
+    },
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.25,
+      "comments": 1,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.75,
+      "like_rate": 0.5,
+      "likes": 2,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 4,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 15
+     }
     }
    ],
    "latest": {
@@ -2668,27 +2998,50 @@
       "total_interactions": 3,
       "views": 6
      }
+    },
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.142857,
+      "comments": 1,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.428571,
+      "like_rate": 0.285714,
+      "likes": 2,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 7,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 7
+     }
     }
    ],
    "latest": {
-    "comment_rate": 0.166667,
+    "comment_rate": 0.142857,
     "comments": 1,
     "follow_rate": 0.0,
     "follows": 0,
-    "interaction_rate": 0.5,
-    "like_rate": 0.333333,
+    "interaction_rate": 0.428571,
+    "like_rate": 0.285714,
     "likes": 2,
     "profile_activity": 0,
     "profile_visit_rate": 0.0,
     "profile_visits": 0,
-    "reach": 6,
+    "reach": 7,
     "reposts": 0,
     "save_rate": 0.0,
     "saved": 0,
     "share_rate": 0.0,
     "shares": 0,
     "total_interactions": 3,
-    "views": 6
+    "views": 7
    },
    "media_id": "18148132768576544",
    "media_product_type": "FEED",
@@ -2702,6 +3055,67 @@
     "ig_reels_avg_watch_time": "GET 18148132768576544/insights failed (400): (#100) The Media Insights API does not support the ig_reels_avg_watch_time metric for this media product type.",
     "ig_reels_video_view_total_time": "GET 18148132768576544/insights failed (400): (#100) The Media Insights API does not support the ig_reels_video_view_total_time metric for this media product type.",
     "reels_skip_rate": "GET 18148132768576544/insights failed (400): (#100) The Media Insights API does not support the reels_skip_rate metric for this media product type."
+   }
+  },
+  "ig-nature-08-sunflower-pendant-necklace": {
+   "caption": "Young sunflowers turn to follow the sun across the sky. Once they bloom, most of them settle facing east.\n\nThe Sunflower Pendant Necklace: crystal petals, a yellow center and two green leaves on a fine chain.\n\nKeep nature close. Shop the Sunflower Pendant Necklace through the link in bio.\n\n#amiees #naturejewelry #sunflowers #sunflowerfield #flowernecklace",
+   "history": [
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.0,
+      "like_rate": 0.0,
+      "likes": 0,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 4,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 4
+     }
+    }
+   ],
+   "latest": {
+    "comment_rate": 0.0,
+    "comments": 0,
+    "follow_rate": 0.0,
+    "follows": 0,
+    "interaction_rate": 0.0,
+    "like_rate": 0.0,
+    "likes": 0,
+    "profile_activity": 0,
+    "profile_visit_rate": 0.0,
+    "profile_visits": 0,
+    "reach": 4,
+    "reposts": 0,
+    "save_rate": 0.0,
+    "saved": 0,
+    "share_rate": 0.0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 4
+   },
+   "media_id": "18125492209900780",
+   "media_product_type": "FEED",
+   "media_type": "IMAGE",
+   "permalink": "https://www.instagram.com/p/DfTSkYtD3Pk/",
+   "post_id": "ig-nature-08-sunflower-pendant-necklace",
+   "posted_at": "2026-11-04T01:35:56+00:00",
+   "product": "sunflower-pendant-necklace",
+   "series": "nature",
+   "unsupported_metrics": {
+    "ig_reels_avg_watch_time": "GET 18125492209900780/insights failed (400): (#100) The Media Insights API does not support the ig_reels_avg_watch_time metric for this media product type.",
+    "ig_reels_video_view_total_time": "GET 18125492209900780/insights failed (400): (#100) The Media Insights API does not support the ig_reels_video_view_total_time metric for this media product type.",
+    "reels_skip_rate": "GET 18125492209900780/insights failed (400): (#100) The Media Insights API does not support the reels_skip_rate metric for this media product type."
    }
   },
   "ig-radiant-bloom-flower-necklace-1": {
@@ -2847,6 +3261,29 @@
     },
     {
      "collected_at": "2026-11-03T20:31:04+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.25,
+      "like_rate": 0.25,
+      "likes": 3,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.083333,
+      "profile_visits": 1,
+      "reach": 12,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 29
+     }
+    },
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -3066,6 +3503,29 @@
       "total_interactions": 3,
       "views": 19
      }
+    },
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.375,
+      "like_rate": 0.375,
+      "likes": 3,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 8,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 19
+     }
     }
    ],
    "latest": {
@@ -3245,6 +3705,29 @@
     },
     {
      "collected_at": "2026-11-03T20:31:04+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.5,
+      "like_rate": 0.5,
+      "likes": 3,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 6,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 12
+     }
+    },
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -3464,6 +3947,29 @@
       "total_interactions": 3,
       "views": 15
      }
+    },
+    {
+     "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.6,
+      "like_rate": 0.6,
+      "likes": 3,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 5,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 15
+     }
     }
    ],
    "latest": {
@@ -3502,5 +4008,5 @@
   }
  },
  "schema_version": 1,
- "updated_at": "2026-11-03T20:31:04+00:00"
+ "updated_at": "2026-11-04T20:50:37+00:00"
 }
