@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Nov 2026 06:03:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 14:21:43 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Jewelry Gift Set | Botanical Jewelry</title>
@@ -393,6 +393,15 @@
       <pubDate>Mon, 02 Nov 2026 23:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/radiant-bloom-flower-earrings-gold-clear-text.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/radiant-bloom-flower-earrings-gold-clear-text.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Daisy Chain Ring Under $25</title>
+      <link>https://amiees.com/products/ring-of-daisies?utm_source=pinterest&amp;utm_medium=organic&amp;utm_campaign=scene_pins&amp;utm_content=amiees-scene-ring-of-daisies-silver-tone-white-text</link>
+      <description>Ring of Daisies. A band of little white daisies, like a daisy chain you can keep. Part of the botanical jewelry collection from Amiees, under $25. Daisy chain ring, flower band ring and cottagecore ring for everyday wear or gifting. Free shipping on eligible orders of $35 USD or more after discounts.</description>
+      <guid isPermaLink="false">amiees-scene-ring-of-daisies-silver-tone-white-text</guid>
+      <pubDate>Wed, 04 Nov 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/ring-of-daisies-silver-tone-white-text.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/ring-of-daisies-silver-tone-white-text.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
