@@ -1,0 +1,79 @@
+name: Mirror approved Reel media
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/instagram-media-mirror.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-media-mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Mirror exact reviewed Reel bytes
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import json
+          import pathlib
+          import urllib.request
+
+          repo = pathlib.Path(".")
+          data = json.loads((repo / "content/experiments.json").read_text(encoding="utf-8"))
+          wanted = [
+              "reel-20261029-sterling-silver-elephant-ring--instagram",
+              "reel-20261029-dolphin-dreams-ring--instagram",
+              "reel-20261029-blue-butterfly-hoop-earrings--instagram",
+          ]
+          out = repo / "reel-media"
+          out.mkdir(exist_ok=True)
+
+          for key in wanted:
+              record = data["items"][key]
+              review = record["hosted_video_review"]
+              url = review["cdn_url"]
+              expected = review["sha256"]
+              target = out / (record["experiment_id"] + ".mp4")
+              print("downloading", record["experiment_id"])
+              req = urllib.request.Request(url, headers={"User-Agent": "Amiees-Reel-Mirror/1.0"})
+              with urllib.request.urlopen(req, timeout=120) as response, target.open("wb") as fh:
+                  digest = hashlib.sha256()
+                  total = 0
+                  while True:
+                      block = response.read(1024 * 1024)
+                      if not block:
+                          break
+                      fh.write(block)
+                      digest.update(block)
+                      total += len(block)
+              actual = digest.hexdigest()
+              if actual != expected:
+                  target.unlink(missing_ok=True)
+                  raise SystemExit(f"SHA mismatch for {key}: {actual} != {expected}")
+              print("verified", target, total, actual)
+          PY
+
+      - name: Commit mirror files
+        run: |
+          git config user.name "amiees-feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reel-media
+          if git diff --cached --quiet; then
+            echo "Mirror files already match."
+          else
+            git commit -m "Mirror reviewed Reel media for Meta delivery"
+            git pull --rebase
+            git push
+          fi
