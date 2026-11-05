@@ -63,12 +63,20 @@
    "id": "17841454700426833",
    "media_count": 90,
    "username": "amiees.com_"
+  },
+  {
+   "collected_at": "2026-11-05T21:06:51+00:00",
+   "followers_count": 31,
+   "follows_count": 4,
+   "id": "17841454700426833",
+   "media_count": 92,
+   "username": "amiees.com_"
   }
  ],
  "last_run": {
-  "collected_at": "2026-11-04T20:50:37+00:00",
+  "collected_at": "2026-11-05T21:06:51+00:00",
   "insights_permission_notes": [],
-  "posts_collected": 20,
+  "posts_collected": 22,
   "posts_skipped": 0
  },
  "posts": {
@@ -238,6 +246,29 @@
     },
     {
      "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.6,
+      "like_rate": 0.6,
+      "likes": 3,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.2,
+      "profile_visits": 1,
+      "reach": 5,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 10
+     }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -480,6 +511,29 @@
       "total_interactions": 4,
       "views": 23
      }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
+     "metrics": {
+      "comment_rate": 0.142857,
+      "comments": 1,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.571429,
+      "like_rate": 0.428571,
+      "likes": 3,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.285714,
+      "profile_visits": 2,
+      "reach": 7,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 4,
+      "views": 23
+     }
     }
    ],
    "latest": {
@@ -682,6 +736,29 @@
     },
     {
      "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.333333,
+      "like_rate": 0.333333,
+      "likes": 2,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 6,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 2,
+      "views": 17
+     }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -924,6 +1001,29 @@
       "total_interactions": 4,
       "views": 22
      }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
+     "metrics": {
+      "comment_rate": 0.142857,
+      "comments": 1,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.571429,
+      "like_rate": 0.428571,
+      "likes": 3,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 7,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 4,
+      "views": 22
+     }
     }
    ],
    "latest": {
@@ -1126,6 +1226,29 @@
     },
     {
      "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.5,
+      "like_rate": 0.5,
+      "likes": 3,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.166667,
+      "profile_visits": 1,
+      "reach": 6,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 15
+     }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -1368,6 +1491,29 @@
       "total_interactions": 4,
       "views": 18
      }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
+     "metrics": {
+      "comment_rate": 0.166667,
+      "comments": 1,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.666667,
+      "like_rate": 0.5,
+      "likes": 3,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 6,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 4,
+      "views": 18
+     }
     }
    ],
    "latest": {
@@ -1570,6 +1716,29 @@
     },
     {
      "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.4,
+      "like_rate": 0.4,
+      "likes": 2,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 5,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 2,
+      "views": 11
+     }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -1812,6 +1981,29 @@
       "total_interactions": 2,
       "views": 14
      }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.285714,
+      "like_rate": 0.285714,
+      "likes": 2,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 7,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 2,
+      "views": 14
+     }
     }
    ],
    "latest": {
@@ -1846,6 +2038,75 @@
     "ig_reels_avg_watch_time": "GET 18115283074835845/insights failed (400): (#100) The Media Insights API does not support the ig_reels_avg_watch_time metric for this media product type.",
     "ig_reels_video_view_total_time": "GET 18115283074835845/insights failed (400): (#100) The Media Insights API does not support the ig_reels_video_view_total_time metric for this media product type.",
     "reels_skip_rate": "GET 18115283074835845/insights failed (400): (#100) The Media Insights API does not support the reels_skip_rate metric for this media product type."
+   }
+  },
+  "ig-exp-reel-20261029-dolphin-dreams-ring": {
+   "caption": "Spot the dolphin.\n\nA little piece of the ocean to keep close.\nShop the Dolphin Dreams Ring through the link in our bio.\n\n#NatureInspiredJewelry #Amiees",
+   "content_angle": "nature_detail_reveal",
+   "content_sha256": "f92481fd3385b221424b15595a2737d6a5a4a49c6532b5c7a6ec7949d9adbcb3",
+   "experiment_id": "reel-20261029-dolphin-dreams-ring",
+   "history": [
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "ig_reels_avg_watch_time": 1130,
+      "ig_reels_video_view_total_time": 2260,
+      "interaction_rate": 0.0,
+      "like_rate": 0.0,
+      "likes": 0,
+      "reach": 2,
+      "reels_skip_rate": 100,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 2
+     }
+    }
+   ],
+   "hook": "Spot the dolphin.",
+   "hypothesis": "A short nature detail reveal paired with commercially eligible native trending audio may increase qualified profile visits. This is exploratory, not a controlled comparison or evidence of a winner.",
+   "latest": {
+    "comment_rate": 0.0,
+    "comments": 0,
+    "ig_reels_avg_watch_time": 1130,
+    "ig_reels_video_view_total_time": 2260,
+    "interaction_rate": 0.0,
+    "like_rate": 0.0,
+    "likes": 0,
+    "reach": 2,
+    "reels_skip_rate": 100,
+    "reposts": 0,
+    "save_rate": 0.0,
+    "saved": 0,
+    "share_rate": 0.0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 2
+   },
+   "media_id": "18120873157987350",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "objective": "Product discovery and consideration",
+   "permalink": "https://www.instagram.com/reel/DfX3QD9FRwj/",
+   "pipeline_item_id": "reel-20261029-dolphin-dreams-ring--instagram",
+   "planner_reference": null,
+   "post_id": "ig-exp-reel-20261029-dolphin-dreams-ring",
+   "posted_at": "2026-11-05T20:13:55+00:00",
+   "primary_success_metric": {
+    "definition": "Attributed profile visits where available; missing metrics remain unknown. Interpret low reach conservatively.",
+    "name": "profile_visits"
+   },
+   "product": "dolphin-dreams-ring",
+   "series": "product",
+   "unsupported_metrics": {
+    "follows": "GET 18120873157987350/insights failed (400): (#100) The Media Insights API does not support the follows metric for this media product type.",
+    "profile_activity": "GET 18120873157987350/insights failed (400): (#100) The Media Insights API does not support the profile_activity metric for this media product type.",
+    "profile_visits": "GET 18120873157987350/insights failed (400): (#100) The Media Insights API does not support the profile_visits metric for this media product type."
    }
   },
   "ig-nature-01-daisy-ring": {
@@ -2014,6 +2275,29 @@
     },
     {
      "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.166667,
+      "comments": 1,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.5,
+      "like_rate": 0.333333,
+      "likes": 2,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 6,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 8
+     }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
      "metrics": {
       "comment_rate": 0.166667,
       "comments": 1,
@@ -2256,6 +2540,29 @@
       "total_interactions": 1,
       "views": 7
      }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.2,
+      "like_rate": 0.2,
+      "likes": 1,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.2,
+      "profile_visits": 1,
+      "reach": 5,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 1,
+      "views": 9
+     }
     }
    ],
    "latest": {
@@ -2263,20 +2570,20 @@
     "comments": 0,
     "follow_rate": 0.0,
     "follows": 0,
-    "interaction_rate": 0.25,
-    "like_rate": 0.25,
+    "interaction_rate": 0.2,
+    "like_rate": 0.2,
     "likes": 1,
     "profile_activity": 0,
-    "profile_visit_rate": 0.25,
+    "profile_visit_rate": 0.2,
     "profile_visits": 1,
-    "reach": 4,
+    "reach": 5,
     "reposts": 0,
     "save_rate": 0.0,
     "saved": 0,
     "share_rate": 0.0,
     "shares": 0,
     "total_interactions": 1,
-    "views": 7
+    "views": 9
    },
    "media_id": "17914746786501300",
    "media_product_type": "FEED",
@@ -2435,6 +2742,29 @@
     },
     {
      "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.0,
+      "like_rate": 0.0,
+      "likes": 0,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 4,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 5
+     }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -2631,6 +2961,29 @@
       "total_interactions": 2,
       "views": 11
      }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.285714,
+      "like_rate": 0.285714,
+      "likes": 2,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 7,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 2,
+      "views": 15
+     }
     }
    ],
    "latest": {
@@ -2638,20 +2991,20 @@
     "comments": 0,
     "follow_rate": 0.0,
     "follows": 0,
-    "interaction_rate": 0.333333,
-    "like_rate": 0.333333,
+    "interaction_rate": 0.285714,
+    "like_rate": 0.285714,
     "likes": 2,
     "profile_activity": 0,
     "profile_visit_rate": 0.0,
     "profile_visits": 0,
-    "reach": 6,
+    "reach": 7,
     "reposts": 0,
     "save_rate": 0.0,
     "saved": 0,
     "share_rate": 0.0,
     "shares": 0,
     "total_interactions": 2,
-    "views": 11
+    "views": 15
    },
    "media_id": "18129758027304810",
    "media_product_type": "FEED",
@@ -2784,27 +3137,50 @@
       "total_interactions": 3,
       "views": 12
      }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
+     "metrics": {
+      "comment_rate": 0.125,
+      "comments": 1,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.375,
+      "like_rate": 0.25,
+      "likes": 2,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 8,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 15
+     }
     }
    ],
    "latest": {
-    "comment_rate": 0.142857,
+    "comment_rate": 0.125,
     "comments": 1,
     "follow_rate": 0.0,
     "follows": 0,
-    "interaction_rate": 0.428571,
-    "like_rate": 0.285714,
+    "interaction_rate": 0.375,
+    "like_rate": 0.25,
     "likes": 2,
     "profile_activity": 0,
     "profile_visit_rate": 0.0,
     "profile_visits": 0,
-    "reach": 7,
+    "reach": 8,
     "reposts": 0,
     "save_rate": 0.0,
     "saved": 0,
     "share_rate": 0.0,
     "shares": 0,
     "total_interactions": 3,
-    "views": 12
+    "views": 15
    },
    "media_id": "17995807251105081",
    "media_product_type": "FEED",
@@ -2914,27 +3290,50 @@
       "total_interactions": 3,
       "views": 15
      }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
+     "metrics": {
+      "comment_rate": 0.166667,
+      "comments": 1,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.5,
+      "like_rate": 0.333333,
+      "likes": 2,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 6,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 19
+     }
     }
    ],
    "latest": {
-    "comment_rate": 0.25,
+    "comment_rate": 0.166667,
     "comments": 1,
     "follow_rate": 0.0,
     "follows": 0,
-    "interaction_rate": 0.75,
-    "like_rate": 0.5,
+    "interaction_rate": 0.5,
+    "like_rate": 0.333333,
     "likes": 2,
     "profile_activity": 0,
     "profile_visit_rate": 0.0,
     "profile_visits": 0,
-    "reach": 4,
+    "reach": 6,
     "reposts": 0,
     "save_rate": 0.0,
     "saved": 0,
     "share_rate": 0.0,
     "shares": 0,
     "total_interactions": 3,
-    "views": 15
+    "views": 19
    },
    "media_id": "18633580288045805",
    "media_product_type": "FEED",
@@ -3021,27 +3420,50 @@
       "total_interactions": 3,
       "views": 7
      }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
+     "metrics": {
+      "comment_rate": 0.125,
+      "comments": 1,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.375,
+      "like_rate": 0.25,
+      "likes": 2,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 8,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 8
+     }
     }
    ],
    "latest": {
-    "comment_rate": 0.142857,
+    "comment_rate": 0.125,
     "comments": 1,
     "follow_rate": 0.0,
     "follows": 0,
-    "interaction_rate": 0.428571,
-    "like_rate": 0.285714,
+    "interaction_rate": 0.375,
+    "like_rate": 0.25,
     "likes": 2,
     "profile_activity": 0,
     "profile_visit_rate": 0.0,
     "profile_visits": 0,
-    "reach": 7,
+    "reach": 8,
     "reposts": 0,
     "save_rate": 0.0,
     "saved": 0,
     "share_rate": 0.0,
     "shares": 0,
     "total_interactions": 3,
-    "views": 7
+    "views": 8
    },
    "media_id": "18148132768576544",
    "media_product_type": "FEED",
@@ -3082,6 +3504,29 @@
       "total_interactions": 0,
       "views": 4
      }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.0,
+      "like_rate": 0.0,
+      "likes": 0,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 5,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 6
+     }
     }
    ],
    "latest": {
@@ -3095,14 +3540,14 @@
     "profile_activity": 0,
     "profile_visit_rate": 0.0,
     "profile_visits": 0,
-    "reach": 4,
+    "reach": 5,
     "reposts": 0,
     "save_rate": 0.0,
     "saved": 0,
     "share_rate": 0.0,
     "shares": 0,
     "total_interactions": 0,
-    "views": 4
+    "views": 6
    },
    "media_id": "18125492209900780",
    "media_product_type": "FEED",
@@ -3116,6 +3561,67 @@
     "ig_reels_avg_watch_time": "GET 18125492209900780/insights failed (400): (#100) The Media Insights API does not support the ig_reels_avg_watch_time metric for this media product type.",
     "ig_reels_video_view_total_time": "GET 18125492209900780/insights failed (400): (#100) The Media Insights API does not support the ig_reels_video_view_total_time metric for this media product type.",
     "reels_skip_rate": "GET 18125492209900780/insights failed (400): (#100) The Media Insights API does not support the reels_skip_rate metric for this media product type."
+   }
+  },
+  "ig-nature-09-lucky-ladybug-gold-huggie-earrings": {
+   "caption": "A single ladybug can eat thousands of aphids in its lifetime, which is why gardeners call them lucky.\n\nLucky Ladybug Gold Huggie Earrings, with red enamel shells and a line of small crystals.\n\nKeep nature close. Shop the Lucky Ladybug Gold Huggie Earrings through the link in bio.\n\n#amiees #naturejewelry #ladybug #gardenlife #huggieearrings",
+   "history": [
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.0,
+      "like_rate": 0.0,
+      "likes": 0,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 2,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 3
+     }
+    }
+   ],
+   "latest": {
+    "comment_rate": 0.0,
+    "comments": 0,
+    "follow_rate": 0.0,
+    "follows": 0,
+    "interaction_rate": 0.0,
+    "like_rate": 0.0,
+    "likes": 0,
+    "profile_activity": 0,
+    "profile_visit_rate": 0.0,
+    "profile_visits": 0,
+    "reach": 2,
+    "reposts": 0,
+    "save_rate": 0.0,
+    "saved": 0,
+    "share_rate": 0.0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 3
+   },
+   "media_id": "18077425724478586",
+   "media_product_type": "FEED",
+   "media_type": "IMAGE",
+   "permalink": "https://www.instagram.com/p/DfV4N01jioE/",
+   "post_id": "ig-nature-09-lucky-ladybug-gold-huggie-earrings",
+   "posted_at": "2026-11-05T01:43:21+00:00",
+   "product": "lucky-ladybug-gold-huggie-earrings",
+   "series": "nature",
+   "unsupported_metrics": {
+    "ig_reels_avg_watch_time": "GET 18077425724478586/insights failed (400): (#100) The Media Insights API does not support the ig_reels_avg_watch_time metric for this media product type.",
+    "ig_reels_video_view_total_time": "GET 18077425724478586/insights failed (400): (#100) The Media Insights API does not support the ig_reels_video_view_total_time metric for this media product type.",
+    "reels_skip_rate": "GET 18077425724478586/insights failed (400): (#100) The Media Insights API does not support the reels_skip_rate metric for this media product type."
    }
   },
   "ig-radiant-bloom-flower-necklace-1": {
@@ -3284,6 +3790,29 @@
     },
     {
      "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.25,
+      "like_rate": 0.25,
+      "likes": 3,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.083333,
+      "profile_visits": 1,
+      "reach": 12,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 29
+     }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -3526,6 +4055,29 @@
       "total_interactions": 3,
       "views": 19
      }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.375,
+      "like_rate": 0.375,
+      "likes": 3,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 8,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 19
+     }
     }
    ],
    "latest": {
@@ -3728,6 +4280,29 @@
     },
     {
      "collected_at": "2026-11-04T20:50:37+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.5,
+      "like_rate": 0.5,
+      "likes": 3,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 6,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 12
+     }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -3970,6 +4545,29 @@
       "total_interactions": 3,
       "views": 15
      }
+    },
+    {
+     "collected_at": "2026-11-05T21:06:51+00:00",
+     "metrics": {
+      "comment_rate": 0.0,
+      "comments": 0,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.6,
+      "like_rate": 0.6,
+      "likes": 3,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 5,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 15
+     }
     }
    ],
    "latest": {
@@ -4008,5 +4606,5 @@
   }
  },
  "schema_version": 1,
- "updated_at": "2026-11-04T20:50:37+00:00"
+ "updated_at": "2026-11-05T21:06:51+00:00"
 }
