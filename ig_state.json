@@ -50,7 +50,6 @@
   "ig-exp-reel-20261029-sterling-silver-elephant-ring": {
     "account_id": "17841454700426833",
     "attempts": 2,
-    "container_id": "18051975623823348",
     "failed_containers": [
       {
         "checked_at": "2026-11-05T05:54:16Z",
@@ -58,9 +57,15 @@
         "matching_public_media_count": 0,
         "status": "Error: Media upload has failed with error code 2207052",
         "status_code": "ERROR"
+      },
+      {
+        "checked_at": "2026-11-05T05:56:57.474733+00:00",
+        "container_id": "18051975623823348",
+        "status": "ig-exp-reel-20261029-sterling-silver-elephant-ring: container ended as ERROR"
       }
     ],
     "fingerprint": "9e29a201f0277bad6a2ad25dc5dda324691f75060a7141cf9b382fac07e54b5c",
+    "last_error": "Fresh recovery container failed before publication",
     "phase": "ready",
     "prepared_at": "2026-11-05T05:56:45.970084+00:00",
     "recovery_note": "Container 18051189335823348 was confirmed ERROR (2207052) on 2026-11-05, and all 84 recent/account media returned no exact-caption public match. The failed container was cleared so the approved Reel can create a fresh container without reusing or duplicating a published post."
