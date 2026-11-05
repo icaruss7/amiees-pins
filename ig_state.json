@@ -49,7 +49,8 @@
   },
   "ig-exp-reel-20261029-sterling-silver-elephant-ring": {
     "account_id": "17841454700426833",
-    "attempts": 2,
+    "attempts": 3,
+    "container_id": "18052002320823348",
     "failed_containers": [
       {
         "checked_at": "2026-11-05T05:54:16Z",
@@ -64,6 +65,7 @@
         "status": "ig-exp-reel-20261029-sterling-silver-elephant-ring: container ended as ERROR"
       }
     ],
+    "fingerprint": "ef069682ac0f6166546a13a0400f71403cca1223380a5a763b0ab71e016121af",
     "phase": "ready",
     "recovery_note": "Container 18051189335823348 was confirmed ERROR (2207052) on 2026-11-05, and all 84 recent/account media returned no exact-caption public match. The failed container was cleared so the approved Reel can create a fresh container without reusing or duplicating a published post. Recovery preflight then proved the exact reviewed MP4 reaches FINISHED from the GitHub mirror with the approved cover and AI label. Native audio alone failed with Meta 2207082, so the audited delivery override uses the exact-byte mirror and disables native audio for this three-Reel recovery."
   },
