@@ -1,0 +1,72 @@
+name: Instagram Reconciliation
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/instagram-reconcile.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Inspect Elephant Reel container and recent public media
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_EXPECTED_USERNAME: amiees.com_
+        run: |
+          python3 - <<'PY'
+          import csv
+          import json
+          import os
+          import ig_publish
+          from ig_pipeline_media import resolve_row
+
+          post_id = "ig-exp-reel-20261029-sterling-silver-elephant-ring"
+          with open("ig_state.json", encoding="utf-8") as fh:
+              state = json.load(fh)
+          with open("content/experiments.json", encoding="utf-8") as fh:
+              registry = json.load(fh)
+          with open("ig_queue.csv", encoding="utf-8-sig", newline="") as fh:
+              rows = list(csv.DictReader(fh))
+
+          raw = next(row for row in rows if row["post_id"] == post_id)
+          row = resolve_row(raw, registry)
+          entry = state[post_id]
+          ig_user, username = ig_publish.find_ig_user()
+          container = ig_publish.call(
+              "GET", entry["container_id"], fields="id,status_code,status"
+          )
+          recent = ig_publish.call(
+              "GET",
+              f"{ig_user}/media",
+              fields="id,permalink,timestamp,media_type,media_product_type,caption",
+              limit=100,
+          ).get("data", [])
+
+          target_caption = (row.get("caption") or "").strip()
+          exact = [
+              {
+                  "id": item.get("id"),
+                  "permalink": item.get("permalink"),
+                  "timestamp": item.get("timestamp"),
+                  "media_type": item.get("media_type"),
+                  "media_product_type": item.get("media_product_type"),
+              }
+              for item in recent
+              if (item.get("caption") or "").strip() == target_caption
+          ]
+
+          print("account:", username, ig_user)
+          print("post_id:", post_id)
+          print("container:", json.dumps(container, sort_keys=True))
+          print("matching_public_media:", json.dumps(exact, sort_keys=True))
+          print("matching_public_media_count:", len(exact))
+          PY
