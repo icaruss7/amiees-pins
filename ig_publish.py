@@ -32,12 +32,13 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 
-from ig_pipeline_media import resolve_row, audio_configuration
+from ig_pipeline_media import resolve_row, audio_configuration, apply_delivery_override
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 QUEUE = os.path.join(HERE, "ig_queue.csv")
 STATE = os.path.join(HERE, "ig_state.json")
 REGISTRY = os.path.join(HERE, "content", "experiments.json")
+DELIVERY_OVERRIDES = os.path.join(HERE, "content", "reel_delivery_overrides.json")
 
 API = "https://graph.facebook.com/" + os.environ.get("GRAPH_VERSION", "v26.0")
 TOKEN = os.environ.get("IG_TOKEN", "").strip()
@@ -48,6 +49,7 @@ MIN_GAP_HOURS = float(os.environ.get("MIN_GAP_HOURS", "20"))   # never two posts
 MAX_ATTEMPTS = 3
 EXPECTED_USERNAME = os.environ.get("IG_EXPECTED_USERNAME", "amiees.com_").strip().lower()
 DURABLE_GIT = os.environ.get("IG_DURABLE_GIT", "") == "1"
+MIRROR_PREFIX = os.environ.get("IG_VIDEO_MIRROR_PREFIX", "").strip()
 
 
 class MetaAPIError(RuntimeError):
@@ -226,12 +228,20 @@ class NoRedirect(urllib.request.HTTPRedirectHandler):
 def verify_video(row):
     # An immutable, content-addressed media URL is still required in production.
     # This check detects a changed asset at preparation time; it cannot lock a CDN.
-    prefix = urllib.parse.urlsplit(os.environ.get('IG_VIDEO_PREFIX', ''))
     candidate = urllib.parse.urlsplit(https_url(row['video_url']))
-    if (prefix.scheme != 'https' or not prefix.hostname or prefix.query or prefix.fragment
-            or prefix.username or prefix.netloc != candidate.netloc
-            or not candidate.path.startswith(prefix.path.rstrip('/') + '/')):
-        raise ValueError('Video URL must be within the configured IG_VIDEO_PREFIX')
+    prefixes = [os.environ.get('IG_VIDEO_PREFIX', '').strip(), MIRROR_PREFIX]
+    allowed = False
+    for value in prefixes:
+        if not value:
+            continue
+        prefix = urllib.parse.urlsplit(value)
+        if (prefix.scheme == 'https' and prefix.hostname and not prefix.query and not prefix.fragment
+                and not prefix.username and prefix.netloc == candidate.netloc
+                and candidate.path.startswith(prefix.path.rstrip('/') + '/')):
+            allowed = True
+            break
+    if not allowed:
+        raise ValueError('Video URL must be within a configured Instagram video prefix')
     digest = hashlib.sha256()
     size = 0
     opener = urllib.request.build_opener(NoRedirect)
@@ -348,7 +358,21 @@ def main():
     if os.path.exists(REGISTRY):
         with open(REGISTRY, encoding="utf-8-sig") as fh:
             registry = json.load(fh)
-    rows = [resolve_row(row, registry) if row.get("status") == "queued" else row for row in rows]
+    delivery_overrides = {}
+    if os.path.exists(DELIVERY_OVERRIDES):
+        with open(DELIVERY_OVERRIDES, encoding="utf-8-sig") as fh:
+            payload = json.load(fh)
+        if payload.get("schema_version") != 1 or not isinstance(payload.get("items"), dict):
+            raise ValueError("Unsupported Reel delivery override file")
+        delivery_overrides = payload["items"]
+    resolved_rows = []
+    for row in rows:
+        if row.get("status") != "queued":
+            resolved_rows.append(row)
+            continue
+        resolved = resolve_row(row, registry)
+        resolved_rows.append(apply_delivery_override(resolved, delivery_overrides.get(row["post_id"])))
+    rows = resolved_rows
     if os.path.exists(STATE):
         with open(STATE, encoding="utf-8") as fh:
             state = json.load(fh)
