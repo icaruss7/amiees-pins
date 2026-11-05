@@ -17,53 +17,42 @@ jobs:
         with:
           ref: main
 
-      - name: Verify mirrored Elephant Reel with Meta without publishing
+      - name: Isolate Elephant Reel media processing
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
         run: |
           python3 - <<'PY'
-          import hashlib
           import json
-          import urllib.request
-
+          import time
           import ig_publish
-          from ig_pipeline_media import audio_configuration
 
-          raw_url = "https://raw.githubusercontent.com/icaruss7/amiees-pins/main/reel-media/reel-20261029-sterling-silver-elephant-ring.mp4"
-          expected = "b35f8f2192e2f0fca6cae94efcb5399bf48557198098f1cb7a97a10050b1a6d0"
-
-          digest = hashlib.sha256()
-          with urllib.request.urlopen(raw_url, timeout=120) as response:
-              while True:
-                  block = response.read(1024 * 1024)
-                  if not block:
-                      break
-                  digest.update(block)
-          if digest.hexdigest() != expected:
-              raise RuntimeError("Raw GitHub mirror hash mismatch")
-
-          with open("content/experiments.json", encoding="utf-8") as fh:
-              registry = json.load(fh)
-          record = registry["items"]["reel-20261029-sterling-silver-elephant-ring--instagram"]
+          shopify = "https://cdn.shopify.com/videos/c/o/v/d4699338cbfa423391c5b467828dd2bf.mp4"
+          github = "https://raw.githubusercontent.com/icaruss7/amiees-pins/main/reel-media/reel-20261029-sterling-silver-elephant-ring.mp4"
           ig_user, username = ig_publish.find_ig_user()
 
-          options = {"cover_url": record["queue_draft"]["media"]["cover_url"]}
-          options["audio_configuration"] = json.dumps(
-              audio_configuration(record["instagram_audio"]["configuration"])
-          )
-          options["is_ai_generated"] = "true"
+          def probe(label, url):
+              cid = ig_publish.call(
+                  "POST", f"{ig_user}/media",
+                  media_type="REELS",
+                  video_url=url,
+                  caption="Amiees Reel media preflight",
+                  share_to_feed="false",
+              )["id"]
+              print(label, "container", cid, flush=True)
+              last = None
+              for _ in range(30):
+                  info = ig_publish.call("GET", cid, fields="id,status_code,status")
+                  last = info
+                  print(label, json.dumps(info, sort_keys=True), flush=True)
+                  if info.get("status_code") in ("FINISHED", "ERROR", "EXPIRED", "PUBLISHED"):
+                      break
+                  time.sleep(10)
+              return last
 
-          parent = ig_publish.call(
-              "POST", f"{ig_user}/media",
-              media_type="REELS",
-              video_url=raw_url,
-              caption=record["caption"],
-              share_to_feed="true",
-              **options,
-          )["id"]
-          status = ig_publish.wait_ready(parent, "elephant-mirror-preflight")
-          print("account:", username, ig_user)
-          print("preflight_container:", parent)
-          print("status:", status)
-          print("published:", False)
+          print("account", username, ig_user)
+          results = {
+              "shopify_video_only": probe("shopify_video_only", shopify),
+              "github_video_only": probe("github_video_only", github),
+          }
+          print("FINAL", json.dumps(results, sort_keys=True))
           PY
