@@ -3,6 +3,7 @@
 import hashlib
 import json
 import re
+from urllib.parse import urlsplit
 
 
 def audio_configuration(value):
@@ -62,6 +63,36 @@ def reel_media(record):
         result["is_ai_generated"] = True
     if record.get("schedule_mode") == "additional_reel":
         result["schedule_mode"] = "additional_reel"
+    return result
+
+
+def apply_delivery_override(row, override):
+    """Apply an audited transport-only Reel recovery after approvals validate."""
+    if not override:
+        return dict(row)
+    required = {"source_video_url", "delivery_video_url", "video_sha256",
+                "disable_native_audio", "reason", "verified_at"}
+    if not isinstance(override, dict) or set(override) != required:
+        raise ValueError("Reel delivery override has unexpected fields")
+    if row.get("media_type") != "REELS":
+        raise ValueError("A Reel delivery override may only apply to REELS")
+    if (override["source_video_url"] != row.get("video_url")
+            or override["video_sha256"] != row.get("video_sha256")
+            or not re.fullmatch(r"[a-f0-9]{64}", override["video_sha256"])):
+        raise ValueError("Reel delivery override does not match the approved video")
+    delivery = urlsplit(override["delivery_video_url"])
+    if (delivery.scheme != "https" or delivery.netloc != "raw.githubusercontent.com"
+            or not delivery.path.startswith("/icaruss7/amiees-pins/main/reel-media/")
+            or delivery.query or delivery.fragment):
+        raise ValueError("Reel delivery override must use the approved public mirror path")
+    if not override["reason"] or not override["verified_at"]:
+        raise ValueError("Reel delivery override needs an audit reason and verification time")
+    result = dict(row)
+    result["video_url"] = override["delivery_video_url"]
+    if override["disable_native_audio"] is True:
+        result.pop("audio_configuration", None)
+    elif override["disable_native_audio"] is not False:
+        raise ValueError("disable_native_audio must be boolean")
     return result
 
 
