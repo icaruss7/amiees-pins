@@ -360,16 +360,29 @@ def main():
     for row in rows:
         if row["status"] == "queued":
             validate_row(row)
-    todo = [row for row in rows if eligible(row, state, now)][:MAX_PER_RUN]
+    due_rows = sorted(
+        (row for row in rows if eligible(row, state, now)),
+        key=lambda row: (
+            datetime.strptime(row["release_at"], "%Y-%m-%d %H:%M:%S"),
+            row["post_id"],
+        ),
+    )
     # Unresolved publication could have gone live recently: pause the entire account.
     unresolved = [key for key, entry in state.items()
                   if not confirmed(entry) and entry.get("phase") in ("publishing", "needs_review")]
     if unresolved:
         print("Publication needs reconciliation: " + ", ".join(unresolved))
         return 1
-    if todo and not spacing_ready(todo[0], state, rows, now):
-        print("The next post waits for its approved spacing window.")
-        todo = []
+    # Queue-file order must not starve older approved extra Reel slots. Pick the
+    # oldest due row that is actually allowed by its spacing rule. This also
+    # lets an 8-hour additional Reel slot run while a normal 20-hour post waits.
+    todo = []
+    for row in due_rows:
+        if spacing_ready(row, state, rows, now):
+            todo = [row]
+            break
+    if due_rows and not todo:
+        print("Due posts are waiting for their approved spacing windows.")
     print(f"{len(todo)} post(s) due now.")
     if DRY_RUN:
         for row in todo:
