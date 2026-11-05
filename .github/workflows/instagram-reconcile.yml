@@ -5,6 +5,10 @@ on:
   push:
     paths:
       - ".github/workflows/instagram-reconcile.yml"
+      - "ig_publish.py"
+      - "ig_state.json"
+      - "test_ig_publish.py"
+      - "test_ig_native_audio.py"
 
 permissions:
   contents: read
@@ -16,6 +20,9 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+
+      - name: Run Instagram publisher regression tests
+        run: python3 -m unittest -v test_ig_publish test_ig_native_audio
 
       - name: Inspect Elephant Reel container and recent public media
         env:
