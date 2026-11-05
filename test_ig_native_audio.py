@@ -50,6 +50,33 @@ class NativeAudioTests(unittest.TestCase):
         recent["extra"]["posted_at"] = (now - timedelta(hours=8)).isoformat()
         self.assertTrue(publisher.spacing_ready(normal, recent, rows, now))
 
+    def test_delivery_override_preserves_approved_video_and_can_disable_audio(self):
+        row = {
+            "post_id": "ig-exp-reel-test",
+            "media_type": "REELS",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/source.mp4",
+            "video_sha256": "a" * 64,
+            "audio_configuration": {"audio_id": "123", "audio_volume": 70, "video_volume": 1},
+        }
+        override = {
+            "source_video_url": row["video_url"],
+            "delivery_video_url": "https://raw.githubusercontent.com/icaruss7/amiees-pins/main/reel-media/test.mp4",
+            "video_sha256": row["video_sha256"],
+            "disable_native_audio": True,
+            "reason": "Verified exact-byte delivery recovery",
+            "verified_at": "2026-11-05T06:05:02+00:00",
+        }
+        recovered = media.apply_delivery_override(row, override)
+        self.assertEqual(recovered["video_sha256"], row["video_sha256"])
+        self.assertEqual(recovered["video_url"], override["delivery_video_url"])
+        self.assertNotIn("audio_configuration", recovered)
+        self.assertEqual(row["video_url"], override["source_video_url"])
+
+        bad = copy.deepcopy(override)
+        bad["video_sha256"] = "b" * 64
+        with self.assertRaises(ValueError):
+            media.apply_delivery_override(row, bad)
+
     def test_native_track_and_ai_label_sent_when_creating_reel(self):
         fixture = fixtures.PublisherTests()
         fixture.setUp()
