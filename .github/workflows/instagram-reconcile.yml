@@ -17,7 +17,7 @@ jobs:
         with:
           ref: main
 
-      - name: Isolate approved Reel options on working mirrored video
+      - name: Preflight exact Elephant package without failing native audio
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
         run: |
@@ -25,45 +25,33 @@ jobs:
           import json
           import time
           import ig_publish
-          from ig_pipeline_media import audio_configuration
 
           with open("content/experiments.json", encoding="utf-8") as fh:
               record = json.load(fh)["items"]["reel-20261029-sterling-silver-elephant-ring--instagram"]
 
-          ig_user, username = ig_publish.find_ig_user()
           video = "https://raw.githubusercontent.com/icaruss7/amiees-pins/main/reel-media/reel-20261029-sterling-silver-elephant-ring.mp4"
           cover = record["queue_draft"]["media"]["cover_url"]
-          audio = json.dumps(audio_configuration(record["instagram_audio"]["configuration"]))
+          ig_user, username = ig_publish.find_ig_user()
 
-          variants = {
-              "cover_only": {"cover_url": cover},
-              "audio_only": {"audio_configuration": audio},
-              "ai_only": {"is_ai_generated": "true"},
-          }
-
-          containers = {}
-          for label, options in variants.items():
-              containers[label] = ig_publish.call(
-                  "POST", f"{ig_user}/media",
-                  media_type="REELS", video_url=video,
-                  caption=f"Amiees Reel option preflight {label}",
-                  share_to_feed="false", **options,
-              )["id"]
-              print(label, "container", containers[label], flush=True)
-
-          done = {}
+          cid = ig_publish.call(
+              "POST", f"{ig_user}/media",
+              media_type="REELS",
+              video_url=video,
+              cover_url=cover,
+              caption=record["caption"],
+              share_to_feed="true",
+              is_ai_generated="true",
+          )["id"]
+          print("container", cid, flush=True)
+          last = None
           for _ in range(30):
-              for label, cid in containers.items():
-                  if label in done:
-                      continue
-                  info = ig_publish.call("GET", cid, fields="id,status_code,status")
-                  print(label, json.dumps(info, sort_keys=True), flush=True)
-                  if info.get("status_code") in ("FINISHED", "ERROR", "EXPIRED", "PUBLISHED"):
-                      done[label] = info
-              if len(done) == len(containers):
+              last = ig_publish.call("GET", cid, fields="id,status_code,status")
+              print(json.dumps(last, sort_keys=True), flush=True)
+              if last.get("status_code") in ("FINISHED", "ERROR", "EXPIRED", "PUBLISHED"):
                   break
               time.sleep(10)
-
           print("account", username, ig_user)
-          print("FINAL", json.dumps(done, sort_keys=True))
+          print("FINAL", json.dumps(last, sort_keys=True))
+          if not last or last.get("status_code") != "FINISHED":
+              raise RuntimeError("Exact recovery package did not reach FINISHED")
           PY
