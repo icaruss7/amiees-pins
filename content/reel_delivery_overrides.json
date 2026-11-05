@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "items": {
+    "ig-exp-reel-20261029-sterling-silver-elephant-ring": {
+      "source_video_url": "https://cdn.shopify.com/videos/c/o/v/d4699338cbfa423391c5b467828dd2bf.mp4",
+      "delivery_video_url": "https://raw.githubusercontent.com/icaruss7/amiees-pins/main/reel-media/reel-20261029-sterling-silver-elephant-ring.mp4",
+      "video_sha256": "b35f8f2192e2f0fca6cae94efcb5399bf48557198098f1cb7a97a10050b1a6d0",
+      "disable_native_audio": true,
+      "reason": "Recovery: Meta rejected the Shopify video transport, while the exact-byte GitHub mirror reached FINISHED. The previously approved native audio attachment independently failed Meta processing with 2207082, so it is disabled for this recovery.",
+      "verified_at": "2026-11-05T06:05:02+00:00"
+    },
+    "ig-exp-reel-20261029-dolphin-dreams-ring": {
+      "source_video_url": "https://cdn.shopify.com/videos/c/o/v/87de7c65aad7415c9d67e4210344741a.mp4",
+      "delivery_video_url": "https://raw.githubusercontent.com/icaruss7/amiees-pins/main/reel-media/reel-20261029-dolphin-dreams-ring.mp4",
+      "video_sha256": "75832357732ec5af6a78c97c217bf930f0debc9f5566678e962e93780693b570",
+      "disable_native_audio": true,
+      "reason": "Recovery: use the exact-byte public mirror proven compatible with Meta ingestion; disable the same native audio configuration that failed the Elephant preflight with 2207082.",
+      "verified_at": "2026-11-05T06:05:02+00:00"
+    },
+    "ig-exp-reel-20261029-blue-butterfly-hoop-earrings": {
+      "source_video_url": "https://cdn.shopify.com/videos/c/o/v/d945c0c2ee744b0e82f2f42884cf36bd.mp4",
+      "delivery_video_url": "https://raw.githubusercontent.com/icaruss7/amiees-pins/main/reel-media/reel-20261029-blue-butterfly-hoop-earrings.mp4",
+      "video_sha256": "c3238bbad7073f1f6774cea99e2c7de0e0c13a92d6f2c5086e7adc405b61be5e",
+      "disable_native_audio": true,
+      "reason": "Recovery: use the exact-byte public mirror proven compatible with Meta ingestion; disable the same native audio configuration that failed the Elephant preflight with 2207082.",
+      "verified_at": "2026-11-05T06:05:02+00:00"
+    }
+  }
+}
