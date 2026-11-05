@@ -367,7 +367,31 @@
       "validation_errors": []
     },
     "reel-20261029-dolphin-dreams-ring--instagram": {
-      "analytics_linkage": null,
+      "analytics_linkage": {
+        "collected_at": "2026-11-05T21:06:51+00:00",
+        "experiment_id": "reel-20261029-dolphin-dreams-ring",
+        "file": "ig_analytics.json",
+        "latest": {
+          "comment_rate": 0.0,
+          "comments": 0,
+          "ig_reels_avg_watch_time": 1130,
+          "ig_reels_video_view_total_time": 2260,
+          "interaction_rate": 0.0,
+          "like_rate": 0.0,
+          "likes": 0,
+          "reach": 2,
+          "reels_skip_rate": 100,
+          "reposts": 0,
+          "save_rate": 0.0,
+          "saved": 0,
+          "share_rate": 0.0,
+          "shares": 0,
+          "total_interactions": 0,
+          "views": 2
+        },
+        "media_id": "18120873157987350",
+        "post_id": "ig-exp-reel-20261029-dolphin-dreams-ring"
+      },
       "approval": {
         "at": "2026-10-30T01:19:42.022776+00:00",
         "by": "Codex under Gabe authorization",
@@ -455,6 +479,14 @@
           "action": "local_queue_row_added",
           "at": "2026-10-30T01:19:42.648703+00:00",
           "by": "Codex under Gabe authorization for extra Reel slots"
+        },
+        {
+          "action": "publication_observed",
+          "at": "2026-11-05T21:35:56.377531+00:00"
+        },
+        {
+          "action": "analytics_linked",
+          "at": "2026-11-05T21:35:56.377568+00:00"
         }
       ],
       "hook": "Spot the dolphin.",
@@ -496,7 +528,7 @@
       },
       "is_ai_generated": true,
       "objective": "Product discovery and consideration",
-      "permalink": null,
+      "permalink": "https://www.instagram.com/reel/DfX3QD9FRwj/",
       "pinterest": {
         "board": "",
         "description": "",
@@ -512,8 +544,9 @@
         "name": "profile_visits"
       },
       "product": "dolphin-dreams-ring",
-      "published_post_id": null,
-      "publishing_status": "scheduled",
+      "published_at": "2026-11-05T20:13:55+00:00",
+      "published_post_id": "18120873157987350",
+      "publishing_status": "measured",
       "queue_confirmation": "Local queue row only. Commit and push registry plus queue for GitHub scheduling.",
       "queue_draft": {
         "auto_apply": false,
