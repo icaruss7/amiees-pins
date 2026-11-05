@@ -5,13 +5,9 @@ on:
   push:
     paths:
       - ".github/workflows/instagram-reconcile.yml"
-      - "ig_publish.py"
-      - "ig_state.json"
-      - "test_ig_publish.py"
-      - "test_ig_native_audio.py"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   reconcile:
@@ -20,21 +16,30 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 0
+
+      - name: Configure durable Git checkpoints
+        run: |
+          git config user.name "amiees-feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Run Instagram publisher regression tests
         run: python3 -m unittest -v test_ig_publish test_ig_native_audio
 
-      - name: Inspect Elephant Reel container and recent public media
+      - name: Prepare a fresh Elephant Reel container without publishing
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_EXPECTED_USERNAME: amiees.com_
+          IG_VIDEO_PREFIX: https://cdn.shopify.com/videos/c/o/v/
+          IG_DURABLE_GIT: "1"
         run: |
           python3 - <<'PY'
           import csv
           import json
-          import os
+          from datetime import datetime, timezone
+
           import ig_publish
-          from ig_pipeline_media import resolve_row
+          from ig_pipeline_media import resolve_row, audio_configuration
 
           post_id = "ig-exp-reel-20261029-sterling-silver-elephant-ring"
           with open("ig_state.json", encoding="utf-8") as fh:
@@ -42,38 +47,84 @@ jobs:
           with open("content/experiments.json", encoding="utf-8") as fh:
               registry = json.load(fh)
           with open("ig_queue.csv", encoding="utf-8-sig", newline="") as fh:
-              rows = list(csv.DictReader(fh))
+              raw = next(row for row in csv.DictReader(fh) if row["post_id"] == post_id)
 
-          raw = next(row for row in rows if row["post_id"] == post_id)
           row = resolve_row(raw, registry)
-          entry = state[post_id]
+          entry = state.setdefault(post_id, {"attempts": 0})
           ig_user, username = ig_publish.find_ig_user()
-          container = ig_publish.call(
-              "GET", entry["container_id"], fields="id,status_code,status"
-          )
+          if username.lower() != "amiees.com_":
+              raise RuntimeError("Unexpected Instagram account")
+
           recent = ig_publish.call(
-              "GET",
-              f"{ig_user}/media",
+              "GET", f"{ig_user}/media",
               fields="id,permalink,timestamp,media_type,media_product_type,caption",
               limit=100,
           ).get("data", [])
-
           target_caption = (row.get("caption") or "").strip()
-          exact = [
-              {
-                  "id": item.get("id"),
-                  "permalink": item.get("permalink"),
-                  "timestamp": item.get("timestamp"),
-                  "media_type": item.get("media_type"),
-                  "media_product_type": item.get("media_product_type"),
-              }
-              for item in recent
-              if (item.get("caption") or "").strip() == target_caption
-          ]
+          exact = [item for item in recent if (item.get("caption") or "").strip() == target_caption]
+          if exact:
+              raise RuntimeError("Matching public media exists; refusing to create another container")
 
-          print("account:", username, ig_user)
-          print("post_id:", post_id)
-          print("container:", json.dumps(container, sort_keys=True))
-          print("matching_public_media:", json.dumps(exact, sort_keys=True))
+          if entry.get("container_id"):
+              raise RuntimeError("State already has a live container; refusing to create another")
+
+          kind, _ = ig_publish.validate_row(row)
+          if kind != "REELS":
+              raise RuntimeError("Expected REELS row")
+          if entry.get("fingerprint") and entry["fingerprint"] != ig_publish.fingerprint(row):
+              raise RuntimeError("Approved Reel fingerprint changed")
+
+          ig_publish.verify_video(row)
+          options = {"cover_url": row["cover_url"]} if row.get("cover_url") else {}
+          if row.get("audio_configuration"):
+              options["audio_configuration"] = json.dumps(audio_configuration(row["audio_configuration"]))
+          if row.get("is_ai_generated") is True:
+              options["is_ai_generated"] = "true"
+
+          entry["attempts"] = entry.get("attempts", 0) + 1
+          parent = ig_publish.call(
+              "POST", f"{ig_user}/media",
+              media_type="REELS",
+              video_url=row["video_url"],
+              caption=row["caption"],
+              share_to_feed="true",
+              **options,
+          )
+          container_id = parent["id"]
+          entry.update(
+              container_id=container_id,
+              account_id=ig_user,
+              fingerprint=ig_publish.fingerprint(row),
+              phase="ready",
+              prepared_at=datetime.now(timezone.utc).isoformat(),
+          )
+          ig_publish.checkpoint(state)
+
+          try:
+              status = ig_publish.wait_ready(container_id, post_id)
+          except Exception as exc:
+              failed = entry.setdefault("failed_containers", [])
+              failed.append({
+                  "container_id": container_id,
+                  "checked_at": datetime.now(timezone.utc).isoformat(),
+                  "status": str(exc),
+              })
+              entry.pop("container_id", None)
+              entry["phase"] = "ready"
+              entry["last_error"] = "Fresh recovery container failed before publication"
+              ig_publish.checkpoint(state)
+              raise
+
+          if status != "FINISHED":
+              raise RuntimeError(f"Unexpected recovery container status: {status}")
+          entry.pop("last_error", None)
+          entry["recovery_note"] = (
+              entry.get("recovery_note", "")
+              + " Fresh replacement container prepared successfully on 2026-11-05; "
+                "public publication remains gated by the normal scheduler."
+          ).strip()
+          ig_publish.checkpoint(state)
+          print("prepared_container:", container_id)
+          print("status:", status)
           print("matching_public_media_count:", len(exact))
           PY
