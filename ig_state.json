@@ -138,7 +138,8 @@
     "attempts": 1,
     "container_id": "18051953132823348",
     "fingerprint": "11830236e9f3f1b9d4e6b46ae3cb9702c8d989fdcf48847d055f4c450f7b6b54",
-    "phase": "ready"
+    "phase": "publishing",
+    "publish_started_at": "2026-11-05T01:43:16.974086+00:00"
   },
   "ig-radiant-bloom-flower-necklace-1": {
     "attempts": 1,
