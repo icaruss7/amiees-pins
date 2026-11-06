@@ -4,35 +4,35 @@
   "followers": 31
  },
  "benchmarks": {
-  "avg_interaction_rate": 0.3586039090909091,
-  "avg_save_rate": 0.0,
+  "avg_interaction_rate": 0.325789125,
+  "avg_save_rate": 0.000541125,
   "avg_share_rate": 0.0,
   "median_reach_or_views": 6.0
  },
  "data_notes": {
-  "collected_at": "2026-11-05T21:06:51+00:00",
+  "collected_at": "2026-11-06T20:27:49+00:00",
   "insights_permission_notes": [],
-  "posts_collected": 22,
+  "posts_collected": 24,
   "posts_skipped": 0
  },
- "generated_at": "2026-11-05T21:07:26+00:00",
+ "generated_at": "2026-11-06T20:29:02+00:00",
  "groups": {
   "format": {
    "FEED": {
-    "avg_interaction_rate": 0.37568028571428574,
-    "avg_reach": 6.238095238095238,
+    "avg_interaction_rate": 0.35481599999999996,
+    "avg_reach": 6.2727272727272725,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 13.952380952380953,
-    "n": 21
+    "avg_views": 13.772727272727273,
+    "n": 22
    },
    "REELS": {
-    "avg_interaction_rate": 0.0,
-    "avg_reach": 2.0,
-    "avg_save_rate": 0.0,
+    "avg_interaction_rate": 0.0064935,
+    "avg_reach": 42.0,
+    "avg_save_rate": 0.0064935,
     "avg_share_rate": 0.0,
-    "avg_views": 2.0,
-    "n": 1
+    "avg_views": 46.0,
+    "n": 2
    }
   },
   "posting_hour_utc": {
@@ -46,10 +46,10 @@
    },
    "01:00 UTC": {
     "avg_interaction_rate": 0.0,
-    "avg_reach": 3.5,
+    "avg_reach": 4.5,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 4.5,
+    "avg_views": 5.5,
     "n": 2
    },
    "02:00 UTC": {
@@ -62,10 +62,10 @@
    },
    "06:00 UTC": {
     "avg_interaction_rate": 0.0,
-    "avg_reach": 4.0,
+    "avg_reach": 5.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 5.0,
+    "avg_views": 6.0,
     "n": 1
    },
    "10:00 UTC": {
@@ -76,12 +76,20 @@
     "avg_views": 15.0,
     "n": 1
    },
-   "12:00 UTC": {
-    "avg_interaction_rate": 0.375,
-    "avg_reach": 8.0,
+   "11:00 UTC": {
+    "avg_interaction_rate": 0.0,
+    "avg_reach": 7.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 15.0,
+    "avg_views": 7.0,
+    "n": 1
+   },
+   "12:00 UTC": {
+    "avg_interaction_rate": 0.333333,
+    "avg_reach": 9.0,
+    "avg_save_rate": 0.0,
+    "avg_share_rate": 0.0,
+    "avg_views": 17.0,
     "n": 1
    },
    "16:00 UTC": {
@@ -109,19 +117,19 @@
     "n": 1
    },
    "19:00 UTC": {
-    "avg_interaction_rate": 0.4875,
-    "avg_reach": 6.5,
+    "avg_interaction_rate": 0.31111099999999997,
+    "avg_reach": 5.333333333333333,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 11.5,
-    "n": 2
+    "avg_views": 9.333333333333334,
+    "n": 3
    },
    "20:00 UTC": {
-    "avg_interaction_rate": 0.434524,
-    "avg_reach": 5.25,
-    "avg_save_rate": 0.0,
+    "avg_interaction_rate": 0.43777075,
+    "avg_reach": 24.0,
+    "avg_save_rate": 0.00324675,
     "avg_share_rate": 0.0,
-    "avg_views": 14.5,
+    "avg_views": 35.25,
     "n": 4
    },
    "21:00 UTC": {
@@ -135,45 +143,45 @@
   },
   "series": {
    "nature": {
-    "avg_interaction_rate": 0.2484126666666667,
-    "avg_reach": 5.666666666666667,
+    "avg_interaction_rate": 0.21523799999999998,
+    "avg_reach": 5.8,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 9.777777777777779,
-    "n": 9
+    "avg_views": 9.8,
+    "n": 10
    },
    "product": {
-    "avg_interaction_rate": 0.4348901538461538,
-    "avg_reach": 6.3076923076923075,
-    "avg_save_rate": 0.0,
+    "avg_interaction_rate": 0.4047542142857143,
+    "avg_reach": 11.714285714285714,
+    "avg_save_rate": 0.0009276428571428571,
     "avg_share_rate": 0.0,
-    "avg_views": 15.923076923076923,
-    "n": 13
+    "avg_views": 21.214285714285715,
+    "n": 14
    }
   },
   "weekday": {
    "Friday": {
-    "avg_interaction_rate": 0.43571424999999997,
-    "avg_reach": 6.5,
+    "avg_interaction_rate": 0.29047616666666665,
+    "avg_reach": 5.833333333333333,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 15.25,
-    "n": 4
+    "avg_views": 11.833333333333334,
+    "n": 6
    },
    "Monday": {
-    "avg_interaction_rate": 0.4583333333333333,
-    "avg_reach": 6.666666666666667,
+    "avg_interaction_rate": 0.4444443333333334,
+    "avg_reach": 7.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 11.666666666666666,
+    "avg_views": 12.333333333333334,
     "n": 3
    },
    "Saturday": {
-    "avg_interaction_rate": 0.375,
-    "avg_reach": 8.0,
+    "avg_interaction_rate": 0.333333,
+    "avg_reach": 9.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 15.0,
+    "avg_views": 17.0,
     "n": 1
    },
    "Sunday": {
@@ -185,11 +193,11 @@
     "n": 3
    },
    "Thursday": {
-    "avg_interaction_rate": 0.0625,
-    "avg_reach": 5.0,
-    "avg_save_rate": 0.0,
+    "avg_interaction_rate": 0.06574675,
+    "avg_reach": 24.25,
+    "avg_save_rate": 0.00324675,
     "avg_share_rate": 0.0,
-    "avg_views": 9.75,
+    "avg_views": 31.0,
     "n": 4
    },
    "Tuesday": {
@@ -202,21 +210,21 @@
    },
    "Wednesday": {
     "avg_interaction_rate": 0.3009524,
-    "avg_reach": 5.6,
+    "avg_reach": 5.8,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 13.2,
+    "avg_views": 13.4,
     "n": 5
    }
   }
  },
  "recommendations": [
   "Create follow-up variants around the strongest current winners: crystal-blossom-jewelry-set, bee-honeycomb-mismatched-earrings, cat-lover-set.",
-  "FEED is the strongest format with enough samples by interaction rate (37.57%); give it a larger share of the next test batch.",
+  "FEED is the strongest format with enough samples by interaction rate (35.48%); give it a larger share of the next test batch.",
   "Friday currently has the strongest share rate among weekdays with at least two posts (0.00%). Treat this as provisional until the sample grows.",
   "Share rate is below 0.5%; test stronger send-worthy hooks such as 'send this to the friend who would wear #2' or identity/gift framing."
  ],
- "sample_size": 22,
+ "sample_size": 24,
  "top_posts": [
   {
    "interaction_rate": 0.666667,
