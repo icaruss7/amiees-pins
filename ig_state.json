@@ -52,7 +52,8 @@
     "attempts": 1,
     "container_id": "18052139702823348",
     "fingerprint": "582c42f4336db4ae92d91d3ca5092d615bb617655c380794eff2858a7c5fadc6",
-    "phase": "ready"
+    "phase": "publishing",
+    "publish_started_at": "2026-11-06T11:23:57.533083+00:00"
   },
   "ig-exp-reel-20261029-dolphin-dreams-ring": {
     "account_id": "17841454700426833",
