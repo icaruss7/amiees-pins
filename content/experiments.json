@@ -1,7 +1,31 @@
 {
   "items": {
     "reel-20261029-blue-butterfly-hoop-earrings--instagram": {
-      "analytics_linkage": null,
+      "analytics_linkage": {
+        "collected_at": "2026-11-06T20:27:49+00:00",
+        "experiment_id": "reel-20261029-blue-butterfly-hoop-earrings",
+        "file": "ig_analytics.json",
+        "latest": {
+          "comment_rate": 0.0,
+          "comments": 0,
+          "ig_reels_avg_watch_time": 1941,
+          "ig_reels_video_view_total_time": 13588,
+          "interaction_rate": 0.0,
+          "like_rate": 0.0,
+          "likes": 0,
+          "reach": 7,
+          "reels_skip_rate": 85.7,
+          "reposts": 0,
+          "save_rate": 0.0,
+          "saved": 0,
+          "share_rate": 0.0,
+          "shares": 0,
+          "total_interactions": 0,
+          "views": 7
+        },
+        "media_id": "17899111263411292",
+        "post_id": "ig-exp-reel-20261029-blue-butterfly-hoop-earrings"
+      },
       "approval": {
         "at": "2026-10-30T01:19:42.844066+00:00",
         "by": "Codex under Gabe authorization",
@@ -89,6 +113,14 @@
           "action": "local_queue_row_added",
           "at": "2026-10-30T01:19:43.488613+00:00",
           "by": "Codex under Gabe authorization for extra Reel slots"
+        },
+        {
+          "action": "publication_observed",
+          "at": "2026-11-06T21:06:07.259244+00:00"
+        },
+        {
+          "action": "analytics_linked",
+          "at": "2026-11-06T21:06:07.259276+00:00"
         }
       ],
       "hook": "Spot the blue butterflies.",
@@ -130,7 +162,7 @@
       },
       "is_ai_generated": true,
       "objective": "Product discovery and consideration",
-      "permalink": null,
+      "permalink": "https://www.instagram.com/reel/DfZfazLllBc/",
       "pinterest": {
         "board": "",
         "description": "",
@@ -146,8 +178,9 @@
         "name": "profile_visits"
       },
       "product": "blue-butterfly-hoop-earrings",
-      "published_post_id": null,
-      "publishing_status": "scheduled",
+      "published_at": "2026-11-06T11:24:10+00:00",
+      "published_post_id": "17899111263411292",
+      "publishing_status": "measured",
       "queue_confirmation": "Local queue row only. Commit and push registry plus queue for GitHub scheduling.",
       "queue_draft": {
         "auto_apply": false,
@@ -368,26 +401,26 @@
     },
     "reel-20261029-dolphin-dreams-ring--instagram": {
       "analytics_linkage": {
-        "collected_at": "2026-11-05T21:06:51+00:00",
+        "collected_at": "2026-11-06T20:27:49+00:00",
         "experiment_id": "reel-20261029-dolphin-dreams-ring",
         "file": "ig_analytics.json",
         "latest": {
           "comment_rate": 0.0,
           "comments": 0,
-          "ig_reels_avg_watch_time": 1130,
-          "ig_reels_video_view_total_time": 2260,
-          "interaction_rate": 0.0,
+          "ig_reels_avg_watch_time": 2515,
+          "ig_reels_video_view_total_time": 188698,
+          "interaction_rate": 0.012987,
           "like_rate": 0.0,
           "likes": 0,
-          "reach": 2,
-          "reels_skip_rate": 100,
+          "reach": 77,
+          "reels_skip_rate": 77.3,
           "reposts": 0,
-          "save_rate": 0.0,
-          "saved": 0,
+          "save_rate": 0.012987,
+          "saved": 1,
           "share_rate": 0.0,
           "shares": 0,
-          "total_interactions": 0,
-          "views": 2
+          "total_interactions": 1,
+          "views": 85
         },
         "media_id": "18120873157987350",
         "post_id": "ig-exp-reel-20261029-dolphin-dreams-ring"
