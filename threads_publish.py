@@ -146,11 +146,13 @@ def account_identity():
     profile = call("GET", "me", fields="id,username")
     profile_id = str(profile.get("id", ""))
     username = profile.get("username", "")
-    if profile_id != USER_ID:
+    if not profile_id:
+        raise RuntimeError("Threads profile response did not include an ID")
+    if USER_ID and profile_id != USER_ID:
         raise RuntimeError("THREADS_USER_ID does not match the connected access token")
     if EXPECTED_USERNAME and username.lower() != EXPECTED_USERNAME:
         raise RuntimeError("Connected Threads username does not match THREADS_EXPECTED_USERNAME")
-    return username
+    return profile_id, username
 
 
 def wait_ready(container_id, label):
@@ -165,7 +167,7 @@ def wait_ready(container_id, label):
     raise RuntimeError(f"{label}: container was not ready after 150 seconds")
 
 
-def publish(row, state):
+def publish(row, state, user_id=None):
     entry = state.setdefault(row["post_id"], {"attempts": 0})
     if confirmed(entry) or entry.get("phase") in ("publishing", "needs_review"):
         return
@@ -180,7 +182,10 @@ def publish(row, state):
             options["image_url"] = row["image_url"].strip()
             if row.get("alt_text", "").strip():
                 options["alt_text"] = row["alt_text"].strip()
-        container_id = call("POST", f"{USER_ID}/threads", **options).get("id")
+        target_id = user_id or USER_ID
+        if not target_id:
+            raise RuntimeError("Threads user ID was not resolved")
+        container_id = call("POST", f"{target_id}/threads", **options).get("id")
         if not container_id:
             raise RuntimeError("Threads container response did not include an ID")
         entry.update(container_id=container_id, fingerprint=identity, phase="ready")
@@ -194,7 +199,8 @@ def publish(row, state):
 
     entry.update(phase="publishing", publish_started_at=datetime.now(timezone.utc).isoformat())
     checkpoint(state)
-    result = call("POST", f"{USER_ID}/threads_publish", creation_id=entry["container_id"])
+    target_id = user_id or USER_ID
+    result = call("POST", f"{target_id}/threads_publish", creation_id=entry["container_id"])
     thread_id = result.get("id")
     if not thread_id:
         raise RuntimeError("Publication response has no thread ID; reconcile before retrying")
@@ -242,17 +248,17 @@ def main():
         return 0
     if not todo:
         return 0
-    if not TOKEN or not USER_ID:
-        print("THREADS_TOKEN or THREADS_USER_ID is not configured; nothing was posted.")
+    if not TOKEN:
+        print("THREADS_TOKEN is not configured; nothing was posted.")
         return 0
     if os.environ.get("GITHUB_ACTIONS") == "true" and not DURABLE_GIT:
         raise RuntimeError("GitHub publishing requires THREADS_DURABLE_GIT=1")
 
-    username = account_identity()
+    user_id, username = account_identity()
     print(f"Posting to Threads as @{username}")
     for row in todo:
         try:
-            publish(row, state)
+            publish(row, state, user_id)
         except Exception as error:
             entry = state.setdefault(row["post_id"], {})
             entry["last_error"] = type(error).__name__ + ": publication did not complete; inspect the run"
