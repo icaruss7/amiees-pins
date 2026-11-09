@@ -38,7 +38,10 @@ Publishing is automated, but replies should remain human-reviewed at first.
 Add these under **Settings > Secrets and variables > Actions**:
 
 - `THREADS_TOKEN`: long-lived Threads API access token
-- `THREADS_USER_ID`: numeric Threads user ID for the Amiees profile
+
+The publisher retrieves the numeric Threads user ID directly from the connected
+token. `THREADS_USER_ID` is optional and, when supplied, acts only as an extra
+account-matching safeguard.
 
 Optional repository variables:
 
