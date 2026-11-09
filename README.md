@@ -76,3 +76,17 @@ unique and every link is on amiees.com before writing anything.
 
 32 pins. 9 published manually before this existed and marked `published`.
 The remaining 23 release at four a day.
+
+## Threads
+
+Threads publishing uses the same reviewed-queue and durable-state pattern as
+Instagram:
+
+```
+threads_queue.csv  ->  threads_publish.py  ->  Threads API
+```
+
+The scheduled Action checks every three hours, publishes at most one eligible
+post, and commits state before the final publication request. Setup, secrets,
+queue fields, dry-run instructions, and the recommended conversational content
+mix are documented in [THREADS.md](THREADS.md).
