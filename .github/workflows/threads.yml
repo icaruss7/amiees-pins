@@ -3,6 +3,13 @@ name: Post to Threads
 on:
   schedule:
     - cron: "17 */3 * * *"     # every 3 hours, offset from Pinterest and Instagram
+  push:
+    branches: [main]
+    paths:
+      - "threads_publish.py"
+      - "test_threads_publish.py"
+      - "threads_queue.csv"
+      - ".github/workflows/threads.yml"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -45,7 +52,7 @@ jobs:
           THREADS_MIN_GAP_HOURS: ${{ vars.THREADS_MIN_GAP_HOURS || '16' }}
           THREADS_DURABLE_GIT: '1'
           MAX_PER_RUN: '1'
-          DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
+          DRY_RUN: ${{ github.event_name == 'push' && '1' || (inputs.dry_run && '1' || '') }}
         run: python3 threads_publish.py
 
       - name: Save final Threads state
