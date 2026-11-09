@@ -1,0 +1,3 @@
+post_id,release_at,status,post_type,text,media_type,image_url,alt_text,product_url,utm_campaign
+threads-example-question,2026-11-10 15:00:00,example,question,"Which jewelry motif always gets your attention: flowers, cats, bees, moons, or stars?",TEXT,,,,threads-conversation
+threads-example-product,2026-11-11 18:00:00,example,product,"A little everyday wonder, inspired by the details we love in nature. Would you wear this with soft neutrals or something colorful?",IMAGE,https://example.com/public-image.png,"Nature-inspired jewelry on a softly textured neutral surface.",https://amiees.com/,threads-product
