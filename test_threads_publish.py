@@ -54,13 +54,13 @@ class ThreadsPublisherTests(unittest.TestCase):
         with mock.patch.object(publisher, "call", side_effect=api), \
              mock.patch.object(publisher, "wait_ready", return_value="FINISHED"), \
              mock.patch.object(publisher, "checkpoint", side_effect=checkpoint):
-            publisher.publish(row(), state)
+            publisher.publish(row(), state, "threads-user-1")
 
         self.assertIn(("checkpoint", "ready"), calls)
         self.assertIn(("checkpoint", "publishing"), calls)
         self.assertIn(("checkpoint", "published"), calls)
         publishing_checkpoint = calls.index(("checkpoint", "publishing"))
-        public_call = calls.index(("POST", publisher.USER_ID + "/threads_publish"))
+        public_call = calls.index(("POST", "threads-user-1/threads_publish"))
         self.assertLess(publishing_checkpoint, public_call)
 
 
