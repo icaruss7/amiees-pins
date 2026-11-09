@@ -1,0 +1,63 @@
+name: Post to Threads
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"     # every 3 hours, offset from Pinterest and Instagram
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Only print what would be posted"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: threads
+  cancel-in-progress: false
+
+jobs:
+  post:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Configure durable checkpoints
+        run: |
+          git config user.name "amiees-feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Test Threads publisher
+        run: python3 -m unittest -v test_threads_publish
+
+      - name: Publish anything due
+        env:
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          THREADS_EXPECTED_USERNAME: ${{ vars.THREADS_EXPECTED_USERNAME }}
+          THREADS_API_VERSION: ${{ vars.THREADS_API_VERSION || 'v1.0' }}
+          THREADS_MIN_GAP_HOURS: ${{ vars.THREADS_MIN_GAP_HOURS || '16' }}
+          THREADS_DURABLE_GIT: '1'
+          MAX_PER_RUN: '1'
+          DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
+        run: python3 threads_publish.py
+
+      - name: Save final Threads state
+        if: always()
+        run: |
+          git config user.name "amiees-feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain threads_state.json)" ]; then
+            git add threads_state.json
+            git commit -m "Threads posts as of $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git pull --rebase
+            git push
+          else
+            echo "Nothing new posted."
+          fi
