@@ -64,5 +64,18 @@ class ThreadsPublisherTests(unittest.TestCase):
         self.assertLess(publishing_checkpoint, public_call)
 
 
+    def test_account_identity_accepts_connected_profile(self):
+        with mock.patch.object(publisher, "call",
+                               return_value={"id": "threads-user-1", "username": "amiees"}):
+            self.assertEqual(publisher.account_identity(), ("threads-user-1", "amiees"))
+
+    def test_account_identity_rejects_wrong_expected_username(self):
+        with mock.patch.object(publisher, "EXPECTED_USERNAME", "amiees"), \
+             mock.patch.object(publisher, "call",
+                               return_value={"id": "threads-user-1", "username": "anotherbrand"}):
+            with self.assertRaisesRegex(RuntimeError, "EXPECTED_USERNAME"):
+                publisher.account_identity()
+
+
 if __name__ == "__main__":
     unittest.main()
