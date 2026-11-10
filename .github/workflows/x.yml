@@ -51,7 +51,7 @@ jobs:
           X_EXPECTED_USERNAME: ${{ vars.X_EXPECTED_USERNAME }}
           X_MIN_GAP_HOURS: ${{ vars.X_MIN_GAP_HOURS || '16' }}
           X_DURABLE_GIT: '1'
-          X_BUFFER_CONNECTION_CHECK: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
+          X_BUFFER_CONNECTION_CHECK: '1'
           MAX_PER_RUN: '1'
           DRY_RUN: ${{ github.event_name == 'push' && '1' || (inputs.dry_run && '1' || '') }}
         run: python3 x_buffer_publish.py
