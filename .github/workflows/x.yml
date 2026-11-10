@@ -7,13 +7,15 @@ on:
     branches: [main]
     paths:
       - "x_publish.py"
+      - "x_buffer_publish.py"
       - "test_x_publish.py"
+      - "test_x_buffer_publish.py"
       - "x_queue.csv"
       - ".github/workflows/x.yml"
   workflow_dispatch:
     inputs:
       dry_run:
-        description: "Only validate the connection and print what would be posted"
+        description: "Only validate the Buffer connection and print what would be posted"
         type: boolean
         default: true
 
@@ -41,21 +43,18 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Test X publisher
-        run: python3 -m unittest -v test_x_publish
+        run: python3 -m unittest -v test_x_publish test_x_buffer_publish
 
-      - name: Publish anything due
+      - name: Publish anything due through Buffer
         env:
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           X_EXPECTED_USERNAME: ${{ vars.X_EXPECTED_USERNAME }}
           X_MIN_GAP_HOURS: ${{ vars.X_MIN_GAP_HOURS || '16' }}
           X_DURABLE_GIT: '1'
-          X_CONNECTION_CHECK: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
+          X_BUFFER_CONNECTION_CHECK: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
           MAX_PER_RUN: '1'
           DRY_RUN: ${{ github.event_name == 'push' && '1' || (inputs.dry_run && '1' || '') }}
-        run: python3 x_publish.py
+        run: python3 x_buffer_publish.py
 
       - name: Save final X state
         if: always()
