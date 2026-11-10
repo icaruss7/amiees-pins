@@ -53,7 +53,7 @@ jobs:
           THREADS_DURABLE_GIT: '1'
           THREADS_CONNECTION_CHECK: '1'
           MAX_PER_RUN: '1'
-          DRY_RUN: ${{ github.event_name == 'push' && !contains(github.event.head_commit.message, '[threads-live]') && '1' || (github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '') }}
+          DRY_RUN: ${{ github.event_name == 'push' && '1' || (inputs.dry_run && '1' || '') }}
         run: python3 threads_publish.py
 
       - name: Save final Threads state
