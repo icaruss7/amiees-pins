@@ -10,20 +10,20 @@
   "median_reach_or_views": 6.0
  },
  "data_notes": {
-  "collected_at": "2026-11-09T23:27:37+00:00",
+  "collected_at": "2026-11-10T20:51:33+00:00",
   "insights_permission_notes": [],
   "posts_collected": 27,
   "posts_skipped": 0
  },
- "generated_at": "2026-11-09T23:28:41+00:00",
+ "generated_at": "2026-11-10T20:53:14+00:00",
  "groups": {
   "format": {
    "FEED": {
     "avg_interaction_rate": 0.33395235999999995,
-    "avg_reach": 6.16,
+    "avg_reach": 6.24,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 13.0,
+    "avg_views": 13.24,
     "n": 25
    },
    "REELS": {
@@ -97,7 +97,7 @@
     "avg_reach": 6.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 19.0,
+    "avg_views": 21.0,
     "n": 1
    },
    "17:00 UTC": {
@@ -142,20 +142,20 @@
    },
    "22:00 UTC": {
     "avg_interaction_rate": 0.0,
-    "avg_reach": 1.0,
+    "avg_reach": 3.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 2.0,
+    "avg_views": 6.0,
     "n": 1
    }
   },
   "series": {
    "nature": {
     "avg_interaction_rate": 0.20732592307692307,
-    "avg_reach": 5.6923076923076925,
+    "avg_reach": 5.846153846153846,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 9.23076923076923,
+    "avg_views": 9.692307692307692,
     "n": 13
    },
    "product": {
@@ -178,10 +178,10 @@
    },
    "Monday": {
     "avg_interaction_rate": 0.33333325,
-    "avg_reach": 5.5,
+    "avg_reach": 6.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 9.75,
+    "avg_views": 10.75,
     "n": 4
    },
    "Saturday": {
@@ -197,7 +197,7 @@
     "avg_reach": 5.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 14.25,
+    "avg_views": 14.75,
     "n": 4
    },
    "Thursday": {
