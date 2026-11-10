@@ -1,0 +1,70 @@
+name: Prepare TikTok post
+
+on:
+  schedule:
+    - cron: "53 */3 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "tiktok_publish.py"
+      - "test_tiktok_publish.py"
+      - "tiktok_queue.csv"
+      - ".github/workflows/tiktok.yml"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Only validate the Buffer connection and preview the next reminder"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tiktok-notification-publisher
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Configure durable checkpoints
+        run: |
+          git config user.name "amiees-feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Test TikTok notification publisher
+        run: python3 -m unittest -v test_tiktok_publish
+
+      - name: Prepare anything due through Buffer
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          TIKTOK_BUFFER_CHANNEL_ID: '673d4900da2e3cb64c96536a'
+          TIKTOK_EXPECTED_USERNAME: 'amiees.com'
+          TIKTOK_MIN_GAP_HOURS: '20'
+          TIKTOK_DURABLE_GIT: '1'
+          TIKTOK_BUFFER_CONNECTION_CHECK: '1'
+          MAX_PER_RUN: '1'
+          DRY_RUN: ${{ github.event_name == 'push' && '1' || (inputs.dry_run && '1' || '') }}
+        run: python3 tiktok_publish.py
+
+      - name: Save final TikTok state
+        if: always()
+        run: |
+          git config user.name "amiees-feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain tiktok_state.json)" ]; then
+            git add tiktok_state.json
+            git commit -m "TikTok reminders as of $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git pull --rebase
+            git push
+          else
+            echo "No TikTok state change."
+          fi
