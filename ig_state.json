@@ -225,6 +225,10 @@
     "posted_at": "2026-11-09T22:38:52+00:00",
     "publish_started_at": "2026-11-09T22:38:46.664277+00:00"
   },
+  "ig-nature-14-blue-butterfly-hoop-earrings": {
+    "attempts": 1,
+    "last_error": "MetaAPIError: publication did not complete; inspect the run"
+  },
   "ig-radiant-bloom-flower-necklace-1": {
     "attempts": 1,
     "media_id": "18094257821429016",
