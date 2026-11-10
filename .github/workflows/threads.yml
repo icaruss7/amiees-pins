@@ -51,6 +51,7 @@ jobs:
           THREADS_API_VERSION: ${{ vars.THREADS_API_VERSION || 'v1.0' }}
           THREADS_MIN_GAP_HOURS: ${{ vars.THREADS_MIN_GAP_HOURS || '16' }}
           THREADS_DURABLE_GIT: '1'
+          THREADS_CONNECTION_CHECK: '1'
           MAX_PER_RUN: '1'
           DRY_RUN: ${{ github.event_name == 'push' && '1' || (inputs.dry_run && '1' || '') }}
         run: python3 threads_publish.py
