@@ -2,7 +2,7 @@ name: Post to X
 
 on:
   schedule:
-    - cron: "43 */4 * * *"     # every 4 hours, offset from other publishers
+    - cron: "43 */3 * * *"     # every 3 hours, matching Threads cadence with an offset
   push:
     branches: [main]
     paths:
@@ -50,7 +50,7 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           X_EXPECTED_USERNAME: ${{ vars.X_EXPECTED_USERNAME }}
-          X_MIN_GAP_HOURS: ${{ vars.X_MIN_GAP_HOURS || '20' }}
+          X_MIN_GAP_HOURS: ${{ vars.X_MIN_GAP_HOURS || '16' }}
           X_DURABLE_GIT: '1'
           X_CONNECTION_CHECK: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
           MAX_PER_RUN: '1'
