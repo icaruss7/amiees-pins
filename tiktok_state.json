@@ -7,8 +7,10 @@
   },
   "tt-dolphin-dreams-20261110": {
     "attempts": 1,
+    "buffer_post_id": "6af2c00be261c09acca6156c",
     "fingerprint": "7016ac5395a6f4ecaa2e7cb857fa960a3ef287fc2c4c31adc74aa24580510a65",
-    "phase": "scheduling_notification",
+    "notification_scheduled_at": "2026-11-10T06:56:12+00:00",
+    "phase": "notification_scheduled",
     "scheduling_started_at": "2026-11-10T06:56:09.346970+00:00",
     "sound_search": "Choose a currently trending dreamy or coastal instrumental from TikTok Commercial Sounds",
     "transport": "buffer_notification"
