@@ -1,3 +1,5 @@
+import contextlib
+import io
 import unittest
 from datetime import datetime, timezone
 from unittest import mock
@@ -58,7 +60,8 @@ class XPublisherTests(unittest.TestCase):
             calls.append(("checkpoint", value["x-test-001"]["phase"]))
 
         with mock.patch.object(publisher, "api_json", side_effect=api), \
-             mock.patch.object(publisher, "checkpoint", side_effect=checkpoint):
+             mock.patch.object(publisher, "checkpoint", side_effect=checkpoint), \
+             contextlib.redirect_stdout(io.StringIO()):
             publisher.publish(row(), state, "amiees")
 
         publishing_checkpoint = calls.index(("checkpoint", "publishing"))
