@@ -215,7 +215,16 @@ def main():
     if DRY_RUN:
         if CONNECTION_CHECK:
             if BUFFER_API_KEY:
-                _, name = discover_x_channel()
+                channel_id, name = discover_x_channel()
+                marker = {
+                    "phase": "connected",
+                    "transport": "buffer",
+                    "channel_id": channel_id,
+                    "username": name,
+                }
+                if state.get("_buffer_connection") != marker:
+                    state["_buffer_connection"] = marker
+                    core.checkpoint(state)
                 print(f"Connected Buffer X channel: @{name}")
             else:
                 print("Buffer credentials are not configured; connection check skipped.")
