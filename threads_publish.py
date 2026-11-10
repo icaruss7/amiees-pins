@@ -31,6 +31,7 @@ DRY_RUN = os.environ.get("DRY_RUN", "") not in ("", "0", "false")
 MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "1"))
 MIN_GAP_HOURS = float(os.environ.get("THREADS_MIN_GAP_HOURS", "16"))
 DURABLE_GIT = os.environ.get("THREADS_DURABLE_GIT", "") == "1"
+CONNECTION_CHECK = os.environ.get("THREADS_CONNECTION_CHECK", "") == "1"
 MAX_ATTEMPTS = 3
 
 
@@ -230,6 +231,13 @@ def main():
         if row.get("status") == "queued":
             validate_row(row)
 
+    connected_account = None
+    if CONNECTION_CHECK:
+        if not TOKEN:
+            raise RuntimeError("THREADS_TOKEN is required for the connection check")
+        connected_account = account_identity()
+        print(f"Connected Threads account: @{connected_account[1]} (ID {connected_account[0]})")
+
     unresolved = [key for key, entry in state.items()
                   if not confirmed(entry) and entry.get("phase") in ("publishing", "needs_review")]
     if unresolved:
@@ -254,7 +262,7 @@ def main():
     if os.environ.get("GITHUB_ACTIONS") == "true" and not DURABLE_GIT:
         raise RuntimeError("GitHub publishing requires THREADS_DURABLE_GIT=1")
 
-    user_id, username = account_identity()
+    user_id, username = connected_account or account_identity()
     print(f"Posting to Threads as @{username}")
     for row in todo:
         try:
