@@ -1,1 +1,8 @@
-{}
+{
+  "_buffer_connection": {
+    "channel_id": "673d4900da2e3cb64c96536a",
+    "phase": "connected",
+    "transport": "buffer_notification",
+    "username": "amiees.com"
+  }
+}
