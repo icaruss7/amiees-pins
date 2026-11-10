@@ -90,3 +90,18 @@ The scheduled Action checks every three hours, publishes at most one eligible
 post, and commits state before the final publication request. Setup, secrets,
 queue fields, dry-run instructions, and the recommended conversational content
 mix are documented in [THREADS.md](THREADS.md).
+
+
+## X
+
+X publishing uses a separate reviewed queue with the same durable duplicate
+protection:
+
+```
+x_queue.csv  ->  x_publish.py  ->  X API
+```
+
+The initial four-week pilot posts four times per week. The Action checks every
+four hours, publishes at most one eligible post, and keeps at least 20 hours
+between posts. Setup, API credentials, queue fields and launch checks are
+documented in [X.md](X.md).
