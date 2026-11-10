@@ -3,6 +3,7 @@
     "attempts": 1,
     "container_id": "17928331737431492",
     "fingerprint": "8af158bf6f9da4466f767d8416c07c155e170bff8dd5486f22fe2fbed12e8428",
-    "phase": "ready"
+    "phase": "publishing",
+    "publish_started_at": "2026-11-10T04:22:18.403327+00:00"
   }
 }
