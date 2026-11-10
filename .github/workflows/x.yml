@@ -1,0 +1,72 @@
+name: Post to X
+
+on:
+  schedule:
+    - cron: "43 */4 * * *"     # every 4 hours, offset from other publishers
+  push:
+    branches: [main]
+    paths:
+      - "x_publish.py"
+      - "test_x_publish.py"
+      - "x_queue.csv"
+      - ".github/workflows/x.yml"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Only validate the connection and print what would be posted"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: x-publisher
+  cancel-in-progress: false
+
+jobs:
+  post:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Configure durable checkpoints
+        run: |
+          git config user.name "amiees-feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Test X publisher
+        run: python3 -m unittest -v test_x_publish
+
+      - name: Publish anything due
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          X_EXPECTED_USERNAME: ${{ vars.X_EXPECTED_USERNAME }}
+          X_MIN_GAP_HOURS: ${{ vars.X_MIN_GAP_HOURS || '20' }}
+          X_DURABLE_GIT: '1'
+          X_CONNECTION_CHECK: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
+          MAX_PER_RUN: '1'
+          DRY_RUN: ${{ github.event_name == 'push' && '1' || (inputs.dry_run && '1' || '') }}
+        run: python3 x_publish.py
+
+      - name: Save final X state
+        if: always()
+        run: |
+          git config user.name "amiees-feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain x_state.json)" ]; then
+            git add x_state.json
+            git commit -m "X posts as of $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git pull --rebase
+            git push
+          else
+            echo "Nothing new posted."
+          fi
