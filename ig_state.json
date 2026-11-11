@@ -226,8 +226,12 @@
     "publish_started_at": "2026-11-09T22:38:46.664277+00:00"
   },
   "ig-nature-14-blue-butterfly-hoop-earrings": {
-    "attempts": 1,
-    "last_error": "MetaAPIError: publication did not complete; inspect the run"
+    "account_id": "17841454700426833",
+    "attempts": 2,
+    "container_id": "18052831163823348",
+    "fingerprint": "4ce196c6eaa9053598183fc51f4351c80e429f84a983a22dc7b852a91e5b7ff3",
+    "last_error": "MetaAPIError: publication did not complete; inspect the run",
+    "phase": "ready"
   },
   "ig-radiant-bloom-flower-necklace-1": {
     "attempts": 1,
