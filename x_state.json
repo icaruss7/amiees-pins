@@ -7,8 +7,11 @@
   },
   "x-question-signature-motif-20261111": {
     "attempts": 1,
+    "buffer_post_id": "6af4c78eceae26a3a50d0acf",
     "fingerprint": "655a8b4af6feb10216095cf452474ab2c1a1fdf933552fdc920ca74015e26807",
-    "phase": "publishing",
+    "permalink": "https://twitter.com/AmieesShop/status/2120605675294265447",
+    "phase": "published",
+    "posted_at": "2026-11-11T19:52:47+00:00",
     "publish_started_at": "2026-11-11T19:52:44.753114+00:00",
     "transport": "buffer"
   }
