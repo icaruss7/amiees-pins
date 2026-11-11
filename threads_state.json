@@ -8,5 +8,11 @@
     "posted_at": "2026-11-10T04:22:22+00:00",
     "publish_started_at": "2026-11-10T04:22:18.403327+00:00",
     "thread_id": "18111126368193794"
+  },
+  "threads-question-signature-motif-20261111": {
+    "attempts": 1,
+    "container_id": "17928661827431492",
+    "fingerprint": "6456f1ee884cf08383c9da366747ff715c043532bac7af1351872bb7d1b1bfb2",
+    "phase": "ready"
   }
 }
