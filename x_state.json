@@ -4,5 +4,12 @@
     "phase": "connected",
     "transport": "buffer",
     "username": "AmieesShop"
+  },
+  "x-question-signature-motif-20261111": {
+    "attempts": 1,
+    "fingerprint": "655a8b4af6feb10216095cf452474ab2c1a1fdf933552fdc920ca74015e26807",
+    "phase": "publishing",
+    "publish_started_at": "2026-11-11T19:52:44.753114+00:00",
+    "transport": "buffer"
   }
 }
