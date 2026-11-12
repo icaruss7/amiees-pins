@@ -2,26 +2,26 @@
   "items": {
     "reel-20261029-blue-butterfly-hoop-earrings--instagram": {
       "analytics_linkage": {
-        "collected_at": "2026-11-11T21:26:52+00:00",
+        "collected_at": "2026-11-12T21:29:16+00:00",
         "experiment_id": "reel-20261029-blue-butterfly-hoop-earrings",
         "file": "ig_analytics.json",
         "latest": {
           "comment_rate": 0.0,
           "comments": 0,
-          "ig_reels_avg_watch_time": 3302,
-          "ig_reels_video_view_total_time": 56140,
+          "ig_reels_avg_watch_time": 3215,
+          "ig_reels_video_view_total_time": 57873,
           "interaction_rate": 0.058824,
           "like_rate": 0.058824,
           "likes": 1,
           "reach": 17,
-          "reels_skip_rate": 64.7,
+          "reels_skip_rate": 66.7,
           "reposts": 0,
           "save_rate": 0.0,
           "saved": 0,
           "share_rate": 0.0,
           "shares": 0,
           "total_interactions": 1,
-          "views": 18
+          "views": 19
         },
         "media_id": "17899111263411292",
         "post_id": "ig-exp-reel-20261029-blue-butterfly-hoop-earrings"
@@ -401,26 +401,26 @@
     },
     "reel-20261029-dolphin-dreams-ring--instagram": {
       "analytics_linkage": {
-        "collected_at": "2026-11-11T21:26:52+00:00",
+        "collected_at": "2026-11-12T21:29:16+00:00",
         "experiment_id": "reel-20261029-dolphin-dreams-ring",
         "file": "ig_analytics.json",
         "latest": {
           "comment_rate": 0.0,
           "comments": 0,
-          "ig_reels_avg_watch_time": 2564,
-          "ig_reels_video_view_total_time": 194890,
+          "ig_reels_avg_watch_time": 2569,
+          "ig_reels_video_view_total_time": 197878,
           "interaction_rate": 0.012658,
           "like_rate": 0.0,
           "likes": 0,
           "reach": 79,
-          "reels_skip_rate": 76.3,
+          "reels_skip_rate": 76.6,
           "reposts": 0,
           "save_rate": 0.012658,
           "saved": 1,
           "share_rate": 0.0,
           "shares": 0,
           "total_interactions": 1,
-          "views": 86
+          "views": 88
         },
         "media_id": "18120873157987350",
         "post_id": "ig-exp-reel-20261029-dolphin-dreams-ring"
