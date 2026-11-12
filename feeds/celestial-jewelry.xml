@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Nov 2026 15:01:59 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 23:30:33 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Celestial Jewelry Under $40</title>
@@ -357,6 +357,15 @@
       <pubDate>Wed, 11 Nov 2026 23:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/soleil-sun-pendant-necklace-gold-tone-multicolor-sand.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/soleil-sun-pendant-necklace-gold-tone-multicolor-sand.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Raindrop Earrings | Cloud Earrings</title>
+      <link>https://amiees.com/products/raindrop-earrings?utm_source=pinterest&amp;utm_medium=organic&amp;utm_campaign=scene_pins&amp;utm_content=amiees-scene-raindrop-earrings-gold-text</link>
+      <description>Raindrop Earrings, gold tone. Little clouds trailing glittering raindrops. Part of the celestial jewelry collection from Amiees, under $25. Cloud earrings, rain cloud earrings and whimsical earrings for everyday wear or gifting. Free shipping on eligible orders of $35 USD or more after discounts.</description>
+      <guid isPermaLink="false">amiees-scene-raindrop-earrings-gold-text</guid>
+      <pubDate>Thu, 12 Nov 2026 23:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/raindrop-earrings-gold-text.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/raindrop-earrings-gold-text.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
