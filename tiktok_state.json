@@ -7,8 +7,10 @@
   },
   "tt-blue-butterfly-20261111": {
     "attempts": 1,
+    "buffer_post_id": "6af51044bc9f3773a1afae5e",
     "fingerprint": "64786cde40a3e5eb72b233a02b9274bf0c728a0f7b479428e4eb490b1d32451a",
-    "phase": "scheduling_notification",
+    "notification_scheduled_at": "2026-11-12T01:03:02+00:00",
+    "phase": "notification_scheduled",
     "scheduling_started_at": "2026-11-12T01:02:55.783223+00:00",
     "sound_search": "Choose a currently trending light whimsical instrumental from TikTok Commercial Sounds",
     "transport": "buffer_notification"
