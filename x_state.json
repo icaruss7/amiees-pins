@@ -17,8 +17,11 @@
   },
   "x-radiant-bloom-20261112": {
     "attempts": 1,
+    "buffer_post_id": "6af6716eba218f326371605b",
     "fingerprint": "b2e815243a84cf7c3d890b5d2e4678146ae2fa8ca996010406ccb96f12c7d7af",
-    "phase": "publishing",
+    "permalink": "https://twitter.com/AmieesShop/status/2121062961842131334",
+    "phase": "published",
+    "posted_at": "2026-11-13T02:09:52+00:00",
     "publish_started_at": "2026-11-13T02:09:48.651683+00:00",
     "transport": "buffer"
   }
