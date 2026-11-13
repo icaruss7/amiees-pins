@@ -14,5 +14,12 @@
     "posted_at": "2026-11-11T19:52:47+00:00",
     "publish_started_at": "2026-11-11T19:52:44.753114+00:00",
     "transport": "buffer"
+  },
+  "x-radiant-bloom-20261112": {
+    "attempts": 1,
+    "fingerprint": "b2e815243a84cf7c3d890b5d2e4678146ae2fa8ca996010406ccb96f12c7d7af",
+    "phase": "publishing",
+    "publish_started_at": "2026-11-13T02:09:48.651683+00:00",
+    "transport": "buffer"
   }
 }
