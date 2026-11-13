@@ -24,5 +24,13 @@
     "scheduling_started_at": "2026-11-10T06:56:09.346970+00:00",
     "sound_search": "Choose a currently trending dreamy or coastal instrumental from TikTok Commercial Sounds",
     "transport": "buffer_notification"
+  },
+  "tt-elephant-ring-20261112": {
+    "attempts": 1,
+    "fingerprint": "2958d35512350d506414703a18d1bbadad0a2ad279502a1dcc23e28c29134993",
+    "phase": "scheduling_notification",
+    "scheduling_started_at": "2026-11-13T02:10:11.426779+00:00",
+    "sound_search": "Choose a currently trending warm cinematic instrumental from TikTok Commercial Sounds",
+    "transport": "buffer_notification"
   }
 }
