@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2026 06:26:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 19:33:44 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Celestial Jewelry Under $40</title>
@@ -366,6 +366,15 @@
       <pubDate>Thu, 12 Nov 2026 23:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/raindrop-earrings-gold-text.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/raindrop-earrings-gold-text.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Silver Star Earrings Under $25</title>
+      <link>https://amiees.com/products/celestial-star-earrings?utm_source=pinterest&amp;utm_medium=organic&amp;utm_campaign=scene_pins&amp;utm_content=amiees-scene-celestial-star-earrings-silver-sand</link>
+      <description>Celestial Star Earrings, silver tone. A star on one ear and a crescent moon on the other. Part of the celestial jewelry collection from Amiees, under $25. Moon and star earrings, celestial earrings and mismatched earrings for everyday wear or gifting. Free shipping on eligible orders of $35 USD or more after discounts.</description>
+      <guid isPermaLink="false">amiees-scene-celestial-star-earrings-silver-sand</guid>
+      <pubDate>Fri, 13 Nov 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/celestial-star-earrings-silver-sand.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/celestial-star-earrings-silver-sand.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
