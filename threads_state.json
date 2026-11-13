@@ -20,7 +20,10 @@
     "thread_id": "18123232319068918"
   },
   "threads-radiant-bloom-20261112": {
-    "attempts": 2,
-    "last_error": "ThreadsAPIError: publication did not complete; inspect the run"
+    "attempts": 3,
+    "container_id": "17928970554431492",
+    "fingerprint": "bc5a2ef5bbba21cb11a1b1619ec4ed49ec5b48c8af078da938e5b1d881bd541e",
+    "last_error": "ThreadsAPIError: publication did not complete; inspect the run",
+    "phase": "ready"
   }
 }
