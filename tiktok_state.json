@@ -27,8 +27,10 @@
   },
   "tt-elephant-ring-20261112": {
     "attempts": 1,
+    "buffer_post_id": "6af67185da25c4db3e8c8761",
     "fingerprint": "2958d35512350d506414703a18d1bbadad0a2ad279502a1dcc23e28c29134993",
-    "phase": "scheduling_notification",
+    "notification_scheduled_at": "2026-11-13T02:10:14+00:00",
+    "phase": "notification_scheduled",
     "scheduling_started_at": "2026-11-13T02:10:11.426779+00:00",
     "sound_search": "Choose a currently trending warm cinematic instrumental from TikTok Commercial Sounds",
     "transport": "buffer_notification"
