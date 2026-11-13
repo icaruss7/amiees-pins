@@ -75,16 +75,29 @@ def call(method, path, **params):
     except urllib.error.HTTPError as e:
         body = e.read().decode(errors="replace")
         code = subcode = None
+        message = ""
         try:
             error = json.loads(body)["error"]
             code = error.get("code")
             subcode = error.get("error_subcode")
+            message = " ".join(str(error.get(k, "")) for k in
+                               ("message", "error_user_title", "error_user_msg")).strip()
         except (ValueError, KeyError, TypeError, AttributeError):
             pass
-        raise MetaAPIError(f"{method} request failed (HTTP {e.code}, Meta {code}/{subcode})",
+        detail = f": {message[:400]}" if message else ""
+        raise MetaAPIError(f"{method} {path.split('/')[-1]} failed (HTTP {e.code}, Meta {code}/{subcode}){detail}",
                            code, subcode) from None
     except urllib.error.URLError:
         raise RuntimeError("Meta request failed before a response was received") from None
+
+
+def error_detail(error):
+    """Readable error for the Actions log only. Tokens are removed; state files stay generic."""
+    text = f"{type(error).__name__}: {error}"
+    if TOKEN:
+        text = text.replace(TOKEN, "[token]")
+    text = re.sub(r"(access_token=)[^&\s\"']+", r"\1[token]", text)
+    return text[:700]
 
 
 def username_of(ig_id):
@@ -435,6 +448,7 @@ def main():
             checkpoint(state)
             failed = True
             print(f"FAILED {row['post_id']}: {entry['last_error']}")
+            print(f"  detail: {error_detail(error)}")
             break
     return 1 if failed else 0
 
