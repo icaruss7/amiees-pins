@@ -20,7 +20,7 @@
     "thread_id": "18123232319068918"
   },
   "threads-radiant-bloom-20261112": {
-    "attempts": 1,
+    "attempts": 2,
     "last_error": "ThreadsAPIError: publication did not complete; inspect the run"
   }
 }
