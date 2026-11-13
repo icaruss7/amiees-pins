@@ -248,8 +248,12 @@
     "publish_started_at": "2026-11-12T11:43:22.572129+00:00"
   },
   "ig-nature-16-silver-snake-ring": {
-    "attempts": 1,
-    "last_error": "MetaAPIError: publication did not complete; inspect the run"
+    "account_id": "17841454700426833",
+    "attempts": 2,
+    "container_id": "18053221532823348",
+    "fingerprint": "0615058f8c7f571aa4a3d6a990cb257e510c8477b6aa57bc34f4be745fa994a3",
+    "last_error": "MetaAPIError: publication did not complete; inspect the run",
+    "phase": "ready"
   },
   "ig-radiant-bloom-flower-necklace-1": {
     "attempts": 1,
