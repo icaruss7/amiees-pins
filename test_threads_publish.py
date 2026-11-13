@@ -79,3 +79,14 @@ class ThreadsPublisherTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ErrorDetailTest(unittest.TestCase):
+    def test_detail_removes_token(self):
+        import threads_publish as p
+        with mock.patch.object(p, "TOKEN", "test-secret-token"):
+            text = p.error_detail(p.ThreadsAPIError(
+                'Threads API HTTP 400: {"error":{"message":"bad image"}} test-secret-token access_token=abc123'))
+        self.assertIn("bad image", text)
+        self.assertNotIn("test-secret-token", text)
+        self.assertNotIn("abc123", text)

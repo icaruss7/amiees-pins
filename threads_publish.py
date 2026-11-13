@@ -57,6 +57,15 @@ def call(method, path, **params):
         raise ThreadsAPIError("Threads API request failed before a response was received") from None
 
 
+def error_detail(error):
+    """Readable error for the Actions log only. Tokens are removed; state files stay generic."""
+    text = f"{type(error).__name__}: {error}"
+    if TOKEN:
+        text = text.replace(TOKEN, "[token]")
+    text = re.sub(r"(access_token=)[^&\s\"']+", r"\1[token]", text)
+    return text[:700]
+
+
 def https_url(value):
     parsed = urllib.parse.urlsplit(value)
     if parsed.scheme != "https" or not parsed.hostname or parsed.username or parsed.password or parsed.fragment:
@@ -272,6 +281,7 @@ def main():
             entry["last_error"] = type(error).__name__ + ": publication did not complete; inspect the run"
             checkpoint(state)
             print(f"FAILED {row['post_id']}: {entry['last_error']}")
+            print(f"  detail: {error_detail(error)}")
             return 1
     return 0
 
