@@ -23,8 +23,9 @@
     "attempts": 3,
     "container_id": "17928970554431492",
     "fingerprint": "bc5a2ef5bbba21cb11a1b1619ec4ed49ec5b48c8af078da938e5b1d881bd541e",
-    "last_error": "ThreadsAPIError: publication did not complete; inspect the run",
-    "phase": "publishing",
-    "publish_started_at": "2026-11-13T19:38:06.034261+00:00"
+    "phase": "published",
+    "posted_at": "2026-11-13T19:38:10+00:00",
+    "publish_started_at": "2026-11-13T19:38:06.034261+00:00",
+    "thread_id": "17982130233135319"
   }
 }
