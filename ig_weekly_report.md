@@ -1,10 +1,10 @@
 # Amiees Instagram Weekly Learning Report
 
-_Generated 2026-11-13T20:55:45+00:00_
+_Generated 2026-11-14T19:13:23+00:00_
 
 ## Snapshot
 
-- Published posts tracked: **30**
+- Published posts tracked: **31**
 - Followers: **31**
 - Follower change since tracking began: **+0**
 - Median reach/views per tracked post: **6**
@@ -23,17 +23,17 @@ _Generated 2026-11-13T20:55:45+00:00_
 ## Current patterns
 
 ### Series
-- **nature** (n=16): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 15.77%
+- **nature** (n=17): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 15.77%
 - **product** (n=14): avg reach 13, share rate 0.00%, save rate 0.09%, interaction rate 40.89%
 
 ### Format
-- **FEED** (n=28): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 29.20%
+- **FEED** (n=29): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 29.20%
 - **REELS** (n=2): avg reach 48, share rate 0.00%, save rate 0.63%, interaction rate 3.57%
 
 ### Weekday
-- **Friday** (n=7): avg reach 7, share rate 0.00%, save rate 0.00%, interaction rate 27.78%
+- **Friday** (n=7): avg reach 8, share rate 0.00%, save rate 0.00%, interaction rate 27.78%
 - **Monday** (n=4): avg reach 7, share rate 0.00%, save rate 0.00%, interaction rate 32.50%
-- **Saturday** (n=2): avg reach 8, share rate 0.00%, save rate 0.00%, interaction rate 33.33%
+- **Saturday** (n=3): avg reach 5, share rate 0.00%, save rate 0.00%, interaction rate 33.33%
 - **Sunday** (n=4): avg reach 6, share rate 0.00%, save rate 0.00%, interaction rate 42.38%
 - **Thursday** (n=5): avg reach 21, share rate 0.00%, save rate 0.25%, interaction rate 5.25%
 - **Tuesday** (n=2): avg reach 7, share rate 0.00%, save rate 0.00%, interaction rate 43.75%

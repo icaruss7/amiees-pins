@@ -10,21 +10,21 @@
   "median_reach_or_views": 6.0
  },
  "data_notes": {
-  "collected_at": "2026-11-13T20:54:57+00:00",
+  "collected_at": "2026-11-14T19:12:33+00:00",
   "insights_permission_notes": [],
-  "posts_collected": 30,
+  "posts_collected": 31,
   "posts_skipped": 0
  },
- "generated_at": "2026-11-13T20:55:45+00:00",
+ "generated_at": "2026-11-14T19:13:23+00:00",
  "groups": {
   "format": {
    "FEED": {
     "avg_interaction_rate": 0.2920492857142857,
-    "avg_reach": 6.107142857142857,
+    "avg_reach": 6.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 13.25,
-    "n": 28
+    "avg_views": 12.931034482758621,
+    "n": 29
    },
    "REELS": {
     "avg_interaction_rate": 0.035741,
@@ -78,10 +78,10 @@
    },
    "11:00 UTC": {
     "avg_interaction_rate": 0.029412,
-    "avg_reach": 9.5,
+    "avg_reach": 10.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 11.0,
+    "avg_views": 12.0,
     "n": 2
    },
    "12:00 UTC": {
@@ -110,18 +110,18 @@
    },
    "18:00 UTC": {
     "avg_interaction_rate": 0.6,
-    "avg_reach": 5.0,
+    "avg_reach": 2.5,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 10.0,
-    "n": 1
+    "avg_views": 5.0,
+    "n": 2
    },
    "19:00 UTC": {
     "avg_interaction_rate": 0.2085714,
-    "avg_reach": 5.4,
+    "avg_reach": 5.8,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 9.2,
+    "avg_views": 9.6,
     "n": 5
    },
    "20:00 UTC": {
@@ -152,11 +152,11 @@
   "series": {
    "nature": {
     "avg_interaction_rate": 0.157738,
-    "avg_reach": 5.6875,
+    "avg_reach": 5.529411764705882,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 10.1875,
-    "n": 16
+    "avg_views": 9.823529411764707,
+    "n": 17
    },
    "product": {
     "avg_interaction_rate": 0.4089324285714286,
@@ -170,10 +170,10 @@
   "weekday": {
    "Friday": {
     "avg_interaction_rate": 0.27779114285714285,
-    "avg_reach": 7.285714285714286,
+    "avg_reach": 7.571428571428571,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 13.428571428571429,
+    "avg_views": 13.714285714285714,
     "n": 7
    },
    "Monday": {
@@ -186,11 +186,11 @@
    },
    "Saturday": {
     "avg_interaction_rate": 0.333333,
-    "avg_reach": 7.5,
+    "avg_reach": 5.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 12.5,
-    "n": 2
+    "avg_views": 8.333333333333334,
+    "n": 3
    },
    "Sunday": {
     "avg_interaction_rate": 0.4238095,
@@ -202,10 +202,10 @@
    },
    "Thursday": {
     "avg_interaction_rate": 0.0525316,
-    "avg_reach": 20.6,
+    "avg_reach": 20.8,
     "avg_save_rate": 0.0025316,
     "avg_share_rate": 0.0,
-    "avg_views": 26.6,
+    "avg_views": 27.0,
     "n": 5
    },
    "Tuesday": {
@@ -232,7 +232,7 @@
   "Friday currently has the strongest share rate among weekdays with at least two posts (0.00%). Treat this as provisional until the sample grows.",
   "Share rate is below 0.5%; test stronger send-worthy hooks such as 'send this to the friend who would wear #2' or identity/gift framing."
  ],
- "sample_size": 30,
+ "sample_size": 31,
  "top_posts": [
   {
    "interaction_rate": 0.666667,
