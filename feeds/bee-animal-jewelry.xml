@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Nov 2026 13:25:46 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 22:15:44 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Dangling Cat Earrings | Nature Jewelry</title>
@@ -735,6 +735,15 @@
       <pubDate>Fri, 13 Nov 2026 18:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/aiko-cat-heart-earrings-white-cat-editorial-close-up-10d3a2bb57c5eef7.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/aiko-cat-heart-earrings-white-cat-editorial-close-up-10d3a2bb57c5eef7.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Panda Earrings | Nature Inspired Jewelry</title>
+      <link>https://amiees.com/products/panda-earrings?utm_source=pinterest&amp;utm_medium=organic&amp;utm_campaign=nature_series&amp;utm_content=amiees-nature-20-panda-earrings</link>
+      <description>Giant pandas spend about half of every day eating bamboo. Panda Earrings, in black and white enamel. Shop the Panda Earrings at amiees.com.</description>
+      <guid isPermaLink="false">amiees-nature-20-panda-earrings</guid>
+      <pubDate>Sat, 14 Nov 2026 17:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/nature-panda-earrings.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/nature-panda-earrings.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
