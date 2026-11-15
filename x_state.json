@@ -7,8 +7,11 @@
   },
   "x-aiko-cat-heart-20261115": {
     "attempts": 1,
+    "buffer_post_id": "6afa3c2606e1675856b0abe4",
     "fingerprint": "cb6a7f89d49d3fc74d4cbf5dce8582b28532c72a131457d652dece615401b0ba",
-    "phase": "publishing",
+    "permalink": "https://twitter.com/AmieesShop/status/2122105260281934166",
+    "phase": "published",
+    "posted_at": "2026-11-15T23:11:36+00:00",
     "publish_started_at": "2026-11-15T23:11:32.488954+00:00",
     "transport": "buffer"
   },
