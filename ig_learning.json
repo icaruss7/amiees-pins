@@ -4,27 +4,27 @@
   "followers": 31
  },
  "benchmarks": {
-  "avg_interaction_rate": 0.27496206666666667,
-  "avg_save_rate": 0.00042193333333333336,
+  "avg_interaction_rate": 0.26878884375,
+  "avg_save_rate": 0.0003955625,
   "avg_share_rate": 0.0,
   "median_reach_or_views": 6.0
  },
  "data_notes": {
-  "collected_at": "2026-11-14T19:12:33+00:00",
+  "collected_at": "2026-11-15T19:49:11+00:00",
   "insights_permission_notes": [],
-  "posts_collected": 31,
+  "posts_collected": 32,
   "posts_skipped": 0
  },
- "generated_at": "2026-11-14T19:13:23+00:00",
+ "generated_at": "2026-11-15T19:50:12+00:00",
  "groups": {
   "format": {
    "FEED": {
-    "avg_interaction_rate": 0.2920492857142857,
-    "avg_reach": 6.0,
+    "avg_interaction_rate": 0.2843253666666667,
+    "avg_reach": 6.066666666666666,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 12.931034482758621,
-    "n": 29
+    "avg_views": 12.9,
+    "n": 30
    },
    "REELS": {
     "avg_interaction_rate": 0.035741,
@@ -93,35 +93,35 @@
     "n": 1
    },
    "16:00 UTC": {
-    "avg_interaction_rate": 0.428571,
-    "avg_reach": 7.0,
+    "avg_interaction_rate": 0.2142855,
+    "avg_reach": 4.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 23.0,
-    "n": 1
+    "avg_views": 12.5,
+    "n": 2
    },
    "17:00 UTC": {
-    "avg_interaction_rate": 0.33809500000000003,
-    "avg_reach": 6.0,
+    "avg_interaction_rate": 0.32619025,
+    "avg_reach": 6.25,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 13.25,
+    "avg_views": 13.5,
     "n": 4
    },
    "18:00 UTC": {
-    "avg_interaction_rate": 0.6,
-    "avg_reach": 2.5,
+    "avg_interaction_rate": 0.5,
+    "avg_reach": 5.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 5.0,
+    "avg_views": 9.0,
     "n": 2
    },
    "19:00 UTC": {
     "avg_interaction_rate": 0.2085714,
-    "avg_reach": 5.8,
+    "avg_reach": 6.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 9.6,
+    "avg_views": 9.8,
     "n": 5
    },
    "20:00 UTC": {
@@ -151,12 +151,12 @@
   },
   "series": {
    "nature": {
-    "avg_interaction_rate": 0.157738,
-    "avg_reach": 5.529411764705882,
+    "avg_interaction_rate": 0.1597882777777778,
+    "avg_reach": 5.666666666666667,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 9.823529411764707,
-    "n": 17
+    "avg_views": 9.944444444444445,
+    "n": 18
    },
    "product": {
     "avg_interaction_rate": 0.4089324285714286,
@@ -170,10 +170,10 @@
   "weekday": {
    "Friday": {
     "avg_interaction_rate": 0.27779114285714285,
-    "avg_reach": 7.571428571428571,
+    "avg_reach": 7.714285714285714,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 13.714285714285714,
+    "avg_views": 13.857142857142858,
     "n": 7
    },
    "Monday": {
@@ -185,20 +185,20 @@
     "n": 4
    },
    "Saturday": {
-    "avg_interaction_rate": 0.333333,
-    "avg_reach": 5.0,
+    "avg_interaction_rate": 0.33968233333333336,
+    "avg_reach": 7.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 8.333333333333334,
+    "avg_views": 11.333333333333334,
     "n": 3
    },
    "Sunday": {
-    "avg_interaction_rate": 0.4238095,
-    "avg_reach": 5.5,
+    "avg_interaction_rate": 0.3390476,
+    "avg_reach": 4.6,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 16.0,
-    "n": 4
+    "avg_views": 13.2,
+    "n": 5
    },
    "Thursday": {
     "avg_interaction_rate": 0.0525316,
@@ -228,11 +228,11 @@
  },
  "recommendations": [
   "Create follow-up variants around the strongest current winners: crystal-blossom-jewelry-set, bee-honeycomb-mismatched-earrings, cat-lover-set.",
-  "FEED is the strongest format with enough samples by interaction rate (29.20%); give it a larger share of the next test batch.",
+  "FEED is the strongest format with enough samples by interaction rate (28.43%); give it a larger share of the next test batch.",
   "Friday currently has the strongest share rate among weekdays with at least two posts (0.00%). Treat this as provisional until the sample grows.",
   "Share rate is below 0.5%; test stronger send-worthy hooks such as 'send this to the friend who would wear #2' or identity/gift framing."
  ],
- "sample_size": 31,
+ "sample_size": 32,
  "top_posts": [
   {
    "interaction_rate": 0.666667,
