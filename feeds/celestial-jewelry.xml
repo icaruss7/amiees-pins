@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Nov 2026 06:13:53 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 18:45:15 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Celestial Jewelry Under $40</title>
@@ -384,6 +384,15 @@
       <pubDate>Fri, 13 Nov 2026 23:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/celestial-sun-and-moon-ring-silver-text.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/celestial-sun-and-moon-ring-silver-text.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Raindrop Earrings | Nature Inspired Jewelry</title>
+      <link>https://amiees.com/products/raindrop-earrings?utm_source=pinterest&amp;utm_medium=organic&amp;utm_campaign=nature_series&amp;utm_content=amiees-nature-21-raindrop-earrings</link>
+      <description>Raindrops aren't shaped like tears. Small ones are round, and larger ones flatten out as they fall. Raindrop Earrings: an enamel cloud with glitter drops hanging below. Shop the Raindrop Earrings at amiees.com.</description>
+      <guid isPermaLink="false">amiees-nature-21-raindrop-earrings</guid>
+      <pubDate>Sun, 15 Nov 2026 17:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/nature-raindrop-earrings.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/nature-raindrop-earrings.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
