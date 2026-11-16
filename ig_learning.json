@@ -4,31 +4,31 @@
   "followers": 31
  },
  "benchmarks": {
-  "avg_interaction_rate": 0.26878884375,
-  "avg_save_rate": 0.0003955625,
+  "avg_interaction_rate": 0.26458509090909094,
+  "avg_save_rate": 0.0003835757575757576,
   "avg_share_rate": 0.0,
   "median_reach_or_views": 6.0
  },
  "data_notes": {
-  "collected_at": "2026-11-15T19:49:11+00:00",
+  "collected_at": "2026-11-16T23:25:17+00:00",
   "insights_permission_notes": [],
-  "posts_collected": 32,
+  "posts_collected": 33,
   "posts_skipped": 0
  },
- "generated_at": "2026-11-15T19:50:12+00:00",
+ "generated_at": "2026-11-16T23:26:22+00:00",
  "groups": {
   "format": {
    "FEED": {
-    "avg_interaction_rate": 0.2843253666666667,
-    "avg_reach": 6.066666666666666,
+    "avg_interaction_rate": 0.2794546451612903,
+    "avg_reach": 6.129032258064516,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 12.9,
-    "n": 30
+    "avg_views": 12.935483870967742,
+    "n": 31
    },
    "REELS": {
-    "avg_interaction_rate": 0.035741,
-    "avg_reach": 48.0,
+    "avg_interaction_rate": 0.034107,
+    "avg_reach": 48.5,
     "avg_save_rate": 0.006329,
     "avg_share_rate": 0.0,
     "avg_views": 53.5,
@@ -77,8 +77,8 @@
     "n": 1
    },
    "11:00 UTC": {
-    "avg_interaction_rate": 0.029412,
-    "avg_reach": 10.0,
+    "avg_interaction_rate": 0.027778,
+    "avg_reach": 10.5,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
     "avg_views": 12.0,
@@ -94,10 +94,10 @@
    },
    "16:00 UTC": {
     "avg_interaction_rate": 0.2142855,
-    "avg_reach": 4.0,
+    "avg_reach": 6.5,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 12.5,
+    "avg_views": 16.0,
     "n": 2
    },
    "17:00 UTC": {
@@ -109,20 +109,20 @@
     "n": 4
    },
    "18:00 UTC": {
-    "avg_interaction_rate": 0.5,
-    "avg_reach": 5.0,
+    "avg_interaction_rate": 0.4666665,
+    "avg_reach": 5.5,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 9.0,
+    "avg_views": 9.5,
     "n": 2
    },
    "19:00 UTC": {
-    "avg_interaction_rate": 0.2085714,
-    "avg_reach": 6.0,
+    "avg_interaction_rate": 0.2071428333333333,
+    "avg_reach": 5.333333333333333,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 9.8,
-    "n": 5
+    "avg_views": 9.166666666666666,
+    "n": 6
    },
    "20:00 UTC": {
     "avg_interaction_rate": 0.4376885,
@@ -151,16 +151,16 @@
   },
   "series": {
    "nature": {
-    "avg_interaction_rate": 0.1597882777777778,
-    "avg_reach": 5.666666666666667,
+    "avg_interaction_rate": 0.1583958947368421,
+    "avg_reach": 5.7894736842105265,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 9.944444444444445,
-    "n": 18
+    "avg_views": 10.157894736842104,
+    "n": 19
    },
    "product": {
-    "avg_interaction_rate": 0.4089324285714286,
-    "avg_reach": 12.571428571428571,
+    "avg_interaction_rate": 0.408699,
+    "avg_reach": 12.642857142857142,
     "avg_save_rate": 0.0009041428571428572,
     "avg_share_rate": 0.0,
     "avg_views": 22.5,
@@ -169,35 +169,35 @@
   },
   "weekday": {
    "Friday": {
-    "avg_interaction_rate": 0.27779114285714285,
-    "avg_reach": 7.714285714285714,
+    "avg_interaction_rate": 0.30589571428571427,
+    "avg_reach": 8.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 13.857142857142858,
+    "avg_views": 14.428571428571429,
     "n": 7
    },
    "Monday": {
-    "avg_interaction_rate": 0.325,
-    "avg_reach": 6.75,
+    "avg_interaction_rate": 0.26,
+    "avg_reach": 5.6,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 12.75,
-    "n": 4
+    "avg_views": 10.6,
+    "n": 5
    },
    "Saturday": {
-    "avg_interaction_rate": 0.33968233333333336,
-    "avg_reach": 7.0,
+    "avg_interaction_rate": 0.31746,
+    "avg_reach": 7.333333333333333,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 11.333333333333334,
+    "avg_views": 11.666666666666666,
     "n": 3
    },
    "Sunday": {
     "avg_interaction_rate": 0.3390476,
-    "avg_reach": 4.6,
+    "avg_reach": 5.6,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 13.2,
+    "avg_views": 14.6,
     "n": 5
    },
    "Thursday": {
@@ -228,11 +228,11 @@
  },
  "recommendations": [
   "Create follow-up variants around the strongest current winners: crystal-blossom-jewelry-set, bee-honeycomb-mismatched-earrings, cat-lover-set.",
-  "FEED is the strongest format with enough samples by interaction rate (28.43%); give it a larger share of the next test batch.",
+  "FEED is the strongest format with enough samples by interaction rate (27.95%); give it a larger share of the next test batch.",
   "Friday currently has the strongest share rate among weekdays with at least two posts (0.00%). Treat this as provisional until the sample grows.",
   "Share rate is below 0.5%; test stronger send-worthy hooks such as 'send this to the friend who would wear #2' or identity/gift framing."
  ],
- "sample_size": 32,
+ "sample_size": 33,
  "top_posts": [
   {
    "interaction_rate": 0.666667,
