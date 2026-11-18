@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2026 07:12:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 20:23:45 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Celestial Jewelry Under $40</title>
@@ -411,6 +411,15 @@
       <pubDate>Tue, 17 Nov 2026 13:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/sun-moon-layered-necklace-gold-sand.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/sun-moon-layered-necklace-gold-sand.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Celestial Star Earrings | Nature Inspired Jewelry</title>
+      <link>https://amiees.com/products/celestial-star-earrings?utm_source=pinterest&amp;utm_medium=organic&amp;utm_campaign=nature_series&amp;utm_content=amiees-nature-24-celestial-star-earrings-1-star</link>
+      <description>Most of the stars you can see at night are bigger and brighter than our sun. Celestial Star Earrings: a crystal star on one ear and a crescent moon on the other. Swipe to see both. Shop the Celestial Star Earrings at amiees.com.</description>
+      <guid isPermaLink="false">amiees-nature-24-celestial-star-earrings-1-star</guid>
+      <pubDate>Wed, 18 Nov 2026 17:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/nature-celestial-star-earrings-1-star.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/nature-celestial-star-earrings-1-star.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
