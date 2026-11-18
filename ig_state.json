@@ -295,6 +295,13 @@
     "attempts": 3,
     "last_error": "MetaAPIError: publication did not complete; inspect the run"
   },
+  "ig-nature-21-raindrop-earrings": {
+    "account_id": "17841454700426833",
+    "attempts": 1,
+    "container_id": "18053947766823348",
+    "fingerprint": "85e0a84349b96a5b7f0e9f90faa8117fc585173537f8dd3cbca0a6ea56007b87",
+    "phase": "ready"
+  },
   "ig-radiant-bloom-flower-necklace-1": {
     "attempts": 1,
     "media_id": "18094257821429016",
