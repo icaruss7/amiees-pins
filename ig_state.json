@@ -292,7 +292,7 @@
     "publish_started_at": "2026-11-16T19:46:38.863518+00:00"
   },
   "ig-nature-20-panda-earrings": {
-    "attempts": 2,
+    "attempts": 3,
     "last_error": "MetaAPIError: publication did not complete; inspect the run"
   },
   "ig-radiant-bloom-flower-necklace-1": {
