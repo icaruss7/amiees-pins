@@ -15,6 +15,13 @@
     "publish_started_at": "2026-11-15T23:11:32.488954+00:00",
     "transport": "buffer"
   },
+  "x-gifting-personality-20261117": {
+    "attempts": 1,
+    "fingerprint": "b0dd0e35aaccbbe0a8f006231ed4b11a65810baab538270117418d753dac67a3",
+    "phase": "publishing",
+    "publish_started_at": "2026-11-18T01:20:11.154830+00:00",
+    "transport": "buffer"
+  },
   "x-question-signature-motif-20261111": {
     "attempts": 1,
     "buffer_post_id": "6af4c78eceae26a3a50d0acf",
