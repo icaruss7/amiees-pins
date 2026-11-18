@@ -13,8 +13,10 @@
     "attempts": 1,
     "container_id": "17929633380431492",
     "fingerprint": "ce69a1c718727339bcc6653d5e78d511e91559bc859448e0de3108ab3afa2c97",
-    "phase": "publishing",
-    "publish_started_at": "2026-11-18T00:56:39.604902+00:00"
+    "phase": "published",
+    "posted_at": "2026-11-18T00:56:43+00:00",
+    "publish_started_at": "2026-11-18T00:56:39.604902+00:00",
+    "thread_id": "18120986081010071"
   },
   "threads-launch-question-20261110": {
     "attempts": 1,
