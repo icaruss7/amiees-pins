@@ -9,6 +9,10 @@
     "publish_started_at": "2026-11-15T22:46:28.791651+00:00",
     "thread_id": "18109768418111461"
   },
+  "threads-bee-honeycomb-20261118": {
+    "attempts": 1,
+    "last_error": "ThreadsAPIError: publication did not complete; inspect the run"
+  },
   "threads-gifting-personality-20261117": {
     "attempts": 1,
     "container_id": "17929633380431492",
