@@ -13,9 +13,10 @@
     "attempts": 3,
     "container_id": "17929858416431492",
     "fingerprint": "8a0548ab0ded5703dac75b42c6c7c08175bd89f0cdbc1c9c334cc9229856223a",
-    "last_error": "ThreadsAPIError: publication did not complete; inspect the run",
-    "phase": "publishing",
-    "publish_started_at": "2026-11-19T20:30:47.176458+00:00"
+    "phase": "published",
+    "posted_at": "2026-11-19T20:30:52+00:00",
+    "publish_started_at": "2026-11-19T20:30:47.176458+00:00",
+    "thread_id": "17919192714496682"
   },
   "threads-gifting-personality-20261117": {
     "attempts": 1,
