@@ -10,7 +10,7 @@
     "thread_id": "18109768418111461"
   },
   "threads-bee-honeycomb-20261118": {
-    "attempts": 1,
+    "attempts": 2,
     "last_error": "ThreadsAPIError: publication did not complete; inspect the run"
   },
   "threads-gifting-personality-20261117": {
