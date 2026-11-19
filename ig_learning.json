@@ -4,27 +4,27 @@
   "followers": 32
  },
  "benchmarks": {
-  "avg_interaction_rate": 0.41745226470588237,
-  "avg_save_rate": 0.0003631176470588235,
-  "avg_share_rate": 0.004201676470588236,
+  "avg_interaction_rate": 0.4713692,
+  "avg_save_rate": 0.00035274285714285714,
+  "avg_share_rate": 0.0040816285714285715,
   "median_reach_or_views": 8.0
  },
  "data_notes": {
-  "collected_at": "2026-11-18T22:01:32+00:00",
+  "collected_at": "2026-11-19T22:12:00+00:00",
   "insights_permission_notes": [],
-  "posts_collected": 34,
+  "posts_collected": 35,
   "posts_skipped": 0
  },
- "generated_at": "2026-11-18T22:03:46+00:00",
+ "generated_at": "2026-11-19T22:13:29+00:00",
  "groups": {
   "format": {
    "FEED": {
-    "avg_interaction_rate": 0.4358066875,
-    "avg_reach": 7.75,
+    "avg_interaction_rate": 0.4924351212121212,
+    "avg_reach": 7.666666666666667,
     "avg_save_rate": 0.0,
-    "avg_share_rate": 0.00446428125,
-    "avg_views": 16.71875,
-    "n": 32
+    "avg_share_rate": 0.004329,
+    "avg_views": 16.818181818181817,
+    "n": 33
    },
    "REELS": {
     "avg_interaction_rate": 0.12378149999999999,
@@ -93,11 +93,11 @@
     "n": 1
    },
    "16:00 UTC": {
-    "avg_interaction_rate": 0.5125,
-    "avg_reach": 9.0,
+    "avg_interaction_rate": 0.5397725,
+    "avg_reach": 9.5,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 22.5,
+    "avg_views": 24.0,
     "n": 2
    },
    "17:00 UTC": {
@@ -113,7 +113,7 @@
     "avg_reach": 7.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 13.0,
+    "avg_views": 14.0,
     "n": 2
    },
    "19:00 UTC": {
@@ -121,16 +121,16 @@
     "avg_reach": 8.333333333333334,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 14.833333333333334,
+    "avg_views": 15.333333333333334,
     "n": 6
    },
    "20:00 UTC": {
-    "avg_interaction_rate": 0.34074079999999995,
-    "avg_reach": 20.4,
-    "avg_save_rate": 0.0024692,
+    "avg_interaction_rate": 0.6589506666666667,
+    "avg_reach": 17.666666666666668,
+    "avg_save_rate": 0.0020576666666666664,
     "avg_share_rate": 0.0,
-    "avg_views": 30.6,
-    "n": 5
+    "avg_views": 27.5,
+    "n": 6
    },
    "21:00 UTC": {
     "avg_interaction_rate": 0.4404763333333333,
@@ -151,12 +151,12 @@
   },
   "series": {
    "nature": {
-    "avg_interaction_rate": 0.40246925000000006,
-    "avg_reach": 8.25,
+    "avg_interaction_rate": 0.4930442857142857,
+    "avg_reach": 8.095238095238095,
     "avg_save_rate": 0.0,
-    "avg_share_rate": 0.007142850000000001,
-    "avg_views": 15.4,
-    "n": 20
+    "avg_share_rate": 0.006802714285714286,
+    "avg_views": 15.619047619047619,
+    "n": 21
    },
    "product": {
     "avg_interaction_rate": 0.43885657142857143,
@@ -181,7 +181,7 @@
     "avg_reach": 8.2,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 15.4,
+    "avg_views": 16.0,
     "n": 5
    },
    "Saturday": {
@@ -189,24 +189,24 @@
     "avg_reach": 9.666666666666666,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 16.333333333333332,
+    "avg_views": 17.0,
     "n": 3
    },
    "Sunday": {
-    "avg_interaction_rate": 0.5154761999999999,
-    "avg_reach": 7.2,
+    "avg_interaction_rate": 0.5263852,
+    "avg_reach": 7.4,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 18.4,
+    "avg_views": 19.0,
     "n": 5
    },
    "Thursday": {
-    "avg_interaction_rate": 0.3574074,
-    "avg_reach": 23.0,
-    "avg_save_rate": 0.0024692,
-    "avg_share_rate": 0.028571400000000004,
-    "avg_views": 31.8,
-    "n": 5
+    "avg_interaction_rate": 0.6311728333333334,
+    "avg_reach": 19.333333333333332,
+    "avg_save_rate": 0.0020576666666666664,
+    "avg_share_rate": 0.0238095,
+    "avg_views": 27.666666666666668,
+    "n": 6
    },
    "Tuesday": {
     "avg_interaction_rate": 0.5,
@@ -217,23 +217,34 @@
     "n": 2
    },
    "Wednesday": {
-    "avg_interaction_rate": 0.32539671428571426,
-    "avg_reach": 6.428571428571429,
+    "avg_interaction_rate": 0.361111,
+    "avg_reach": 6.857142857142857,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 15.285714285714286,
+    "avg_views": 16.0,
     "n": 7
    }
   }
  },
  "recommendations": [
-  "Create follow-up variants around the strongest current winners: lucky-ladybug-gold-huggie-earrings, daisy-ring, bee-honeycomb-mismatched-earrings.",
-  "FEED is the strongest format with enough samples by interaction rate (43.58%); give it a larger share of the next test batch.",
-  "Thursday currently has the strongest share rate among weekdays with at least two posts (2.86%). Treat this as provisional until the sample grows.",
+  "Create follow-up variants around the strongest current winners: golden-center-daisy-ring-silver-flower-statement-ring, lucky-ladybug-gold-huggie-earrings, daisy-ring.",
+  "FEED is the strongest format with enough samples by interaction rate (49.24%); give it a larger share of the next test batch.",
+  "Thursday currently has the strongest share rate among weekdays with at least two posts (2.38%). Treat this as provisional until the sample grows.",
   "Share rate is below 0.5%; test stronger send-worthy hooks such as 'send this to the friend who would wear #2' or identity/gift framing."
  ],
- "sample_size": 34,
+ "sample_size": 35,
  "top_posts": [
+  {
+   "interaction_rate": 2.0,
+   "permalink": "https://www.instagram.com/p/Df7_GrOCR82/",
+   "post_id": "ig-nature-22-golden-center-daisy-ring-silver-flower-statement-ring",
+   "product": "golden-center-daisy-ring-silver-flower-statement-ring",
+   "reach": 1.0,
+   "save_rate": 0.0,
+   "score": 0.50625,
+   "share_rate": 0.0,
+   "views": 7.0
+  },
   {
    "interaction_rate": 0.714286,
    "permalink": "https://www.instagram.com/p/DfV4N01jioE/",
@@ -277,17 +288,6 @@
    "score": 0.204167,
    "share_rate": 0.0,
    "views": 19.0
-  },
-  {
-   "interaction_rate": 0.555556,
-   "permalink": "https://www.instagram.com/p/DfcwZjRjbGa/",
-   "post_id": "ig-nature-11-crystal-blossom-pendant-necklace",
-   "product": "crystal-blossom-pendant-necklace",
-   "reach": 9.0,
-   "save_rate": 0.0,
-   "score": 0.195139,
-   "share_rate": 0.0,
-   "views": 13.0
   }
  ]
 }
