@@ -10,8 +10,11 @@
     "thread_id": "18109768418111461"
   },
   "threads-bee-honeycomb-20261118": {
-    "attempts": 2,
-    "last_error": "ThreadsAPIError: publication did not complete; inspect the run"
+    "attempts": 3,
+    "container_id": "17929858416431492",
+    "fingerprint": "8a0548ab0ded5703dac75b42c6c7c08175bd89f0cdbc1c9c334cc9229856223a",
+    "last_error": "ThreadsAPIError: publication did not complete; inspect the run",
+    "phase": "ready"
   },
   "threads-gifting-personality-20261117": {
     "attempts": 1,
