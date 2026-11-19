@@ -17,8 +17,11 @@
   },
   "x-bee-honeycomb-20261118": {
     "attempts": 1,
+    "buffer_post_id": "6afe63dbf6b6aa0cd49788c8",
     "fingerprint": "0b567416e44d8dac70a53753bcf9b9faf0f780ab2b9889504cf442f0dc3cd1b9",
-    "phase": "publishing",
+    "permalink": "https://twitter.com/AmieesShop/status/2123247407580270791",
+    "phase": "published",
+    "posted_at": "2026-11-19T02:50:05+00:00",
     "publish_started_at": "2026-11-19T02:50:00.915637+00:00",
     "transport": "buffer"
   },
