@@ -35,6 +35,13 @@
     "publish_started_at": "2026-11-18T01:20:11.154830+00:00",
     "transport": "buffer"
   },
+  "x-question-everyday-jewelry-20261120": {
+    "attempts": 1,
+    "fingerprint": "eafc2da091c7534b204963f5ae736ea3de93339c928d4c45f5238e0dc1e7585a",
+    "phase": "publishing",
+    "publish_started_at": "2026-11-20T20:44:39.795114+00:00",
+    "transport": "buffer"
+  },
   "x-question-signature-motif-20261111": {
     "attempts": 1,
     "buffer_post_id": "6af4c78eceae26a3a50d0acf",
