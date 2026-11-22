@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Nov 2026 06:32:38 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 19:27:51 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Jewelry Gift Set | Botanical Jewelry</title>
@@ -591,6 +591,15 @@
       <pubDate>Sat, 21 Nov 2026 23:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/golden-center-daisy-ring-silver-flower-statement-ring-silver-gold-text.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/golden-center-daisy-ring-silver-flower-statement-ring-silver-gold-text.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Silver Leaf Ring | Nature Inspired Jewelry</title>
+      <link>https://amiees.com/products/silver-leaf-ring?utm_source=pinterest&amp;utm_medium=organic&amp;utm_campaign=nature_series&amp;utm_content=amiees-nature-28-silver-leaf-ring</link>
+      <description>Ferns are older than the dinosaurs. They first appeared more than 350 million years ago. The Silver Leaf Ring: two leafy vines that wrap the finger, with small crystals in the leaves. Shop the Silver Leaf Ring at amiees.com.</description>
+      <guid isPermaLink="false">amiees-nature-28-silver-leaf-ring</guid>
+      <pubDate>Sun, 22 Nov 2026 17:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/nature-silver-leaf-ring.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/nature-silver-leaf-ring.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
