@@ -77,8 +77,11 @@
   },
   "x-sun-moon-layered-20261121": {
     "attempts": 1,
+    "buffer_post_id": "6b02474bcc364169c11bf894",
     "fingerprint": "271194c4accfc025a4133374c0b429a8117eaba98cd237e6028885cc907fa746",
-    "phase": "publishing",
+    "permalink": "https://twitter.com/AmieesShop/status/2124316252952723689",
+    "phase": "published",
+    "posted_at": "2026-11-22T01:37:17+00:00",
     "publish_started_at": "2026-11-22T01:37:14.151713+00:00",
     "transport": "buffer"
   }
