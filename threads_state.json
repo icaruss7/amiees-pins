@@ -78,5 +78,11 @@
     "posted_at": "2026-11-14T17:58:18+00:00",
     "publish_started_at": "2026-11-14T17:58:13.220394+00:00",
     "thread_id": "18098477978481809"
+  },
+  "threads-sun-moon-layered-20261121": {
+    "attempts": 1,
+    "container_id": "17930139924431492",
+    "fingerprint": "66459d51e8302a09b17e12bccf00a6f0b453a6149c789645c1c5d32593a896fb",
+    "phase": "ready"
   }
 }
