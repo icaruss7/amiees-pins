@@ -83,7 +83,9 @@
     "attempts": 1,
     "container_id": "17930139924431492",
     "fingerprint": "66459d51e8302a09b17e12bccf00a6f0b453a6149c789645c1c5d32593a896fb",
-    "phase": "publishing",
-    "publish_started_at": "2026-11-22T01:15:42.195980+00:00"
+    "phase": "published",
+    "posted_at": "2026-11-22T01:15:46+00:00",
+    "publish_started_at": "2026-11-22T01:15:42.195980+00:00",
+    "thread_id": "18446040418177908"
   }
 }
