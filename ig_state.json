@@ -339,6 +339,10 @@
     "posted_at": "2026-11-21T19:41:10+00:00",
     "publish_started_at": "2026-11-21T19:41:04.271837+00:00"
   },
+  "ig-nature-25-rainbow-crystal-stacking-ring-set": {
+    "attempts": 1,
+    "last_error": "MetaAPIError: publication did not complete; inspect the run"
+  },
   "ig-radiant-bloom-flower-necklace-1": {
     "attempts": 1,
     "media_id": "18094257821429016",
