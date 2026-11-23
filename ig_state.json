@@ -344,8 +344,9 @@
     "attempts": 2,
     "container_id": "18054437189823348",
     "fingerprint": "a07a50b2010fd400f04d5354e751e6bae95b862d485dc3375d683eb6ef3bbd09",
-    "last_error": "MetaAPIError: publication did not complete; inspect the run",
-    "phase": "publishing",
+    "media_id": "18119798135277612",
+    "phase": "published",
+    "posted_at": "2026-11-23T01:55:12+00:00",
     "publish_started_at": "2026-11-23T01:55:06.692984+00:00"
   },
   "ig-radiant-bloom-flower-necklace-1": {
