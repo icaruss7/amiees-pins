@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Nov 2026 07:22:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 23:47:06 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Jewelry Gift Set | Botanical Jewelry</title>
@@ -600,6 +600,24 @@
       <pubDate>Sun, 22 Nov 2026 17:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/nature-silver-leaf-ring.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/nature-silver-leaf-ring.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Floral Earrings | Radiant Bloom Flower Earrings</title>
+      <link>https://amiees.com/products/radiant-bloom-flower-earrings?utm_source=pinterest&amp;utm_medium=organic&amp;utm_campaign=scene_pins&amp;utm_content=amiees-scene-radiant-bloom-flower-earrings-gold-clear-linen</link>
+      <description>Radiant Bloom Flower Earrings. Crystal daisy studs with a gold tone center that catch the light. Part of the botanical jewelry collection from Amiees, under $25. Daisy stud earrings, floral earrings and sparkly flower studs for everyday wear or gifting. Free shipping on eligible orders of $35 USD or more after discounts.</description>
+      <guid isPermaLink="false">amiees-scene-radiant-bloom-flower-earrings-gold-clear-linen</guid>
+      <pubDate>Mon, 23 Nov 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/radiant-bloom-flower-earrings-gold-clear-linen.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/radiant-bloom-flower-earrings-gold-clear-linen.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Crystal Blossom Stud Earrings | Nature Inspired Jewelry</title>
+      <link>https://amiees.com/products/crystal-blossom-stud-earrings?utm_source=pinterest&amp;utm_medium=organic&amp;utm_campaign=nature_series&amp;utm_content=amiees-nature-29-crystal-blossom-stud-earrings</link>
+      <description>In Japan, the cherry blossom forecast is tracked across the country like the weather. Crystal Blossom Stud Earrings: cupped silver petals around a pink crystal center. Shop the Crystal Blossom Stud Earrings at amiees.com.</description>
+      <guid isPermaLink="false">amiees-nature-29-crystal-blossom-stud-earrings</guid>
+      <pubDate>Mon, 23 Nov 2026 17:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/nature-crystal-blossom-stud-earrings.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/nature-crystal-blossom-stud-earrings.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
