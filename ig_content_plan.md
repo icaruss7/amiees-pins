@@ -1,25 +1,25 @@
 # Amiees Instagram content testing plan
 
-Review week: 2026-11-16 to 2026-11-22 (America/New_York).
+Review week: 2026-11-23 to 2026-11-29 (America/New_York).
 
 Recommendations only. These dates are editorial review days, not new posting slots. Keep the Nature Series and both posting queues unchanged. Seven ideas do not authorize seven extra posts.
 
 ## Evidence and limits
 
-- Analytics collected: 2026-11-15T19:49:11+00:00.
-- Distinct tracked posts: 32; mature snapshots: 29.
-- Median reached accounts per post: 6.0.
+- Analytics collected: 2026-11-22T20:45:04+00:00.
+- Distinct tracked posts: 37; mature snapshots: 34.
+- Median reached accounts per post: 8.
 - High percentages from a few reached accounts do not establish repeatable performance. No automatic winner decisions.
 - Learning context is read, but its ranking language is not inherited. Repeated daily snapshots are not additional post samples.
-- Protect queued products, concepts and hooks from 2026-11-09 through 2026-12-06, plus unresolved overdue queue entries.
+- Protect queued products, concepts and hooks from 2026-11-16 through 2026-12-13, plus unresolved overdue queue entries.
 
 ## Seven-day roadmap
 
-### 2026-11-16
+### 2026-11-23
 
 - Action: Review proposed test; preserve scheduled posts.
-- Preserve scheduled nature post: golden-center-daisy-ring-silver-flower-statement-ring at 2026-11-16T19:00:00-05:00 (ig-nature-22-golden-center-daisy-ring-silver-flower-statement-ring).
-- Product: **Fox Bunny Kitty Earrings** (`fox-bunny-kitty-earrings`).
+- Preserve scheduled nature post: crystal-blossom-stud-earrings at 2026-11-23T19:00:00-05:00 (ig-nature-29-crystal-blossom-stud-earrings).
+- Product: **Lucky Ladybug Gold Huggie Earrings** (`lucky-ladybug-gold-huggie-earrings`).
 - Content angle: detail_reveal.
 - Hook: Notice the small details in these earrings.
 - Format: IMAGE.
@@ -28,62 +28,61 @@ Recommendations only. These dates are editorial review days, not new posting slo
 - Primary success metric: profile_visits / reach, accompanied by both raw counts at 72 hours.
 - Confidence: **low**. No positive signal for this metric yet; needs a test, not a rejection.
 - Test type: controlled_follow_up.
-- Historical reference: ig-nature-05-fox-bunny-kitty-earrings. Change only the opening caption line; keep the product/variant, exact images/order, format, remaining caption, offer/CTA and posting-time window fixed.
-- Reference opening: Researchers think red foxes use Earth's magnetic field to line up their pounce when they hunt under snow.
+- Historical reference: ig-nature-09-lucky-ladybug-gold-huggie-earrings. Change only the opening caption line; keep the product/variant, exact images/order, format, remaining caption, offer/CTA and posting-time window fixed.
+- Reference opening: A single ladybug can eat thousands of aphids in its lifetime, which is why gardeners call them lucky.
 - Comparison limit: Historical lifetime counts are context only. A matched-age control is required for evaluation.
-- Evidence (ig-nature-05-fox-bunny-kitty-earrings): reach 9, profile_visits 0; latest snapshot, not a matched-age result.
+- Evidence (ig-nature-09-lucky-ladybug-gold-huggie-earrings): reach 7, profile_visits 0; latest snapshot, not a matched-age result.
 - Production brief: Reuse the reference post's exact approved media and caption after the first line. Change only the opening line; verify assets before approval.
 - Placement: Editorial review backlog. Do not add to or replace the daily Nature Series automatically.
 - Evaluation: Record counts at 72 hours for control and variant. Review direction only after three comparable posts per condition, each reaching at least 100 accounts, and at least 10 primary actions per condition for action metrics. These are planning guardrails, not statistical proof. If reach stays small, keep confidence low and revisit next week without increasing posting volume.
 
-### 2026-11-17
+### 2026-11-24
 
 - Action: Review proposed test; preserve scheduled posts.
-- Preserve scheduled nature post: flower-kitty-earrings at 2026-11-17T19:00:00-05:00 (ig-nature-23-flower-kitty-earrings).
-- Product: **Aiko Cat Heart Earrings** (`aiko-cat-heart-earrings`).
+- Preserve scheduled nature post: sterling-silver-bee-daisy-earrings at 2026-11-24T19:00:00-05:00 (ig-nature-30-sterling-silver-bee-daisy-earrings).
+- Product: **Sunflower Pendant Necklace** (`sunflower-pendant-necklace`).
 - Content angle: personal_style.
-- Hook: How would you style these earrings?
-- Format: CAROUSEL.
+- Hook: How would you style this necklace?
+- Format: IMAGE.
 - Objective: Learn styling preferences.
 - Hypothesis: With the other elements fixed, test whether a specific styling question invites useful comments.
 - Primary success metric: comments / reach, accompanied by both raw counts at 72 hours.
 - Confidence: **low**. No positive signal for this metric yet; needs a test, not a rejection.
 - Test type: controlled_follow_up.
-- Historical reference: ig-aiko-cat-heart-earrings-1. Change only the opening caption line; keep the product/variant, exact images/order, format, remaining caption, offer/CTA and posting-time window fixed.
-- Reference opening: A little cat sitting inside an open heart.
+- Historical reference: ig-nature-08-sunflower-pendant-necklace. Change only the opening caption line; keep the product/variant, exact images/order, format, remaining caption, offer/CTA and posting-time window fixed.
+- Reference opening: Young sunflowers turn to follow the sun across the sky. Once they bloom, most of them settle facing east.
 - Comparison limit: Historical lifetime counts are context only. A matched-age control is required for evaluation.
-- Evidence (ig-aiko-cat-heart-earrings-1): reach 5, comments 0; latest snapshot, not a matched-age result.
+- Evidence (ig-nature-08-sunflower-pendant-necklace): reach 9, comments 0; latest snapshot, not a matched-age result.
 - Production brief: Reuse the reference post's exact approved media and caption after the first line. Change only the opening line; verify assets before approval.
 - Placement: Editorial review backlog. Do not add to or replace the daily Nature Series automatically.
 - Evaluation: Record counts at 72 hours for control and variant. Review direction only after three comparable posts per condition, each reaching at least 100 accounts, and at least 10 primary actions per condition for action metrics. These are planning guardrails, not statistical proof. If reach stays small, keep confidence low and revisit next week without increasing posting volume.
 
-### 2026-11-18
+### 2026-11-25
 
 - Action: Review proposed test; preserve scheduled posts.
-- Preserve scheduled nature post: celestial-star-earrings at 2026-11-18T19:00:00-05:00 (ig-nature-24-celestial-star-earrings).
-- Product: **Bee Honeycomb Mismatched Earrings** (`bee-honeycomb-mismatched-earrings`).
+- Preserve scheduled nature post: kitty-stretch-ring at 2026-11-25T19:00:00-05:00 (ig-nature-31-kitty-stretch-ring).
+- Product: **Celestial Sun And Moon Ring** (`celestial-sun-and-moon-ring`).
 - Content angle: gift_identity.
-- Hook: Know someone who would love these earrings?
+- Hook: Know someone who would love this ring?
 - Format: CAROUSEL.
 - Objective: Relevant sharing.
 - Hypothesis: With the other elements fixed, test whether a gift-recipient opening gives viewers a reason to share the design.
 - Primary success metric: shares / reach, accompanied by both raw counts at 72 hours.
 - Confidence: **low**. No positive signal for this metric yet; needs a test, not a rejection.
 - Test type: controlled_follow_up.
-- Historical reference: ig-nature-06-bee-honeycomb-mismatched-earrings. Change only the opening caption line; keep the product/variant, exact images/order, format, remaining caption, offer/CTA and posting-time window fixed.
-- Reference opening: Bees build honeycomb in hexagons because the shape holds the most honey with the least wax.
+- Historical reference: ig-nature-13-celestial-sun-and-moon-ring. Change only the opening caption line; keep the product/variant, exact images/order, format, remaining caption, offer/CTA and posting-time window fixed.
+- Reference opening: The moon drifts about 3.8 centimeters farther from Earth every year.
 - Comparison limit: Historical lifetime counts are context only. A matched-age control is required for evaluation.
-- Evidence (ig-bee-honeycomb-mismatched-earrings-1): reach 7, shares 0; latest snapshot, not a matched-age result.
-- Evidence (ig-nature-06-bee-honeycomb-mismatched-earrings): reach 7, shares 0; latest snapshot, not a matched-age result.
+- Evidence (ig-nature-13-celestial-sun-and-moon-ring): reach 8, shares 0; latest snapshot, not a matched-age result.
 - Production brief: Reuse the reference post's exact approved media and caption after the first line. Change only the opening line; verify assets before approval.
 - Placement: Editorial review backlog. Do not add to or replace the daily Nature Series automatically.
 - Evaluation: Record counts at 72 hours for control and variant. Review direction only after three comparable posts per condition, each reaching at least 100 accounts, and at least 10 primary actions per condition for action metrics. These are planning guardrails, not statistical proof. If reach stays small, keep confidence low and revisit next week without increasing posting volume.
 
-### 2026-11-19
+### 2026-11-26
 
 - Action: Review proposed test; preserve scheduled posts.
-- Preserve scheduled nature post: rainbow-crystal-stacking-ring-set at 2026-11-19T19:00:00-05:00 (ig-nature-25-rainbow-crystal-stacking-ring-set).
-- Product: **Silver Mouse Ring** (`silver-mouse-ring`).
+- Preserve scheduled nature post: silver-feather-drop-earrings at 2026-11-26T19:00:00-05:00 (ig-nature-32-silver-feather-drop-earrings).
+- Product: **Dolphin Dreams Ring** (`dolphin-dreams-ring`).
 - Content angle: saveable_styling.
 - Hook: Try this ring with a simple white tee.
 - Format: IMAGE.
@@ -92,60 +91,60 @@ Recommendations only. These dates are editorial review days, not new posting slo
 - Primary success metric: saved / reach, accompanied by both raw counts at 72 hours.
 - Confidence: **low**. No positive signal for this metric yet; needs a test, not a rejection.
 - Test type: controlled_follow_up.
-- Historical reference: ig-nature-10-silver-mouse-ring. Change only the opening caption line; keep the product/variant, exact images/order, format, remaining caption, offer/CTA and posting-time window fixed.
-- Reference opening: The harvest mouse weighs about as much as a sugar cube, light enough to climb a single stalk of wheat.
+- Historical reference: ig-nature-07-dolphin-dreams-ring. Change only the opening caption line; keep the product/variant, exact images/order, format, remaining caption, offer/CTA and posting-time window fixed.
+- Reference opening: Dolphins rest one half of their brain at a time, so they can keep surfacing to breathe while they sleep.
 - Comparison limit: Historical lifetime counts are context only. A matched-age control is required for evaluation.
-- Evidence (ig-nature-10-silver-mouse-ring): reach 7, saved 0; latest snapshot, not a matched-age result.
+- Evidence (ig-nature-07-dolphin-dreams-ring): reach 12, saved 0; latest snapshot, not a matched-age result.
 - Production brief: Reuse the reference post's exact approved media and caption after the first line. Change only the opening line; verify assets before approval.
 - Placement: Editorial review backlog. Do not add to or replace the daily Nature Series automatically.
 - Evaluation: Record counts at 72 hours for control and variant. Review direction only after three comparable posts per condition, each reaching at least 100 accounts, and at least 10 primary actions per condition for action metrics. These are planning guardrails, not statistical proof. If reach stays small, keep confidence low and revisit next week without increasing posting volume.
 
-### 2026-11-20
+### 2026-11-27
 
 - Action: Review proposed test; preserve scheduled posts.
-- Preserve scheduled nature post: radiant-bloom-flower-necklace at 2026-11-20T19:00:00-05:00 (ig-nature-26-radiant-bloom-flower-necklace).
-- Product: **Lucky Ladybug Gold Huggie Earrings** (`lucky-ladybug-gold-huggie-earrings`).
+- Preserve scheduled nature post: sun-moon-layered-necklace at 2026-11-27T19:00:00-05:00 (ig-nature-33-sun-moon-layered-necklace).
+- Product: **Daisy Ring** (`daisy-ring`).
 - Content angle: design_story.
-- Hook: The shape that makes these earrings stand out.
+- Hook: The shape that makes this ring stand out.
 - Format: IMAGE.
 - Objective: Product consideration.
 - Hypothesis: With the other elements fixed, test whether an opening about the visible design encourages profile visits.
 - Primary success metric: profile_visits / reach, accompanied by both raw counts at 72 hours.
 - Confidence: **low**. No positive signal for this metric yet; needs a test, not a rejection.
 - Test type: controlled_follow_up.
-- Historical reference: ig-nature-09-lucky-ladybug-gold-huggie-earrings. Change only the opening caption line; keep the product/variant, exact images/order, format, remaining caption, offer/CTA and posting-time window fixed.
-- Reference opening: A single ladybug can eat thousands of aphids in its lifetime, which is why gardeners call them lucky.
+- Historical reference: ig-nature-01-daisy-ring. Change only the opening caption line; keep the product/variant, exact images/order, format, remaining caption, offer/CTA and posting-time window fixed.
+- Reference opening: The word daisy comes from the Old English for "day's eye." The flower closes at night and opens again with the morning light.
 - Comparison limit: Historical lifetime counts are context only. A matched-age control is required for evaluation.
-- Evidence (ig-nature-09-lucky-ladybug-gold-huggie-earrings): reach 5, profile_visits 0; latest snapshot, not a matched-age result.
+- Evidence (ig-nature-01-daisy-ring): reach 8, profile_visits 0; latest snapshot, not a matched-age result.
 - Production brief: Reuse the reference post's exact approved media and caption after the first line. Change only the opening line; verify assets before approval.
 - Placement: Editorial review backlog. Do not add to or replace the daily Nature Series automatically.
 - Evaluation: Record counts at 72 hours for control and variant. Review direction only after three comparable posts per condition, each reaching at least 100 accounts, and at least 10 primary actions per condition for action metrics. These are planning guardrails, not statistical proof. If reach stays small, keep confidence low and revisit next week without increasing posting volume.
 
-### 2026-11-21
+### 2026-11-28
 
 - Action: Review proposed test; preserve scheduled posts.
-- Preserve scheduled nature post: gold-dangling-cat-necklace at 2026-11-21T19:00:00-05:00 (ig-nature-27-gold-dangling-cat-necklace).
-- Product: **Purple Iris Hoop Earrings** (`purple-iris-hoop-earrings`).
+- Preserve scheduled nature post: moonlit-garden-silver-ring at 2026-11-28T19:00:00-05:00 (ig-nature-34-moonlit-garden-silver-ring).
+- Product: **Fox Bunny Kitty Earrings** (`fox-bunny-kitty-earrings`).
 - Content angle: detail_question.
 - Hook: What catches your eye first in these earrings?
 - Format: IMAGE.
 - Objective: Learn design preferences.
 - Hypothesis: With the other elements fixed, test whether an observation question starts relevant discussion about the piece.
 - Primary success metric: comments / reach, accompanied by both raw counts at 72 hours.
-- Confidence: **low**. No positive signal for this metric yet; needs a test, not a rejection.
+- Confidence: **low**. Promising signal, needs another test.
 - Test type: controlled_follow_up.
-- Historical reference: ig-nature-03-purple-iris-hoop-earrings. Change only the opening caption line; keep the product/variant, exact images/order, format, remaining caption, offer/CTA and posting-time window fixed.
-- Reference opening: The iris is named after the Greek goddess of the rainbow, because the flower comes in almost every color.
+- Historical reference: ig-nature-05-fox-bunny-kitty-earrings. Change only the opening caption line; keep the product/variant, exact images/order, format, remaining caption, offer/CTA and posting-time window fixed.
+- Reference opening: Researchers think red foxes use Earth's magnetic field to line up their pounce when they hunt under snow.
 - Comparison limit: Historical lifetime counts are context only. A matched-age control is required for evaluation.
-- Evidence (ig-nature-03-purple-iris-hoop-earrings): reach 5, comments 0; latest snapshot, not a matched-age result.
+- Evidence (ig-nature-05-fox-bunny-kitty-earrings): reach 11, comments 1; latest snapshot, not a matched-age result.
 - Production brief: Reuse the reference post's exact approved media and caption after the first line. Change only the opening line; verify assets before approval.
 - Placement: Editorial review backlog. Do not add to or replace the daily Nature Series automatically.
 - Evaluation: Record counts at 72 hours for control and variant. Review direction only after three comparable posts per condition, each reaching at least 100 accounts, and at least 10 primary actions per condition for action metrics. These are planning guardrails, not statistical proof. If reach stays small, keep confidence low and revisit next week without increasing posting volume.
 
-### 2026-11-22
+### 2026-11-29
 
 - Action: Review proposed test; preserve scheduled posts.
-- Preserve scheduled nature post: silver-leaf-ring at 2026-11-22T19:00:00-05:00 (ig-nature-28-silver-leaf-ring).
+- Preserve scheduled nature post: star-kitty-earrings at 2026-11-29T19:00:00-05:00 (ig-nature-35-star-kitty-earrings).
 - Product: **Cat Lover Set** (`cat-lover-set`).
 - Content angle: everyday_styling.
 - Hook: Picture this set with your everyday outfit.
@@ -172,7 +171,7 @@ Recommendations only. These dates are editorial review days, not new posting slo
 
 ## Input fingerprints
 
-- `ig_analytics.json`: `1a3ed88fdc47da6ca225bb5a7883c754e87b3db0f3f74412f12e82a8b123c982`
-- `ig_learning.json`: `1f3c1e41a9d65504b5da38021bcd3300f006dbe4104b8f54717f81db6a5114aa`
+- `ig_analytics.json`: `98857a62b3cb2e8c5d09ce6f1123274a1f997de7e6478ae0cd70576834e18bde`
+- `ig_learning.json`: `61ff6c0c44021152434e232de5b6e26ee795ca513134beb0718912cd346139f7`
 - `ig_queue.csv`: `76b1396276d04914b883e7bd89e22f500b90555d98c449ef15fd0a9c47392cef`
-- `ig_state.json`: `312200b1f3b73c8ac6a0453b93b21ee80fa2301cfdc90da68cf38a37afe81c80`
+- `ig_state.json`: `dd17ffa5ef177089aefda560f16de532cc11e2e31b01d58d5fdf179173ff84af`

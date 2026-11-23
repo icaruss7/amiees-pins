@@ -1,164 +1,164 @@
 {
   "data_summary": {
-    "analytics_collected_at": "2026-11-15T19:49:11+00:00",
+    "analytics_collected_at": "2026-11-22T20:45:04+00:00",
     "analytics_fresh": true,
-    "distinct_posts": 32,
-    "learning_median_reach_or_views": 6.0,
-    "learning_sample_size": 32,
-    "mature_posts": 29,
-    "median_reach": 6.0,
+    "distinct_posts": 37,
+    "learning_median_reach_or_views": 8.0,
+    "learning_sample_size": 37,
+    "mature_posts": 34,
+    "median_reach": 8,
     "metric_availability_posts": {
-      "comments": 32,
-      "follows": 30,
-      "likes": 32,
-      "profile_visits": 30,
-      "reach": 32,
-      "saved": 32,
-      "shares": 32,
-      "total_interactions": 32,
-      "views": 32
+      "comments": 37,
+      "follows": 35,
+      "likes": 37,
+      "profile_visits": 35,
+      "reach": 37,
+      "saved": 37,
+      "shares": 37,
+      "total_interactions": 37,
+      "views": 37
     },
     "sample_warning": "High percentages from a few reached accounts do not establish repeatable performance. No automatic winner decisions.",
-    "sum_post_reach_not_unique_audience": 278,
+    "sum_post_reach_not_unique_audience": 382,
     "upstream_ranking_policy": "Read learning context but do not inherit rankings, percentage claims or winner labels."
   },
   "days": [
     {
       "action": "Review proposed test; preserve scheduled posts.",
-      "date": "2026-11-16",
+      "date": "2026-11-23",
       "recommendation_ids": [
-        "test-2026-11-16-01"
+        "test-2026-11-23-01"
       ],
       "scheduled_posts": [
         {
           "concept": "nature_fact_story",
-          "date": "2026-11-16",
-          "hook": "A daisy is really hundreds of flowers in one. Each speck in the yellow center is its own tiny bloom.",
+          "date": "2026-11-23",
+          "hook": "In Japan, the cherry blossom forecast is tracked across the country like the weather.",
           "overdue": false,
-          "post_id": "ig-nature-22-golden-center-daisy-ring-silver-flower-statement-ring",
-          "product": "golden-center-daisy-ring-silver-flower-statement-ring",
-          "release_at_local": "2026-11-16T19:00:00-05:00",
-          "release_at_utc": "2026-11-17T00:00:00+00:00",
+          "post_id": "ig-nature-29-crystal-blossom-stud-earrings",
+          "product": "crystal-blossom-stud-earrings",
+          "release_at_local": "2026-11-23T19:00:00-05:00",
+          "release_at_utc": "2026-11-24T00:00:00+00:00",
           "series": "nature"
         }
       ]
     },
     {
       "action": "Review proposed test; preserve scheduled posts.",
-      "date": "2026-11-17",
+      "date": "2026-11-24",
       "recommendation_ids": [
-        "test-2026-11-16-02"
+        "test-2026-11-23-02"
       ],
       "scheduled_posts": [
         {
           "concept": "nature_fact_story",
-          "date": "2026-11-17",
-          "hook": "Cats sleep between 12 and 16 hours a day, ideally somewhere warm.",
+          "date": "2026-11-24",
+          "hook": "Bees see ultraviolet light, so to them a daisy looks like a target pointing to its center.",
           "overdue": false,
-          "post_id": "ig-nature-23-flower-kitty-earrings",
-          "product": "flower-kitty-earrings",
-          "release_at_local": "2026-11-17T19:00:00-05:00",
-          "release_at_utc": "2026-11-18T00:00:00+00:00",
+          "post_id": "ig-nature-30-sterling-silver-bee-daisy-earrings",
+          "product": "sterling-silver-bee-daisy-earrings",
+          "release_at_local": "2026-11-24T19:00:00-05:00",
+          "release_at_utc": "2026-11-25T00:00:00+00:00",
           "series": "nature"
         }
       ]
     },
     {
       "action": "Review proposed test; preserve scheduled posts.",
-      "date": "2026-11-18",
+      "date": "2026-11-25",
       "recommendation_ids": [
-        "test-2026-11-16-03"
+        "test-2026-11-23-03"
       ],
       "scheduled_posts": [
         {
           "concept": "nature_fact_story",
-          "date": "2026-11-18",
-          "hook": "Most of the stars you can see at night are bigger and brighter than our sun.",
+          "date": "2026-11-25",
+          "hook": "Cats have about 50 vertebrae in their spine. We have 33. That's how they stretch like this.",
           "overdue": false,
-          "post_id": "ig-nature-24-celestial-star-earrings",
-          "product": "celestial-star-earrings",
-          "release_at_local": "2026-11-18T19:00:00-05:00",
-          "release_at_utc": "2026-11-19T00:00:00+00:00",
+          "post_id": "ig-nature-31-kitty-stretch-ring",
+          "product": "kitty-stretch-ring",
+          "release_at_local": "2026-11-25T19:00:00-05:00",
+          "release_at_utc": "2026-11-26T00:00:00+00:00",
           "series": "nature"
         }
       ]
     },
     {
       "action": "Review proposed test; preserve scheduled posts.",
-      "date": "2026-11-19",
+      "date": "2026-11-26",
       "recommendation_ids": [
-        "test-2026-11-16-04"
+        "test-2026-11-23-04"
       ],
       "scheduled_posts": [
         {
           "concept": "nature_fact_story",
-          "date": "2026-11-19",
-          "hook": "Every rainbow is a full circle. From the ground, the horizon hides the bottom half.",
+          "date": "2026-11-26",
+          "hook": "A chickadee can remember thousands of spots where it hid seeds for winter.",
           "overdue": false,
-          "post_id": "ig-nature-25-rainbow-crystal-stacking-ring-set",
-          "product": "rainbow-crystal-stacking-ring-set",
-          "release_at_local": "2026-11-19T19:00:00-05:00",
-          "release_at_utc": "2026-11-20T00:00:00+00:00",
+          "post_id": "ig-nature-32-silver-feather-drop-earrings",
+          "product": "silver-feather-drop-earrings",
+          "release_at_local": "2026-11-26T19:00:00-05:00",
+          "release_at_utc": "2026-11-27T00:00:00+00:00",
           "series": "nature"
         }
       ]
     },
     {
       "action": "Review proposed test; preserve scheduled posts.",
-      "date": "2026-11-20",
+      "date": "2026-11-27",
       "recommendation_ids": [
-        "test-2026-11-16-05"
+        "test-2026-11-23-05"
       ],
       "scheduled_posts": [
         {
           "concept": "nature_fact_story",
-          "date": "2026-11-20",
-          "hook": "Many flowers carry ultraviolet patterns we can't see, which guide bees straight to the nectar.",
+          "date": "2026-11-27",
+          "hook": "Twilight comes in three stages: civil, nautical and astronomical. Each one is a little darker.",
           "overdue": false,
-          "post_id": "ig-nature-26-radiant-bloom-flower-necklace",
-          "product": "radiant-bloom-flower-necklace",
-          "release_at_local": "2026-11-20T19:00:00-05:00",
-          "release_at_utc": "2026-11-21T00:00:00+00:00",
+          "post_id": "ig-nature-33-sun-moon-layered-necklace",
+          "product": "sun-moon-layered-necklace",
+          "release_at_local": "2026-11-27T19:00:00-05:00",
+          "release_at_utc": "2026-11-28T00:00:00+00:00",
           "series": "nature"
         }
       ]
     },
     {
       "action": "Review proposed test; preserve scheduled posts.",
-      "date": "2026-11-21",
+      "date": "2026-11-28",
       "recommendation_ids": [
-        "test-2026-11-16-06"
+        "test-2026-11-23-06"
       ],
       "scheduled_posts": [
         {
           "concept": "nature_fact_story",
-          "date": "2026-11-21",
-          "hook": "A group of cats is called a clowder.",
+          "date": "2026-11-28",
+          "hook": "Moonflowers open at dusk and close by morning. Night moths do the pollinating.",
           "overdue": false,
-          "post_id": "ig-nature-27-gold-dangling-cat-necklace",
-          "product": "gold-dangling-cat-necklace",
-          "release_at_local": "2026-11-21T19:00:00-05:00",
-          "release_at_utc": "2026-11-22T00:00:00+00:00",
+          "post_id": "ig-nature-34-moonlit-garden-silver-ring",
+          "product": "moonlit-garden-silver-ring",
+          "release_at_local": "2026-11-28T19:00:00-05:00",
+          "release_at_utc": "2026-11-29T00:00:00+00:00",
           "series": "nature"
         }
       ]
     },
     {
       "action": "Review proposed test; preserve scheduled posts.",
-      "date": "2026-11-22",
+      "date": "2026-11-29",
       "recommendation_ids": [
-        "test-2026-11-16-07"
+        "test-2026-11-23-07"
       ],
       "scheduled_posts": [
         {
           "concept": "nature_fact_story",
-          "date": "2026-11-22",
-          "hook": "Ferns are older than the dinosaurs. They first appeared more than 350 million years ago.",
+          "date": "2026-11-29",
+          "hook": "Cats can see in about one sixth of the light we need.",
           "overdue": false,
-          "post_id": "ig-nature-28-silver-leaf-ring",
-          "product": "silver-leaf-ring",
-          "release_at_local": "2026-11-22T19:00:00-05:00",
-          "release_at_utc": "2026-11-23T00:00:00+00:00",
+          "post_id": "ig-nature-35-star-kitty-earrings",
+          "product": "star-kitty-earrings",
+          "release_at_local": "2026-11-29T19:00:00-05:00",
+          "release_at_utc": "2026-11-30T00:00:00+00:00",
           "series": "nature"
         }
       ]
@@ -173,39 +173,39 @@
       "nature_fact_story",
       "product_showcase"
     ],
-    "protected_end": "2026-12-06",
+    "protected_end": "2026-12-13",
     "protected_products": [
-      "blue-butterfly-hoop-earrings",
       "blue-fishtail-silver-ring",
       "celestial-gold-huggie-earrings-moon-star-duo",
+      "celestial-rainbow-dome-huggie-earrings",
       "celestial-star-earrings",
-      "celestial-sun-and-moon-ring",
       "crystal-blossom-jewelry-set",
       "crystal-blossom-stud-earrings",
+      "dangling-cat-silver-necklace",
       "flower-kitty-earrings",
       "gold-dangling-cat-necklace",
-      "golden-bee-huggie-earrings",
       "golden-center-daisy-ring-silver-flower-statement-ring",
       "green-leaf-silver-ring",
       "hanging-kitty-necklace",
+      "harmony-koi-pin",
+      "honeybee-charm-gold-huggie-earrings",
       "kitty-stretch-ring",
       "moonlit-garden-silver-ring",
       "panda-earrings",
       "radiant-bloom-flower-earrings",
       "radiant-bloom-flower-necklace",
-      "rainbow-crystal-stacking-ring-set",
       "raindrop-earrings",
-      "silver-cat-earrings",
+      "ring-of-daisies",
       "silver-feather-drop-earrings",
       "silver-leaf-ring",
-      "silver-snake-ring",
-      "soleil-sun-pendant-necklace",
+      "sleek-kitty-ring",
       "star-kitty-earrings",
       "sterling-silver-bee-daisy-earrings",
       "sterling-silver-elephant-ring",
       "sterling-silver-honeybee-adjustable-ring",
       "sun-moon-layered-necklace",
-      "tropical-monstera-leaf-huggie-earrings"
+      "tropical-monstera-leaf-huggie-earrings",
+      "wonder-kitty-ring"
     ],
     "protected_scheduled_posts": [
       {
@@ -221,17 +221,6 @@
       },
       {
         "concept": "nature_fact_story",
-        "date": "2026-11-13",
-        "hook": "Olive trees can live for more than a thousand years, and some of the oldest still bear fruit.",
-        "overdue": true,
-        "post_id": "ig-nature-19-green-leaf-silver-ring",
-        "product": "green-leaf-silver-ring",
-        "release_at_local": "2026-11-13T19:00:00-05:00",
-        "release_at_utc": "2026-11-14T00:00:00+00:00",
-        "series": "nature"
-      },
-      {
-        "concept": "nature_fact_story",
         "date": "2026-11-14",
         "hook": "Giant pandas spend about half of every day eating bamboo.",
         "overdue": true,
@@ -243,64 +232,9 @@
       },
       {
         "concept": "nature_fact_story",
-        "date": "2026-11-15",
-        "hook": "Raindrops aren't shaped like tears. Small ones are round, and larger ones flatten out as they fall.",
-        "overdue": true,
-        "post_id": "ig-nature-21-raindrop-earrings",
-        "product": "raindrop-earrings",
-        "release_at_local": "2026-11-15T19:00:00-05:00",
-        "release_at_utc": "2026-11-16T00:00:00+00:00",
-        "series": "nature"
-      },
-      {
-        "concept": "nature_fact_story",
-        "date": "2026-11-16",
-        "hook": "A daisy is really hundreds of flowers in one. Each speck in the yellow center is its own tiny bloom.",
-        "overdue": false,
-        "post_id": "ig-nature-22-golden-center-daisy-ring-silver-flower-statement-ring",
-        "product": "golden-center-daisy-ring-silver-flower-statement-ring",
-        "release_at_local": "2026-11-16T19:00:00-05:00",
-        "release_at_utc": "2026-11-17T00:00:00+00:00",
-        "series": "nature"
-      },
-      {
-        "concept": "nature_fact_story",
-        "date": "2026-11-17",
-        "hook": "Cats sleep between 12 and 16 hours a day, ideally somewhere warm.",
-        "overdue": false,
-        "post_id": "ig-nature-23-flower-kitty-earrings",
-        "product": "flower-kitty-earrings",
-        "release_at_local": "2026-11-17T19:00:00-05:00",
-        "release_at_utc": "2026-11-18T00:00:00+00:00",
-        "series": "nature"
-      },
-      {
-        "concept": "nature_fact_story",
-        "date": "2026-11-18",
-        "hook": "Most of the stars you can see at night are bigger and brighter than our sun.",
-        "overdue": false,
-        "post_id": "ig-nature-24-celestial-star-earrings",
-        "product": "celestial-star-earrings",
-        "release_at_local": "2026-11-18T19:00:00-05:00",
-        "release_at_utc": "2026-11-19T00:00:00+00:00",
-        "series": "nature"
-      },
-      {
-        "concept": "nature_fact_story",
-        "date": "2026-11-19",
-        "hook": "Every rainbow is a full circle. From the ground, the horizon hides the bottom half.",
-        "overdue": false,
-        "post_id": "ig-nature-25-rainbow-crystal-stacking-ring-set",
-        "product": "rainbow-crystal-stacking-ring-set",
-        "release_at_local": "2026-11-19T19:00:00-05:00",
-        "release_at_utc": "2026-11-20T00:00:00+00:00",
-        "series": "nature"
-      },
-      {
-        "concept": "nature_fact_story",
         "date": "2026-11-20",
         "hook": "Many flowers carry ultraviolet patterns we can't see, which guide bees straight to the nectar.",
-        "overdue": false,
+        "overdue": true,
         "post_id": "ig-nature-26-radiant-bloom-flower-necklace",
         "product": "radiant-bloom-flower-necklace",
         "release_at_local": "2026-11-20T19:00:00-05:00",
@@ -311,7 +245,7 @@
         "concept": "nature_fact_story",
         "date": "2026-11-21",
         "hook": "A group of cats is called a clowder.",
-        "overdue": false,
+        "overdue": true,
         "post_id": "ig-nature-27-gold-dangling-cat-necklace",
         "product": "gold-dangling-cat-necklace",
         "release_at_local": "2026-11-21T19:00:00-05:00",
@@ -322,7 +256,7 @@
         "concept": "nature_fact_story",
         "date": "2026-11-22",
         "hook": "Ferns are older than the dinosaurs. They first appeared more than 350 million years ago.",
-        "overdue": false,
+        "overdue": true,
         "post_id": "ig-nature-28-silver-leaf-ring",
         "product": "silver-leaf-ring",
         "release_at_local": "2026-11-22T19:00:00-05:00",
@@ -482,16 +416,93 @@
         "release_at_local": "2026-12-06T19:00:00-05:00",
         "release_at_utc": "2026-12-07T00:00:00+00:00",
         "series": "nature"
+      },
+      {
+        "concept": "nature_fact_story",
+        "date": "2026-12-07",
+        "hook": "A 2019 study found that 20 minutes in nature was enough to lower stress hormone levels.",
+        "overdue": false,
+        "post_id": "ig-nature-43-ring-of-daisies",
+        "product": "ring-of-daisies",
+        "release_at_local": "2026-12-07T19:00:00-05:00",
+        "release_at_utc": "2026-12-08T00:00:00+00:00",
+        "series": "nature"
+      },
+      {
+        "concept": "nature_fact_story",
+        "date": "2026-12-08",
+        "hook": "Cats have a third eyelid that sweeps across the eye to keep it clean.",
+        "overdue": false,
+        "post_id": "ig-nature-44-dangling-cat-silver-necklace",
+        "product": "dangling-cat-silver-necklace",
+        "release_at_local": "2026-12-08T19:00:00-05:00",
+        "release_at_utc": "2026-12-09T00:00:00+00:00",
+        "series": "nature"
+      },
+      {
+        "concept": "nature_fact_story",
+        "date": "2026-12-09",
+        "hook": "Koi can live for decades, and some have been recorded living past 100 years.",
+        "overdue": false,
+        "post_id": "ig-nature-45-harmony-koi-pin",
+        "product": "harmony-koi-pin",
+        "release_at_local": "2026-12-09T19:00:00-05:00",
+        "release_at_utc": "2026-12-10T00:00:00+00:00",
+        "series": "nature"
+      },
+      {
+        "concept": "nature_fact_story",
+        "date": "2026-12-10",
+        "hook": "Cats can turn their ears 180 degrees, using more than 30 muscles in each ear.",
+        "overdue": false,
+        "post_id": "ig-nature-46-sleek-kitty-ring",
+        "product": "sleek-kitty-ring",
+        "release_at_local": "2026-12-10T19:00:00-05:00",
+        "release_at_utc": "2026-12-11T00:00:00+00:00",
+        "series": "nature"
+      },
+      {
+        "concept": "nature_fact_story",
+        "date": "2026-12-11",
+        "hook": "On a clear, dark night you can see a few thousand stars without a telescope.",
+        "overdue": false,
+        "post_id": "ig-nature-47-celestial-rainbow-dome-huggie-earrings",
+        "product": "celestial-rainbow-dome-huggie-earrings",
+        "release_at_local": "2026-12-11T19:00:00-05:00",
+        "release_at_utc": "2026-12-12T00:00:00+00:00",
+        "series": "nature"
+      },
+      {
+        "concept": "nature_fact_story",
+        "date": "2026-12-12",
+        "hook": "In its whole life, one honeybee makes about a twelfth of a teaspoon of honey.",
+        "overdue": false,
+        "post_id": "ig-nature-48-honeybee-charm-gold-huggie-earrings",
+        "product": "honeybee-charm-gold-huggie-earrings",
+        "release_at_local": "2026-12-12T19:00:00-05:00",
+        "release_at_utc": "2026-12-13T00:00:00+00:00",
+        "series": "nature"
+      },
+      {
+        "concept": "nature_fact_story",
+        "date": "2026-12-13",
+        "hook": "Adult cats rarely meow at each other. They save it for talking to us.",
+        "overdue": false,
+        "post_id": "ig-nature-49-wonder-kitty-ring",
+        "product": "wonder-kitty-ring",
+        "release_at_local": "2026-12-13T19:00:00-05:00",
+        "release_at_utc": "2026-12-14T00:00:00+00:00",
+        "series": "nature"
       }
     ],
-    "protected_start": "2026-11-09"
+    "protected_start": "2026-11-16"
   },
-  "end_date": "2026-11-22",
+  "end_date": "2026-11-29",
   "inputs_sha256": {
-    "ig_analytics.json": "1a3ed88fdc47da6ca225bb5a7883c754e87b3db0f3f74412f12e82a8b123c982",
-    "ig_learning.json": "1f3c1e41a9d65504b5da38021bcd3300f006dbe4104b8f54717f81db6a5114aa",
+    "ig_analytics.json": "98857a62b3cb2e8c5d09ce6f1123274a1f997de7e6478ae0cd70576834e18bde",
+    "ig_learning.json": "61ff6c0c44021152434e232de5b6e26ee795ca513134beb0718912cd346139f7",
     "ig_queue.csv": "76b1396276d04914b883e7bd89e22f500b90555d98c449ef15fd0a9c47392cef",
-    "ig_state.json": "312200b1f3b73c8ac6a0453b93b21ee80fa2301cfdc90da68cf38a37afe81c80"
+    "ig_state.json": "dd17ffa5ef177089aefda560f16de532cc11e2e31b01d58d5fdf179173ff84af"
   },
   "mode": "deterministic_rules_only",
   "planner_version": 1,
@@ -499,274 +510,6 @@
     {
       "confidence_level": "low",
       "content_angle": "detail_reveal",
-      "control": {
-        "change_only": "opening_caption_line",
-        "comparison_limit": "Historical lifetime counts are context only. A matched-age control is required for evaluation.",
-        "hold_constant": [
-          "product and variant",
-          "exact images and their order",
-          "format",
-          "caption after first line",
-          "CTA and offer",
-          "posting-time window"
-        ],
-        "reference_hook": "Researchers think red foxes use Earth's magnetic field to line up their pounce when they hunt under snow.",
-        "reference_permalink": "https://www.instagram.com/p/DfKNeAEFzA3/",
-        "reference_post_id": "ig-nature-05-fox-bunny-kitty-earrings"
-      },
-      "evaluation_rule": "Record counts at 72 hours for control and variant. Review direction only after three comparable posts per condition, each reaching at least 100 accounts, and at least 10 primary actions per condition for action metrics. These are planning guardrails, not statistical proof. If reach stays small, keep confidence low and revisit next week without increasing posting volume.",
-      "evidence": {
-        "assessment": "No positive signal for this metric yet; needs a test, not a rejection.",
-        "basis": "Distinct published media, latest snapshot only; daily history is not extra samples.",
-        "confidence_level": "low",
-        "mature_same_format_posts": 1,
-        "observations": [
-          {
-            "collected_at": "2026-11-15T19:49:11+00:00",
-            "post_id": "ig-nature-05-fox-bunny-kitty-earrings",
-            "posted_at": "2026-10-31T12:58:15+00:00",
-            "profile_visits": 0,
-            "reach": 9,
-            "views": 17
-          }
-        ],
-        "posts_with_at_least_100_reach": 0,
-        "posts_with_required_counts": 1,
-        "primary_actions_in_sufficient_posts": 0,
-        "product_posts": 1
-      },
-      "format": "IMAGE",
-      "hook": "Notice the small details in these earrings.",
-      "hypothesis": "With the other elements fixed, test whether a detail-led opening gives viewers a reason to visit the profile.",
-      "id": "test-2026-11-16-01",
-      "objective": "Product consideration",
-      "placement": "Editorial review backlog. Do not add to or replace the daily Nature Series automatically.",
-      "primary_success_metric": {
-        "definition": "profile_visits / reach, accompanied by both raw counts",
-        "denominator": "reach",
-        "evaluation_age_hours": 72,
-        "missing_data": "Unknown; do not replace missing counts with zero or substitute views for reach.",
-        "name": "profile_visits_per_reached_account",
-        "raw_count": "profile_visits"
-      },
-      "product": "fox-bunny-kitty-earrings",
-      "product_name": "Fox Bunny Kitty Earrings",
-      "production_brief": "Reuse the reference post's exact approved media and caption after the first line. Change only the opening line; verify assets before approval.",
-      "review_date": "2026-11-16",
-      "schedule_check": {
-        "protected_concept_collision": false,
-        "protected_hook_collision": false,
-        "protected_product_collision": false
-      },
-      "status": "recommendation_only_requires_review",
-      "test_type": "controlled_follow_up"
-    },
-    {
-      "confidence_level": "low",
-      "content_angle": "personal_style",
-      "control": {
-        "change_only": "opening_caption_line",
-        "comparison_limit": "Historical lifetime counts are context only. A matched-age control is required for evaluation.",
-        "hold_constant": [
-          "product and variant",
-          "exact images and their order",
-          "format",
-          "caption after first line",
-          "CTA and offer",
-          "posting-time window"
-        ],
-        "reference_hook": "A little cat sitting inside an open heart.",
-        "reference_permalink": "https://www.instagram.com/p/DeSJ15yDVXH/",
-        "reference_post_id": "ig-aiko-cat-heart-earrings-1"
-      },
-      "evaluation_rule": "Record counts at 72 hours for control and variant. Review direction only after three comparable posts per condition, each reaching at least 100 accounts, and at least 10 primary actions per condition for action metrics. These are planning guardrails, not statistical proof. If reach stays small, keep confidence low and revisit next week without increasing posting volume.",
-      "evidence": {
-        "assessment": "No positive signal for this metric yet; needs a test, not a rejection.",
-        "basis": "Distinct published media, latest snapshot only; daily history is not extra samples.",
-        "confidence_level": "low",
-        "mature_same_format_posts": 1,
-        "observations": [
-          {
-            "collected_at": "2026-11-15T19:49:11+00:00",
-            "comments": 0,
-            "post_id": "ig-aiko-cat-heart-earrings-1",
-            "posted_at": "2026-10-09T18:28:19+00:00",
-            "reach": 5,
-            "views": 10
-          }
-        ],
-        "posts_with_at_least_100_reach": 0,
-        "posts_with_required_counts": 1,
-        "primary_actions_in_sufficient_posts": 0,
-        "product_posts": 1
-      },
-      "format": "CAROUSEL",
-      "hook": "How would you style these earrings?",
-      "hypothesis": "With the other elements fixed, test whether a specific styling question invites useful comments.",
-      "id": "test-2026-11-16-02",
-      "objective": "Learn styling preferences",
-      "placement": "Editorial review backlog. Do not add to or replace the daily Nature Series automatically.",
-      "primary_success_metric": {
-        "definition": "comments / reach, accompanied by both raw counts",
-        "denominator": "reach",
-        "evaluation_age_hours": 72,
-        "missing_data": "Unknown; do not replace missing counts with zero or substitute views for reach.",
-        "name": "comments_per_reached_account",
-        "raw_count": "comments"
-      },
-      "product": "aiko-cat-heart-earrings",
-      "product_name": "Aiko Cat Heart Earrings",
-      "production_brief": "Reuse the reference post's exact approved media and caption after the first line. Change only the opening line; verify assets before approval.",
-      "review_date": "2026-11-17",
-      "schedule_check": {
-        "protected_concept_collision": false,
-        "protected_hook_collision": false,
-        "protected_product_collision": false
-      },
-      "status": "recommendation_only_requires_review",
-      "test_type": "controlled_follow_up"
-    },
-    {
-      "confidence_level": "low",
-      "content_angle": "gift_identity",
-      "control": {
-        "change_only": "opening_caption_line",
-        "comparison_limit": "Historical lifetime counts are context only. A matched-age control is required for evaluation.",
-        "hold_constant": [
-          "product and variant",
-          "exact images and their order",
-          "format",
-          "caption after first line",
-          "CTA and offer",
-          "posting-time window"
-        ],
-        "reference_hook": "Bees build honeycomb in hexagons because the shape holds the most honey with the least wax.",
-        "reference_permalink": "https://www.instagram.com/p/DfNI4hFF4mu/",
-        "reference_post_id": "ig-nature-06-bee-honeycomb-mismatched-earrings"
-      },
-      "evaluation_rule": "Record counts at 72 hours for control and variant. Review direction only after three comparable posts per condition, each reaching at least 100 accounts, and at least 10 primary actions per condition for action metrics. These are planning guardrails, not statistical proof. If reach stays small, keep confidence low and revisit next week without increasing posting volume.",
-      "evidence": {
-        "assessment": "No positive signal for this metric yet; needs a test, not a rejection.",
-        "basis": "Distinct published media, latest snapshot only; daily history is not extra samples.",
-        "confidence_level": "low",
-        "mature_same_format_posts": 2,
-        "observations": [
-          {
-            "collected_at": "2026-11-15T19:49:11+00:00",
-            "post_id": "ig-bee-honeycomb-mismatched-earrings-1",
-            "posted_at": "2026-10-07T20:44:31+00:00",
-            "reach": 7,
-            "shares": 0,
-            "views": 23
-          },
-          {
-            "collected_at": "2026-11-15T19:49:11+00:00",
-            "post_id": "ig-nature-06-bee-honeycomb-mismatched-earrings",
-            "posted_at": "2026-11-01T16:15:48+00:00",
-            "reach": 7,
-            "shares": 0,
-            "views": 23
-          }
-        ],
-        "posts_with_at_least_100_reach": 0,
-        "posts_with_required_counts": 2,
-        "primary_actions_in_sufficient_posts": 0,
-        "product_posts": 2
-      },
-      "format": "CAROUSEL",
-      "hook": "Know someone who would love these earrings?",
-      "hypothesis": "With the other elements fixed, test whether a gift-recipient opening gives viewers a reason to share the design.",
-      "id": "test-2026-11-16-03",
-      "objective": "Relevant sharing",
-      "placement": "Editorial review backlog. Do not add to or replace the daily Nature Series automatically.",
-      "primary_success_metric": {
-        "definition": "shares / reach, accompanied by both raw counts",
-        "denominator": "reach",
-        "evaluation_age_hours": 72,
-        "missing_data": "Unknown; do not replace missing counts with zero or substitute views for reach.",
-        "name": "shares_per_reached_account",
-        "raw_count": "shares"
-      },
-      "product": "bee-honeycomb-mismatched-earrings",
-      "product_name": "Bee Honeycomb Mismatched Earrings",
-      "production_brief": "Reuse the reference post's exact approved media and caption after the first line. Change only the opening line; verify assets before approval.",
-      "review_date": "2026-11-18",
-      "schedule_check": {
-        "protected_concept_collision": false,
-        "protected_hook_collision": false,
-        "protected_product_collision": false
-      },
-      "status": "recommendation_only_requires_review",
-      "test_type": "controlled_follow_up"
-    },
-    {
-      "confidence_level": "low",
-      "content_angle": "saveable_styling",
-      "control": {
-        "change_only": "opening_caption_line",
-        "comparison_limit": "Historical lifetime counts are context only. A matched-age control is required for evaluation.",
-        "hold_constant": [
-          "product and variant",
-          "exact images and their order",
-          "format",
-          "caption after first line",
-          "CTA and offer",
-          "posting-time window"
-        ],
-        "reference_hook": "The harvest mouse weighs about as much as a sugar cube, light enough to climb a single stalk of wheat.",
-        "reference_permalink": "https://www.instagram.com/p/DfaYGLBDI22/",
-        "reference_post_id": "ig-nature-10-silver-mouse-ring"
-      },
-      "evaluation_rule": "Record counts at 72 hours for control and variant. Review direction only after three comparable posts per condition, each reaching at least 100 accounts, and at least 10 primary actions per condition for action metrics. These are planning guardrails, not statistical proof. If reach stays small, keep confidence low and revisit next week without increasing posting volume.",
-      "evidence": {
-        "assessment": "No positive signal for this metric yet; needs a test, not a rejection.",
-        "basis": "Distinct published media, latest snapshot only; daily history is not extra samples.",
-        "confidence_level": "low",
-        "mature_same_format_posts": 1,
-        "observations": [
-          {
-            "collected_at": "2026-11-15T19:49:11+00:00",
-            "post_id": "ig-nature-10-silver-mouse-ring",
-            "posted_at": "2026-11-06T19:38:54+00:00",
-            "reach": 7,
-            "saved": 0,
-            "views": 11
-          }
-        ],
-        "posts_with_at_least_100_reach": 0,
-        "posts_with_required_counts": 1,
-        "primary_actions_in_sufficient_posts": 0,
-        "product_posts": 1
-      },
-      "format": "IMAGE",
-      "hook": "Try this ring with a simple white tee.",
-      "hypothesis": "With the other elements fixed, test whether a practical styling opening gives viewers a reason to save the post.",
-      "id": "test-2026-11-16-04",
-      "objective": "Useful styling content",
-      "placement": "Editorial review backlog. Do not add to or replace the daily Nature Series automatically.",
-      "primary_success_metric": {
-        "definition": "saved / reach, accompanied by both raw counts",
-        "denominator": "reach",
-        "evaluation_age_hours": 72,
-        "missing_data": "Unknown; do not replace missing counts with zero or substitute views for reach.",
-        "name": "saved_per_reached_account",
-        "raw_count": "saved"
-      },
-      "product": "silver-mouse-ring",
-      "product_name": "Silver Mouse Ring",
-      "production_brief": "Reuse the reference post's exact approved media and caption after the first line. Change only the opening line; verify assets before approval.",
-      "review_date": "2026-11-19",
-      "schedule_check": {
-        "protected_concept_collision": false,
-        "protected_hook_collision": false,
-        "protected_product_collision": false
-      },
-      "status": "recommendation_only_requires_review",
-      "test_type": "controlled_follow_up"
-    },
-    {
-      "confidence_level": "low",
-      "content_angle": "design_story",
       "control": {
         "change_only": "opening_caption_line",
         "comparison_limit": "Historical lifetime counts are context only. A matched-age control is required for evaluation.",
@@ -790,12 +533,12 @@
         "mature_same_format_posts": 1,
         "observations": [
           {
-            "collected_at": "2026-11-15T19:49:11+00:00",
+            "collected_at": "2026-11-22T20:45:04+00:00",
             "post_id": "ig-nature-09-lucky-ladybug-gold-huggie-earrings",
             "posted_at": "2026-11-05T01:43:21+00:00",
             "profile_visits": 0,
-            "reach": 5,
-            "views": 7
+            "reach": 7,
+            "views": 12
           }
         ],
         "posts_with_at_least_100_reach": 0,
@@ -804,9 +547,9 @@
         "product_posts": 1
       },
       "format": "IMAGE",
-      "hook": "The shape that makes these earrings stand out.",
-      "hypothesis": "With the other elements fixed, test whether an opening about the visible design encourages profile visits.",
-      "id": "test-2026-11-16-05",
+      "hook": "Notice the small details in these earrings.",
+      "hypothesis": "With the other elements fixed, test whether a detail-led opening gives viewers a reason to visit the profile.",
+      "id": "test-2026-11-23-01",
       "objective": "Product consideration",
       "placement": "Editorial review backlog. Do not add to or replace the daily Nature Series automatically.",
       "primary_success_metric": {
@@ -820,7 +563,267 @@
       "product": "lucky-ladybug-gold-huggie-earrings",
       "product_name": "Lucky Ladybug Gold Huggie Earrings",
       "production_brief": "Reuse the reference post's exact approved media and caption after the first line. Change only the opening line; verify assets before approval.",
-      "review_date": "2026-11-20",
+      "review_date": "2026-11-23",
+      "schedule_check": {
+        "protected_concept_collision": false,
+        "protected_hook_collision": false,
+        "protected_product_collision": false
+      },
+      "status": "recommendation_only_requires_review",
+      "test_type": "controlled_follow_up"
+    },
+    {
+      "confidence_level": "low",
+      "content_angle": "personal_style",
+      "control": {
+        "change_only": "opening_caption_line",
+        "comparison_limit": "Historical lifetime counts are context only. A matched-age control is required for evaluation.",
+        "hold_constant": [
+          "product and variant",
+          "exact images and their order",
+          "format",
+          "caption after first line",
+          "CTA and offer",
+          "posting-time window"
+        ],
+        "reference_hook": "Young sunflowers turn to follow the sun across the sky. Once they bloom, most of them settle facing east.",
+        "reference_permalink": "https://www.instagram.com/p/DfTSkYtD3Pk/",
+        "reference_post_id": "ig-nature-08-sunflower-pendant-necklace"
+      },
+      "evaluation_rule": "Record counts at 72 hours for control and variant. Review direction only after three comparable posts per condition, each reaching at least 100 accounts, and at least 10 primary actions per condition for action metrics. These are planning guardrails, not statistical proof. If reach stays small, keep confidence low and revisit next week without increasing posting volume.",
+      "evidence": {
+        "assessment": "No positive signal for this metric yet; needs a test, not a rejection.",
+        "basis": "Distinct published media, latest snapshot only; daily history is not extra samples.",
+        "confidence_level": "low",
+        "mature_same_format_posts": 1,
+        "observations": [
+          {
+            "collected_at": "2026-11-22T20:45:04+00:00",
+            "comments": 0,
+            "post_id": "ig-nature-08-sunflower-pendant-necklace",
+            "posted_at": "2026-11-04T01:35:56+00:00",
+            "reach": 9,
+            "views": 15
+          }
+        ],
+        "posts_with_at_least_100_reach": 0,
+        "posts_with_required_counts": 1,
+        "primary_actions_in_sufficient_posts": 0,
+        "product_posts": 1
+      },
+      "format": "IMAGE",
+      "hook": "How would you style this necklace?",
+      "hypothesis": "With the other elements fixed, test whether a specific styling question invites useful comments.",
+      "id": "test-2026-11-23-02",
+      "objective": "Learn styling preferences",
+      "placement": "Editorial review backlog. Do not add to or replace the daily Nature Series automatically.",
+      "primary_success_metric": {
+        "definition": "comments / reach, accompanied by both raw counts",
+        "denominator": "reach",
+        "evaluation_age_hours": 72,
+        "missing_data": "Unknown; do not replace missing counts with zero or substitute views for reach.",
+        "name": "comments_per_reached_account",
+        "raw_count": "comments"
+      },
+      "product": "sunflower-pendant-necklace",
+      "product_name": "Sunflower Pendant Necklace",
+      "production_brief": "Reuse the reference post's exact approved media and caption after the first line. Change only the opening line; verify assets before approval.",
+      "review_date": "2026-11-24",
+      "schedule_check": {
+        "protected_concept_collision": false,
+        "protected_hook_collision": false,
+        "protected_product_collision": false
+      },
+      "status": "recommendation_only_requires_review",
+      "test_type": "controlled_follow_up"
+    },
+    {
+      "confidence_level": "low",
+      "content_angle": "gift_identity",
+      "control": {
+        "change_only": "opening_caption_line",
+        "comparison_limit": "Historical lifetime counts are context only. A matched-age control is required for evaluation.",
+        "hold_constant": [
+          "product and variant",
+          "exact images and their order",
+          "format",
+          "caption after first line",
+          "CTA and offer",
+          "posting-time window"
+        ],
+        "reference_hook": "The moon drifts about 3.8 centimeters farther from Earth every year.",
+        "reference_permalink": "https://www.instagram.com/p/DfibE3omG3w/",
+        "reference_post_id": "ig-nature-13-celestial-sun-and-moon-ring"
+      },
+      "evaluation_rule": "Record counts at 72 hours for control and variant. Review direction only after three comparable posts per condition, each reaching at least 100 accounts, and at least 10 primary actions per condition for action metrics. These are planning guardrails, not statistical proof. If reach stays small, keep confidence low and revisit next week without increasing posting volume.",
+      "evidence": {
+        "assessment": "No positive signal for this metric yet; needs a test, not a rejection.",
+        "basis": "Distinct published media, latest snapshot only; daily history is not extra samples.",
+        "confidence_level": "low",
+        "mature_same_format_posts": 1,
+        "observations": [
+          {
+            "collected_at": "2026-11-22T20:45:04+00:00",
+            "post_id": "ig-nature-13-celestial-sun-and-moon-ring",
+            "posted_at": "2026-11-09T22:38:52+00:00",
+            "reach": 8,
+            "shares": 0,
+            "views": 18
+          }
+        ],
+        "posts_with_at_least_100_reach": 0,
+        "posts_with_required_counts": 1,
+        "primary_actions_in_sufficient_posts": 0,
+        "product_posts": 1
+      },
+      "format": "CAROUSEL",
+      "hook": "Know someone who would love this ring?",
+      "hypothesis": "With the other elements fixed, test whether a gift-recipient opening gives viewers a reason to share the design.",
+      "id": "test-2026-11-23-03",
+      "objective": "Relevant sharing",
+      "placement": "Editorial review backlog. Do not add to or replace the daily Nature Series automatically.",
+      "primary_success_metric": {
+        "definition": "shares / reach, accompanied by both raw counts",
+        "denominator": "reach",
+        "evaluation_age_hours": 72,
+        "missing_data": "Unknown; do not replace missing counts with zero or substitute views for reach.",
+        "name": "shares_per_reached_account",
+        "raw_count": "shares"
+      },
+      "product": "celestial-sun-and-moon-ring",
+      "product_name": "Celestial Sun And Moon Ring",
+      "production_brief": "Reuse the reference post's exact approved media and caption after the first line. Change only the opening line; verify assets before approval.",
+      "review_date": "2026-11-25",
+      "schedule_check": {
+        "protected_concept_collision": false,
+        "protected_hook_collision": false,
+        "protected_product_collision": false
+      },
+      "status": "recommendation_only_requires_review",
+      "test_type": "controlled_follow_up"
+    },
+    {
+      "confidence_level": "low",
+      "content_angle": "saveable_styling",
+      "control": {
+        "change_only": "opening_caption_line",
+        "comparison_limit": "Historical lifetime counts are context only. A matched-age control is required for evaluation.",
+        "hold_constant": [
+          "product and variant",
+          "exact images and their order",
+          "format",
+          "caption after first line",
+          "CTA and offer",
+          "posting-time window"
+        ],
+        "reference_hook": "Dolphins rest one half of their brain at a time, so they can keep surfacing to breathe while they sleep.",
+        "reference_permalink": "https://www.instagram.com/p/DfQFPhcAcaT/",
+        "reference_post_id": "ig-nature-07-dolphin-dreams-ring"
+      },
+      "evaluation_rule": "Record counts at 72 hours for control and variant. Review direction only after three comparable posts per condition, each reaching at least 100 accounts, and at least 10 primary actions per condition for action metrics. These are planning guardrails, not statistical proof. If reach stays small, keep confidence low and revisit next week without increasing posting volume.",
+      "evidence": {
+        "assessment": "No positive signal for this metric yet; needs a test, not a rejection.",
+        "basis": "Distinct published media, latest snapshot only; daily history is not extra samples.",
+        "confidence_level": "low",
+        "mature_same_format_posts": 1,
+        "observations": [
+          {
+            "collected_at": "2026-11-22T20:45:04+00:00",
+            "post_id": "ig-nature-07-dolphin-dreams-ring",
+            "posted_at": "2026-11-02T19:41:44+00:00",
+            "reach": 12,
+            "saved": 0,
+            "views": 15
+          }
+        ],
+        "posts_with_at_least_100_reach": 0,
+        "posts_with_required_counts": 1,
+        "primary_actions_in_sufficient_posts": 0,
+        "product_posts": 3
+      },
+      "format": "IMAGE",
+      "hook": "Try this ring with a simple white tee.",
+      "hypothesis": "With the other elements fixed, test whether a practical styling opening gives viewers a reason to save the post.",
+      "id": "test-2026-11-23-04",
+      "objective": "Useful styling content",
+      "placement": "Editorial review backlog. Do not add to or replace the daily Nature Series automatically.",
+      "primary_success_metric": {
+        "definition": "saved / reach, accompanied by both raw counts",
+        "denominator": "reach",
+        "evaluation_age_hours": 72,
+        "missing_data": "Unknown; do not replace missing counts with zero or substitute views for reach.",
+        "name": "saved_per_reached_account",
+        "raw_count": "saved"
+      },
+      "product": "dolphin-dreams-ring",
+      "product_name": "Dolphin Dreams Ring",
+      "production_brief": "Reuse the reference post's exact approved media and caption after the first line. Change only the opening line; verify assets before approval.",
+      "review_date": "2026-11-26",
+      "schedule_check": {
+        "protected_concept_collision": false,
+        "protected_hook_collision": false,
+        "protected_product_collision": false
+      },
+      "status": "recommendation_only_requires_review",
+      "test_type": "controlled_follow_up"
+    },
+    {
+      "confidence_level": "low",
+      "content_angle": "design_story",
+      "control": {
+        "change_only": "opening_caption_line",
+        "comparison_limit": "Historical lifetime counts are context only. A matched-age control is required for evaluation.",
+        "hold_constant": [
+          "product and variant",
+          "exact images and their order",
+          "format",
+          "caption after first line",
+          "CTA and offer",
+          "posting-time window"
+        ],
+        "reference_hook": "The word daisy comes from the Old English for \"day's eye.\" The flower closes at night and opens again with the morning light.",
+        "reference_permalink": "https://www.instagram.com/p/De-mE4BnTDP/",
+        "reference_post_id": "ig-nature-01-daisy-ring"
+      },
+      "evaluation_rule": "Record counts at 72 hours for control and variant. Review direction only after three comparable posts per condition, each reaching at least 100 accounts, and at least 10 primary actions per condition for action metrics. These are planning guardrails, not statistical proof. If reach stays small, keep confidence low and revisit next week without increasing posting volume.",
+      "evidence": {
+        "assessment": "No positive signal for this metric yet; needs a test, not a rejection.",
+        "basis": "Distinct published media, latest snapshot only; daily history is not extra samples.",
+        "confidence_level": "low",
+        "mature_same_format_posts": 1,
+        "observations": [
+          {
+            "collected_at": "2026-11-22T20:45:04+00:00",
+            "post_id": "ig-nature-01-daisy-ring",
+            "posted_at": "2026-10-27T00:42:06+00:00",
+            "profile_visits": 0,
+            "reach": 8,
+            "views": 14
+          }
+        ],
+        "posts_with_at_least_100_reach": 0,
+        "posts_with_required_counts": 1,
+        "primary_actions_in_sufficient_posts": 0,
+        "product_posts": 1
+      },
+      "format": "IMAGE",
+      "hook": "The shape that makes this ring stand out.",
+      "hypothesis": "With the other elements fixed, test whether an opening about the visible design encourages profile visits.",
+      "id": "test-2026-11-23-05",
+      "objective": "Product consideration",
+      "placement": "Editorial review backlog. Do not add to or replace the daily Nature Series automatically.",
+      "primary_success_metric": {
+        "definition": "profile_visits / reach, accompanied by both raw counts",
+        "denominator": "reach",
+        "evaluation_age_hours": 72,
+        "missing_data": "Unknown; do not replace missing counts with zero or substitute views for reach.",
+        "name": "profile_visits_per_reached_account",
+        "raw_count": "profile_visits"
+      },
+      "product": "daisy-ring",
+      "product_name": "Daisy Ring",
+      "production_brief": "Reuse the reference post's exact approved media and caption after the first line. Change only the opening line; verify assets before approval.",
+      "review_date": "2026-11-27",
       "schedule_check": {
         "protected_concept_collision": false,
         "protected_hook_collision": false,
@@ -843,24 +846,24 @@
           "CTA and offer",
           "posting-time window"
         ],
-        "reference_hook": "The iris is named after the Greek goddess of the rainbow, because the flower comes in almost every color.",
-        "reference_permalink": "https://www.instagram.com/p/DfEWG_Nm_dv/",
-        "reference_post_id": "ig-nature-03-purple-iris-hoop-earrings"
+        "reference_hook": "Researchers think red foxes use Earth's magnetic field to line up their pounce when they hunt under snow.",
+        "reference_permalink": "https://www.instagram.com/p/DfKNeAEFzA3/",
+        "reference_post_id": "ig-nature-05-fox-bunny-kitty-earrings"
       },
       "evaluation_rule": "Record counts at 72 hours for control and variant. Review direction only after three comparable posts per condition, each reaching at least 100 accounts, and at least 10 primary actions per condition for action metrics. These are planning guardrails, not statistical proof. If reach stays small, keep confidence low and revisit next week without increasing posting volume.",
       "evidence": {
-        "assessment": "No positive signal for this metric yet; needs a test, not a rejection.",
+        "assessment": "Promising signal, needs another test.",
         "basis": "Distinct published media, latest snapshot only; daily history is not extra samples.",
         "confidence_level": "low",
         "mature_same_format_posts": 1,
         "observations": [
           {
-            "collected_at": "2026-11-15T19:49:11+00:00",
-            "comments": 0,
-            "post_id": "ig-nature-03-purple-iris-hoop-earrings",
-            "posted_at": "2026-10-29T06:18:15+00:00",
-            "reach": 5,
-            "views": 6
+            "collected_at": "2026-11-22T20:45:04+00:00",
+            "comments": 1,
+            "post_id": "ig-nature-05-fox-bunny-kitty-earrings",
+            "posted_at": "2026-10-31T12:58:15+00:00",
+            "reach": 11,
+            "views": 21
           }
         ],
         "posts_with_at_least_100_reach": 0,
@@ -871,7 +874,7 @@
       "format": "IMAGE",
       "hook": "What catches your eye first in these earrings?",
       "hypothesis": "With the other elements fixed, test whether an observation question starts relevant discussion about the piece.",
-      "id": "test-2026-11-16-06",
+      "id": "test-2026-11-23-06",
       "objective": "Learn design preferences",
       "placement": "Editorial review backlog. Do not add to or replace the daily Nature Series automatically.",
       "primary_success_metric": {
@@ -882,10 +885,10 @@
         "name": "comments_per_reached_account",
         "raw_count": "comments"
       },
-      "product": "purple-iris-hoop-earrings",
-      "product_name": "Purple Iris Hoop Earrings",
+      "product": "fox-bunny-kitty-earrings",
+      "product_name": "Fox Bunny Kitty Earrings",
       "production_brief": "Reuse the reference post's exact approved media and caption after the first line. Change only the opening line; verify assets before approval.",
-      "review_date": "2026-11-21",
+      "review_date": "2026-11-28",
       "schedule_check": {
         "protected_concept_collision": false,
         "protected_hook_collision": false,
@@ -920,12 +923,12 @@
         "mature_same_format_posts": 1,
         "observations": [
           {
-            "collected_at": "2026-11-15T19:49:11+00:00",
+            "collected_at": "2026-11-22T20:45:04+00:00",
             "post_id": "ig-cat-lover-set-1",
             "posted_at": "2026-10-16T21:35:37+00:00",
             "profile_visits": 0,
             "reach": 7,
-            "views": 22
+            "views": 23
           }
         ],
         "posts_with_at_least_100_reach": 0,
@@ -936,7 +939,7 @@
       "format": "CAROUSEL",
       "hook": "Picture this set with your everyday outfit.",
       "hypothesis": "With the other elements fixed, test whether an everyday styling opening helps viewers imagine wearing the piece.",
-      "id": "test-2026-11-16-07",
+      "id": "test-2026-11-23-07",
       "objective": "Product consideration",
       "placement": "Editorial review backlog. Do not add to or replace the daily Nature Series automatically.",
       "primary_success_metric": {
@@ -950,7 +953,7 @@
       "product": "cat-lover-set",
       "product_name": "Cat Lover Set",
       "production_brief": "Reuse the reference post's exact approved media and caption after the first line. Change only the opening line; verify assets before approval.",
-      "review_date": "2026-11-22",
+      "review_date": "2026-11-29",
       "schedule_check": {
         "protected_concept_collision": false,
         "protected_hook_collision": false,
@@ -974,7 +977,7 @@
     "recommendation_only": true
   },
   "schema_version": 1,
-  "start_date": "2026-11-16",
+  "start_date": "2026-11-23",
   "timezone": "America/New_York",
   "warnings": []
 }
