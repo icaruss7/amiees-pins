@@ -2,7 +2,7 @@
   "items": {
     "reel-20261029-blue-butterfly-hoop-earrings--instagram": {
       "analytics_linkage": {
-        "collected_at": "2026-11-22T20:45:04+00:00",
+        "collected_at": "2026-11-24T01:42:09+00:00",
         "experiment_id": "reel-20261029-blue-butterfly-hoop-earrings",
         "file": "ig_analytics.json",
         "latest": {
@@ -401,26 +401,26 @@
     },
     "reel-20261029-dolphin-dreams-ring--instagram": {
       "analytics_linkage": {
-        "collected_at": "2026-11-22T20:45:04+00:00",
+        "collected_at": "2026-11-24T01:42:09+00:00",
         "experiment_id": "reel-20261029-dolphin-dreams-ring",
         "file": "ig_analytics.json",
         "latest": {
           "comment_rate": 0.0,
           "comments": 0,
-          "ig_reels_avg_watch_time": 2590,
-          "ig_reels_video_view_total_time": 204654,
+          "ig_reels_avg_watch_time": 2664,
+          "ig_reels_video_view_total_time": 213192,
           "interaction_rate": 0.037037,
           "like_rate": 0.024691,
           "likes": 2,
           "reach": 81,
-          "reels_skip_rate": 75.9,
+          "reels_skip_rate": 76.3,
           "reposts": 0,
           "save_rate": 0.012346,
           "saved": 1,
           "share_rate": 0.0,
           "shares": 0,
           "total_interactions": 3,
-          "views": 91
+          "views": 94
         },
         "media_id": "18120873157987350",
         "post_id": "ig-exp-reel-20261029-dolphin-dreams-ring"
