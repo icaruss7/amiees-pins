@@ -209,18 +209,18 @@
    "username": "amiees.com_"
   },
   {
-   "collected_at": "2026-11-24T01:42:09+00:00",
+   "collected_at": "2026-11-24T23:29:41+00:00",
    "followers_count": 32,
    "follows_count": 4,
    "id": "17841454700426833",
-   "media_count": 108,
+   "media_count": 109,
    "username": "amiees.com_"
   }
  ],
  "last_run": {
-  "collected_at": "2026-11-24T01:42:09+00:00",
+  "collected_at": "2026-11-24T23:29:41+00:00",
   "insights_permission_notes": [],
-  "posts_collected": 38,
+  "posts_collected": 39,
   "posts_skipped": 0
  },
  "posts": {
@@ -826,7 +826,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -1485,7 +1485,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.142857,
       "comments": 1,
@@ -2144,7 +2144,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -2803,7 +2803,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.142857,
       "comments": 1,
@@ -3462,7 +3462,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -4121,7 +4121,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.166667,
       "comments": 1,
@@ -4780,7 +4780,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -5439,7 +5439,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -5860,7 +5860,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.052632,
       "comments": 1,
@@ -6307,7 +6307,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -6971,7 +6971,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.125,
       "comments": 1,
@@ -7630,7 +7630,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -8266,7 +8266,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -8879,7 +8879,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -9469,7 +9469,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.090909,
       "comments": 1,
@@ -10036,7 +10036,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.125,
       "comments": 1,
@@ -10580,7 +10580,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.083333,
       "comments": 1,
@@ -11078,7 +11078,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -11553,7 +11553,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.142857,
       "comments": 1,
@@ -12005,7 +12005,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -12434,7 +12434,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.111111,
       "comments": 1,
@@ -12817,7 +12817,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -13200,7 +13200,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -13537,7 +13537,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -13851,7 +13851,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.125,
       "comments": 1,
@@ -14142,7 +14142,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -14403,7 +14403,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.1,
       "comments": 1,
@@ -14648,7 +14648,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.083333,
       "comments": 1,
@@ -14870,7 +14870,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.111111,
       "comments": 1,
@@ -15046,7 +15046,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -15199,7 +15199,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.111111,
       "comments": 1,
@@ -15329,7 +15329,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -15436,48 +15436,48 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
-      "comment_rate": 0.0,
-      "comments": 0,
+      "comment_rate": 0.111111,
+      "comments": 1,
       "follow_rate": 0.0,
       "follows": 0,
-      "interaction_rate": 0.375,
-      "like_rate": 0.375,
-      "likes": 3,
+      "interaction_rate": 0.555556,
+      "like_rate": 0.444444,
+      "likes": 4,
       "profile_activity": 0,
       "profile_visit_rate": 0.0,
       "profile_visits": 0,
-      "reach": 8,
+      "reach": 9,
       "reposts": 0,
       "save_rate": 0.0,
       "saved": 0,
       "share_rate": 0.0,
       "shares": 0,
-      "total_interactions": 3,
-      "views": 20
+      "total_interactions": 5,
+      "views": 22
      }
     }
    ],
    "latest": {
-    "comment_rate": 0.0,
-    "comments": 0,
+    "comment_rate": 0.111111,
+    "comments": 1,
     "follow_rate": 0.0,
     "follows": 0,
-    "interaction_rate": 0.375,
-    "like_rate": 0.375,
-    "likes": 3,
+    "interaction_rate": 0.555556,
+    "like_rate": 0.444444,
+    "likes": 4,
     "profile_activity": 0,
     "profile_visit_rate": 0.0,
     "profile_visits": 0,
-    "reach": 8,
+    "reach": 9,
     "reposts": 0,
     "save_rate": 0.0,
     "saved": 0,
     "share_rate": 0.0,
     "shares": 0,
-    "total_interactions": 3,
-    "views": 20
+    "total_interactions": 5,
+    "views": 22
    },
    "media_id": "17979904424995887",
    "media_product_type": "FEED",
@@ -15497,48 +15497,48 @@
    "caption": "Every rainbow is a full circle. From the ground, the horizon hides the bottom half.\n\nThe Rainbow Crystal Stacking Ring Set: two thin bands, worn together or apart.\n\nKeep nature close. Shop the Rainbow Crystal Stacking Ring Set through the link in bio.\n\n#amiees #naturejewelry #rainbow #stackingrings #afterthestorm",
    "history": [
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
-      "comment_rate": 0.0,
-      "comments": 0,
+      "comment_rate": 0.2,
+      "comments": 1,
       "follow_rate": 0.0,
       "follows": 0,
-      "interaction_rate": 0.0,
-      "like_rate": 0.0,
-      "likes": 0,
+      "interaction_rate": 0.4,
+      "like_rate": 0.2,
+      "likes": 1,
       "profile_activity": 0,
       "profile_visit_rate": 0.0,
       "profile_visits": 0,
-      "reach": 4,
+      "reach": 5,
       "reposts": 0,
       "save_rate": 0.0,
       "saved": 0,
       "share_rate": 0.0,
       "shares": 0,
-      "total_interactions": 0,
-      "views": 4
+      "total_interactions": 2,
+      "views": 7
      }
     }
    ],
    "latest": {
-    "comment_rate": 0.0,
-    "comments": 0,
+    "comment_rate": 0.2,
+    "comments": 1,
     "follow_rate": 0.0,
     "follows": 0,
-    "interaction_rate": 0.0,
-    "like_rate": 0.0,
-    "likes": 0,
+    "interaction_rate": 0.4,
+    "like_rate": 0.2,
+    "likes": 1,
     "profile_activity": 0,
     "profile_visit_rate": 0.0,
     "profile_visits": 0,
-    "reach": 4,
+    "reach": 5,
     "reposts": 0,
     "save_rate": 0.0,
     "saved": 0,
     "share_rate": 0.0,
     "shares": 0,
-    "total_interactions": 0,
-    "views": 4
+    "total_interactions": 2,
+    "views": 7
    },
    "media_id": "18119798135277612",
    "media_product_type": "FEED",
@@ -15552,6 +15552,67 @@
     "ig_reels_avg_watch_time": "GET 18119798135277612/insights failed (400): (#100) The Media Insights API does not support the ig_reels_avg_watch_time metric for this media product type.",
     "ig_reels_video_view_total_time": "GET 18119798135277612/insights failed (400): (#100) The Media Insights API does not support the ig_reels_video_view_total_time metric for this media product type.",
     "reels_skip_rate": "GET 18119798135277612/insights failed (400): (#100) The Media Insights API does not support the reels_skip_rate metric for this media product type."
+   }
+  },
+  "ig-nature-26-radiant-bloom-flower-necklace": {
+   "caption": "Many flowers carry ultraviolet patterns we can't see, which guide bees straight to the nectar.\n\nThe Radiant Bloom Flower Necklace: a small crystal flower on a fine chain.\n\nKeep nature close. Shop the Radiant Bloom Flower Necklace through the link in bio.\n\n#amiees #naturejewelry #whiteflowers #flowernecklace #minimaljewelry",
+   "history": [
+    {
+     "collected_at": "2026-11-24T23:29:41+00:00",
+     "metrics": {
+      "comment_rate": 0.2,
+      "comments": 1,
+      "follow_rate": 0.0,
+      "follows": 0,
+      "interaction_rate": 0.6,
+      "like_rate": 0.4,
+      "likes": 2,
+      "profile_activity": 0,
+      "profile_visit_rate": 0.0,
+      "profile_visits": 0,
+      "reach": 5,
+      "reposts": 0,
+      "save_rate": 0.0,
+      "saved": 0,
+      "share_rate": 0.0,
+      "shares": 0,
+      "total_interactions": 3,
+      "views": 11
+     }
+    }
+   ],
+   "latest": {
+    "comment_rate": 0.2,
+    "comments": 1,
+    "follow_rate": 0.0,
+    "follows": 0,
+    "interaction_rate": 0.6,
+    "like_rate": 0.4,
+    "likes": 2,
+    "profile_activity": 0,
+    "profile_visit_rate": 0.0,
+    "profile_visits": 0,
+    "reach": 5,
+    "reposts": 0,
+    "save_rate": 0.0,
+    "saved": 0,
+    "share_rate": 0.0,
+    "shares": 0,
+    "total_interactions": 3,
+    "views": 11
+   },
+   "media_id": "18102263801099838",
+   "media_product_type": "FEED",
+   "media_type": "IMAGE",
+   "permalink": "https://www.instagram.com/p/DgG4tPCkggf/",
+   "post_id": "ig-nature-26-radiant-bloom-flower-necklace",
+   "posted_at": "2026-11-24T02:30:27+00:00",
+   "product": "radiant-bloom-flower-necklace",
+   "series": "nature",
+   "unsupported_metrics": {
+    "ig_reels_avg_watch_time": "GET 18102263801099838/insights failed (400): (#100) The Media Insights API does not support the ig_reels_avg_watch_time metric for this media product type.",
+    "ig_reels_video_view_total_time": "GET 18102263801099838/insights failed (400): (#100) The Media Insights API does not support the ig_reels_video_view_total_time metric for this media product type.",
+    "reels_skip_rate": "GET 18102263801099838/insights failed (400): (#100) The Media Insights API does not support the reels_skip_rate metric for this media product type."
    }
   },
   "ig-radiant-bloom-flower-necklace-1": {
@@ -16156,7 +16217,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -16815,7 +16876,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -17474,7 +17535,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -18133,7 +18194,7 @@
      }
     },
     {
-     "collected_at": "2026-11-24T01:42:09+00:00",
+     "collected_at": "2026-11-24T23:29:41+00:00",
      "metrics": {
       "comment_rate": 0.0,
       "comments": 0,
@@ -18192,5 +18253,5 @@
   }
  },
  "schema_version": 1,
- "updated_at": "2026-11-24T01:42:09+00:00"
+ "updated_at": "2026-11-24T23:29:41+00:00"
 }
