@@ -83,7 +83,8 @@
     "attempts": 1,
     "container_id": "17930407080431492",
     "fingerprint": "fd955f246627beab0f4c18a0d845926f40f55299f0ce931fc54fa7460baec362",
-    "phase": "ready"
+    "phase": "publishing",
+    "publish_started_at": "2026-11-24T02:10:38.568845+00:00"
   },
   "threads-sun-moon-layered-20261121": {
     "attempts": 1,
