@@ -43,7 +43,8 @@
     "attempts": 1,
     "container_id": "17930526516431492",
     "fingerprint": "6fe4e2f174de7f7eaa70005d3d162e74ef2bdd753e1e8fcf49d5c0296ae0ed64",
-    "phase": "ready"
+    "phase": "publishing",
+    "publish_started_at": "2026-11-24T23:52:55.059893+00:00"
   },
   "threads-question-everyday-jewelry-20261120": {
     "attempts": 1,
