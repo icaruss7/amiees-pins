@@ -75,6 +75,13 @@
     "publish_started_at": "2026-11-14T18:30:06.347681+00:00",
     "transport": "buffer"
   },
+  "x-styling-neckline-20261123": {
+    "attempts": 1,
+    "fingerprint": "5c18deb8da5e574c70fb0720e42af288eecf6b5ff961de494eeaa4e8543b51be",
+    "phase": "publishing",
+    "publish_started_at": "2026-11-24T02:36:14.494695+00:00",
+    "transport": "buffer"
+  },
   "x-sun-moon-layered-20261121": {
     "attempts": 1,
     "buffer_post_id": "6b02474bcc364169c11bf894",
