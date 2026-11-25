@@ -362,8 +362,12 @@
     "publish_started_at": "2026-11-24T02:30:22.365034+00:00"
   },
   "ig-nature-27-gold-dangling-cat-necklace": {
-    "attempts": 1,
-    "last_error": "MetaAPIError: publication did not complete; inspect the run"
+    "account_id": "17841454700426833",
+    "attempts": 2,
+    "container_id": "18054714410823348",
+    "fingerprint": "d9bfa66a084d5ce42a7b7536f490d988450299cf9bdcc533a0c78c679c57ba0d",
+    "last_error": "MetaAPIError: publication did not complete; inspect the run",
+    "phase": "ready"
   },
   "ig-radiant-bloom-flower-necklace-1": {
     "attempts": 1,
