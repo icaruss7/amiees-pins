@@ -5,7 +5,7 @@
     <link>https://amiees.com</link>
     <description>Nature inspired jewelry from Amiees.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Nov 2026 08:16:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 21:35:03 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Jewelry Gift Set | Botanical Jewelry</title>
@@ -636,6 +636,15 @@
       <pubDate>Tue, 24 Nov 2026 23:00:00 +0000</pubDate>
       <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/silver-flower-ear-jacket-earrings-silver-linen.jpg" length="0" type="image/jpeg"/>
       <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/silver-flower-ear-jacket-earrings-silver-linen.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Nature Ring | Leaf Ring</title>
+      <link>https://amiees.com/products/silver-leaf-ring?utm_source=pinterest&amp;utm_medium=organic&amp;utm_campaign=scene_pins&amp;utm_content=amiees-scene-silver-leaf-ring-silver-paper</link>
+      <description>Silver Leaf Ring, silver tone. Sparkling leaves that wrap the finger like a vine. Part of the botanical jewelry collection from Amiees, under $20. Silver leaf ring, vine ring and nature ring for everyday wear or gifting. Free shipping on eligible orders of $35 USD or more after discounts.</description>
+      <guid isPermaLink="false">amiees-scene-silver-leaf-ring-silver-paper</guid>
+      <pubDate>Wed, 25 Nov 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/silver-leaf-ring-silver-paper.jpg" length="0" type="image/jpeg"/>
+      <media:content url="https://cdn.shopify.com/s/files/1/0677/3201/3371/files/silver-leaf-ring-silver-paper.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
