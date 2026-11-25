@@ -37,8 +37,11 @@
   },
   "x-monstera-huggies-20261124": {
     "attempts": 1,
+    "buffer_post_id": "6b0626fc615ec212af71fe7a",
     "fingerprint": "28787485b2860fe1a135a3beff16651528fca78fb1386126bb0faeeecba7f301",
-    "phase": "publishing",
+    "permalink": "https://twitter.com/AmieesShop/status/2125381069897613752",
+    "phase": "published",
+    "posted_at": "2026-11-25T00:08:30+00:00",
     "publish_started_at": "2026-11-25T00:08:26.222261+00:00",
     "transport": "buffer"
   },
