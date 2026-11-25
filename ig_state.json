@@ -361,6 +361,10 @@
     "posted_at": "2026-11-24T02:30:27+00:00",
     "publish_started_at": "2026-11-24T02:30:22.365034+00:00"
   },
+  "ig-nature-27-gold-dangling-cat-necklace": {
+    "attempts": 1,
+    "last_error": "MetaAPIError: publication did not complete; inspect the run"
+  },
   "ig-radiant-bloom-flower-necklace-1": {
     "attempts": 1,
     "media_id": "18094257821429016",
