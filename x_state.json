@@ -35,6 +35,13 @@
     "publish_started_at": "2026-11-18T01:20:11.154830+00:00",
     "transport": "buffer"
   },
+  "x-monstera-huggies-20261124": {
+    "attempts": 1,
+    "fingerprint": "28787485b2860fe1a135a3beff16651528fca78fb1386126bb0faeeecba7f301",
+    "phase": "publishing",
+    "publish_started_at": "2026-11-25T00:08:26.222261+00:00",
+    "transport": "buffer"
+  },
   "x-question-everyday-jewelry-20261120": {
     "attempts": 1,
     "buffer_post_id": "6b00b1396f199ec35b7eb665",
