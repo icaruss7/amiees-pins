@@ -55,6 +55,13 @@
     "publish_started_at": "2026-11-20T20:44:39.795114+00:00",
     "transport": "buffer"
   },
+  "x-question-gift-motif-20261126": {
+    "attempts": 1,
+    "fingerprint": "3d88d0733cfa1a7e4452055d887159657bcbfb7781d24b04f394d8936a455724",
+    "phase": "publishing",
+    "publish_started_at": "2026-11-26T17:21:08.233796+00:00",
+    "transport": "buffer"
+  },
   "x-question-signature-motif-20261111": {
     "attempts": 1,
     "buffer_post_id": "6af4c78eceae26a3a50d0acf",
