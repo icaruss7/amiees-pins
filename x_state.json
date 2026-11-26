@@ -57,8 +57,11 @@
   },
   "x-question-gift-motif-20261126": {
     "attempts": 1,
+    "buffer_post_id": "6b086a85c81617797dca540b",
     "fingerprint": "3d88d0733cfa1a7e4452055d887159657bcbfb7781d24b04f394d8936a455724",
-    "phase": "publishing",
+    "permalink": "https://twitter.com/AmieesShop/status/2126003338885976432",
+    "phase": "published",
+    "posted_at": "2026-11-26T17:21:10+00:00",
     "publish_started_at": "2026-11-26T17:21:08.233796+00:00",
     "transport": "buffer"
   },
