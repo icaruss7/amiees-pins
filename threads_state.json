@@ -63,7 +63,8 @@
     "attempts": 1,
     "container_id": "17930786415431492",
     "fingerprint": "6479886f5106765f5e9d43c45fb6ae162c7cb78ca48275b1b47cebdf40a7f08f",
-    "phase": "ready"
+    "phase": "publishing",
+    "publish_started_at": "2026-11-27T01:42:09.794039+00:00"
   },
   "threads-question-signature-motif-20261111": {
     "attempts": 1,
