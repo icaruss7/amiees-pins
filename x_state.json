@@ -27,8 +27,11 @@
   },
   "x-butterfly-choker-20261127": {
     "attempts": 1,
+    "buffer_post_id": "6b0a15eaeab081a3f507a456",
     "fingerprint": "08bb090f3ffcf555a374aedf12b1bca51405fa14767350a542ff8b26970918f9",
-    "phase": "publishing",
+    "permalink": "https://twitter.com/AmieesShop/status/2126462250454008229",
+    "phase": "published",
+    "posted_at": "2026-11-27T23:44:44+00:00",
     "publish_started_at": "2026-11-27T23:44:40.127900+00:00",
     "transport": "buffer"
   },
