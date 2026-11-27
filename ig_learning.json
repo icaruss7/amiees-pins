@@ -4,26 +4,26 @@
   "followers": 32
  },
  "benchmarks": {
-  "avg_interaction_rate": 0.43851441463414637,
+  "avg_interaction_rate": 0.42496426829268297,
   "avg_save_rate": 0.0003011219512195122,
   "avg_share_rate": 0.003484317073170732,
   "median_reach_or_views": 8.0
  },
  "data_notes": {
-  "collected_at": "2026-11-26T23:01:56+00:00",
+  "collected_at": "2026-11-27T22:44:43+00:00",
   "insights_permission_notes": [],
   "posts_collected": 41,
   "posts_skipped": 0
  },
- "generated_at": "2026-11-26T23:04:48+00:00",
+ "generated_at": "2026-11-27T22:46:06+00:00",
  "groups": {
   "format": {
    "FEED": {
-    "avg_interaction_rate": 0.4546545641025641,
-    "avg_reach": 7.846153846153846,
+    "avg_interaction_rate": 0.4404095384615385,
+    "avg_reach": 7.948717948717949,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0036630000000000005,
-    "avg_views": 18.025641025641026,
+    "avg_views": 18.23076923076923,
     "n": 39
    },
    "REELS": {
@@ -53,11 +53,11 @@
     "n": 3
    },
    "02:00 UTC": {
-    "avg_interaction_rate": 0.4375,
-    "avg_reach": 8.0,
+    "avg_interaction_rate": 0.40972200000000003,
+    "avg_reach": 8.5,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 18.0,
+    "avg_views": 18.5,
     "n": 2
    },
    "06:00 UTC": {
@@ -73,7 +73,7 @@
     "avg_reach": 4.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 6.0,
+    "avg_views": 7.0,
     "n": 1
    },
    "10:00 UTC": {
@@ -109,11 +109,11 @@
     "n": 2
    },
    "17:00 UTC": {
-    "avg_interaction_rate": 0.5777778,
-    "avg_reach": 6.4,
+    "avg_interaction_rate": 0.4777778,
+    "avg_reach": 7.0,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 15.2,
+    "avg_views": 16.4,
     "n": 5
    },
    "18:00 UTC": {
@@ -159,11 +159,11 @@
   },
   "series": {
    "nature": {
-    "avg_interaction_rate": 0.438337,
-    "avg_reach": 8.25925925925926,
+    "avg_interaction_rate": 0.41776085185185186,
+    "avg_reach": 8.407407407407407,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0052910000000000006,
-    "avg_views": 17.296296296296298,
+    "avg_views": 17.59259259259259,
     "n": 27
    },
    "product": {
@@ -209,19 +209,19 @@
     "n": 5
    },
    "Thursday": {
-    "avg_interaction_rate": 0.4616401428571429,
-    "avg_reach": 18.142857142857142,
+    "avg_interaction_rate": 0.39021157142857144,
+    "avg_reach": 18.571428571428573,
     "avg_save_rate": 0.0017637142857142856,
     "avg_share_rate": 0.020408142857142857,
-    "avg_views": 28.0,
+    "avg_views": 28.857142857142858,
     "n": 7
    },
    "Tuesday": {
-    "avg_interaction_rate": 0.5,
-    "avg_reach": 8.0,
+    "avg_interaction_rate": 0.4814813333333334,
+    "avg_reach": 8.333333333333334,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 16.666666666666668,
+    "avg_views": 17.0,
     "n": 3
    },
    "Wednesday": {
@@ -229,14 +229,14 @@
     "avg_reach": 6.875,
     "avg_save_rate": 0.0,
     "avg_share_rate": 0.0,
-    "avg_views": 16.25,
+    "avg_views": 16.375,
     "n": 8
    }
   }
  },
  "recommendations": [
-  "Create follow-up variants around the strongest current winners: lucky-ladybug-gold-huggie-earrings, silver-leaf-ring, daisy-ring.",
-  "FEED is the strongest format with enough samples by interaction rate (45.47%); give it a larger share of the next test batch.",
+  "Create follow-up variants around the strongest current winners: lucky-ladybug-gold-huggie-earrings, daisy-ring, bee-honeycomb-mismatched-earrings.",
+  "FEED is the strongest format with enough samples by interaction rate (44.04%); give it a larger share of the next test batch.",
   "Thursday currently has the strongest share rate among weekdays with at least two posts (2.04%). Treat this as provisional until the sample grows.",
   "Share rate is below 0.5%; test stronger send-worthy hooks such as 'send this to the friend who would wear #2' or identity/gift framing."
  ],
@@ -252,17 +252,6 @@
    "score": 0.279464,
    "share_rate": 0.142857,
    "views": 13.0
-  },
-  {
-   "interaction_rate": 1.0,
-   "permalink": "https://www.instagram.com/p/DgNneWJDdvZ/",
-   "post_id": "ig-nature-28-silver-leaf-ring",
-   "product": "silver-leaf-ring",
-   "reach": 3.0,
-   "save_rate": 0.0,
-   "score": 0.26875,
-   "share_rate": 0.0,
-   "views": 7.0
   },
   {
    "interaction_rate": 0.625,
@@ -296,6 +285,17 @@
    "score": 0.204167,
    "share_rate": 0.0,
    "views": 19.0
+  },
+  {
+   "interaction_rate": 0.555556,
+   "permalink": "https://www.instagram.com/p/DfcwZjRjbGa/",
+   "post_id": "ig-nature-11-crystal-blossom-pendant-necklace",
+   "product": "crystal-blossom-pendant-necklace",
+   "reach": 9.0,
+   "save_rate": 0.0,
+   "score": 0.195139,
+   "share_rate": 0.0,
+   "views": 14.0
   }
  ]
 }
