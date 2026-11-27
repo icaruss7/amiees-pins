@@ -59,6 +59,12 @@
     "publish_started_at": "2026-11-20T20:10:14.351545+00:00",
     "thread_id": "17905239933602993"
   },
+  "threads-question-gift-motif-20261126": {
+    "attempts": 1,
+    "container_id": "17930786415431492",
+    "fingerprint": "6479886f5106765f5e9d43c45fb6ae162c7cb78ca48275b1b47cebdf40a7f08f",
+    "phase": "ready"
+  },
   "threads-question-signature-motif-20261111": {
     "attempts": 1,
     "container_id": "17928661827431492",
