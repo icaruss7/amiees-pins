@@ -19,6 +19,12 @@
     "publish_started_at": "2026-11-19T20:30:47.176458+00:00",
     "thread_id": "17919192714496682"
   },
+  "threads-butterfly-choker-20261127": {
+    "attempts": 1,
+    "container_id": "17930911404431492",
+    "fingerprint": "5faddcd6b8aae2f5565fa6dcbfe58b9ad69b07d8f1e733345badb1b3cd8deeb3",
+    "phase": "ready"
+  },
   "threads-gifting-personality-20261117": {
     "attempts": 1,
     "container_id": "17929633380431492",
