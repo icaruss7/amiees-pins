@@ -23,8 +23,10 @@
     "attempts": 1,
     "container_id": "17930911404431492",
     "fingerprint": "5faddcd6b8aae2f5565fa6dcbfe58b9ad69b07d8f1e733345badb1b3cd8deeb3",
-    "phase": "publishing",
-    "publish_started_at": "2026-11-28T03:18:43.572921+00:00"
+    "phase": "published",
+    "posted_at": "2026-11-28T03:18:47+00:00",
+    "publish_started_at": "2026-11-28T03:18:43.572921+00:00",
+    "thread_id": "17954000739345809"
   },
   "threads-gifting-personality-20261117": {
     "attempts": 1,
